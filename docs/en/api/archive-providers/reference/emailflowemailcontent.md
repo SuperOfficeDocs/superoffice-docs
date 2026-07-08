@@ -58,12 +58,15 @@ Lists all email flow message content
 |emailFlow/registeredBy|associate|Registered by: The user who registered the data| x |
 |emailFlow/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |shipment/mailingId|int|ID: Displays the ID of the mailing| x |
+|shipment/mailingFolderId|int|Hierarchy ID: Foreign key to hierarchy table| x |
 |shipment/mailingSelectionId|int|Selection ID: The database ID of the selection| x |
 |shipment/mailingDescription|string|Name: Displays the name of the mailing| x |
 |shipment/mailingSent|listAny|Sent: Displays the sent status of the mailing| x |
 |shipment/mailingSimpleStatus|listAny|Status: Status| x |
 |shipment/mailingEndDate|date|Date sent: Displays the date when the mailing was sent (completed)| x |
 |shipment/mailingType|listAny|Type: Display the type of the mailing| x |
+|shipment/mailingTypeId| *None* |Type: Display the type of the mailing|  |
+|shipment/mailingStatusId|int|Status: Status|  |
 |shipment/mailingSubscriptionType|listAny|Subscription type: The subscription type for a mailing| x |
 |shipment/mailingSentTo|int|Sent to: Displays to whom the mailing was sent| x |
 |shipment/mailingOwner|associate|Owner: Displays the owner of the mailing| x |
@@ -75,6 +78,7 @@ Lists all email flow message content
 |shipment/mailingBounceRate|decimal|Bounce rate: Mailing bounce rate| x |
 |shipment/mailingDeleted|bool|Deleted: Deleted|  |
 |shipment/recipientStatus|listAny|Recipient status: Status of mailing recipient|  |
+|shipment/thumbnail| *None* |Thumbnail|  |
 |shipment/icon| *None* |Category: Displays the icon for an activity type| x |
 |shipment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |shipment/type|listAny|Type: Displays the type of an activity| x |
@@ -118,14 +122,14 @@ Lists all email flow message content
 |shipment/emailFlow/workflowAssociate/personId|int|Owner - Contact ID: Database ID of the contact row|  |
 |shipment/emailFlow/workflowAssociate/mrMrs|string|Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |shipment/emailFlow/workflowAssociate/title|string|Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|shipment/emailFlow/workflowAssociate/associateDbId|associate|Owner - ID| x |
-|shipment/emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
-|shipment/emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
-|shipment/emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/emailFlow/workflowAssociate/associateDbId|associate|Owner - ID| x |
+|shipment/emailFlow/workflowAssociate/contactName|string|Owner - Owning company: Name of the company the user belongs to| x |
+|shipment/emailFlow/workflowAssociate/contactDepartment|string|Owner - Owning department: Name of the department at the company the user belongs to| x |
+|shipment/emailFlow/workflowAssociate/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |shipment/emailFlow/workflowAssociate/usergroupId|int|Owner - Group ID: The user's primary user group| x |
 |shipment/emailFlow/workflowAssociate/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |shipment/emailFlow/workflowAssociate/contactCategory|listAny|Owner - Category: Category| x |
@@ -222,14 +226,14 @@ Lists all email flow message content
 |shipment/project/projectAssociate/isLocation|bool|Is a location: Is a location| x |
 |shipment/project/projectUdef/SuperOffice:1|string|projectshorttext| x |
 |shipment/project/projectUdef/SuperOffice:2|string|projectlongtext| x |
-|shipment/project/projectUdef/SuperOffice:3|int|projectnumber| x |
-|shipment/project/projectUdef/SuperOffice:4|date|projectdate| x |
-|shipment/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
-|shipment/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|shipment/project/projectUdef/SuperOffice:3|int|projectnumber| x |
+|shipment/project/projectUdef/SuperOffice:4|date|projectdate| x |
+|shipment/project/projectUdef/SuperOffice:5|unlimitedDate|projectunlimiteddate| x |
+|shipment/project/projectUdef/SuperOffice:6|bool|projectcheckbox| x |
 |shipment/project/projectUdef/SuperOffice:7|listAny|projectdropdownlistbox| x |
 |shipment/project/projectUdef/SuperOffice:8|decimal|projectdecimal| x |
 |shipment/project/projectUdef/SuperOffice:9|int|page1saleandmarketing| x |
@@ -258,11 +262,12 @@ Lists all email flow message content
 |shipment/project/saintTicketCategory|listAny|Category|  |
 |shipment/project/project/textId|int|Text ID| x |
 |shipment/project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
+|shipment/historyRank|int|Rank: Rank of list item, if available| x |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/LastActivity,shipment/project/LastSale,shipment/emailFlow/workflowDefinitionStatusId
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/LastCompletedSale,shipment/emailFlow/workflowDescription,shipment/emailFlow/workflowAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

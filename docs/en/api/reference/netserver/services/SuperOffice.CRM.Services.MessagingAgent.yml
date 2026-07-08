@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MessagingAgent.GetDeliveryStatusAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.MessagingAgent.GetPluginsAsync(System.Threading.CancellationToken)
@@ -82,22 +82,22 @@ items:
   nameWithType.vb: MessagingAgent.New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.MessagingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.MessagingAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.MessagingAgent
   langs:
   - csharp
   - vb
-  name: MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: MessagingAgent.MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.MessagingAgent.MessagingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: MessagingAgent.MessagingAgent(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.MessagingAgent.MessagingAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public MessagingAgent(IIncomingMessageImplementation incomingMessageImplementation, IMessageDeliveryStatusImplementation messageDeliveryStatusImplementation, IOutgoingMessageImplementation outgoingMessageImplementation, IProviderInfoImplementation providerInfoImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public MessagingAgent(IIncomingMessageImplementation incomingMessageImplementation, IMessageDeliveryStatusImplementation messageDeliveryStatusImplementation, IOutgoingMessageImplementation outgoingMessageImplementation, IProviderInfoImplementation providerInfoImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: incomingMessageImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation
@@ -113,15 +113,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(incomingMessageImplementation As IIncomingMessageImplementation, messageDeliveryStatusImplementation As IMessageDeliveryStatusImplementation, outgoingMessageImplementation As IOutgoingMessageImplementation, providerInfoImplementation As IProviderInfoImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(incomingMessageImplementation As IIncomingMessageImplementation, messageDeliveryStatusImplementation As IMessageDeliveryStatusImplementation, outgoingMessageImplementation As IOutgoingMessageImplementation, providerInfoImplementation As IProviderInfoImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.MessagingAgent.#ctor*
-  nameWithType.vb: MessagingAgent.New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: MessagingAgent.New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.MessagingAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IIncomingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMessageDeliveryStatusImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IOutgoingMessageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProviderInfoImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IIncomingMessageImplementation, IMessageDeliveryStatusImplementation, IOutgoingMessageImplementation, IProviderInfoImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
   id: CreateMessageAsync(SuperOffice.CRM.Services.IncomingMessage,System.Threading.CancellationToken)
@@ -756,16 +752,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync*
   commentId: Overload:SuperOffice.CRM.Services.MessagingAgent.CreateMessageAsync
   isExternal: true

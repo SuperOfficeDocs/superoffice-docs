@@ -83,6 +83,7 @@ items:
   - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetItemByName(System.String)
   - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetNameById(System.Int32)
   - SuperOffice.CRM.Cache.MDOListTableCacheBase.GetAllItems
+  - SuperOffice.Data.Cache.CacheBaseV2._logger
   - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.OnDispose
@@ -452,6 +453,14 @@ references:
     href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html#SuperOffice_CRM_Cache_MDOListTableCacheBase_GetAllItems
   - name: (
   - name: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2._logger
+  commentId: F:SuperOffice.Data.Cache.CacheBaseV2._logger
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2__logger
+  name: _logger
+  nameWithType: CacheBaseV2._logger
+  fullName: SuperOffice.Data.Cache.CacheBaseV2._logger
 - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2

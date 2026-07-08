@@ -24,12 +24,7 @@ items:
   - SoCore
   namespace: SuperOffice.Exceptions
   summary: Default exception for SuperOffice NetServer.
-  remarks: >-
-    Other SuperOffice NetServer exceptions inherit from this exception class.  
-
-    This exception also supports the <xref href="SuperOffice.Diagnostics.SoLogger" data-throw-if-not-resolved="false"></xref> 
-
-    mechanism using the LogException method.
+  remarks: Other SuperOffice NetServer exceptions inherit from this exception class.
   example: []
   syntax:
     content: >-
@@ -45,7 +40,6 @@ items:
   - System.Exception
   derivedClasses:
   - SuperOffice.CRM.Rows.RowValidatorException
-  - SuperOffice.Diagnostics.DiagnoseException
   - SuperOffice.Exceptions.SoConsentException
   - SuperOffice.Exceptions.SoDbAccessException
   - SuperOffice.Exceptions.SoDuplicateException
@@ -68,7 +62,6 @@ items:
   - SuperOffice.Exceptions.SoServerException
   - SuperOffice.Exceptions.SoSessionException
   - SuperOffice.Exceptions.SoValidationException
-  - SuperOffice.Security.Util.WindowsIdentityHelper.WindowsIdentityHelperException
   implements:
   - System.Runtime.Serialization.ISerializable
   inheritedMembers:
@@ -333,14 +326,6 @@ items:
     content.vb: Public Property FriendlyText As String
   overload: SuperOffice.Exceptions.SoException.FriendlyText*
 references:
-- uid: SuperOffice.Diagnostics.SoLogger
-  commentId: T:SuperOffice.Diagnostics.SoLogger
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html
-  name: SoLogger
-  nameWithType: SoLogger
-  fullName: SuperOffice.Diagnostics.SoLogger
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true
@@ -1073,33 +1058,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Diagnostics
-  commentId: N:SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Diagnostics
-  nameWithType: SuperOffice.Diagnostics
-  fullName: SuperOffice.Diagnostics
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Diagnostics
-    name: Diagnostics
-    isExternal: true
-    href: SuperOffice.Diagnostics.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Diagnostics
-    name: Diagnostics
-    isExternal: true
-    href: SuperOffice.Diagnostics.html
 - uid: System
   commentId: N:System
   isExternal: true

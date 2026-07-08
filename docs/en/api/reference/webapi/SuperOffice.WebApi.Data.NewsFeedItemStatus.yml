@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NewsFeedItemStatus
+  commentId: T:SuperOffice.WebApi.Data.NewsFeedItemStatus
+  id: NewsFeedItemStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NewsFeedItemStatus.Handled
+  - SuperOffice.WebApi.Data.NewsFeedItemStatus.Handling
+  - SuperOffice.WebApi.Data.NewsFeedItemStatus.Normal
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.WebApi.Data.NewsFeedItemStatus
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    News feed item status - indicates if the item is being handled by a CTA
+
+    This Enum is used by:  NewsFeedItem.Status
+  example: []
+  syntax:
+    content: 'public enum NewsFeedItemStatus : short'
+    content.vb: Public Enum NewsFeedItemStatus As Short
+- uid: SuperOffice.WebApi.Data.NewsFeedItemStatus.Normal
+  commentId: F:SuperOffice.WebApi.Data.NewsFeedItemStatus.Normal
+  id: Normal
+  parent: SuperOffice.WebApi.Data.NewsFeedItemStatus
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: NewsFeedItemStatus.Normal
+  fullName: SuperOffice.WebApi.Data.NewsFeedItemStatus.Normal
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Normal - nothing special has happened yet.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Normal = 0
+    return:
+      type: SuperOffice.WebApi.Data.NewsFeedItemStatus
+    content.vb: >-
+      <EnumMember>
+
+      Normal = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.NewsFeedItemStatus.Handling
+  commentId: F:SuperOffice.WebApi.Data.NewsFeedItemStatus.Handling
+  id: Handling
+  parent: SuperOffice.WebApi.Data.NewsFeedItemStatus
+  langs:
+  - csharp
+  - vb
+  name: Handling
+  nameWithType: NewsFeedItemStatus.Handling
+  fullName: SuperOffice.WebApi.Data.NewsFeedItemStatus.Handling
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Processing has started - the item is being handled by a CTA'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Handling = 1
+    return:
+      type: SuperOffice.WebApi.Data.NewsFeedItemStatus
+    content.vb: >-
+      <EnumMember>
+
+      Handling = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.NewsFeedItemStatus.Handled
+  commentId: F:SuperOffice.WebApi.Data.NewsFeedItemStatus.Handled
+  id: Handled
+  parent: SuperOffice.WebApi.Data.NewsFeedItemStatus
+  langs:
+  - csharp
+  - vb
+  name: Handled
+  nameWithType: NewsFeedItemStatus.Handled
+  fullName: SuperOffice.WebApi.Data.NewsFeedItemStatus.Handled
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Handled - the item has been processed by a CTA'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Handled = 2
+    return:
+      type: SuperOffice.WebApi.Data.NewsFeedItemStatus
+    content.vb: >-
+      <EnumMember>
+
+      Handled = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.NewsFeedItemStatus
+  commentId: T:SuperOffice.WebApi.Data.NewsFeedItemStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItemStatus.html
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.WebApi.Data.NewsFeedItemStatus

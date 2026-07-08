@@ -38,7 +38,6 @@ items:
   - SuperOffice.CRM.Services.IPersonAgent.GetOwnerOnPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.GetPersonAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.GetPersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.GetPersonImagesAsync(System.Int32[],System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.GetPersonListAsync(System.Int32[],System.Threading.CancellationToken)
@@ -63,8 +62,7 @@ items:
   - SuperOffice.CRM.Services.IPersonAgent.SendEmailAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.SendEmailWithEventNameAsync(System.String,System.String,System.String,System.String,System.String,System.Int32[],System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.SetPersonRankAsync(System.Int32,System.Int16,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IPersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
@@ -675,39 +673,7 @@ items:
   summary: Returns the person image that is displayed in the CRM application.
   example: []
   syntax:
-    content: Task<Image> GetPersonImageAsync(int personId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: personId
-      type: System.Int32
-      description: The person id of the person the image belongs to.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{System.Drawing.Image}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
-    content.vb: Function GetPersonImageAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Image)
-  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsync*
-  nameWithType.vb: IPersonAgent.GetPersonImageAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetPersonImageAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
-  id: GetPersonImageAsStreamAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IPersonAgent
-  langs:
-  - csharp
-  - vb
-  name: GetPersonImageAsStreamAsync(int, CancellationToken)
-  nameWithType: IPersonAgent.GetPersonImageAsStreamAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Returns the person image that is displayed in the CRM application.
-  example: []
-  syntax:
-    content: Task<Stream> GetPersonImageAsStreamAsync(int personId, CancellationToken cancellationToken = default)
+    content: Task<Stream> GetPersonImageAsync(int personId, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -717,21 +683,21 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.IO.Stream}
       description: The person image.
-    content.vb: Function GetPersonImageAsStreamAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
-  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync*
-  nameWithType.vb: IPersonAgent.GetPersonImageAsStreamAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetPersonImageAsStreamAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  id: SetPersonImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+    content.vb: Function GetPersonImageAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsync*
+  nameWithType.vb: IPersonAgent.GetPersonImageAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetPersonImageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetPersonImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IPersonAgent
   langs:
   - csharp
   - vb
-  name: SetPersonImageAsync(int, Image, CancellationToken)
-  nameWithType: IPersonAgent.SetPersonImageAsync(int, Image, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(int, System.Drawing.Image, System.Threading.CancellationToken)
+  name: SetPersonImageAsync(int, Stream, CancellationToken)
+  nameWithType: IPersonAgent.SetPersonImageAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(int, System.IO.Stream, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SuperOffice.Services
@@ -739,42 +705,7 @@ items:
   summary: Stores the person image that is displayed in the CRM application.
   example: []
   syntax:
-    content: Task SetPersonImageAsync(int personId, Image image, CancellationToken cancellationToken = default)
-    parameters:
-    - id: personId
-      type: System.Int32
-      description: The person id of the person the image belongs to.
-    - id: image
-      type: System.Drawing.Image
-      description: The image that is stored on the person (System.Drawing.Image)
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-      description: ''
-    content.vb: Function SetPersonImageAsync(personId As Integer, image As Image, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync*
-  nameWithType.vb: IPersonAgent.SetPersonImageAsync(Integer, Image, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
-  name.vb: SetPersonImageAsync(Integer, Image, CancellationToken)
-- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
-  id: SetPersonImageFromStreamAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IPersonAgent
-  langs:
-  - csharp
-  - vb
-  name: SetPersonImageFromStreamAsync(int, Stream, CancellationToken)
-  nameWithType: IPersonAgent.SetPersonImageFromStreamAsync(int, Stream, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync(int, System.IO.Stream, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Stores the person image that is displayed in the CRM application.
-  example: []
-  syntax:
-    content: Task SetPersonImageFromStreamAsync(int personId, Stream image, CancellationToken cancellationToken = default)
+    content: Task SetPersonImageAsync(int personId, Stream image, CancellationToken cancellationToken = default)
     parameters:
     - id: personId
       type: System.Int32
@@ -787,11 +718,11 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Function SetPersonImageFromStreamAsync(personId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync*
-  nameWithType.vb: IPersonAgent.SetPersonImageFromStreamAsync(Integer, Stream, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
-  name.vb: SetPersonImageFromStreamAsync(Integer, Stream, CancellationToken)
+    content.vb: Function SetPersonImageAsync(personId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync*
+  nameWithType.vb: IPersonAgent.SetPersonImageAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetPersonImageAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactIdAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultByContactIdAsync(System.Int32,System.Threading.CancellationToken)
   id: CreateDefaultByContactIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -2955,48 +2886,6 @@ references:
   name: GetPersonImageAsync
   nameWithType: IPersonAgent.GetPersonImageAsync
   fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsync
-- uid: System.Threading.Tasks.Task{System.Drawing.Image}
-  commentId: T:System.Threading.Tasks.Task{System.Drawing.Image}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Image>
-  nameWithType: Task<Image>
-  fullName: System.Threading.Tasks.Task<System.Drawing.Image>
-  nameWithType.vb: Task(Of Image)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Drawing.Image)
-  name.vb: Task(Of Image)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: System.Drawing.Image
-    name: Image
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Drawing.Image
-    name: Image
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
-  - name: )
-- uid: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_GetPersonImageAsStreamAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetPersonImageAsStreamAsync
-  nameWithType: IPersonAgent.GetPersonImageAsStreamAsync
-  fullName: SuperOffice.CRM.Services.IPersonAgent.GetPersonImageAsStreamAsync
 - uid: System.Threading.Tasks.Task{System.IO.Stream}
   commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
   parent: System.Threading.Tasks
@@ -3035,52 +2924,10 @@ references:
 - uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_SetPersonImageAsync_System_Int32_System_Drawing_Image_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_SetPersonImageAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
   name: SetPersonImageAsync
   nameWithType: IPersonAgent.SetPersonImageAsync
   fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageAsync
-- uid: System.Drawing.Image
-  commentId: T:System.Drawing.Image
-  parent: System.Drawing
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
-  name: Image
-  nameWithType: Image
-  fullName: System.Drawing.Image
-- uid: System.Drawing
-  commentId: N:System.Drawing
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
-- uid: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IPersonAgent.html#SuperOffice_CRM_Services_IPersonAgent_SetPersonImageFromStreamAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
-  name: SetPersonImageFromStreamAsync
-  nameWithType: IPersonAgent.SetPersonImageFromStreamAsync
-  fullName: SuperOffice.CRM.Services.IPersonAgent.SetPersonImageFromStreamAsync
 - uid: System.IO.Stream
   commentId: T:System.IO.Stream
   parent: System.IO

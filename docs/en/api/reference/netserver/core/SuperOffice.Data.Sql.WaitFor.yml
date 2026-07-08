@@ -21,8 +21,6 @@ items:
     When used in a Select, this will cause a WAITFOR DELAY &lt;argument&gt; to be executed in the database.
 
     <br />This is only intended for experimentation with statement cancellation etc., NOT for production code.
-
-    <br />Support for Oracle may be sketchy.
   remarks: >-
     <pre><code class="lang-csharp">var ws = S.NewSelect();                                 // no tableinfo
 
@@ -43,6 +41,7 @@ items:
   inheritedMembers:
   - SuperOffice.Data.SQL.Aggregation._arg
   - SuperOffice.Data.SQL.Aggregation.GetMainField
+  - SuperOffice.Data.SQL.Aggregation.GetReferencedFields
   - SuperOffice.Data.SQL.Aggregation.ArgumentObject
   - SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
@@ -246,6 +245,28 @@ references:
     name: GetMainField
     isExternal: true
     href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetMainField
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+  commentId: M:SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+  parent: SuperOffice.Data.SQL.Aggregation
+  isExternal: true
+  href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetReferencedFields
+  name: GetReferencedFields()
+  nameWithType: Aggregation.GetReferencedFields()
+  fullName: SuperOffice.Data.SQL.Aggregation.GetReferencedFields()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetReferencedFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Aggregation.GetReferencedFields
+    name: GetReferencedFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.Aggregation.html#SuperOffice_Data_SQL_Aggregation_GetReferencedFields
   - name: (
   - name: )
 - uid: SuperOffice.Data.SQL.Aggregation.ArgumentObject

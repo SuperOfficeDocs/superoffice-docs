@@ -58,6 +58,7 @@ Download [WSDL file for Services88/EMail](../Services88-EMail.md) if you need to
 * [GetEMailAddresses](GetEMailAddresses.md)
 * [GetEmailAppointment](GetEmailAppointment.md)
 * [GetEmailAppointmentRecurrence](GetEmailAppointmentRecurrence.md)
+* [GetEMailAsEmlStream](GetEMailAsEmlStream.md)
 * [GetEMailAsStream](GetEMailAsStream.md)
 * [GetEMailAsStreamFromServerIdentifier](GetEMailAsStreamFromServerIdentifier.md)
 * [GetEmailDocumentAsMimeStream](GetEmailDocumentAsMimeStream.md)

@@ -29,7 +29,7 @@ Archive provider for the list of own contacts in SoAdmin
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -368,7 +368,7 @@ Archive provider for the list of own contacts in SoAdmin
 ## Sample
 
 ```http!
-GET /api/v1/archive/OwnerContacts?$select=contactSupportPerson/personAssociateFullName,saintIntention,contactAssociate/usergroup
+GET /api/v1/archive/OwnerContacts?$select=contactSupportPerson/supportAssociateFullName,contactSupportPerson/personCategoryGroup,contactSupportPerson/leadstatusRank,NumberOfNotCompletedTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

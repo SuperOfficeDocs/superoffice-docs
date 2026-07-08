@@ -44,9 +44,7 @@ items:
 
     To avoid potential problems with special characters on the different databases, we accept
 
-    only alias with characters in range A-Z and 0-9. Oracle does not allow underscore (_) in 
-
-    front of an alias, so we also validate that.
+    only alias with characters in range A-Z and 0-9. To sray compatible with all databases, we prevent leading underscore as well.
 
     <p>
 

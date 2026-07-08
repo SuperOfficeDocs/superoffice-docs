@@ -1,0 +1,1476 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NewsFeedItem
+  commentId: T:SuperOffice.CRM.Services.NewsFeedItem
+  id: NewsFeedItem
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NewsFeedItem.#ctor
+  - SuperOffice.CRM.Services.NewsFeedItem.Actions
+  - SuperOffice.CRM.Services.NewsFeedItem.ApplicationId
+  - SuperOffice.CRM.Services.NewsFeedItem.Contact
+  - SuperOffice.CRM.Services.NewsFeedItem.Description
+  - SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt
+  - SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName
+  - SuperOffice.CRM.Services.NewsFeedItem.FromName
+  - SuperOffice.CRM.Services.NewsFeedItem.ImageLink
+  - SuperOffice.CRM.Services.NewsFeedItem.IsRead
+  - SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId
+  - SuperOffice.CRM.Services.NewsFeedItem.Person
+  - SuperOffice.CRM.Services.NewsFeedItem.PreviewHint
+  - SuperOffice.CRM.Services.NewsFeedItem.Priority
+  - SuperOffice.CRM.Services.NewsFeedItem.Project
+  - SuperOffice.CRM.Services.NewsFeedItem.ReadAt
+  - SuperOffice.CRM.Services.NewsFeedItem.Registered
+  - SuperOffice.CRM.Services.NewsFeedItem.Sale
+  - SuperOffice.CRM.Services.NewsFeedItem.SourceLink
+  - SuperOffice.CRM.Services.NewsFeedItem.Status
+  - SuperOffice.CRM.Services.NewsFeedItem.Summary
+  - SuperOffice.CRM.Services.NewsFeedItem.Title
+  - SuperOffice.CRM.Services.NewsFeedItem.ToString
+  - SuperOffice.CRM.Services.NewsFeedItem.ToString(System.String)
+  - SuperOffice.CRM.Services.NewsFeedItem.Updated
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem
+  fullName: SuperOffice.CRM.Services.NewsFeedItem
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    News feed items are created by agents or other services for display on the start page and other relevant places in the UI.
+
+    <p></p>
+
+    Carrier object for NewsFeedItem.
+
+    Services for the NewsFeedItem Carrier is available from the <xref href="SuperOffice.CRM.Services.INewsFeedAgent?text=NewsFeed+Agent" data-throw-if-not-resolved="false"></xref>.
+  example:
+  - >-
+    Get NewsFeedItem 123 using the agent:
+
+    <pre><code class="lang-csharp">using SuperOffice;
+
+    using SuperOffice.CRM.Services;
+
+
+    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
+
+    {
+       var agent = new NewsFeedAgent();
+       var newsFeedItem = agent.GetNewsFeedItem( 123 );
+    }</code></pre>
+
+
+    Find all NewsFeedItem, get related items using archive agent.
+
+    <pre><code class="lang-csharp">var archive = new ArchiveAgent();
+
+    var rows = archive.GetArchiveListByColumns2("NewsFeedItem", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")]
+
+      public class NewsFeedItem
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")>
+
+      Public Class NewsFeedItem
+  seealso:
+  - linkId: SuperOffice.CRM.Services.INewsFeedAgent
+    commentId: T:SuperOffice.CRM.Services.INewsFeedAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/12.2.0.0
+- uid: SuperOffice.CRM.Services.NewsFeedItem.#ctor
+  commentId: M:SuperOffice.CRM.Services.NewsFeedItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItem()
+  nameWithType: NewsFeedItem.NewsFeedItem()
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItem()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public NewsFeedItem()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.NewsFeedItem.#ctor*
+  nameWithType.vb: NewsFeedItem.New()
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedItem.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ToString
+  commentId: M:SuperOffice.CRM.Services.NewsFeedItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: NewsFeedItem.ToString()
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.NewsFeedItem.ToString*
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedItem.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: NewsFeedItem.ToString(string)
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.ToString*
+  nameWithType.vb: NewsFeedItem.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedItem.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId
+  id: NewsFeedItemId
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemId
+  nameWithType: NewsFeedItem.NewsFeedItemId
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Primary key
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int NewsFeedItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property NewsFeedItemId As Integer
+  overload: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Title
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Title
+  id: Title
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: NewsFeedItem.Title
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Title
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "Short, descriptive headline. Plain text title. Multi-language string supported: 'US:\"english\";NO:\"norsk\"'."
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Title As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Title*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Summary
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Summary
+  id: Summary
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: NewsFeedItem.Summary
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Summary
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "Short, descriptive summary. Plain text summary. Multi-language string supported: 'US:\"english\";NO:\"norsk\"'."
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Summary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Summary As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Summary*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Description
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: NewsFeedItem.Description
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Description
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Multi-language descriptions for the news feed item, where the key is an ISO 2 letter language code (e.g. 'en', 'no', 'de') and the value is the description in that language. Styling via pre-defined CSS classes. No SCRIPT or STYLE tags allowed. The 'current' value is set based on the Accept-Language/SO-Language header.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual StringDictionary Description { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Description As StringDictionary
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Description*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Actions
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Actions
+  id: Actions
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Actions
+  nameWithType: NewsFeedItem.Actions
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Actions
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Call to action items for the news feed item. Each item contains a title, an identifier, a type and flavor.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual NewsFeedCTA[] Actions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.NewsFeedCTA[]
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Actions As NewsFeedCTA()
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Actions*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ImageLink
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.ImageLink
+  id: ImageLink
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ImageLink
+  nameWithType: NewsFeedItem.ImageLink
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ImageLink
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: URL Link to an image associated with the news item.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ImageLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ImageLink As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.ImageLink*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.SourceLink
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.SourceLink
+  id: SourceLink
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: SourceLink
+  nameWithType: NewsFeedItem.SourceLink
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.SourceLink
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: URL Link to the source of the news item, or an SOProtocol link to a SuperOffice item
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string SourceLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property SourceLink As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.SourceLink*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.PreviewHint
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.PreviewHint
+  id: PreviewHint
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: PreviewHint
+  nameWithType: NewsFeedItem.PreviewHint
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.PreviewHint
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Preview hint for the news item. e.g. `{contact_id=123}`
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string PreviewHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PreviewHint As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.PreviewHint*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.FromName
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.FromName
+  id: FromName
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: NewsFeedItem.FromName
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.FromName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Name of the instance that published this item. e.g. `Pete the prospector`
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FromName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FromName As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.FromName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName
+  id: FromCategoryName
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: FromCategoryName
+  nameWithType: NewsFeedItem.FromCategoryName
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Type of the instance that published this item. e.g. `Prospector Agent`
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FromCategoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FromCategoryName As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Priority
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: NewsFeedItem.Priority
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Priority
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Importance of the news item. Low to High. Higher priority items may be shown more prominently in the feed.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual EMailPriority Priority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EMailPriority
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Priority As EMailPriority
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Priority*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Registered
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: NewsFeedItem.Registered
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Registered
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Registered when  in UTC.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Registered As Date
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Registered*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Updated
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: NewsFeedItem.Updated
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Updated
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Last updated when  in UTC.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Updated*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt
+  id: ExpiresAt
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ExpiresAt
+  nameWithType: NewsFeedItem.ExpiresAt
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: When the news item expires and should no longer be shown in feeds (UTC)  in UTC.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime ExpiresAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ExpiresAt As Date
+  overload: SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Status
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: NewsFeedItem.Status
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Status
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Indicates if the item is being handled by a CTA. (normal, processing, processed)
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual NewsFeedItemStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.NewsFeedItemStatus
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Status As NewsFeedItemStatus
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Status*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.IsRead
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.IsRead
+  id: IsRead
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: IsRead
+  nameWithType: NewsFeedItem.IsRead
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.IsRead
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Set to true when the recipient user has read the news feed item.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual bool IsRead { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property IsRead As Boolean
+  overload: SuperOffice.CRM.Services.NewsFeedItem.IsRead*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ReadAt
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.ReadAt
+  id: ReadAt
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ReadAt
+  nameWithType: NewsFeedItem.ReadAt
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ReadAt
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: When the recipient user read the news feed item (UTC)  in UTC.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime ReadAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReadAt As Date
+  overload: SuperOffice.CRM.Services.NewsFeedItem.ReadAt*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Contact
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: NewsFeedItem.Contact
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Contact
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Company that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Contact
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Contact As Contact
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Contact*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Person
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Person
+  id: Person
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: NewsFeedItem.Person
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Person
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Person that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Person
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Person As Person
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Person*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Project
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Project
+  id: Project
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: NewsFeedItem.Project
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Project
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Project that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual Project Project { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Project
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Project As Project
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Project*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Sale
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.Sale
+  id: Sale
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: NewsFeedItem.Sale
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Sale
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Sale that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual Sale Sale { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Sale
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Sale As Sale
+  overload: SuperOffice.CRM.Services.NewsFeedItem.Sale*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ApplicationId
+  commentId: P:SuperOffice.CRM.Services.NewsFeedItem.ApplicationId
+  id: ApplicationId
+  parent: SuperOffice.CRM.Services.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ApplicationId
+  nameWithType: NewsFeedItem.ApplicationId
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ApplicationId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The id of the application that registered this news item. Used to resolve where any CTA should be posted when clicked.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ApplicationId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ApplicationId As String
+  overload: SuperOffice.CRM.Services.NewsFeedItem.ApplicationId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.INewsFeedAgent
+  commentId: T:SuperOffice.CRM.Services.INewsFeedAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.INewsFeedAgent.html
+  name: INewsFeedAgent
+  nameWithType: INewsFeedAgent
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.NewsFeedItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem__ctor
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem.NewsFeedItem
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItem
+  nameWithType.vb: NewsFeedItem.New
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedItem.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_ToString
+  name: ToString
+  nameWithType: NewsFeedItem.ToString
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_NewsFeedItemId
+  name: NewsFeedItemId
+  nameWithType: NewsFeedItem.NewsFeedItemId
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.NewsFeedItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Title*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Title
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Title
+  name: Title
+  nameWithType: NewsFeedItem.Title
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Title
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Summary*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Summary
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Summary
+  name: Summary
+  nameWithType: NewsFeedItem.Summary
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Summary
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Description*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Description
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Description
+  name: Description
+  nameWithType: NewsFeedItem.Description
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Description
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Actions*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Actions
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Actions
+  name: Actions
+  nameWithType: NewsFeedItem.Actions
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Actions
+- uid: SuperOffice.CRM.Services.NewsFeedCTA[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedCTA.html
+  name: NewsFeedCTA[]
+  nameWithType: NewsFeedCTA[]
+  fullName: SuperOffice.CRM.Services.NewsFeedCTA[]
+  nameWithType.vb: NewsFeedCTA()
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedCTA()
+  name.vb: NewsFeedCTA()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.NewsFeedCTA
+    name: NewsFeedCTA
+    isExternal: true
+    href: SuperOffice.CRM.Services.NewsFeedCTA.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.NewsFeedCTA
+    name: NewsFeedCTA
+    isExternal: true
+    href: SuperOffice.CRM.Services.NewsFeedCTA.html
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ImageLink*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.ImageLink
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_ImageLink
+  name: ImageLink
+  nameWithType: NewsFeedItem.ImageLink
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ImageLink
+- uid: SuperOffice.CRM.Services.NewsFeedItem.SourceLink*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.SourceLink
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_SourceLink
+  name: SourceLink
+  nameWithType: NewsFeedItem.SourceLink
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.SourceLink
+- uid: SuperOffice.CRM.Services.NewsFeedItem.PreviewHint*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.PreviewHint
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_PreviewHint
+  name: PreviewHint
+  nameWithType: NewsFeedItem.PreviewHint
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.PreviewHint
+- uid: SuperOffice.CRM.Services.NewsFeedItem.FromName*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.FromName
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_FromName
+  name: FromName
+  nameWithType: NewsFeedItem.FromName
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.FromName
+- uid: SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_FromCategoryName
+  name: FromCategoryName
+  nameWithType: NewsFeedItem.FromCategoryName
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.FromCategoryName
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Priority*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Priority
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Priority
+  name: Priority
+  nameWithType: NewsFeedItem.Priority
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Priority
+- uid: SuperOffice.Data.EMailPriority
+  isExternal: true
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.Data.EMailPriority
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Registered*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Registered
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Registered
+  name: Registered
+  nameWithType: NewsFeedItem.Registered
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Updated
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Updated
+  name: Updated
+  nameWithType: NewsFeedItem.Updated
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Updated
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_ExpiresAt
+  name: ExpiresAt
+  nameWithType: NewsFeedItem.ExpiresAt
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ExpiresAt
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Status*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Status
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Status
+  name: Status
+  nameWithType: NewsFeedItem.Status
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Status
+- uid: SuperOffice.Data.NewsFeedItemStatus
+  commentId: '!:SuperOffice.Data.NewsFeedItemStatus'
+  isExternal: true
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.Data.NewsFeedItemStatus
+- uid: SuperOffice.CRM.Services.NewsFeedItem.IsRead*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.IsRead
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_IsRead
+  name: IsRead
+  nameWithType: NewsFeedItem.IsRead
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.IsRead
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ReadAt*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.ReadAt
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_ReadAt
+  name: ReadAt
+  nameWithType: NewsFeedItem.ReadAt
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ReadAt
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Contact*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Contact
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Contact
+  name: Contact
+  nameWithType: NewsFeedItem.Contact
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Contact
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.Contact.html
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Person*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Person
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Person
+  name: Person
+  nameWithType: NewsFeedItem.Person
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Person
+- uid: SuperOffice.CRM.Services.Person
+  commentId: T:SuperOffice.CRM.Services.Person
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.Person.html
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Services.Person
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Project*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Project
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Project
+  name: Project
+  nameWithType: NewsFeedItem.Project
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Project
+- uid: SuperOffice.CRM.Services.Project
+  commentId: T:SuperOffice.CRM.Services.Project
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.Project.html
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Services.Project
+- uid: SuperOffice.CRM.Services.NewsFeedItem.Sale*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.Sale
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_Sale
+  name: Sale
+  nameWithType: NewsFeedItem.Sale
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.Sale
+- uid: SuperOffice.CRM.Services.Sale
+  commentId: T:SuperOffice.CRM.Services.Sale
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.Sale.html
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.CRM.Services.Sale
+- uid: SuperOffice.CRM.Services.NewsFeedItem.ApplicationId*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedItem.ApplicationId
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html#SuperOffice_CRM_Services_NewsFeedItem_ApplicationId
+  name: ApplicationId
+  nameWithType: NewsFeedItem.ApplicationId
+  fullName: SuperOffice.CRM.Services.NewsFeedItem.ApplicationId

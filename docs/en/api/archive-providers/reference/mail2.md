@@ -278,7 +278,7 @@ Provides populated mail envelope rows as an archive
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -497,7 +497,7 @@ Provides populated mail envelope rows as an archive
 ## Sample
 
 ```http!
-GET /api/v1/archive/Mail2?$select=contact/saintSaleStatus,person/personExtra/x_person_time,person/correspondingAssociate/isActive
+GET /api/v1/archive/Mail2?$select=contact/restrictionAddress/state,contact/contactAssociate/credentialDisplayValue,person/personExtra/x_person_time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

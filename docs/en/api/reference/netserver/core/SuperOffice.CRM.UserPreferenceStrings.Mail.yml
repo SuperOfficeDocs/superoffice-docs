@@ -27,6 +27,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultOutgoingEmailTypeID
   - SuperOffice.CRM.UserPreferenceStrings.Mail.DeleteAfterArchive
   - SuperOffice.CRM.UserPreferenceStrings.Mail.DiarySynchronizerActive
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DisableAutoEmailConnectivity
   - SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
   - SuperOffice.CRM.UserPreferenceStrings.Mail.EnableContextualProjectsAndSalesForContact
   - SuperOffice.CRM.UserPreferenceStrings.Mail.EnableEmailInvitationPreview
@@ -71,6 +72,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
   - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowConfirmationDialog
   - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowInlineImages
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerName
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPass
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPort
@@ -78,6 +80,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SoAppointmentArchivedExecuteCommand
   - SuperOffice.CRM.UserPreferenceStrings.Mail.SoDocumentArchivedExecuteCommand
   - SuperOffice.CRM.UserPreferenceStrings.Mail.Timeout
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.UseLocalEmailApp
   - SuperOffice.CRM.UserPreferenceStrings.Mail.UseMapiReaderAnyway
   - SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBody
   - SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBodyReplyForward
@@ -129,6 +132,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "Mail"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
+  id: ShowMyEmails
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ShowMyEmails
+  nameWithType: UserPreferenceStrings.Mail.ShowMyEmails
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowMyEmails
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: >-
+    Download my e-mails to SuperOffice and show the Inbox button in the Navigator pane.
+
+    When off, only invitation/calendar related e-mails are fetched and saved
+
+    (the "simple mode" experience, e.g. when the user prefers Outlook for their inbox).
+
+    <p></p>Control type: Bool, access: Crm, Wizard
+  example: []
+  syntax:
+    content: public const string ShowMyEmails = "ShowMyEmails"
+    return:
+      type: System.String
+    content.vb: Public Const ShowMyEmails As String = "ShowMyEmails"
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
   id: EmailBounceThreshold
@@ -150,6 +181,32 @@ items:
     return:
       type: System.String
     content.vb: Public Const EmailBounceThreshold As String = "EmailBounceThreshold"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DisableAutoEmailConnectivity
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DisableAutoEmailConnectivity
+  id: DisableAutoEmailConnectivity
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DisableAutoEmailConnectivity
+  nameWithType: UserPreferenceStrings.Mail.DisableAutoEmailConnectivity
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DisableAutoEmailConnectivity
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: >-
+    When true, the EmailConnectivity post-login plugin is disabled, and SuperOffice will
+
+    not automatically set up the user's Microsoft 365 inbox connection at login.
+
+    <p></p>Control type: Bool, access: Admin
+  example: []
+  syntax:
+    content: public const string DisableAutoEmailConnectivity = "DisableAutoEmailConnectivity"
+    return:
+      type: System.String
+    content.vb: Public Const DisableAutoEmailConnectivity As String = "DisableAutoEmailConnectivity"
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.AddressSeparator
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.AddressSeparator
   id: AddressSeparator
@@ -318,6 +375,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const ArchiveSentMsg As String = "ArchiveSentMsg"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.UseLocalEmailApp
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.UseLocalEmailApp
+  id: UseLocalEmailApp
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: UseLocalEmailApp
+  nameWithType: UserPreferenceStrings.Mail.UseLocalEmailApp
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.UseLocalEmailApp
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: >-
+    The locally installed e-mail application will be opened when creating new e-mail from within SuperOffice (uses "mailto:").
+
+    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
+  example: []
+  syntax:
+    content: public const string UseLocalEmailApp = "UseLocalEmailApp"
+    return:
+      type: System.String
+    content.vb: Public Const UseLocalEmailApp As String = "UseLocalEmailApp"
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
   id: ArchiveSentMsgFromMailClient
@@ -627,10 +708,22 @@ items:
     <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
   example: []
   syntax:
-    content: public const string CheckForDuplicates = "CheckForDuplicates"
+    content: >-
+      [Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")]
+
+      public const string CheckForDuplicates = "CheckForDuplicates"
     return:
       type: System.String
-    content.vb: Public Const CheckForDuplicates As String = "CheckForDuplicates"
+    content.vb: >-
+      <Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")>
+
+      Public Const CheckForDuplicates As String = "CheckForDuplicates"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
   id: ShowAllTemplates
@@ -920,10 +1013,22 @@ items:
     <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
   example: []
   syntax:
-    content: public const string EnableMailSync = "EnableMailSync"
+    content: >-
+      [Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")]
+
+      public const string EnableMailSync = "EnableMailSync"
     return:
       type: System.String
-    content.vb: Public Const EnableMailSync As String = "EnableMailSync"
+    content.vb: >-
+      <Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")>
+
+      Public Const EnableMailSync As String = "EnableMailSync"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.FirstMailSync
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.FirstMailSync
   id: FirstMailSync
@@ -944,10 +1049,22 @@ items:
     <p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard
   example: []
   syntax:
-    content: public const string FirstMailSync = "FirstMailSync"
+    content: >-
+      [Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")]
+
+      public const string FirstMailSync = "FirstMailSync"
     return:
       type: System.String
-    content.vb: Public Const FirstMailSync As String = "FirstMailSync"
+    content.vb: >-
+      <Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")>
+
+      Public Const FirstMailSync As String = "FirstMailSync"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
   id: ForceConfirmationEmailInvit
@@ -1085,10 +1202,22 @@ items:
     <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
   example: []
   syntax:
-    content: public const string IsEmailInstalled = "IsEmailInstalled"
+    content: >-
+      [Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")]
+
+      public const string IsEmailInstalled = "IsEmailInstalled"
     return:
       type: System.String
-    content.vb: Public Const IsEmailInstalled As String = "IsEmailInstalled"
+    content.vb: >-
+      <Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")>
+
+      Public Const IsEmailInstalled As String = "IsEmailInstalled"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.IsFaxInstalled
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.IsFaxInstalled
   id: IsFaxInstalled
@@ -1109,10 +1238,22 @@ items:
     <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
   example: []
   syntax:
-    content: public const string IsFaxInstalled = "IsFaxInstalled"
+    content: >-
+      [Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")]
+
+      public const string IsFaxInstalled = "IsFaxInstalled"
     return:
       type: System.String
-    content.vb: Public Const IsFaxInstalled As String = "IsFaxInstalled"
+    content.vb: >-
+      <Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")>
+
+      Public Const IsFaxInstalled As String = "IsFaxInstalled"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayDisplayName
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayDisplayName
   id: MailGatewayDisplayName
@@ -1205,10 +1346,22 @@ items:
     <p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard
   example: []
   syntax:
-    content: public const string MailSyncTimer = "MailSyncTimer"
+    content: >-
+      [Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")]
+
+      public const string MailSyncTimer = "MailSyncTimer"
     return:
       type: System.String
-    content.vb: Public Const MailSyncTimer As String = "MailSyncTimer"
+    content.vb: >-
+      <Obsolete("Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).")>
+
+      Public Const MailSyncTimer As String = "MailSyncTimer"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Legacy e-mail preference, no longer used by SuperOffice CRM for Web; built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadInPreview
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadInPreview
   id: MarkAsReadInPreview
@@ -1449,10 +1602,22 @@ items:
     <p></p>Control type: Bool, access: Admin, Admin users, Wizard
   example: []
   syntax:
-    content: public const string RemoveAfterArchive = "RemoveAfterArchive"
+    content: >-
+      [Obsolete("Dead e-mail preference (the live delete-after-archive key is DeleteAfterArchive); built-in definition removed (AB#81273).")]
+
+      public const string RemoveAfterArchive = "RemoveAfterArchive"
     return:
       type: System.String
-    content.vb: Public Const RemoveAfterArchive As String = "RemoveAfterArchive"
+    content.vb: >-
+      <Obsolete("Dead e-mail preference (the live delete-after-archive key is DeleteAfterArchive); built-in definition removed (AB#81273).")>
+
+      Public Const RemoveAfterArchive As String = "RemoveAfterArchive"
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Dead e-mail preference (the live delete-after-archive key is DeleteAfterArchive); built-in definition removed (AB#81273).
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SaveLogonInfo
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SaveLogonInfo
   id: SaveLogonInfo

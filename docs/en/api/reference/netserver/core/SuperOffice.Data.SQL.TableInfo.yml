@@ -13,11 +13,9 @@ items:
   - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.ToString
@@ -296,6 +294,10 @@ items:
   - SuperOffice.CRM.Data.MsFilterTableInfo
   - SuperOffice.CRM.Data.MsSubstituteTableInfo
   - SuperOffice.CRM.Data.MsTrashbinTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo
   - SuperOffice.CRM.Data.NoticeFrameTableInfo
   - SuperOffice.CRM.Data.NotifyTableInfo
   - SuperOffice.CRM.Data.OnlineAppTableInfo
@@ -764,8 +766,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Returns a field-info using a case-insensitive search on the field name.
-  remarks: Does a linear search across the All array. Could be speeded up.
+  summary: Returns a field-info using a case-insensitive/underscore-stripped search on the field name.
   example: []
   syntax:
     content: public virtual FieldInfo FindField(string name)
@@ -781,27 +782,6 @@ items:
   nameWithType.vb: TableInfo.FindField(String)
   fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
   name.vb: FindField(String)
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  id: ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  langs:
-  - csharp
-  - vb
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.SQL
-  syntax:
-    content: protected FieldInfo[] ProtAll { get; }
-    parameters: []
-    return:
-      type: SuperOffice.Data.SQL.FieldInfo[]
-    content.vb: Protected ReadOnly Property ProtAll As FieldInfo()
-  overload: SuperOffice.Data.SQL.TableInfo.ProtAll*
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   id: UseNolockIfPossible
@@ -922,29 +902,6 @@ items:
       type: SuperOffice.Data.Dictionary.SoTable
     content.vb: Public Overridable ReadOnly Property Definition As SoTable
   overload: SuperOffice.Data.SQL.TableInfo.Definition*
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  id: IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  langs:
-  - csharp
-  - vb
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  type: Property
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Data.SQL
-  summary: Get IsDictionaryTable
-  example: []
-  syntax:
-    content: public bool IsDictionaryTable { get; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public ReadOnly Property IsDictionaryTable As Boolean
-  overload: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable*
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   id: All
@@ -1729,13 +1686,6 @@ references:
   name: FindField
   nameWithType: TableInfo.FindField
   fullName: SuperOffice.Data.SQL.TableInfo.FindField
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll*
-  commentId: Overload:SuperOffice.Data.SQL.TableInfo.ProtAll
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible*
   commentId: Overload:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   isExternal: true
@@ -1879,13 +1829,6 @@ references:
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable*
-  commentId: Overload:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All*
   commentId: Overload:SuperOffice.Data.SQL.TableInfo.All
   isExternal: true

@@ -56,7 +56,7 @@ The details of ConsentPurpose to be saved.
 | UpdatedDate | String | The date the consent purpose was last updated  in UTC. |
 | UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | Boolean | true if the ConsentPurpose is deleted |
-| Rank | Integer | Rank of this consent source |
+| Rank | Integer | Rank order |
 | PrivacyStatementDesc | String | Name or description for the privacy statement |
 | PrivacyStatementUrl | String | Url referencing the actual privacy statement |
 
@@ -83,7 +83,7 @@ OK
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
 | UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
-| Rank | int32 | Rank of this consent source |
+| Rank | int32 | Rank order |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
 | TableRight | TableRight | The carrier's table right |

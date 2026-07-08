@@ -1,0 +1,1608 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.CustomObjectAgent
+  id: CustomObjectAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CustomObjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.CustomObjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Proxy class for the CustomObject Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
+  syntax:
+    content: 'public class CustomObjectAgent : ICustomObjectAgent, IAgent'
+    content.vb: Public Class CustomObjectAgent Implements ICustomObjectAgent, IAgent
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectAgent(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor)
+  nameWithType: CustomObjectAgent.CustomObjectAgent(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CustomObjectAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public CustomObjectAgent(ICustomObjectImplementation customObjectImplementation, ICustomObjectDefinitionImplementation customObjectDefinitionImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: customObjectImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation
+    - id: customObjectDefinitionImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(customObjectImplementation As ICustomObjectImplementation, customObjectDefinitionImplementation As ICustomObjectDefinitionImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.#ctor*
+  nameWithType.vb: CustomObjectAgent.New(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CustomObjectAgent(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: CustomObjectAgent.CustomObjectAgent(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CustomObjectAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public CustomObjectAgent(ICustomObjectImplementation customObjectImplementation, ICustomObjectDefinitionImplementation customObjectDefinitionImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: customObjectImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation
+    - id: customObjectDefinitionImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(customObjectImplementation As ICustomObjectImplementation, customObjectDefinitionImplementation As ICustomObjectDefinitionImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.#ctor*
+  nameWithType.vb: CustomObjectAgent.New(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(ICustomObjectImplementation, ICustomObjectDefinitionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  id: CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCustomObjectAsync(string, CancellationToken)
+  nameWithType: CustomObjectAgent.CreateDefaultCustomObjectAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns a new Custom Object row pre-populated with the default values declared by the Custom Object Definition. The row is not yet persisted.
+  example: []
+  syntax:
+    content: public Task<CustomObject> CreateDefaultCustomObjectAsync(string definitionName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObject}
+      description: A new Custom Object row pre-populated with default values. Not yet persisted.
+    content.vb: Public Function CreateDefaultCustomObjectAsync(definitionName As String, cancellationToken As CancellationToken = Nothing) As Task(Of CustomObject)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: CustomObjectAgent.CreateDefaultCustomObjectAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateDefaultCustomObjectAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectAsync(string, int, CancellationToken)
+  nameWithType: CustomObjectAgent.GetCustomObjectAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync(string, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns a single Custom Object row by definition name and primary key.
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, CSEditExtraTableContent, CSListExtraTableContent</p>
+  example: []
+  syntax:
+    content: public Task<CustomObject> GetCustomObjectAsync(string definitionName, int id, CancellationToken cancellationToken = default)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: id
+      type: System.Int32
+      description: Primary key of the row to fetch.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObject}
+      description: The Custom Object row, or null if no row with that id exists.
+    content.vb: Public Function GetCustomObjectAsync(definitionName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CustomObject)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: CustomObjectAgent.GetCustomObjectAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetCustomObjectAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  id: SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCustomObjectAsync(string, CustomObject, CancellationToken)
+  nameWithType: CustomObjectAgent.SaveCustomObjectAsync(string, CustomObject, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync(string, SuperOffice.CRM.Services.CustomObject, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Saves a Custom Object row. If the row has a primary key set it will be updated, otherwise a new row is inserted.
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, CSEditExtraTableContent</p>
+  example: []
+  syntax:
+    content: public Task<CustomObject> SaveCustomObjectAsync(string definitionName, CustomObject row, CancellationToken cancellationToken = default)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: row
+      type: SuperOffice.CRM.Services.CustomObject
+      description: The Custom Object row to save.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObject}
+      description: The saved Custom Object row, with any server-assigned values (e.g. primary key) filled in.
+    content.vb: Public Function SaveCustomObjectAsync(definitionName As String, row As CustomObject, cancellationToken As CancellationToken = Nothing) As Task(Of CustomObject)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  nameWithType.vb: CustomObjectAgent.SaveCustomObjectAsync(String, CustomObject, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync(String, SuperOffice.CRM.Services.CustomObject, System.Threading.CancellationToken)
+  name.vb: SaveCustomObjectAsync(String, CustomObject, CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  id: DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCustomObjectAsync(string, int, CancellationToken)
+  nameWithType: CustomObjectAgent.DeleteCustomObjectAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync(string, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Deletes a single Custom Object row by primary key.
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, CSEditExtraTableContent</p>
+  example: []
+  syntax:
+    content: public Task DeleteCustomObjectAsync(string definitionName, int id, CancellationToken cancellationToken = default)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: id
+      type: System.Int32
+      description: Primary key of the row to delete.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteCustomObjectAsync(definitionName As String, id As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: CustomObjectAgent.DeleteCustomObjectAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCustomObjectAsync(String, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCustomObjectDefinitionAsync(CancellationToken)
+  nameWithType: CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new CustomObjectDefinition.
+  example: []
+  syntax:
+    content: public Task<CustomObjectDefinition> CreateDefaultCustomObjectDefinitionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectDefinition}
+      description: New CustomObjectDefinition with default values
+    content.vb: Public Function CreateDefaultCustomObjectDefinitionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomObjectDefinition)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  id: GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectDefinitionAsync(string, CancellationToken)
+  nameWithType: CustomObjectAgent.GetCustomObjectDefinitionAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync(string, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the schema (table + field definitions) for a Custom Object Definition by its database table name.
+  example: []
+  syntax:
+    content: public Task<CustomObjectDefinition> GetCustomObjectDefinitionAsync(string definitionName, CancellationToken cancellationToken = default)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition, e.g. 'y_equipment'.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectDefinition}
+      description: The Custom Object Definition, or null if no definition with that name exists.
+    content.vb: Public Function GetCustomObjectDefinitionAsync(definitionName As String, cancellationToken As CancellationToken = Nothing) As Task(Of CustomObjectDefinition)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  nameWithType.vb: CustomObjectAgent.GetCustomObjectDefinitionAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync(String, System.Threading.CancellationToken)
+  name.vb: GetCustomObjectDefinitionAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: HasScreenChooserAsync(string, bool, CancellationToken)
+  nameWithType: CustomObjectAgent.HasScreenChooserAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync(string, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns true if a screen chooser is configured for the given Custom Object Definition and mode.
+
+    <p>Any of the following function rights grants access to the resource: AdminAll, CSEditExtraTableContent, CSListExtraTableContent</p>
+  example: []
+  syntax:
+    content: public Task<bool> HasScreenChooserAsync(string definitionName, bool edit, CancellationToken cancellationToken = default)
+    parameters:
+    - id: definitionName
+      type: System.String
+      description: Database table name of the Custom Object Definition.
+    - id: edit
+      type: System.Boolean
+      description: True to check for a custom edit screen; false to check for a custom view screen.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if a screen chooser (view or edit) is configured for this Custom Object.
+    content.vb: Public Function HasScreenChooserAsync(definitionName As String, edit As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: CustomObjectAgent.HasScreenChooserAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: HasScreenChooserAsync(String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  id: GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectsMetadataAsync(CancellationToken)
+  nameWithType: CustomObjectAgent.GetCustomObjectsMetadataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns bootstrap metadata for all Custom Object tables.
+  example: []
+  syntax:
+    content: public Task<CustomObjectMetadata[]> GetCustomObjectsMetadataAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectMetadata[]}
+      description: Metadata for all custom object tables.
+    content.vb: Public Function GetCustomObjectsMetadataAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomObjectMetadata())
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  id: GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CustomObjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomObjectsIconsAsync(CancellationToken)
+  nameWithType: CustomObjectAgent.GetCustomObjectsIconsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns SVG icon data for all Custom Object tables, keyed by table name.
+  example: []
+  syntax:
+    content: public Task<StringDictionary> GetCustomObjectsIconsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+      description: Map of table name to SVG icon data URI.
+    content.vb: Public Function GetCustomObjectsIconsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomObjectAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomObjectAgent.html
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICustomObjectImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICustomObjectDefinitionImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent.CustomObjectAgent
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CustomObjectAgent
+  nameWithType.vb: CustomObjectAgent.New
+  fullName.vb: SuperOffice.CRM.Services.CustomObjectAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation.html
+  name: ICustomObjectImplementation
+  nameWithType: ICustomObjectImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation.html
+  name: ICustomObjectDefinitionImplementation
+  nameWithType: ICustomObjectDefinitionImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICustomObjectDefinitionImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_CreateDefaultCustomObjectAsync_System_String_System_Threading_CancellationToken_
+  name: CreateDefaultCustomObjectAsync
+  nameWithType: CustomObjectAgent.CreateDefaultCustomObjectAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: CreateDefaultCustomObjectAsync(string, CancellationToken)
+  nameWithType: ICustomObjectAgent.CreateDefaultCustomObjectAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ICustomObjectAgent.CreateDefaultCustomObjectAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(String, System.Threading.CancellationToken)
+  name.vb: CreateDefaultCustomObjectAsync(String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+    name: CreateDefaultCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectAsync(System.String,System.Threading.CancellationToken)
+    name: CreateDefaultCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObject}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObject}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomObject>
+  nameWithType: Task<CustomObject>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomObject>
+  nameWithType.vb: Task(Of CustomObject)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomObject)
+  name.vb: Task(Of CustomObject)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CustomObject
+    name: CustomObject
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObject.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomObject
+    name: CustomObject
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObject.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_GetCustomObjectAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: GetCustomObjectAsync
+  nameWithType: CustomObjectAgent.GetCustomObjectAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetCustomObjectAsync(string, int, CancellationToken)
+  nameWithType: ICustomObjectAgent.GetCustomObjectAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: ICustomObjectAgent.GetCustomObjectAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: GetCustomObjectAsync(String, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: GetCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_SaveCustomObjectAsync_System_String_SuperOffice_CRM_Services_CustomObject_System_Threading_CancellationToken_
+  name: SaveCustomObjectAsync
+  nameWithType: CustomObjectAgent.SaveCustomObjectAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.SaveCustomObjectAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: SaveCustomObjectAsync(string, CustomObject, CancellationToken)
+  nameWithType: ICustomObjectAgent.SaveCustomObjectAsync(string, CustomObject, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(string, SuperOffice.CRM.Services.CustomObject, System.Threading.CancellationToken)
+  nameWithType.vb: ICustomObjectAgent.SaveCustomObjectAsync(String, CustomObject, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(String, SuperOffice.CRM.Services.CustomObject, System.Threading.CancellationToken)
+  name.vb: SaveCustomObjectAsync(String, CustomObject, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+    name: SaveCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomObject
+    name: CustomObject
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.SaveCustomObjectAsync(System.String,SuperOffice.CRM.Services.CustomObject,System.Threading.CancellationToken)
+    name: SaveCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomObject
+    name: CustomObject
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.CustomObject
+  commentId: T:SuperOffice.CRM.Services.CustomObject
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObject.html
+  name: CustomObject
+  nameWithType: CustomObject
+  fullName: SuperOffice.CRM.Services.CustomObject
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_DeleteCustomObjectAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: DeleteCustomObjectAsync
+  nameWithType: CustomObjectAgent.DeleteCustomObjectAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.DeleteCustomObjectAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: DeleteCustomObjectAsync(string, int, CancellationToken)
+  nameWithType: ICustomObjectAgent.DeleteCustomObjectAsync(string, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(string, int, System.Threading.CancellationToken)
+  nameWithType.vb: ICustomObjectAgent.DeleteCustomObjectAsync(String, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(String, Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCustomObjectAsync(String, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: DeleteCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.DeleteCustomObjectAsync(System.String,System.Int32,System.Threading.CancellationToken)
+    name: DeleteCustomObjectAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_CreateDefaultCustomObjectDefinitionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultCustomObjectDefinitionAsync
+  nameWithType: CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultCustomObjectDefinitionAsync(CancellationToken)
+  nameWithType: ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+    name: CreateDefaultCustomObjectDefinitionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.CreateDefaultCustomObjectDefinitionAsync(System.Threading.CancellationToken)
+    name: CreateDefaultCustomObjectDefinitionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectDefinition}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectDefinition}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomObjectDefinition>
+  nameWithType: Task<CustomObjectDefinition>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomObjectDefinition>
+  nameWithType.vb: Task(Of CustomObjectDefinition)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomObjectDefinition)
+  name.vb: Task(Of CustomObjectDefinition)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CustomObjectDefinition
+    name: CustomObjectDefinition
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObjectDefinition.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomObjectDefinition
+    name: CustomObjectDefinition
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObjectDefinition.html
+  - name: )
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_GetCustomObjectDefinitionAsync_System_String_System_Threading_CancellationToken_
+  name: GetCustomObjectDefinitionAsync
+  nameWithType: CustomObjectAgent.GetCustomObjectDefinitionAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectDefinitionAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetCustomObjectDefinitionAsync(string, CancellationToken)
+  nameWithType: ICustomObjectAgent.GetCustomObjectDefinitionAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ICustomObjectAgent.GetCustomObjectDefinitionAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(String, System.Threading.CancellationToken)
+  name.vb: GetCustomObjectDefinitionAsync(String, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+    name: GetCustomObjectDefinitionAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectDefinitionAsync(System.String,System.Threading.CancellationToken)
+    name: GetCustomObjectDefinitionAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_HasScreenChooserAsync_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: HasScreenChooserAsync
+  nameWithType: CustomObjectAgent.HasScreenChooserAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.HasScreenChooserAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: HasScreenChooserAsync(string, bool, CancellationToken)
+  nameWithType: ICustomObjectAgent.HasScreenChooserAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: ICustomObjectAgent.HasScreenChooserAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: HasScreenChooserAsync(String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: HasScreenChooserAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.HasScreenChooserAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: HasScreenChooserAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_GetCustomObjectsMetadataAsync_System_Threading_CancellationToken_
+  name: GetCustomObjectsMetadataAsync
+  nameWithType: CustomObjectAgent.GetCustomObjectsMetadataAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsMetadataAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetCustomObjectsMetadataAsync(CancellationToken)
+  nameWithType: ICustomObjectAgent.GetCustomObjectsMetadataAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+    name: GetCustomObjectsMetadataAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsMetadataAsync(System.Threading.CancellationToken)
+    name: GetCustomObjectsMetadataAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectMetadata[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomObjectMetadata[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomObjectMetadata[]>
+  nameWithType: Task<CustomObjectMetadata[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomObjectMetadata[]>
+  nameWithType.vb: Task(Of CustomObjectMetadata())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomObjectMetadata())
+  name.vb: Task(Of CustomObjectMetadata())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CustomObjectMetadata
+    name: CustomObjectMetadata
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObjectMetadata.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomObjectMetadata
+    name: CustomObjectMetadata
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomObjectMetadata.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html#SuperOffice_CRM_Services_CustomObjectAgent_GetCustomObjectsIconsAsync_System_Threading_CancellationToken_
+  name: GetCustomObjectsIconsAsync
+  nameWithType: CustomObjectAgent.GetCustomObjectsIconsAsync
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent.GetCustomObjectsIconsAsync
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomObjectAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: GetCustomObjectsIconsAsync(CancellationToken)
+  nameWithType: ICustomObjectAgent.GetCustomObjectsIconsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+    name: GetCustomObjectsIconsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomObjectAgent.GetCustomObjectsIconsAsync(System.Threading.CancellationToken)
+    name: GetCustomObjectsIconsAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: )

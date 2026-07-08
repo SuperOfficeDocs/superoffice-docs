@@ -658,7 +658,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The project image.
     content.vb: Public Function GetProjectImageAsync(projectId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectImageAsync*
   implements:
@@ -690,7 +690,7 @@ items:
       description: The project id of the project the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the project (System.Drawing.Image)
+      description: The project image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.

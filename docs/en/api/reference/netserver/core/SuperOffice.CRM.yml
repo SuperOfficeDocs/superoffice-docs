@@ -132,6 +132,7 @@ items:
   - SuperOffice.CRM.UserInfo
   - SuperOffice.CRM.UserInfo2
   - SuperOffice.CRM.UserPreferenceStrings
+  - SuperOffice.CRM.UserPreferenceStrings.AI
   - SuperOffice.CRM.UserPreferenceStrings.AdminImportRules
   - SuperOffice.CRM.UserPreferenceStrings.Archives
   - SuperOffice.CRM.UserPreferenceStrings.Associates
@@ -159,6 +160,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.Gdpr
   - SuperOffice.CRM.UserPreferenceStrings.HugoAI
   - SuperOffice.CRM.UserPreferenceStrings.InApp
+  - SuperOffice.CRM.UserPreferenceStrings.License
   - SuperOffice.CRM.UserPreferenceStrings.MDOList
   - SuperOffice.CRM.UserPreferenceStrings.Mail
   - SuperOffice.CRM.UserPreferenceStrings.Mailing
@@ -169,7 +171,6 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.NotificationSms
   - SuperOffice.CRM.UserPreferenceStrings.Numbering
   - SuperOffice.CRM.UserPreferenceStrings.Person
-  - SuperOffice.CRM.UserPreferenceStrings.Phone
   - SuperOffice.CRM.UserPreferenceStrings.PocketSection
   - SuperOffice.CRM.UserPreferenceStrings.Project
   - SuperOffice.CRM.UserPreferenceStrings.QuickLaunchBar
@@ -181,7 +182,6 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.SaleFilterDialog
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification
   - SuperOffice.CRM.UserPreferenceStrings.Selection
-  - SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
   - SuperOffice.CRM.UserPreferenceStrings.Sorting
   - SuperOffice.CRM.UserPreferenceStrings.StandardStartupScreenOptions
   - SuperOffice.CRM.UserPreferenceStrings.SuperMode
@@ -774,33 +774,6 @@ references:
     name: Numbering
     isExternal: true
     href: SuperOffice.CRM.UserPreferenceStrings.Numbering.html
-- uid: SuperOffice.CRM.UserPreferenceStrings.Phone
-  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Phone
-  isExternal: true
-  href: SuperOffice.CRM.UserPreferenceStrings.html
-  name: UserPreferenceStrings.Phone
-  nameWithType: UserPreferenceStrings.Phone
-  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone
-  spec.csharp:
-  - uid: SuperOffice.CRM.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.CRM.UserPreferenceStrings.Phone
-    name: Phone
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.Phone.html
-  spec.vb:
-  - uid: SuperOffice.CRM.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.CRM.UserPreferenceStrings.Phone
-    name: Phone
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.Phone.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Sorting
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Sorting
   isExternal: true
@@ -1152,33 +1125,6 @@ references:
     name: DuplicateSystem
     isExternal: true
     href: SuperOffice.CRM.UserPreferenceStrings.DuplicateSystem.html
-- uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-  commentId: T:SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-  isExternal: true
-  href: SuperOffice.CRM.UserPreferenceStrings.html
-  name: UserPreferenceStrings.SentryAddonNames
-  nameWithType: UserPreferenceStrings.SentryAddonNames
-  fullName: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-  spec.csharp:
-  - uid: SuperOffice.CRM.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-    name: SentryAddonNames
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.html
-  spec.vb:
-  - uid: SuperOffice.CRM.UserPreferenceStrings
-    name: UserPreferenceStrings
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.html
-  - name: .
-  - uid: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames
-    name: SentryAddonNames
-    isExternal: true
-    href: SuperOffice.CRM.UserPreferenceStrings.SentryAddonNames.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.DocPluginNames
   isExternal: true
@@ -1989,6 +1935,33 @@ references:
     name: Copilot
     isExternal: true
     href: SuperOffice.CRM.UserPreferenceStrings.Copilot.html
+- uid: SuperOffice.CRM.UserPreferenceStrings.AI
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.AI
+  isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
+  name: UserPreferenceStrings.AI
+  nameWithType: UserPreferenceStrings.AI
+  fullName: SuperOffice.CRM.UserPreferenceStrings.AI
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.AI
+    name: AI
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.AI.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.AI
+    name: AI
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.AI.html
 - uid: SuperOffice.CRM.UserPreferenceStrings.Mailing
   commentId: T:SuperOffice.CRM.UserPreferenceStrings.Mailing
   isExternal: true
@@ -2016,6 +1989,33 @@ references:
     name: Mailing
     isExternal: true
     href: SuperOffice.CRM.UserPreferenceStrings.Mailing.html
+- uid: SuperOffice.CRM.UserPreferenceStrings.License
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.License
+  isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
+  name: UserPreferenceStrings.License
+  nameWithType: UserPreferenceStrings.License
+  fullName: SuperOffice.CRM.UserPreferenceStrings.License
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.License
+    name: License
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.License.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.License
+    name: License
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.License.html
 - uid: SuperOffice.CRM.ActivityStatusHelper
   commentId: T:SuperOffice.CRM.ActivityStatusHelper
   isExternal: true

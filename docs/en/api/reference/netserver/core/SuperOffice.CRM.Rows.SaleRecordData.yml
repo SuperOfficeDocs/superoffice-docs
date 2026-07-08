@@ -35,6 +35,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRecordData.Registered
   - SuperOffice.CRM.Rows.SaleRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.SaleRecordData.ReopenDate
+  - SuperOffice.CRM.Rows.SaleRecordData.SaleCycle
   - SuperOffice.CRM.Rows.SaleRecordData.SaleId
   - SuperOffice.CRM.Rows.SaleRecordData.SaleTypeCatId
   - SuperOffice.CRM.Rows.SaleRecordData.SaleTypeId
@@ -1016,6 +1017,27 @@ items:
     return:
       type: System.Int32
     content.vb: Public StageWhenClosedId As Integer
+- uid: SuperOffice.CRM.Rows.SaleRecordData.SaleCycle
+  commentId: F:SuperOffice.CRM.Rows.SaleRecordData.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Rows.SaleRecordData
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: SaleRecordData.SaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleRecordData.SaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Number of days from sale registered until the sale entered its current closed (Sold or Lost) state. 0/empty while the sale is open.
+  example: []
+  syntax:
+    content: public int SaleCycle
+    return:
+      type: System.Int32
+    content.vb: Public SaleCycle As Integer
 - uid: SuperOffice.CRM.Rows.SaleRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SaleRecordData.#ctor
   id: '#ctor'

@@ -19,6 +19,7 @@ items:
   - SuperOffice.Data.SQL.ArchiveBehaviourFieldInfo
   - SuperOffice.Data.SQL.Argument
   - SuperOffice.Data.SQL.ArgumentCollection
+  - SuperOffice.Data.SQL.ArgumentField
   - SuperOffice.Data.SQL.ArgumentFunction
   - SuperOffice.Data.SQL.ArgumentParameterCollection
   - SuperOffice.Data.SQL.ArrayCompare
@@ -42,12 +43,15 @@ items:
   - SuperOffice.Data.SQL.ChatStatusFieldInfo
   - SuperOffice.Data.SQL.ChatTopicFlagFieldInfo
   - SuperOffice.Data.SQL.Compare
+  - SuperOffice.Data.SQL.Concat
   - SuperOffice.Data.SQL.ConfigTypeFieldInfo
   - SuperOffice.Data.SQL.CopilotDataSourceTypeFieldInfo
   - SuperOffice.Data.SQL.Count
   - SuperOffice.Data.SQL.CountAll
   - SuperOffice.Data.SQL.CredentialUsageFieldInfo
   - SuperOffice.Data.SQL.CrmActorTypeFieldInfo
+  - SuperOffice.Data.SQL.CtaFlavorFieldInfo
+  - SuperOffice.Data.SQL.CtaTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileCurrencyModeFieldInfo
   - SuperOffice.Data.SQL.DashTileEntityTypeFieldInfo
   - SuperOffice.Data.SQL.DashTileMeasureFieldInfo
@@ -145,6 +149,7 @@ items:
   - SuperOffice.Data.SQL.Month
   - SuperOffice.Data.SQL.Multiply
   - SuperOffice.Data.SQL.NavigationFieldInfo
+  - SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
   - SuperOffice.Data.SQL.NonCoercedArgumentFunction
   - SuperOffice.Data.SQL.NotBetween
   - SuperOffice.Data.SQL.NotIn
@@ -1140,6 +1145,30 @@ references:
   name: MeteringStatusFieldInfo
   nameWithType: MeteringStatusFieldInfo
   fullName: SuperOffice.Data.SQL.MeteringStatusFieldInfo
+- uid: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo.html
+  name: NewsFeedItemStatusFieldInfo
+  nameWithType: NewsFeedItemStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+- uid: SuperOffice.Data.SQL.CtaTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CtaTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.CtaTypeFieldInfo.html
+  name: CtaTypeFieldInfo
+  nameWithType: CtaTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.CtaTypeFieldInfo
+- uid: SuperOffice.Data.SQL.CtaFlavorFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CtaFlavorFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.CtaFlavorFieldInfo.html
+  name: CtaFlavorFieldInfo
+  nameWithType: CtaFlavorFieldInfo
+  fullName: SuperOffice.Data.SQL.CtaFlavorFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1559,6 +1588,14 @@ references:
   name: Compare
   nameWithType: Compare
   fullName: SuperOffice.Data.SQL.Compare
+- uid: SuperOffice.Data.SQL.Concat
+  commentId: T:SuperOffice.Data.SQL.Concat
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Concat.html
+  name: Concat
+  nameWithType: Concat
+  fullName: SuperOffice.Data.SQL.Concat
 - uid: SuperOffice.Data.SQL.Count
   commentId: T:SuperOffice.Data.SQL.Count
   parent: SuperOffice.Data.SQL
@@ -1858,6 +1895,14 @@ references:
   name: DoubleFieldInfo
   nameWithType: DoubleFieldInfo
   fullName: SuperOffice.Data.SQL.DoubleFieldInfo
+- uid: SuperOffice.Data.SQL.ArgumentField
+  commentId: T:SuperOffice.Data.SQL.ArgumentField
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.ArgumentField.html
+  name: ArgumentField
+  nameWithType: ArgumentField
+  fullName: SuperOffice.Data.SQL.ArgumentField
 - uid: SuperOffice.Data.SQL.FieldInfoCollection
   commentId: T:SuperOffice.Data.SQL.FieldInfoCollection
   parent: SuperOffice.Data.SQL

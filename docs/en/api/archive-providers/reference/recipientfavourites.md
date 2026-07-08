@@ -244,7 +244,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |correspondingAssociate/isLocation|bool|Is a location: Is a location| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |associateId|associate|Our contact: Displays our contact| x |
 |category|listAny|Category| x |
 |categoryGroup|listAny|Category group| x |
@@ -347,7 +347,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/recipientfavourites?$select=hasInterests,personAddress/zip,correspondingAssociate/usergroupId,associateId
+GET /api/v1/archive/recipientfavourites?$select=fullNameWithContact,personExtra/y_rental/y_equipment/x_name,streetAddress/wgs84longitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

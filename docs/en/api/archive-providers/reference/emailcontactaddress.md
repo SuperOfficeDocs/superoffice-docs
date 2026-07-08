@@ -43,7 +43,7 @@ the email_id.
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -383,7 +383,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=email/emailLastSent,contactAssociate/personId,contactSupportAssociate/userName
+GET /api/v1/archive/emailcontactaddress?$select=contactSupportAssociate/assocType,contactSupportAssociate/locationAddress,contactSupportPerson/personUdef/SuperOffice:8,contactExtra/x_contact_float
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

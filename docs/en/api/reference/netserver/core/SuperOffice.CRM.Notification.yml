@@ -5,6 +5,9 @@ items:
   id: SuperOffice.CRM.Notification
   children:
   - SuperOffice.CRM.Notification.AppointmentAlarmBroker
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationTask
   - SuperOffice.CRM.Notification.CentralServicesPushNotificationClient
   - SuperOffice.CRM.Notification.DeviceInfo
   - SuperOffice.CRM.Notification.IPushNotificationServiceManager
@@ -22,6 +25,28 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
 references:
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  commentId: T:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  name: AppointmentPushNotificationDispatcher
+  nameWithType: AppointmentPushNotificationDispatcher
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+  commentId: T:SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  name: AppointmentPushNotificationTask
+  nameWithType: AppointmentPushNotificationTask
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  commentId: T:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  parent: SuperOffice.CRM.Notification
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  name: AppointmentPushNotificationRecipient
+  nameWithType: AppointmentPushNotificationRecipient
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
 - uid: SuperOffice.CRM.Notification.AppointmentAlarmBroker
   commentId: T:SuperOffice.CRM.Notification.AppointmentAlarmBroker
   isExternal: true

@@ -115,7 +115,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Legal base
+  summary: Consent purpose
   example: []
   syntax:
     content: public int ConsentPurposeId

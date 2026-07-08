@@ -60,6 +60,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |activeErpLinks|The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations|Int|&#x25CF;|
 |created\_by\_workflow\_id|The workflow this sale was created by|FK [workflow](workflow.md)|&#x25CF;|
 |stage\_when\_closed\_id|The stage the sale was in when it was closed (sold or lost)|FK [Prob](prob.md)|&#x25CF;|
+|sale\_cycle|Number of days from sale registered until the sale entered its current closed (Sold or Lost) state. 0/empty while the sale is open.|Int|&#x25CF;|
 
 
 ![sale table relationship diagram](./media/sale.png)
@@ -98,6 +99,7 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
 |[Currency](currency.md)  |Currency list table |
 |[email\_item](email-item.md)  |Email data |
+|[NewsFeedItem](newsfeeditem.md)  |Contains news feed items - published to one or more users, with one or more language descriptions |
 |[person](person.md)  |Persons |
 |[Prob](prob.md)  |Prob list table. Probability, used in  sales . |
 |[project](project.md)  |Projects |

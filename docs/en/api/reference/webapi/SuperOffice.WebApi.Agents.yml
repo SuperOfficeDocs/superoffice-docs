@@ -17,6 +17,7 @@ items:
   - SuperOffice.WebApi.Agents.ChatAgent
   - SuperOffice.WebApi.Agents.ConfigurationAgent
   - SuperOffice.WebApi.Agents.ContactAgent
+  - SuperOffice.WebApi.Agents.CustomObjectAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
   - SuperOffice.WebApi.Agents.DashboardAgent
@@ -44,6 +45,7 @@ items:
   - SuperOffice.WebApi.Agents.IChatAgent
   - SuperOffice.WebApi.Agents.IConfigurationAgent
   - SuperOffice.WebApi.Agents.IContactAgent
+  - SuperOffice.WebApi.Agents.ICustomObjectAgent
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent
   - SuperOffice.WebApi.Agents.IDashAgent
   - SuperOffice.WebApi.Agents.IDashboardAgent
@@ -65,6 +67,7 @@ items:
   - SuperOffice.WebApi.Agents.IMarketingAgent
   - SuperOffice.WebApi.Agents.IMessagingAgent
   - SuperOffice.WebApi.Agents.INavigatorAgent
+  - SuperOffice.WebApi.Agents.INewsFeedAgent
   - SuperOffice.WebApi.Agents.INumberAllocationAgent
   - SuperOffice.WebApi.Agents.IPersonAgent
   - SuperOffice.WebApi.Agents.IPhoneListAgent
@@ -96,6 +99,7 @@ items:
   - SuperOffice.WebApi.Agents.MarketingAgent
   - SuperOffice.WebApi.Agents.MessagingAgent
   - SuperOffice.WebApi.Agents.NavigatorAgent
+  - SuperOffice.WebApi.Agents.NewsFeedAgent
   - SuperOffice.WebApi.Agents.NumberAllocationAgent
   - SuperOffice.WebApi.Agents.PersonAgent
   - SuperOffice.WebApi.Agents.PhoneListAgent
@@ -355,6 +359,21 @@ references:
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: SuperOffice.WebApi.Agents.ICustomObjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.ICustomObjectAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ICustomObjectAgent.html
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.WebApi.Agents.ICustomObjectAgent
+- uid: SuperOffice.WebApi.Agents.CustomObjectAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomObjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.CustomObjectAgent.html
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent
+  fullName: SuperOffice.WebApi.Agents.CustomObjectAgent
 - uid: SuperOffice.WebApi.Agents.IDashAgent
   commentId: T:SuperOffice.WebApi.Agents.IDashAgent
   parent: SuperOffice.WebApi.Agents
@@ -633,6 +652,21 @@ references:
   name: NavigatorAgent
   nameWithType: NavigatorAgent
   fullName: SuperOffice.WebApi.Agents.NavigatorAgent
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent
+  commentId: T:SuperOffice.WebApi.Agents.INewsFeedAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html
+  name: INewsFeedAgent
+  nameWithType: INewsFeedAgent
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent
+- uid: SuperOffice.WebApi.Agents.NewsFeedAgent
+  commentId: T:SuperOffice.WebApi.Agents.NewsFeedAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.NewsFeedAgent.html
+  name: NewsFeedAgent
+  nameWithType: NewsFeedAgent
+  fullName: SuperOffice.WebApi.Agents.NewsFeedAgent
 - uid: SuperOffice.WebApi.Agents.INumberAllocationAgent
   commentId: T:SuperOffice.WebApi.Agents.INumberAllocationAgent
   parent: SuperOffice.WebApi.Agents

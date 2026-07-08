@@ -16,6 +16,7 @@ items:
   - SuperOffice.Data.SoConnection.Dispose
   - SuperOffice.Data.SoConnection.InnerConnection
   - SuperOffice.Data.SoConnection.Open
+  - SuperOffice.Data.SoConnection.OpenAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.SoConnection.OpenByCustAndAge
   - SuperOffice.Data.SoConnection.ToString
   langs:
@@ -99,16 +100,16 @@ items:
   nameWithType.vb: SoConnection.AddTrackingComment(String)
   fullName.vb: SuperOffice.Data.SoConnection.AddTrackingComment(String)
   name.vb: AddTrackingComment(String)
-- uid: SuperOffice.Data.SoConnection.Open
-  commentId: M:SuperOffice.Data.SoConnection.Open
-  id: Open
+- uid: SuperOffice.Data.SoConnection.OpenAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.SoConnection.OpenAsync(System.Threading.CancellationToken)
+  id: OpenAsync(System.Threading.CancellationToken)
   parent: SuperOffice.Data.SoConnection
   langs:
   - csharp
   - vb
-  name: Open()
-  nameWithType: SoConnection.Open()
-  fullName: SuperOffice.Data.SoConnection.Open()
+  name: OpenAsync(CancellationToken)
+  nameWithType: SoConnection.OpenAsync(CancellationToken)
+  fullName: SuperOffice.Data.SoConnection.OpenAsync(System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoDataBase
@@ -116,11 +117,28 @@ items:
   summary: Opens a database connection with the settings specified by the ConnectionString property of the provider-specific Connection object.
   example: []
   syntax:
-    content: public void Open()
-    content.vb: Public Sub Open()
-  overload: SuperOffice.Data.SoConnection.Open*
-  implements:
-  - System.Data.IDbConnection.Open
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public Task OpenAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Function OpenAsync(cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.Data.SoConnection.OpenAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
 - uid: SuperOffice.Data.SoConnection.Close
   commentId: M:SuperOffice.Data.SoConnection.Close
   id: Close
@@ -260,6 +278,28 @@ items:
   overload: SuperOffice.Data.SoConnection.Dispose*
   implements:
   - System.IDisposable.Dispose
+- uid: SuperOffice.Data.SoConnection.Open
+  commentId: M:SuperOffice.Data.SoConnection.Open
+  id: Open
+  parent: SuperOffice.Data.SoConnection
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: SoConnection.Open()
+  fullName: SuperOffice.Data.SoConnection.Open()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: Opens a database connection with the settings specified by the ConnectionString property of the provider-specific Connection object.
+  example: []
+  syntax:
+    content: public void Open()
+    content.vb: Public Sub Open()
+  overload: SuperOffice.Data.SoConnection.Open*
+  implements:
+  - System.Data.IDbConnection.Open
 - uid: SuperOffice.Data.SoConnection.CurrentTest
   commentId: P:SuperOffice.Data.SoConnection.CurrentTest
   id: CurrentTest
@@ -898,35 +938,93 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.Data.SoConnection.Open*
-  commentId: Overload:SuperOffice.Data.SoConnection.Open
+- uid: SuperOffice.Data.SoConnection.OpenAsync*
+  commentId: Overload:SuperOffice.Data.SoConnection.OpenAsync
   isExternal: true
-  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_Open
-  name: Open
-  nameWithType: SoConnection.Open
-  fullName: SuperOffice.Data.SoConnection.Open
-- uid: System.Data.IDbConnection.Open
-  commentId: M:System.Data.IDbConnection.Open
-  parent: System.Data.IDbConnection
+  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_OpenAsync_System_Threading_CancellationToken_
+  name: OpenAsync
+  nameWithType: SoConnection.OpenAsync
+  fullName: SuperOffice.Data.SoConnection.OpenAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection.open
-  name: Open()
-  nameWithType: IDbConnection.Open()
-  fullName: System.Data.IDbConnection.Open()
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
   spec.csharp:
-  - uid: System.Data.IDbConnection.Open
-    name: Open
+  - uid: System
+    name: System
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection.open
-  - name: (
-  - name: )
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
   spec.vb:
-  - uid: System.Data.IDbConnection.Open
-    name: Open
+  - uid: System
+    name: System
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection.open
-  - name: (
-  - name: )
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.SoConnection.Close*
   commentId: Overload:SuperOffice.Data.SoConnection.Close
   isExternal: true
@@ -1052,6 +1150,35 @@ references:
     name: Dispose
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SoConnection.Open*
+  commentId: Overload:SuperOffice.Data.SoConnection.Open
+  isExternal: true
+  href: SuperOffice.Data.SoConnection.html#SuperOffice_Data_SoConnection_Open
+  name: Open
+  nameWithType: SoConnection.Open
+  fullName: SuperOffice.Data.SoConnection.Open
+- uid: System.Data.IDbConnection.Open
+  commentId: M:System.Data.IDbConnection.Open
+  parent: System.Data.IDbConnection
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection.open
+  name: Open()
+  nameWithType: IDbConnection.Open()
+  fullName: System.Data.IDbConnection.Open()
+  spec.csharp:
+  - uid: System.Data.IDbConnection.Open
+    name: Open
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection.open
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Data.IDbConnection.Open
+    name: Open
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.data.idbconnection.open
   - name: (
   - name: )
 - uid: SuperOffice.Data.SoConnection.CurrentTest*

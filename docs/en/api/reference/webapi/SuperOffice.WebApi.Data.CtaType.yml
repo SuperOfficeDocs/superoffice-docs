@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CtaType
+  commentId: T:SuperOffice.WebApi.Data.CtaType
+  id: CtaType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CtaType.Link
+  - SuperOffice.WebApi.Data.CtaType.Primary
+  - SuperOffice.WebApi.Data.CtaType.Secondary
+  - SuperOffice.WebApi.Data.CtaType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: CtaType
+  nameWithType: CtaType
+  fullName: SuperOffice.WebApi.Data.CtaType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    News feed CTA type
+
+    This Enum is used by:  NewsFeedItemCta.CtaType
+  example: []
+  syntax:
+    content: 'public enum CtaType : short'
+    content.vb: Public Enum CtaType As Short
+- uid: SuperOffice.WebApi.Data.CtaType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.CtaType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.CtaType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CtaType.Unknown
+  fullName: SuperOffice.WebApi.Data.CtaType.Unknown
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Unknown - rendered as a link, maybe'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: SuperOffice.WebApi.Data.CtaType
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaType.Primary
+  commentId: F:SuperOffice.WebApi.Data.CtaType.Primary
+  id: Primary
+  parent: SuperOffice.WebApi.Data.CtaType
+  langs:
+  - csharp
+  - vb
+  name: Primary
+  nameWithType: CtaType.Primary
+  fullName: SuperOffice.WebApi.Data.CtaType.Primary
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Rendered as a solid color button'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Primary = 1
+    return:
+      type: SuperOffice.WebApi.Data.CtaType
+    content.vb: >-
+      <EnumMember>
+
+      Primary = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaType.Secondary
+  commentId: F:SuperOffice.WebApi.Data.CtaType.Secondary
+  id: Secondary
+  parent: SuperOffice.WebApi.Data.CtaType
+  langs:
+  - csharp
+  - vb
+  name: Secondary
+  nameWithType: CtaType.Secondary
+  fullName: SuperOffice.WebApi.Data.CtaType.Secondary
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Rendered as an outline button'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Secondary = 2
+    return:
+      type: SuperOffice.WebApi.Data.CtaType
+    content.vb: >-
+      <EnumMember>
+
+      Secondary = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CtaType.Link
+  commentId: F:SuperOffice.WebApi.Data.CtaType.Link
+  id: Link
+  parent: SuperOffice.WebApi.Data.CtaType
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: CtaType.Link
+  fullName: SuperOffice.WebApi.Data.CtaType.Link
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Rendered as a blue underlined link'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Link = 3
+    return:
+      type: SuperOffice.WebApi.Data.CtaType
+    content.vb: >-
+      <EnumMember>
+
+      Link = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.CtaType
+  commentId: T:SuperOffice.WebApi.Data.CtaType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CtaType.html
+  name: CtaType
+  nameWithType: CtaType
+  fullName: SuperOffice.WebApi.Data.CtaType

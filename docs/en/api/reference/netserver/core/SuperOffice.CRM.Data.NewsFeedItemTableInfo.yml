@@ -1,0 +1,2581 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  id: NewsFeedItemTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemTableInfo
+  nameWithType: NewsFeedItemTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "Table 'NewsFeedItem': Contains news feed items - published to one or more users, with one or more language descriptions"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetNewsFeedItemInfo().
+  example: []
+  syntax:
+    content: >-
+      [DatabaseTable("NewsFeedItem")]
+
+      public class NewsFeedItemTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("NewsFeedItem")>
+
+      Public Class NewsFeedItemTableInfo Inherits TableInfo Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: NewsFeedItem
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: NewsFeedItemTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Conceptual name of table NewsFeedItem in the database dictionary: NewsFeedItem'
+  example: []
+  syntax:
+    content: public const string DictionaryTableName = "NewsFeedItem"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "NewsFeedItem"
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: NewsFeedItemTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Table number for table NewsFeedItem in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: NewsFeedItemTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: NewsFeedItemTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId
+  id: NewsFeedItemId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemId
+  nameWithType: NewsFeedItemTableInfo.NewsFeedItemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'newsfeeditem_id' in table 'NewsFeedItem': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
+  syntax:
+    content: public Int32FieldInfo NewsFeedItemId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property NewsFeedItemId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: NewsFeedItemTableInfo.Title
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'Title' in table 'NewsFeedItem': Dictionary type String[1001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Short, descriptive headline. Plain text title. Multi-language string supported: 'US:"english";NO:"norsk"'.
+  example: []
+  syntax:
+    content: public StringFieldInfo Title { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Title As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary
+  id: Summary
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: NewsFeedItemTableInfo.Summary
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'Summary' in table 'NewsFeedItem': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Short, descriptive summary. Plain text summary. Multi-language string supported: 'US:"english";NO:"norsk"'.
+  example: []
+  syntax:
+    content: public StringFieldInfo Summary { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Summary As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink
+  id: ImageLink
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ImageLink
+  nameWithType: NewsFeedItemTableInfo.ImageLink
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'ImageLink' in table 'NewsFeedItem': Dictionary type String[2001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    URL Link to an image associated with the news item.
+  example: []
+  syntax:
+    content: public StringFieldInfo ImageLink { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ImageLink As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink
+  id: SourceLink
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SourceLink
+  nameWithType: NewsFeedItemTableInfo.SourceLink
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'SourceLink' in table 'NewsFeedItem': Dictionary type String[2001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    URL Link to the source of the news item, or an SOProtocol link to a SuperOffice item
+  example: []
+  syntax:
+    content: public StringFieldInfo SourceLink { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SourceLink As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint
+  id: PreviewHint
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PreviewHint
+  nameWithType: NewsFeedItemTableInfo.PreviewHint
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'PreviewHint' in table 'NewsFeedItem': Dictionary type String[101], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Preview hint for the news item. e.g. `{contact_id=123}`
+  example: []
+  syntax:
+    content: public StringFieldInfo PreviewHint { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property PreviewHint As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName
+  id: FromName
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: NewsFeedItemTableInfo.FromName
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'FromName' in table 'NewsFeedItem': Dictionary type String[201], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Name of the instance that published this item. e.g. `Pete the prospector`
+  example: []
+  syntax:
+    content: public StringFieldInfo FromName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FromName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName
+  id: FromCategoryName
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FromCategoryName
+  nameWithType: NewsFeedItemTableInfo.FromCategoryName
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'FromCategoryName' in table 'NewsFeedItem': Dictionary type String[201], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Type of the instance that published this item. e.g. `Prospector Agent`
+  example: []
+  syntax:
+    content: public StringFieldInfo FromCategoryName { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FromCategoryName As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: NewsFeedItemTableInfo.Priority
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'Priority' in table 'NewsFeedItem': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.EMailPriority" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Importance of the news item. Low to High. Higher priority items may be shown more prominently in the feed.
+  example: []
+  syntax:
+    content: public EMailPriorityFieldInfo Priority { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.EMailPriorityFieldInfo
+    content.vb: Public ReadOnly Property Priority As EMailPriorityFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt
+  id: ExpiresAt
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ExpiresAt
+  nameWithType: NewsFeedItemTableInfo.ExpiresAt
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'ExpiresAt' in table 'NewsFeedItem': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    When the news item expires and should no longer be shown in feeds (UTC)
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo ExpiresAt { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property ExpiresAt As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: NewsFeedItemTableInfo.Status
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'Status' in table 'NewsFeedItem': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.NewsFeedItemStatus" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Indicates if the item is being handled by a CTA. (normal, processing, processed)
+  example: []
+  syntax:
+    content: public NewsFeedItemStatusFieldInfo Status { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+    content.vb: Public ReadOnly Property Status As NewsFeedItemStatusFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: NewsFeedItemTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'contact_id' in table 'NewsFeedItem': Dictionary type FK, target: Contact, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Related contact id - 0 if not related to a contact
+  example: []
+  syntax:
+    content: public Int32FieldInfo ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: NewsFeedItemTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'person_id' in table 'NewsFeedItem': Dictionary type FK, target: Person, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Related person id - 0 if not related to a person
+  example: []
+  syntax:
+    content: public Int32FieldInfo PersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property PersonId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: NewsFeedItemTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'project_id' in table 'NewsFeedItem': Dictionary type FK, target: Project, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Related project id - 0 if not related to a project
+  example: []
+  syntax:
+    content: public Int32FieldInfo ProjectId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ProjectId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: NewsFeedItemTableInfo.SaleId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sale_id' in table 'NewsFeedItem': Dictionary type FK, target: Sale, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Related sale id - 0 if not related to a sale
+  example: []
+  syntax:
+    content: public Int32FieldInfo SaleId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SaleId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId
+  id: ApplicationId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ApplicationId
+  nameWithType: NewsFeedItemTableInfo.ApplicationId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'ApplicationId' in table 'NewsFeedItem': Dictionary type String[101], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The id of the application that registered this news item. Used to resolve where any CTA should be posted when clicked.
+  example: []
+  syntax:
+    content: public StringFieldInfo ApplicationId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ApplicationId As StringFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: NewsFeedItemTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered' in table 'NewsFeedItem': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: NewsFeedItemTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered_associate_id' in table 'NewsFeedItem': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: NewsFeedItemTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated' in table 'NewsFeedItem': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: NewsFeedItemTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated_associate_id' in table 'NewsFeedItem': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: NewsFeedItemTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updatedCount' in table 'NewsFeedItem': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  id: ContactId_InnerJoin_Contact
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId_InnerJoin_Contact
+  nameWithType: NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key ContactId in this table, to its target table <xref href="SuperOffice.CRM.Data.ContactTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  id: PersonId_InnerJoin_Person
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId_InnerJoin_Person
+  nameWithType: NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key PersonId in this table, to its target table <xref href="SuperOffice.CRM.Data.PersonTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<PersonTableInfo> PersonId_InnerJoin_Person { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property PersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  id: ProjectId_InnerJoin_Project
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ProjectId_InnerJoin_Project
+  nameWithType: NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key ProjectId in this table, to its target table <xref href="SuperOffice.CRM.Data.ProjectTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<ProjectTableInfo> ProjectId_InnerJoin_Project { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+    content.vb: Public ReadOnly Property ProjectId_InnerJoin_Project As TargetedInnerJoin(Of ProjectTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  id: SaleId_InnerJoin_Sale
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleId_InnerJoin_Sale
+  nameWithType: NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key SaleId in this table, to its target table <xref href="SuperOffice.CRM.Data.SaleTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<SaleTableInfo> SaleId_InnerJoin_Sale { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTableInfo}
+    content.vb: Public ReadOnly Property SaleId_InnerJoin_Sale As TargetedInnerJoin(Of SaleTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  id: LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  nameWithType: NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key NewsFeedItemId on this table, to NewsFeedItemHtml.<xref href="SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.NewsfeeditemId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemHtmlTableInfo> LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId As TargetedLeftOuterJoin(Of NewsFeedItemHtmlTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  id: LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  nameWithType: NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key NewsFeedItemId on this table, to NewsFeedItemCta.<xref href="SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.NewsfeeditemId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemCtaTableInfo> LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId As TargetedLeftOuterJoin(Of NewsFeedItemCtaTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId*
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  id: LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  parent: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  nameWithType: NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key NewsFeedItemId on this table, to NewsFeedItemRecipient.<xref href="SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.NewsfeeditemId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemRecipientTableInfo> LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId As TargetedLeftOuterJoin(Of NewsFeedItemRecipientTableInfo)
+  overload: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId*
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_UseNolockIfPossible
+  name: UseNolockIfPossible
+  nameWithType: TableInfo.UseNolockIfPossible
+  fullName: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<NewsFeedItemTableInfo, To>(NewsFeedItemTableInfo)
+  nameWithType: EnumUtil.MapEnums<NewsFeedItemTableInfo, To>(NewsFeedItemTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.NewsFeedItemTableInfo, To>(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of NewsFeedItemTableInfo, To)(NewsFeedItemTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.NewsFeedItemTableInfo, To)(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  name.vb: MapEnums(Of NewsFeedItemTableInfo, To)(NewsFeedItemTableInfo)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<NewsFeedItemTableInfo, To>(NewsFeedItemTableInfo)
+  nameWithType: Converters.MapEnums<NewsFeedItemTableInfo, To>(NewsFeedItemTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.NewsFeedItemTableInfo, To>(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of NewsFeedItemTableInfo, To)(NewsFeedItemTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.NewsFeedItemTableInfo, To)(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  name.vb: MapEnums(Of NewsFeedItemTableInfo, To)(NewsFeedItemTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_DictionaryTableNumber
+  name: DictionaryTableNumber
+  nameWithType: NewsFeedItemTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_RuntimeDefinition
+  name: RuntimeDefinition
+  nameWithType: NewsFeedItemTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Definition
+  name: Definition
+  nameWithType: NewsFeedItemTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Definition
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_NewsFeedItemId
+  name: NewsFeedItemId
+  nameWithType: NewsFeedItemTableInfo.NewsFeedItemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.NewsFeedItemId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Title
+  name: Title
+  nameWithType: NewsFeedItemTableInfo.Title
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Title
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Summary
+  name: Summary
+  nameWithType: NewsFeedItemTableInfo.Summary
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Summary
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ImageLink
+  name: ImageLink
+  nameWithType: NewsFeedItemTableInfo.ImageLink
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ImageLink
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_SourceLink
+  name: SourceLink
+  nameWithType: NewsFeedItemTableInfo.SourceLink
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SourceLink
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_PreviewHint
+  name: PreviewHint
+  nameWithType: NewsFeedItemTableInfo.PreviewHint
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PreviewHint
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_FromName
+  name: FromName
+  nameWithType: NewsFeedItemTableInfo.FromName
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromName
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_FromCategoryName
+  name: FromCategoryName
+  nameWithType: NewsFeedItemTableInfo.FromCategoryName
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.FromCategoryName
+- uid: SuperOffice.Data.EMailPriority
+  commentId: T:SuperOffice.Data.EMailPriority
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EMailPriority.html
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.Data.EMailPriority
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Priority
+  name: Priority
+  nameWithType: NewsFeedItemTableInfo.Priority
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Priority
+- uid: SuperOffice.Data.SQL.EMailPriorityFieldInfo
+  commentId: T:SuperOffice.Data.SQL.EMailPriorityFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.EMailPriorityFieldInfo.html
+  name: EMailPriorityFieldInfo
+  nameWithType: EMailPriorityFieldInfo
+  fullName: SuperOffice.Data.SQL.EMailPriorityFieldInfo
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ExpiresAt
+  name: ExpiresAt
+  nameWithType: NewsFeedItemTableInfo.ExpiresAt
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ExpiresAt
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.Data.NewsFeedItemStatus
+  commentId: T:SuperOffice.Data.NewsFeedItemStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.NewsFeedItemStatus.html
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.Data.NewsFeedItemStatus
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Status
+  name: Status
+  nameWithType: NewsFeedItemTableInfo.Status
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Status
+- uid: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+  commentId: T:SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo.html
+  name: NewsFeedItemStatusFieldInfo
+  nameWithType: NewsFeedItemStatusFieldInfo
+  fullName: SuperOffice.Data.SQL.NewsFeedItemStatusFieldInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ContactId
+  name: ContactId
+  nameWithType: NewsFeedItemTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_PersonId
+  name: PersonId
+  nameWithType: NewsFeedItemTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ProjectId
+  name: ProjectId
+  nameWithType: NewsFeedItemTableInfo.ProjectId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_SaleId
+  name: SaleId
+  nameWithType: NewsFeedItemTableInfo.SaleId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ApplicationId
+  name: ApplicationId
+  nameWithType: NewsFeedItemTableInfo.ApplicationId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ApplicationId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Registered
+  name: Registered
+  nameWithType: NewsFeedItemTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Registered
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: NewsFeedItemTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_Updated
+  name: Updated
+  nameWithType: NewsFeedItemTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.Updated
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: NewsFeedItemTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_UpdatedCount
+  name: UpdatedCount
+  nameWithType: NewsFeedItemTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.ContactTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html
+  name: ContactTableInfo
+  nameWithType: ContactTableInfo
+  fullName: SuperOffice.CRM.Data.ContactTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ContactId_InnerJoin_Contact
+  name: ContactId_InnerJoin_Contact
+  nameWithType: NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ContactId_InnerJoin_Contact
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<ContactTableInfo>
+  nameWithType: TargetedInnerJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedInnerJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_PersonId_InnerJoin_Person
+  name: PersonId_InnerJoin_Person
+  nameWithType: NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.PersonId_InnerJoin_Person
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<PersonTableInfo>
+  nameWithType: TargetedInnerJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedInnerJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.ProjectTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProjectTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  name: ProjectTableInfo
+  nameWithType: ProjectTableInfo
+  fullName: SuperOffice.CRM.Data.ProjectTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_ProjectId_InnerJoin_Project
+  name: ProjectId_InnerJoin_Project
+  nameWithType: NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.ProjectId_InnerJoin_Project
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<ProjectTableInfo>
+  nameWithType: TargetedInnerJoin<ProjectTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjectTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ProjectTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ProjectTableInfo)
+  name.vb: TargetedInnerJoin(Of ProjectTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ProjectTableInfo
+    name: ProjectTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ProjectTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.SaleTableInfo
+  commentId: T:SuperOffice.CRM.Data.SaleTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html
+  name: SaleTableInfo
+  nameWithType: SaleTableInfo
+  fullName: SuperOffice.CRM.Data.SaleTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_SaleId_InnerJoin_Sale
+  name: SaleId_InnerJoin_Sale
+  nameWithType: NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId_InnerJoin_Sale
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<SaleTableInfo>
+  nameWithType: TargetedInnerJoin<SaleTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SaleTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SaleTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SaleTableInfo)
+  name.vb: TargetedInnerJoin(Of SaleTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.SaleTableInfo
+    name: SaleTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SaleTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SaleTableInfo
+    name: SaleTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SaleTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_RegisteredAssociateId_InnerJoin_Associate
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_UpdatedAssociateId_InnerJoin_Associate
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.UpdatedAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.NewsfeeditemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.NewsfeeditemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemHtmlTableInfo_NewsfeeditemId
+  name: NewsfeeditemId
+  nameWithType: NewsFeedItemHtmlTableInfo.NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.NewsfeeditemId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  name: LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  nameWithType: NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemHtml_NewsfeeditemId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemHtmlTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemHtmlTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemHtmlTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemHtmlTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+    name: NewsFeedItemHtmlTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+    name: NewsFeedItemHtmlTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of TargetTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.NewsfeeditemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.NewsfeeditemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemCtaTableInfo_NewsfeeditemId
+  name: NewsfeeditemId
+  nameWithType: NewsFeedItemCtaTableInfo.NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.NewsfeeditemId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  name: LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  nameWithType: NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemCta_NewsfeeditemId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemCtaTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemCtaTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemCtaTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemCtaTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+    name: NewsFeedItemCtaTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+    name: NewsFeedItemCtaTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.NewsfeeditemId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.NewsfeeditemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemRecipientTableInfo_NewsfeeditemId
+  name: NewsfeeditemId
+  nameWithType: NewsFeedItemRecipientTableInfo.NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.NewsfeeditemId
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId*
+  commentId: Overload:SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  name: LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  nameWithType: NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.LeftOuterJoin_NewsFeedItemRecipient_NewsfeeditemId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemRecipientTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemRecipientTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemRecipientTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemRecipientTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+    name: NewsFeedItemRecipientTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+    name: NewsFeedItemRecipientTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  - name: )

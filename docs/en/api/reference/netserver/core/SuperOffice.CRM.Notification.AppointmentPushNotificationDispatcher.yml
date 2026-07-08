@@ -1,0 +1,1663 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  commentId: T:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  id: AppointmentPushNotificationDispatcher
+  parent: SuperOffice.CRM.Notification
+  children:
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher})
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient,System.Boolean,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPushNotificationDispatcher
+  nameWithType: AppointmentPushNotificationDispatcher
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: >-
+    Hosted service that drains the appointment push-notification queue produced by
+
+    <xref href="SuperOffice.CRM.Entities.AppointmentMatrix" data-throw-if-not-resolved="false"></xref> and sends the notifications via
+
+    <xref href="SuperOffice.CRM.Notification.NotificationEventHandler" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    Sending push notifications involves a call to an external service (Central Services) per
+
+    recipient device, each taking from tens of milliseconds up to several seconds. Previously this
+
+    was done sequentially on the save/delete request thread; moving it here both decouples it from
+
+    the originating request and lets the recipients of a single appointment be processed in
+
+    parallel. Concurrency is deliberately bounded (<xref href="SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.MaxDegreeOfParallelism" data-throw-if-not-resolved="false"></xref>) to avoid
+
+    overwhelming / being throttled by the external service.
+
+    <p></p>
+
+    Each send does database-scoped work (resolving caches, reading device rows). Because several
+
+    run concurrently, each is dispatched through <xref href="SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> so it
+
+    gets its own service-provider scope and re-signed user rather than sharing request/database
+
+    scoped state - the established pattern for parallel database work in this codebase.
+  example: []
+  syntax:
+    content: 'public class AppointmentPushNotificationDispatcher : AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>, IDisposable, IHostedService'
+    content.vb: Public Class AppointmentPushNotificationDispatcher Inherits AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask) Implements IDisposable, IHostedService
+  inheritance:
+  - System.Object
+  - Microsoft.Extensions.Hosting.BackgroundService
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  implements:
+  - System.IDisposable
+  - Microsoft.Extensions.Hosting.IHostedService
+  inheritedMembers:
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}._queue
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ExecuteAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  - Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
+  - Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
+  - Microsoft.Extensions.Hosting.BackgroundService.StopAsync(System.Threading.CancellationToken)
+  - Microsoft.Extensions.Hosting.BackgroundService.Dispose
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher})
+  commentId: M:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher})
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher})'
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  langs:
+  - csharp
+  - vb
+  name: AppointmentPushNotificationDispatcher(IAsyncQueue<AppointmentPushNotificationTask>, ILogger<AppointmentPushNotificationDispatcher>)
+  nameWithType: AppointmentPushNotificationDispatcher.AppointmentPushNotificationDispatcher(IAsyncQueue<AppointmentPushNotificationTask>, ILogger<AppointmentPushNotificationDispatcher>)
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.AppointmentPushNotificationDispatcher(SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher>)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public AppointmentPushNotificationDispatcher(IAsyncQueue<AppointmentPushNotificationTask> queue, ILogger<AppointmentPushNotificationDispatcher> logger)
+    parameters:
+    - id: queue
+      type: SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher}
+    content.vb: Public Sub New(queue As IAsyncQueue(Of AppointmentPushNotificationTask), logger As ILogger(Of AppointmentPushNotificationDispatcher))
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.#ctor*
+  nameWithType.vb: AppointmentPushNotificationDispatcher.New(IAsyncQueue(Of AppointmentPushNotificationTask), ILogger(Of AppointmentPushNotificationDispatcher))
+  fullName.vb: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher))
+  name.vb: New(IAsyncQueue(Of AppointmentPushNotificationTask), ILogger(Of AppointmentPushNotificationDispatcher))
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  id: ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  langs:
+  - csharp
+  - vb
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>, CancellationToken)
+  nameWithType: AppointmentPushNotificationDispatcher.ProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: Process an item from the queue
+  example: []
+  syntax:
+    content: protected override Task ProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask> context, CancellationToken cancellationToken)
+    parameters:
+    - id: context
+      type: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+      description: Context of item to be processed
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Protected Overrides Function ProcessItemAsync(context As IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), cancellationToken As CancellationToken) As Task
+  overridden: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync*
+  nameWithType.vb: AppointmentPushNotificationDispatcher.ProcessItemAsync(IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), CancellationToken)
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient,System.Boolean,System.Threading.CancellationToken)
+  id: SendNotificationAsync(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+  langs:
+  - csharp
+  - vb
+  name: SendNotificationAsync(AppointmentPushNotificationRecipient, bool, CancellationToken)
+  nameWithType: AppointmentPushNotificationDispatcher.SendNotificationAsync(AppointmentPushNotificationRecipient, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Notification
+  summary: Sends a single push notification. Virtual so tests can substitute the external call.
+  example: []
+  syntax:
+    content: protected virtual Task SendNotificationAsync(AppointmentPushNotificationRecipient recipient, bool sendMessageToOurself, CancellationToken cancellationToken)
+    parameters:
+    - id: recipient
+      type: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+    - id: sendMessageToOurself
+      type: System.Boolean
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overridable Function SendNotificationAsync(recipient As AppointmentPushNotificationRecipient, sendMessageToOurself As Boolean, cancellationToken As CancellationToken) As Task
+  overload: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync*
+  nameWithType.vb: AppointmentPushNotificationDispatcher.SendNotificationAsync(AppointmentPushNotificationRecipient, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync(SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient, Boolean, System.Threading.CancellationToken)
+  name.vb: SendNotificationAsync(AppointmentPushNotificationRecipient, Boolean, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix
+  commentId: T:SuperOffice.CRM.Entities.AppointmentMatrix
+  isExternal: true
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  name: AppointmentMatrix
+  nameWithType: AppointmentMatrix
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix
+- uid: SuperOffice.CRM.Notification.NotificationEventHandler
+  commentId: T:SuperOffice.CRM.Notification.NotificationEventHandler
+  isExternal: true
+  href: SuperOffice.CRM.Notification.NotificationEventHandler.html
+  name: NotificationEventHandler
+  nameWithType: NotificationEventHandler
+  fullName: SuperOffice.CRM.Notification.NotificationEventHandler
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.MaxDegreeOfParallelism
+  commentId: F:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.MaxDegreeOfParallelism
+  isExternal: true
+- uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: RunInUserContext(Action, CancellationToken)
+  nameWithType: TaskHelper.RunInUserContext(Action, CancellationToken)
+  fullName: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+    name: RunInUserContext
+    isExternal: true
+  - name: (
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
+    name: RunInUserContext
+    isExternal: true
+  - name: (
+  - uid: System.Action
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Notification
+    name: Notification
+    isExternal: true
+    href: SuperOffice.CRM.Notification.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Notification
+    name: Notification
+    isExternal: true
+    href: SuperOffice.CRM.Notification.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Extensions.Hosting.BackgroundService
+  commentId: T:Microsoft.Extensions.Hosting.BackgroundService
+  parent: Microsoft.Extensions.Hosting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice
+  name: BackgroundService
+  nameWithType: BackgroundService
+  fullName: Microsoft.Extensions.Hosting.BackgroundService
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  commentId: T:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  name: AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, SuperOffice.CRM.Notification.AppointmentPushNotificationTask>
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), SuperOffice.CRM.Notification.AppointmentPushNotificationTask)
+  name.vb: AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.Extensions.Hosting.IHostedService
+  commentId: T:Microsoft.Extensions.Hosting.IHostedService
+  parent: Microsoft.Extensions.Hosting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.ihostedservice
+  name: IHostedService
+  nameWithType: IHostedService
+  fullName: Microsoft.Extensions.Hosting.IHostedService
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}._queue
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2._queue
+  name: _queue
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>._queue
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, SuperOffice.CRM.Notification.AppointmentPushNotificationTask>._queue
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask)._queue
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), SuperOffice.CRM.Notification.AppointmentPushNotificationTask)._queue
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ExecuteAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>.ExecuteAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, SuperOffice.CRM.Notification.AppointmentPushNotificationTask>.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask).ExecuteAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), SuperOffice.CRM.Notification.AppointmentPushNotificationTask).ExecuteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  name: OuterProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>.OuterProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, SuperOffice.CRM.Notification.AppointmentPushNotificationTask>.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask).OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), SuperOffice.CRM.Notification.AppointmentPushNotificationTask).OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), System.Threading.CancellationToken)
+  name.vb: OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<AppointmentPushNotificationTask>, AppointmentPushNotificationTask>.ProcessItemAsync(IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, SuperOffice.CRM.Notification.AppointmentPushNotificationTask>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of AppointmentPushNotificationTask), AppointmentPushNotificationTask).ProcessItemAsync(IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), SuperOffice.CRM.Notification.AppointmentPushNotificationTask).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},SuperOffice.CRM.Notification.AppointmentPushNotificationTask}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
+  parent: Microsoft.Extensions.Hosting.BackgroundService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.executeasync
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: BackgroundService.ExecuteAsync(CancellationToken)
+  fullName: Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.executeasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.executeasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
+  parent: Microsoft.Extensions.Hosting.BackgroundService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.startasync
+  name: StartAsync(CancellationToken)
+  nameWithType: BackgroundService.StartAsync(CancellationToken)
+  fullName: Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
+    name: StartAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.startasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
+    name: StartAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.startasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Microsoft.Extensions.Hosting.BackgroundService.StopAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Extensions.Hosting.BackgroundService.StopAsync(System.Threading.CancellationToken)
+  parent: Microsoft.Extensions.Hosting.BackgroundService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.stopasync
+  name: StopAsync(CancellationToken)
+  nameWithType: BackgroundService.StopAsync(CancellationToken)
+  fullName: Microsoft.Extensions.Hosting.BackgroundService.StopAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.StopAsync(System.Threading.CancellationToken)
+    name: StopAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.stopasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.StopAsync(System.Threading.CancellationToken)
+    name: StopAsync
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.stopasync
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: Microsoft.Extensions.Hosting.BackgroundService.Dispose
+  commentId: M:Microsoft.Extensions.Hosting.BackgroundService.Dispose
+  parent: Microsoft.Extensions.Hosting.BackgroundService
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.dispose
+  name: Dispose()
+  nameWithType: BackgroundService.Dispose()
+  fullName: Microsoft.Extensions.Hosting.BackgroundService.Dispose()
+  spec.csharp:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Hosting.BackgroundService.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting.backgroundservice.dispose
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<AppointmentPushNotificationDispatcher, To>(AppointmentPushNotificationDispatcher)
+  nameWithType: EnumUtil.MapEnums<AppointmentPushNotificationDispatcher, To>(AppointmentPushNotificationDispatcher)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher, To>(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentPushNotificationDispatcher, To)(AppointmentPushNotificationDispatcher)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher, To)(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+  name.vb: MapEnums(Of AppointmentPushNotificationDispatcher, To)(AppointmentPushNotificationDispatcher)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: )
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<AppointmentPushNotificationDispatcher, To>(AppointmentPushNotificationDispatcher)
+  nameWithType: Converters.MapEnums<AppointmentPushNotificationDispatcher, To>(AppointmentPushNotificationDispatcher)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher, To>(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+  nameWithType.vb: Converters.MapEnums(Of AppointmentPushNotificationDispatcher, To)(AppointmentPushNotificationDispatcher)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher, To)(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+  name.vb: MapEnums(Of AppointmentPushNotificationDispatcher, To)(AppointmentPushNotificationDispatcher)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Hosting
+  commentId: N:Microsoft.Extensions.Hosting
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Hosting
+  nameWithType: Microsoft.Extensions.Hosting
+  fullName: Microsoft.Extensions.Hosting
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Hosting
+    name: Hosting
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Hosting
+    name: Hosting
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.hosting
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2
+  commentId: T:SuperOffice.Threading.AsyncQueueProcessor`2
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html
+  name: AsyncQueueProcessor<TQueue, TItem>
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem)
+  name.vb: AsyncQueueProcessor(Of TQueue, TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html
+  - name: <
+  - name: TQueue
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2
+    name: AsyncQueueProcessor
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TQueue
+  - name: ','
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: SuperOffice.Threading
+  commentId: N:SuperOffice.Threading
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Threading
+  nameWithType: SuperOffice.Threading
+  fullName: SuperOffice.Threading
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Threading
+    name: Threading
+    isExternal: true
+    href: SuperOffice.Threading.html
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2._queue
+  commentId: F:SuperOffice.Threading.AsyncQueueProcessor`2._queue
+  isExternal: true
+  name: _queue
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>._queue
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>._queue
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem)._queue
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem)._queue
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
+  name: ExecuteAsync(CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ExecuteAsync(CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ExecuteAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
+    name: ExecuteAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: OuterProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.OuterProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.#ctor*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html#SuperOffice_CRM_Notification_AppointmentPushNotificationDispatcher__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Notification_AppointmentPushNotificationTask__Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Notification_AppointmentPushNotificationDispatcher__
+  name: AppointmentPushNotificationDispatcher
+  nameWithType: AppointmentPushNotificationDispatcher.AppointmentPushNotificationDispatcher
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.AppointmentPushNotificationDispatcher
+  nameWithType.vb: AppointmentPushNotificationDispatcher.New
+  fullName.vb: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.New
+  name.vb: New
+- uid: SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  commentId: T:SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueue`1
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  name: IAsyncQueue<AppointmentPushNotificationTask>
+  nameWithType: IAsyncQueue<AppointmentPushNotificationTask>
+  fullName: SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>
+  nameWithType.vb: IAsyncQueue(Of AppointmentPushNotificationTask)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask)
+  name.vb: IAsyncQueue(Of AppointmentPushNotificationTask)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<AppointmentPushNotificationDispatcher>
+  nameWithType: ILogger<AppointmentPushNotificationDispatcher>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher>
+  nameWithType.vb: ILogger(Of AppointmentPushNotificationDispatcher)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher)
+  name.vb: ILogger(Of AppointmentPushNotificationDispatcher)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
+    name: AppointmentPushNotificationDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html
+  - name: )
+- uid: SuperOffice.Threading.IAsyncQueue`1
+  commentId: T:SuperOffice.Threading.IAsyncQueue`1
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueue-1.html
+  name: IAsyncQueue<TItem>
+  nameWithType: IAsyncQueue<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueue<TItem>
+  nameWithType.vb: IAsyncQueue(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueue(Of TItem)
+  name.vb: IAsyncQueue(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueue-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueue`1
+    name: IAsyncQueue
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html#SuperOffice_CRM_Notification_AppointmentPushNotificationDispatcher_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_SuperOffice_CRM_Notification_AppointmentPushNotificationTask__System_Threading_CancellationToken_
+  name: ProcessItemAsync
+  nameWithType: AppointmentPushNotificationDispatcher.ProcessItemAsync
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.ProcessItemAsync
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Notification.AppointmentPushNotificationTask}
+  parent: SuperOffice.Threading
+  definition: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  name: IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>
+  nameWithType: IAsyncQueueProcessItemContext<AppointmentPushNotificationTask>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.CRM.Notification.AppointmentPushNotificationTask>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.CRM.Notification.AppointmentPushNotificationTask)
+  name.vb: IAsyncQueueProcessItemContext(Of AppointmentPushNotificationTask)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Notification.AppointmentPushNotificationTask
+    name: AppointmentPushNotificationTask
+    isExternal: true
+    href: SuperOffice.CRM.Notification.AppointmentPushNotificationTask.html
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  commentId: T:SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+  isExternal: true
+  href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  name: IAsyncQueueProcessItemContext<TItem>
+  nameWithType: IAsyncQueueProcessItemContext<TItem>
+  fullName: SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>
+  nameWithType.vb: IAsyncQueueProcessItemContext(Of TItem)
+  fullName.vb: SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem)
+  name.vb: IAsyncQueueProcessItemContext(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync*
+  commentId: Overload:SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.html#SuperOffice_CRM_Notification_AppointmentPushNotificationDispatcher_SendNotificationAsync_SuperOffice_CRM_Notification_AppointmentPushNotificationRecipient_System_Boolean_System_Threading_CancellationToken_
+  name: SendNotificationAsync
+  nameWithType: AppointmentPushNotificationDispatcher.SendNotificationAsync
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher.SendNotificationAsync
+- uid: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  commentId: T:SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+  parent: SuperOffice.CRM.Notification
+  isExternal: true
+  href: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient.html
+  name: AppointmentPushNotificationRecipient
+  nameWithType: AppointmentPushNotificationRecipient
+  fullName: SuperOffice.CRM.Notification.AppointmentPushNotificationRecipient
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

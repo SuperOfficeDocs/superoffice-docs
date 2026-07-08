@@ -11,8 +11,8 @@ items:
   - SuperOffice.Data.Dialect.SqlServerOperations.GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.Data.Dialect.SqlServerOperations.GetRowCountAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.SqlServerOperations.InnerTruncateTableAsync(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dialect.TruncateOptions)
-  - SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads
   - SuperOffice.Data.Dialect.SqlServerOperations.ShipoutBatchSize
+  - SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.SqlServerOperations.WriteBulkRowsAsync(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo,System.Threading.CancellationToken)
   langs:
   - csharp
@@ -56,6 +56,7 @@ items:
   - SuperOffice.Data.Dialect.DatabaseOperations.GetDbConnectionForUserAdmin
   - SuperOffice.Data.Dialect.DatabaseOperations.ExecuteNonQueryAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.DatabaseOperations.GetConnectionString
+  - SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -163,6 +164,37 @@ items:
     content.vb: Protected Overrides Function WriteBulkRowsAsync(importInfo As DatabaseOperations.BulkImportInfo, cancellationToken As CancellationToken) As Task
   overridden: SuperOffice.Data.Dialect.DatabaseOperations.WriteBulkRowsAsync(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo,System.Threading.CancellationToken)
   overload: SuperOffice.Data.Dialect.SqlServerOperations.WriteBulkRowsAsync*
+- uid: SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  id: UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.SqlServerOperations
+  langs:
+  - csharp
+  - vb
+  name: UpdateStatisticsAsync(SoTable, CancellationToken)
+  nameWithType: SqlServerOperations.UpdateStatisticsAsync(SoTable, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  summary: >-
+    Refresh statistics on the table after a wipe-and-import, so SQL Server's query optimizer bases its
+
+    decisions on the new data distribution rather than the statistics gathered before the table was wiped.
+  example: []
+  syntax:
+    content: protected override Task UpdateStatisticsAsync(SoTable table, CancellationToken cancellationToken = default)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function UpdateStatisticsAsync(table As SoTable, cancellationToken As CancellationToken = Nothing) As Task
+  overridden: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  overload: SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync*
 - uid: SuperOffice.Data.Dialect.SqlServerOperations.GetDatabaseSize
   commentId: M:SuperOffice.Data.Dialect.SqlServerOperations.GetDatabaseSize
   id: GetDatabaseSize
@@ -264,30 +296,6 @@ items:
     content.vb: Public Overrides Function GetKilobytes(table As SoTable) As Integer
   overridden: SuperOffice.Data.Dialect.DatabaseOperations.GetKilobytes(SuperOffice.Data.Dictionary.SoTable)
   overload: SuperOffice.Data.Dialect.SqlServerOperations.GetKilobytes*
-- uid: SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads
-  commentId: P:SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads
-  id: NumShipoutThreads
-  parent: SuperOffice.Data.Dialect.SqlServerOperations
-  langs:
-  - csharp
-  - vb
-  name: NumShipoutThreads
-  nameWithType: SqlServerOperations.NumShipoutThreads
-  fullName: SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Data.Dialect
-  summary: The number of parallel threads that process the data chunks and write them to the database
-  example: []
-  syntax:
-    content: protected override int NumShipoutThreads { get; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Protected Overrides ReadOnly Property NumShipoutThreads As Integer
-  overridden: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
-  overload: SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads*
 - uid: SuperOffice.Data.Dialect.SqlServerOperations.ShipoutBatchSize
   commentId: P:SuperOffice.Data.Dialect.SqlServerOperations.ShipoutBatchSize
   id: ShipoutBatchSize
@@ -1189,6 +1197,14 @@ references:
     href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_GetConnectionString
   - name: (
   - name: )
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_NumShipoutThreads
+  name: NumShipoutThreads
+  nameWithType: DatabaseOperations.NumShipoutThreads
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -1954,6 +1970,53 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Dialect.DatabaseOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  name: UpdateStatisticsAsync(SoTable, CancellationToken)
+  nameWithType: DatabaseOperations.UpdateStatisticsAsync(SoTable, CancellationToken)
+  fullName: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+    name: UpdateStatisticsAsync
+    isExternal: true
+    href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.DatabaseOperations.UpdateStatisticsAsync(SuperOffice.Data.Dictionary.SoTable,System.Threading.CancellationToken)
+    name: UpdateStatisticsAsync
+    isExternal: true
+    href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerOperations.html#SuperOffice_Data_Dialect_SqlServerOperations_UpdateStatisticsAsync_SuperOffice_Data_Dictionary_SoTable_System_Threading_CancellationToken_
+  name: UpdateStatisticsAsync
+  nameWithType: SqlServerOperations.UpdateStatisticsAsync
+  fullName: SuperOffice.Data.Dialect.SqlServerOperations.UpdateStatisticsAsync
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
   commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.GetDatabaseSize
   parent: SuperOffice.Data.Dialect.DatabaseOperations
@@ -2168,21 +2231,6 @@ references:
   name: GetKilobytes
   nameWithType: SqlServerOperations.GetKilobytes
   fullName: SuperOffice.Data.Dialect.SqlServerOperations.GetKilobytes
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
-  commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
-  parent: SuperOffice.Data.Dialect.DatabaseOperations
-  isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.html#SuperOffice_Data_Dialect_DatabaseOperations_NumShipoutThreads
-  name: NumShipoutThreads
-  nameWithType: DatabaseOperations.NumShipoutThreads
-  fullName: SuperOffice.Data.Dialect.DatabaseOperations.NumShipoutThreads
-- uid: SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads*
-  commentId: Overload:SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads
-  isExternal: true
-  href: SuperOffice.Data.Dialect.SqlServerOperations.html#SuperOffice_Data_Dialect_SqlServerOperations_NumShipoutThreads
-  name: NumShipoutThreads
-  nameWithType: SqlServerOperations.NumShipoutThreads
-  fullName: SuperOffice.Data.Dialect.SqlServerOperations.NumShipoutThreads
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
   commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.ShipoutBatchSize
   parent: SuperOffice.Data.Dialect.DatabaseOperations

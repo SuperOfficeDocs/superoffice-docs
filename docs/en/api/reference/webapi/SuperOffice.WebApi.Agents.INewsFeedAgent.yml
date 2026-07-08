@@ -1,0 +1,870 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent
+  commentId: T:SuperOffice.WebApi.Agents.INewsFeedAgent
+  id: INewsFeedAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.WebApi.Data.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: INewsFeedAgent
+  nameWithType: INewsFeedAgent
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent
+  type: Interface
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Posting and reading Newsfeed items, marking them as read or as handled.
+  example: []
+  syntax:
+    content: 'public interface INewsFeedAgent : IAgentBase, IDisposable'
+    content.vb: Public Interface INewsFeedAgent Inherits IAgentBase, IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  - SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  - System.IDisposable.Dispose
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultNewsFeedItemAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultNewsFeedItemAsync(RequestOptions)
+  nameWithType: INewsFeedAgent.CreateDefaultNewsFeedItemAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new NewsFeedItem.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: Task<NewsFeedItem> CreateDefaultNewsFeedItemAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem}
+      description: A blank NewsFeedItem
+    content.vb: Function CreateDefaultNewsFeedItemAsync(requestOptions As RequestOptions = Nothing) As Task(Of NewsFeedItem)
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync*
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteNewsFeedItemAsync(int, RequestOptions)
+  nameWithType: INewsFeedAgent.DeleteNewsFeedItemAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Deletes the NewsFeedItem
+  example: []
+  syntax:
+    content: Task DeleteNewsFeedItemAsync(int newsFeedItemId, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: The identity of the NewsFeedItem
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteNewsFeedItemAsync(newsFeedItemId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync*
+  nameWithType.vb: INewsFeedAgent.DeleteNewsFeedItemAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteNewsFeedItemAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetNewsFeedItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemAsync(int, RequestOptions)
+  nameWithType: INewsFeedAgent.GetNewsFeedItemAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific NewsFeedItem object.
+  example: []
+  syntax:
+    content: Task<NewsFeedItem> GetNewsFeedItemAsync(int newsFeedItemId, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: The identifier of the NewsFeedItem object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem}
+      description: NewsFeedItem
+    content.vb: Function GetNewsFeedItemAsync(newsFeedItemId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of NewsFeedItem)
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync*
+  nameWithType.vb: INewsFeedAgent.GetNewsFeedItemAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetNewsFeedItemAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.WebApi.Data.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.WebApi.Data.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: PostNewsFeedItemAsync(SuperOffice.WebApi.Data.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: PostNewsFeedItemAsync(NewsFeedItem, int[], int[], bool, RequestOptions)
+  nameWithType: INewsFeedAgent.PostNewsFeedItemAsync(NewsFeedItem, int[], int[], bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.WebApi.Data.NewsFeedItem, int[], int[], bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Saves a new item to the newsfeed, publishing it to the specified users.
+  example: []
+  syntax:
+    content: Task<NewsFeedItem> PostNewsFeedItemAsync(NewsFeedItem newsFeedItem, int[] toAssociateIds, int[] toGroupIds, bool toAll, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItem
+      type: SuperOffice.WebApi.Data.NewsFeedItem
+      description: The news feed item to post. NewsFeedItemId is ignored, as a new id will be generated when posting to the newsfeed.
+    - id: toAssociateIds
+      type: System.Int32[]
+      description: List of associate ids that this news feed item is sent to.
+    - id: toGroupIds
+      type: System.Int32[]
+      description: List of group ids that this news feed item is sent to. This gets resolved to associate ids when posted.
+    - id: toAll
+      type: System.Boolean
+      description: Indicates if this news feed item is sent to all users. Gets resolved into all users when posted.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem}
+      description: The news feed item that was posted, including its new id.
+    content.vb: Function PostNewsFeedItemAsync(newsFeedItem As NewsFeedItem, toAssociateIds As Integer(), toGroupIds As Integer(), toAll As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of NewsFeedItem)
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync*
+  nameWithType.vb: INewsFeedAgent.PostNewsFeedItemAsync(NewsFeedItem, Integer(), Integer(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.WebApi.Data.NewsFeedItem, Integer(), Integer(), Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: PostNewsFeedItemAsync(NewsFeedItem, Integer(), Integer(), Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetNewsFeedItemsByIdAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemsByIdAsync(int[], RequestOptions)
+  nameWithType: INewsFeedAgent.GetNewsFeedItemsByIdAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync(int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get an array of items from the newsfeed by id. If the current user cannot access a particular item, it will be excluded from the results.
+  example: []
+  syntax:
+    content: Task<NewsFeedItem[]> GetNewsFeedItemsByIdAsync(int[] newsFeedItemIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItemIds
+      type: System.Int32[]
+      description: Ids of the news feed items to mark as seen for this user.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem[]}
+      description: The news feed items that was posted, or null if not found/not accessible by the user.
+    content.vb: Function GetNewsFeedItemsByIdAsync(newsFeedItemIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of NewsFeedItem())
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync*
+  nameWithType.vb: INewsFeedAgent.GetNewsFeedItemsByIdAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetNewsFeedItemsByIdAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewsItemsForUserAsync(int, DateTime, DateTime, int, int, RequestOptions)
+  nameWithType: INewsFeedAgent.GetNewsItemsForUserAsync(int, DateTime, DateTime, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync(int, System.DateTime, System.DateTime, int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get a list of newsfeed items for a particular user between two dates. If the current user cannot access a particular item, it will be excluded from the results.
+  example: []
+  syntax:
+    content: Task<NewsFeedItem[]> GetNewsItemsForUserAsync(int associateId, DateTime fromDate, DateTime toDate, int top, int skip, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Id of the associate to fetch news feed items for. 0 = current user
+    - id: fromDate
+      type: System.DateTime
+      description: Start date for fetching news feed items.
+    - id: toDate
+      type: System.DateTime
+      description: End date for fetching news feed items.
+    - id: top
+      type: System.Int32
+      description: Maximum number of news feed items to return.
+    - id: skip
+      type: System.Int32
+      description: Number of news feed items to skip for paging.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem[]}
+      description: The news feed items that was posted, or null if not found/not accessible by the user.
+    content.vb: Function GetNewsItemsForUserAsync(associateId As Integer, fromDate As Date, toDate As Date, top As Integer, skip As Integer, requestOptions As RequestOptions = Nothing) As Task(Of NewsFeedItem())
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync*
+  nameWithType.vb: INewsFeedAgent.GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: MarkAsReadAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: MarkAsReadAsync(int, RequestOptions)
+  nameWithType: INewsFeedAgent.MarkAsReadAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Marks the news feed item as read, so it can be un-bolded in the current user's feed.
+  example: []
+  syntax:
+    content: Task MarkAsReadAsync(int newsFeedItemId, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: Id of the news feed item to mark as seen for this user.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function MarkAsReadAsync(newsFeedItemId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync*
+  nameWithType.vb: INewsFeedAgent.MarkAsReadAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: MarkAsReadAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: StartHandlingAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: StartHandlingAsync(int, RequestOptions)
+  nameWithType: INewsFeedAgent.StartHandlingAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Marks the news feed item as being handled, that CTA processing has started. i.e. other users should not start handling it also.
+  example: []
+  syntax:
+    content: Task<bool> StartHandlingAsync(int newsFeedItemId, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: Id of the news feed item to mark as handled for all users.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Indicates if the news feed item was successfully marked as being handled. False if it was already being handled or was handled.
+    content.vb: Function StartHandlingAsync(newsFeedItemId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync*
+  nameWithType.vb: INewsFeedAgent.StartHandlingAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: StartHandlingAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: MarkAsHandledAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.INewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: MarkAsHandledAsync(int, RequestOptions)
+  nameWithType: INewsFeedAgent.MarkAsHandledAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Marks the news feed item as handled, so it can be removed from the feed.
+  example: []
+  syntax:
+    content: Task<bool> MarkAsHandledAsync(int newsFeedItemId, RequestOptions requestOptions = null)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: Id of the news feed item to mark as handled for all users.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Indicates if the news feed item was successfully marked as handled. False if it was already handled.
+    content.vb: Function MarkAsHandledAsync(newsFeedItemId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync*
+  nameWithType.vb: INewsFeedAgent.MarkAsHandledAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: MarkAsHandledAsync(Integer, RequestOptions)
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Agents
+    name: Agents
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.html
+- uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  name: CancelRequest()
+  nameWithType: IAgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IAgentBase.CancelRequest
+    name: CancelRequest
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_CancelRequest
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_Configuration
+  name: Configuration
+  nameWithType: IAgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_HasRunningRequest
+  name: HasRunningRequest
+  nameWithType: IAgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_ProgressListener
+  name: ProgressListener
+  nameWithType: IAgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.ProgressListener
+- uid: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+  parent: SuperOffice.WebApi.Agents.IAgentBase
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html#SuperOffice_WebApi_Agents_IAgentBase_UploadProgressListener
+  name: UploadProgressListener
+  nameWithType: IAgentBase.UploadProgressListener
+  fullName: SuperOffice.WebApi.Agents.IAgentBase.UploadProgressListener
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAgentBase
+  commentId: T:SuperOffice.WebApi.Agents.IAgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAgentBase.html
+  name: IAgentBase
+  nameWithType: IAgentBase
+  fullName: SuperOffice.WebApi.Agents.IAgentBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_CreateDefaultNewsFeedItemAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultNewsFeedItemAsync
+  nameWithType: INewsFeedAgent.CreateDefaultNewsFeedItemAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.CreateDefaultNewsFeedItemAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.WebApi.RequestOptions.html
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NewsFeedItem>
+  nameWithType: Task<NewsFeedItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.NewsFeedItem>
+  nameWithType.vb: Task(Of NewsFeedItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.NewsFeedItem)
+  name.vb: Task(Of NewsFeedItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedItem.html
+  - name: )
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_DeleteNewsFeedItemAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteNewsFeedItemAsync
+  nameWithType: INewsFeedAgent.DeleteNewsFeedItemAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.DeleteNewsFeedItemAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_GetNewsFeedItemAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetNewsFeedItemAsync
+  nameWithType: INewsFeedAgent.GetNewsFeedItemAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemAsync
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_PostNewsFeedItemAsync_SuperOffice_WebApi_Data_NewsFeedItem_System_Int32___System_Int32___System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: PostNewsFeedItemAsync
+  nameWithType: INewsFeedAgent.PostNewsFeedItemAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.PostNewsFeedItemAsync
+- uid: SuperOffice.WebApi.Data.NewsFeedItem
+  commentId: T:SuperOffice.WebApi.Data.NewsFeedItem
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_GetNewsFeedItemsByIdAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: GetNewsFeedItemsByIdAsync
+  nameWithType: INewsFeedAgent.GetNewsFeedItemsByIdAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsFeedItemsByIdAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.NewsFeedItem[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NewsFeedItem[]>
+  nameWithType: Task<NewsFeedItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.NewsFeedItem[]>
+  nameWithType.vb: Task(Of NewsFeedItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.NewsFeedItem())
+  name.vb: Task(Of NewsFeedItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedItem.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedItem.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_GetNewsItemsForUserAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetNewsItemsForUserAsync
+  nameWithType: INewsFeedAgent.GetNewsItemsForUserAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.GetNewsItemsForUserAsync
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_MarkAsReadAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: MarkAsReadAsync
+  nameWithType: INewsFeedAgent.MarkAsReadAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsReadAsync
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_StartHandlingAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: StartHandlingAsync
+  nameWithType: INewsFeedAgent.StartHandlingAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.StartHandlingAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.INewsFeedAgent.html#SuperOffice_WebApi_Agents_INewsFeedAgent_MarkAsHandledAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: MarkAsHandledAsync
+  nameWithType: INewsFeedAgent.MarkAsHandledAsync
+  fullName: SuperOffice.WebApi.Agents.INewsFeedAgent.MarkAsHandledAsync

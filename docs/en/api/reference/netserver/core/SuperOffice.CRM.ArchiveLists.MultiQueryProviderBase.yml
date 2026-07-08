@@ -87,6 +87,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FavouritesProvider
   - SuperOffice.CRM.ArchiveLists.FreetextTicketResultProvider
   - SuperOffice.CRM.ArchiveLists.LinksProviderBase`3
+  - SuperOffice.CRM.ArchiveLists.MailingsAndFoldersProvider
   - SuperOffice.CRM.ArchiveLists.MultiQueryProviderBaseWithRestrictionGroups
   - SuperOffice.CRM.ArchiveLists.NotificationProvider
   - SuperOffice.CRM.ArchiveLists.PersonRelation

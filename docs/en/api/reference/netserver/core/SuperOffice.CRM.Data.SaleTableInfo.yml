@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_Appointment_SaleId
   - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_ChatSession_SaleId
   - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_EmailItem_SaleId
+  - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
   - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_Quote_SaleId
   - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_SaleHist_SaleId
   - SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_SaleStakeholder_SaleId
@@ -69,6 +70,7 @@ items:
   - SuperOffice.CRM.Data.SaleTableInfo.RegisteredAssociateId_InnerJoin_Associate
   - SuperOffice.CRM.Data.SaleTableInfo.ReopenDate
   - SuperOffice.CRM.Data.SaleTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.SaleTableInfo.SaleCycle
   - SuperOffice.CRM.Data.SaleTableInfo.SaleId
   - SuperOffice.CRM.Data.SaleTableInfo.SaleTypeCatId
   - SuperOffice.CRM.Data.SaleTableInfo.SaleTypeCatId_InnerJoin_SaleTypeCat
@@ -135,12 +137,10 @@ items:
   - SuperOffice.Data.SQL.TableInfo.Clone
   - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
-  - SuperOffice.Data.SQL.TableInfo.ProtAll
   - SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   - SuperOffice.Data.SQL.TableInfo.HashCheckFields
   - SuperOffice.Data.SQL.TableInfo.TableName
   - SuperOffice.Data.SQL.TableInfo.DbName
-  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
@@ -1603,6 +1603,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property StageWhenClosedId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId*
+- uid: SuperOffice.CRM.Data.SaleTableInfo.SaleCycle
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Data.SaleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: SaleTableInfo.SaleCycle
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.SaleCycle
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sale_cycle' in table 'sale': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of days from sale registered until the sale entered its current closed (Sold or Lost) state. 0/empty while the sale is open.
+  example: []
+  syntax:
+    content: public Int32FieldInfo SaleCycle { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SaleCycle As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.SaleTableInfo.SaleCycle*
 - uid: SuperOffice.CRM.Data.SaleTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SaleTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -2362,6 +2388,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailItemTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_EmailItem_SaleId As TargetedLeftOuterJoin(Of EmailItemTableInfo)
   overload: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_EmailItem_SaleId*
+- uid: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+  id: LeftOuterJoin_NewsFeedItem_SaleId
+  parent: SuperOffice.CRM.Data.SaleTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_NewsFeedItem_SaleId
+  nameWithType: SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key SaleId on this table, to NewsFeedItem.<xref href="SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NewsFeedItemTableInfo> LeftOuterJoin_NewsFeedItem_SaleId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_NewsFeedItem_SaleId As TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  overload: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -2605,14 +2654,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
-  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
-  name: ProtAll
-  nameWithType: TableInfo.ProtAll
-  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
 - uid: SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   commentId: P:SuperOffice.Data.SQL.TableInfo.UseNolockIfPossible
   parent: SuperOffice.Data.SQL.TableInfo
@@ -2645,14 +2686,6 @@ references:
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
-- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
-  parent: SuperOffice.Data.SQL.TableInfo
-  isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
-  name: IsDictionaryTable
-  nameWithType: TableInfo.IsDictionaryTable
-  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
 - uid: SuperOffice.Data.SQL.TableInfo.All
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
@@ -3781,6 +3814,13 @@ references:
   name: StageWhenClosedId
   nameWithType: SaleTableInfo.StageWhenClosedId
   fullName: SuperOffice.CRM.Data.SaleTableInfo.StageWhenClosedId
+- uid: SuperOffice.CRM.Data.SaleTableInfo.SaleCycle*
+  commentId: Overload:SuperOffice.CRM.Data.SaleTableInfo.SaleCycle
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_SaleCycle
+  name: SaleCycle
+  nameWithType: SaleTableInfo.SaleCycle
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.SaleCycle
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data
@@ -5263,4 +5303,53 @@ references:
     name: EmailItemTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.EmailItemTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  commentId: P:SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html#SuperOffice_CRM_Data_NewsFeedItemTableInfo_SaleId
+  name: SaleId
+  nameWithType: NewsFeedItemTableInfo.SaleId
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo.SaleId
+- uid: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId*
+  commentId: Overload:SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_LeftOuterJoin_NewsFeedItem_SaleId
+  name: LeftOuterJoin_NewsFeedItem_SaleId
+  nameWithType: SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+  fullName: SuperOffice.CRM.Data.SaleTableInfo.LeftOuterJoin_NewsFeedItem_SaleId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NewsFeedItemTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NewsFeedItemTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NewsFeedItemTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NewsFeedItemTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NewsFeedItemTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    name: NewsFeedItemTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
   - name: )

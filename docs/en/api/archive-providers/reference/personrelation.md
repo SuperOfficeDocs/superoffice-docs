@@ -106,7 +106,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |source/personDirectFax/description| *None* |Source - Fax - Description: Phone number description|  |
 |source/name|stringorPK|Source - Company name| x |
 |source/department|string|Source - Department| x |
-|source/nameDepartment| *None* |Source - Company: Displays the company an activity is linked to| x |
+|source/nameDepartment|string|Source - Company: Displays the company an activity is linked to| x |
 |source/associateId|associate|Source - Our contact: Displays our contact| x |
 |source/category|listAny|Source - Category| x |
 |source/categoryGroup|listAny|Source - Category group| x |
@@ -140,7 +140,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 |target/contactId|int|Target - Company ID: Database ID of company| x |
 |target/name|stringorPK|Target - Company name| x |
 |target/department|string|Target - Department| x |
-|target/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
+|target/nameDepartment|string|Target - Company: Displays the company an activity is linked to| x |
 |target/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |target/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |target/associateId|associate|Target - Our contact: Displays our contact| x |
@@ -576,7 +576,7 @@ the eight basic sub-providers (CC, PC, PP and CP plus their reversed cousins) in
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonRelation?$select=source/personHasInterests,source/companyCategoryRank,target/restrictionAddress/county,target/NumberOfNotCompletedTicketsInPeriod,source/NumberOfNotCompletedSales
+GET /api/v1/archive/PersonRelation?$select=target/LastDoByActivity,target/LastDoBySale,target/saintSaleStatus,role,portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

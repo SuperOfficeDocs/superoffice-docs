@@ -84,7 +84,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -663,6 +663,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -744,11 +745,12 @@ Link data provider for appointments, handles both addressing by source or by des
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
-|appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
+|appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/agenda|positiveString|Agenda| x |
@@ -762,7 +764,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/email/emailAddress,person/birthMonth,person/personActiveErpLinks,person/personBusiness,person/personExtra/y_car/id
+GET /api/v1/archive/LinksAppointments?$select=contact/streetAddress/line2,person/leadstatusRank,person/restrictionAddress/line2,project/projectAssociate/userName,project/projectUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -34,8 +34,6 @@ items:
   - SuperOffice.CRM.Security.HierarchySentry
   - SuperOffice.CRM.Security.HierarchySentryQueryInfo
   - SuperOffice.CRM.Security.ISentryIgnorable
-  - SuperOffice.CRM.Security.ISentryPlugin
-  - SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
   - SuperOffice.CRM.Security.ISentryQueryTableUpdater
   - SuperOffice.CRM.Security.ISoDataLookup
   - SuperOffice.CRM.Security.IgnoreSentryCheck
@@ -75,8 +73,6 @@ items:
   - SuperOffice.CRM.Security.Sentry.DataRightCache
   - SuperOffice.CRM.Security.SentryCollection
   - SuperOffice.CRM.Security.SentryIgnorableHelper
-  - SuperOffice.CRM.Security.SentryPluginAttribute
-  - SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
   - SuperOffice.CRM.Security.SentryPreferenceCache
   - SuperOffice.CRM.Security.SentryQueryAppointmentTableUpdater
   - SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
@@ -968,34 +964,6 @@ references:
   name: SentryIgnorableHelper
   nameWithType: SentryIgnorableHelper
   fullName: SuperOffice.CRM.Security.SentryIgnorableHelper
-- uid: SuperOffice.CRM.Security.ISentryPlugin
-  commentId: T:SuperOffice.CRM.Security.ISentryPlugin
-  isExternal: true
-  href: SuperOffice.CRM.Security.ISentryPlugin.html
-  name: ISentryPlugin
-  nameWithType: ISentryPlugin
-  fullName: SuperOffice.CRM.Security.ISentryPlugin
-- uid: SuperOffice.CRM.Security.SentryPluginAttribute
-  commentId: T:SuperOffice.CRM.Security.SentryPluginAttribute
-  isExternal: true
-  href: SuperOffice.CRM.Security.SentryPluginAttribute.html
-  name: SentryPluginAttribute
-  nameWithType: SentryPluginAttribute
-  fullName: SuperOffice.CRM.Security.SentryPluginAttribute
-- uid: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
-  commentId: T:SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
-  isExternal: true
-  href: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater.html
-  name: ISentryPluginQueryTableUpdater
-  nameWithType: ISentryPluginQueryTableUpdater
-  fullName: SuperOffice.CRM.Security.ISentryPluginQueryTableUpdater
-- uid: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
-  commentId: T:SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
-  isExternal: true
-  href: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute.html
-  name: SentryPluginQueryTableUpdaterAttribute
-  nameWithType: SentryPluginQueryTableUpdaterAttribute
-  fullName: SuperOffice.CRM.Security.SentryPluginQueryTableUpdaterAttribute
 - uid: SuperOffice.CRM.Security.SentryPreferenceCache
   commentId: T:SuperOffice.CRM.Security.SentryPreferenceCache
   isExternal: true

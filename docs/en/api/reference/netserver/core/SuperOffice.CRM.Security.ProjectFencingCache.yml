@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Security.ProjectFencingCache.ActiveProjectCount
   - SuperOffice.CRM.Security.ProjectFencingCache.CurrentCount
   - SuperOffice.CRM.Security.ProjectFencingCache.HasReachedMaximum
+  - SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   - SuperOffice.CRM.Security.ProjectFencingCache.Maximum
   - SuperOffice.CRM.Security.ProjectFencingCache.OnLoad
   - SuperOffice.CRM.Security.ProjectFencingCache.OnLoadAsync(System.Threading.CancellationToken)
@@ -36,7 +37,7 @@ items:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
   inheritedMembers:
-  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  - SuperOffice.Data.Cache.CacheBaseV2._logger
   - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.OnDispose
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
@@ -103,6 +104,49 @@ items:
     - name: OmitNullableDirective
       type: System.Boolean
       value: true
+- uid: SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  id: IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Security.ProjectFencingCache
+  langs:
+  - csharp
+  - vb
+  name: IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  nameWithType: ProjectFencingCache.IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  fullName: SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync(string, int, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: Determine if the change made the cache invalid.
+  remarks: >-
+    By default, any change to a cached table will
+
+    cause invalidation, but a cache may have a more discerning opinion; if so then implement
+
+    this method.
+  example: []
+  syntax:
+    content: protected override Task<bool> IsCacheInvalidatedAsync(string tableName, int primaryKey, PrivateSave save, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableName
+      type: System.String
+    - id: primaryKey
+      type: System.Int32
+      description: Primary key of the record being changed.
+    - id: save
+      type: SuperOffice.Data.SQL.PrivateSave
+      description: The SQL statement generating the change
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Protected Overrides Function IsCacheInvalidatedAsync(tableName As String, primaryKey As Integer, save As PrivateSave, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overridden: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  overload: SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync*
+  nameWithType.vb: ProjectFencingCache.IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync(String, Integer, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  name.vb: IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
 - uid: SuperOffice.CRM.Security.ProjectFencingCache.HasReachedMaximum
   commentId: M:SuperOffice.CRM.Security.ProjectFencingCache.HasReachedMaximum
   id: HasReachedMaximum
@@ -312,75 +356,14 @@ references:
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
-- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+- uid: SuperOffice.Data.Cache.CacheBaseV2._logger
+  commentId: F:SuperOffice.Data.Cache.CacheBaseV2._logger
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
-  name: IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
-  nameWithType: CacheBaseV2.IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(string, int, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
-  nameWithType.vb: CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
-  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
-  name.vb: IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
-    name: IsCacheInvalidatedAsync
-    isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.PrivateSave
-    name: PrivateSave
-    isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSave.html
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
-    name: IsCacheInvalidatedAsync
-    isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.PrivateSave
-    name: PrivateSave
-    isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSave.html
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2__logger
+  name: _logger
+  nameWithType: CacheBaseV2._logger
+  fullName: SuperOffice.Data.Cache.CacheBaseV2._logger
 - uid: SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
@@ -1340,6 +1323,212 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
+  name: IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  nameWithType: CacheBaseV2.IsCacheInvalidatedAsync(string, int, PrivateSave, CancellationToken)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(string, int, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  nameWithType.vb: CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
+  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(String, Integer, SuperOffice.Data.SQL.PrivateSave, System.Threading.CancellationToken)
+  name.vb: IsCacheInvalidatedAsync(String, Integer, PrivateSave, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSave.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
+    name: IsCacheInvalidatedAsync
+    isExternal: true
+    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    isExternal: true
+    href: SuperOffice.Data.SQL.PrivateSave.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync*
+  commentId: Overload:SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Security.ProjectFencingCache.html#SuperOffice_CRM_Security_ProjectFencingCache_IsCacheInvalidatedAsync_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_System_Threading_CancellationToken_
+  name: IsCacheInvalidatedAsync
+  nameWithType: ProjectFencingCache.IsCacheInvalidatedAsync
+  fullName: SuperOffice.CRM.Security.ProjectFencingCache.IsCacheInvalidatedAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.SQL.PrivateSave
+  commentId: T:SuperOffice.Data.SQL.PrivateSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.PrivateSave.html
+  name: PrivateSave
+  nameWithType: PrivateSave
+  fullName: SuperOffice.Data.SQL.PrivateSave
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
 - uid: SuperOffice.CRM.Security.ProjectFencingCache.HasReachedMaximum*
   commentId: Overload:SuperOffice.CRM.Security.ProjectFencingCache.HasReachedMaximum
   isExternal: true
@@ -1519,17 +1708,6 @@ references:
   name: ActiveProjectCount
   nameWithType: ProjectFencingCache.ActiveProjectCount
   fullName: SuperOffice.CRM.Security.ProjectFencingCache.ActiveProjectCount
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: SuperOffice.CRM.Security.ProjectFencingCache.CurrentCount*
   commentId: Overload:SuperOffice.CRM.Security.ProjectFencingCache.CurrentCount
   isExternal: true

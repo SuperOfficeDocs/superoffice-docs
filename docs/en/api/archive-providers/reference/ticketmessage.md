@@ -44,7 +44,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/ticketStatusId|int|Request - Status ID: Status| x |
 |ticket/priorityId|int|Request - Priority ID: ID of priority in database| x |
 |ticket/categoryId|int|Request - Category ID: ID of request category in database| x |
-|ticket/ticketTypeName| *None* |Request - Request type: Request type| x |
+|ticket/ticketTypeName|listAny|Request - Request type: Request type| x |
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
 |ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
 |ticket/priorityName|listAny|Request - Priority: Service priority| x |
@@ -392,7 +392,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/contactId|int|Request - Company ID: Database ID of company| x |
 |ticket/contact/name|stringorPK|Request - Company name| x |
 |ticket/contact/department|string|Request - Department| x |
-|ticket/contact/nameDepartment| *None* |Request - Company: Displays the company an activity is linked to| x |
+|ticket/contact/nameDepartment|string|Request - Company: Displays the company an activity is linked to| x |
 |ticket/contact/hasInfoText|bool|Request - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |ticket/contact/hasInterests|bool|Request - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |ticket/contact/associateId|associate|Request - Our contact: Displays our contact| x |
@@ -650,6 +650,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/amountInBaseCurrency| *None* |Request - Amount (BaseCurrency: The gross sales total| x |
 |ticket/sale/amountWeightedInBaseCurrency| *None* |Request - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |ticket/sale/daysInStage|int|Request - Days in stage: Total number of days in this stage| x |
+|ticket/sale/saleCycle|int|Request - Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |ticket/sale/visibleFor|listAny|Request - Visible for|  |
 |ticket/sale/sale/textId|int|Request - Text ID| x |
 |ticket/sale/sale/description|positiveString|Request - Text: Displays the text entered in the description field| x |
@@ -744,11 +745,11 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectAssociate/associateDbId|associate|Request - ID| x |
 |ticket/project/projectAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
 |ticket/project/projectAssociate/contactDepartment|string|Request - Owning department: Name of the department at the company the user belongs to| x |
-|ticket/project/projectAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/project/projectAssociate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
 |ticket/project/projectAssociate/usergroupId|int|Request - Group ID: The user's primary user group| x |
 |ticket/project/projectAssociate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/project/projectAssociate/contactCategory|listAny|Request - Category: Category| x |
@@ -848,11 +849,11 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |person/personCategory|listAny|Contact - Category| x |
 |person/personCategoryGroup|listAny|Contact - Category group| x |
 |person/personCategoryRank|int|Contact - !!Category rank| x |
-|person/personBusiness|listAny|Contact - Business| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personBusiness|listAny|Contact - Business| x |
 |person/leadStatus|listAny|Contact - Lead status| x |
 |person/leadstatusRank|int|Contact - !!Lead status RANK| x |
 |person/personDeletedDate|datetime|Contact - Deleted date: Deleted date|  |
@@ -876,7 +877,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticketMessageId,ticket/timeToClose,ticket/person/personExtra/y_car/id,ticket/person/correspondingAssociate/contactName,ticket/person/correspondingAssociate/usergroupId
+GET /api/v1/archive/TicketMessage?$select=timeSpent,ticket/person/personAddress/state,ticket/person/personUdef/SuperOffice:5,ticket/person/personExtra/y_car/id,ticket/person/personAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

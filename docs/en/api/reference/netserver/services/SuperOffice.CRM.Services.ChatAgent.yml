@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.ChatAgent.AcceptChatSessionTransferAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ChatAgent.AddChatMessageAsync(System.Int32,SuperOffice.CRM.Services.ChatMessage,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ChatAgent.AddChatTopicUserAgentAsync(System.Int32,SuperOffice.CRM.Services.ChatTopicAgent,System.Threading.CancellationToken)
@@ -103,22 +103,22 @@ items:
   nameWithType.vb: ChatAgent.New(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ChatAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.ChatAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.ChatAgent
   langs:
   - csharp
   - vb
-  name: ChatAgent(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: ChatAgent.ChatAgent(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.ChatAgent.ChatAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: ChatAgent(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: ChatAgent.ChatAgent(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.ChatAgent.ChatAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ChatAgent(IChatPresenceImplementation chatPresenceImplementation, IChatSessionEntityImplementation chatSessionEntityImplementation, IChatTopicAgentImplementation chatTopicAgentImplementation, IChatTopicEntityImplementation chatTopicEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public ChatAgent(IChatPresenceImplementation chatPresenceImplementation, IChatSessionEntityImplementation chatSessionEntityImplementation, IChatTopicAgentImplementation chatTopicAgentImplementation, IChatTopicEntityImplementation chatTopicEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: chatPresenceImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation
@@ -134,15 +134,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(chatPresenceImplementation As IChatPresenceImplementation, chatSessionEntityImplementation As IChatSessionEntityImplementation, chatTopicAgentImplementation As IChatTopicAgentImplementation, chatTopicEntityImplementation As IChatTopicEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(chatPresenceImplementation As IChatPresenceImplementation, chatSessionEntityImplementation As IChatSessionEntityImplementation, chatTopicAgentImplementation As IChatTopicAgentImplementation, chatTopicEntityImplementation As IChatTopicEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.ChatAgent.#ctor*
-  nameWithType.vb: ChatAgent.New(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.ChatAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: ChatAgent.New(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.ChatAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatPresenceImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatSessionEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicAgentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatTopicEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IChatPresenceImplementation, IChatSessionEntityImplementation, IChatTopicAgentImplementation, IChatTopicEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.ChatAgent.GetChatPresenceAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ChatAgent.GetChatPresenceAsync(System.Threading.CancellationToken)
   id: GetChatPresenceAsync(System.Threading.CancellationToken)
@@ -1628,16 +1624,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.ChatAgent.GetChatPresenceAsync*
   commentId: Overload:SuperOffice.CRM.Services.ChatAgent.GetChatPresenceAsync
   isExternal: true

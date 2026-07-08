@@ -5,8 +5,6 @@ items:
   id: ConfigFile.Documents
   parent: SuperOffice.Configuration
   children:
-  - SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
-  - SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath1
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath10
@@ -19,11 +17,9 @@ items:
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath8
   - SuperOffice.Configuration.ConfigFile.Documents.ArchivePath9
   - SuperOffice.Configuration.ConfigFile.Documents.ArchiveRelativePath
-  - SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
   - SuperOffice.Configuration.ConfigFile.Documents.AzureBlobStorageContainerPrimaryUri
   - SuperOffice.Configuration.ConfigFile.Documents.BufferSize
   - SuperOffice.Configuration.ConfigFile.Documents.CanCreateDocumentTemplates
-  - SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
   - SuperOffice.Configuration.ConfigFile.Documents.TemplatePath
   - SuperOffice.Configuration.ConfigFile.Documents.TemplateRelativePath
   - SuperOffice.Configuration.ConfigFile.Documents.TemporaryPath
@@ -446,99 +442,6 @@ items:
       type: System.String
     content.vb: Public Shared Property TemporaryPath As String
   overload: SuperOffice.Configuration.ConfigFile.Documents.TemporaryPath*
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
-  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
-  id: ImpersonateUser
-  parent: SuperOffice.Configuration.ConfigFile.Documents
-  langs:
-  - csharp
-  - vb
-  name: ImpersonateUser
-  nameWithType: ConfigFile.Documents.ImpersonateUser
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Impersonate the user to access the document archive.
-  remarks: If this value is true, see section <xref href="SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser" data-throw-if-not-resolved="false"></xref> for further reference.
-  example: []
-  syntax:
-    content: public static bool ImpersonateUser { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Property ImpersonateUser As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser*
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-  id: ArchiveUser
-  parent: SuperOffice.Configuration.ConfigFile.Documents
-  langs:
-  - csharp
-  - vb
-  name: ArchiveUser
-  nameWithType: ConfigFile.Documents.ArchiveUser
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Username of the user to impersonate.
-  example: []
-  syntax:
-    content: public static string ArchiveUser { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Shared Property ArchiveUser As String
-  overload: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser*
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
-  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
-  id: ArchivePassword
-  parent: SuperOffice.Configuration.ConfigFile.Documents
-  langs:
-  - csharp
-  - vb
-  name: ArchivePassword
-  nameWithType: ConfigFile.Documents.ArchivePassword
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Password of the user to impersonate.
-  example: []
-  syntax:
-    content: public static string ArchivePassword { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Shared Property ArchivePassword As String
-  overload: SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword*
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
-  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
-  id: ArchiveDomain
-  parent: SuperOffice.Configuration.ConfigFile.Documents
-  langs:
-  - csharp
-  - vb
-  name: ArchiveDomain
-  nameWithType: ConfigFile.Documents.ArchiveDomain
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Domain of the user to impersonate.
-  example: []
-  syntax:
-    content: public static string ArchiveDomain { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Shared Property ArchiveDomain As String
-  overload: SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain*
 - uid: SuperOffice.Configuration.ConfigFile.Documents.BufferSize
   commentId: P:SuperOffice.Configuration.ConfigFile.Documents.BufferSize
   id: BufferSize
@@ -987,52 +890,6 @@ references:
   name: TemporaryPath
   nameWithType: ConfigFile.Documents.TemporaryPath
   fullName: SuperOffice.Configuration.ConfigFile.Documents.TemporaryPath
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-  commentId: P:SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Documents.html#SuperOffice_Configuration_ConfigFile_Documents_ArchiveUser
-  name: ArchiveUser
-  nameWithType: ConfigFile.Documents.ArchiveUser
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Documents.html#SuperOffice_Configuration_ConfigFile_Documents_ImpersonateUser
-  name: ImpersonateUser
-  nameWithType: ConfigFile.Documents.ImpersonateUser
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ImpersonateUser
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Documents.html#SuperOffice_Configuration_ConfigFile_Documents_ArchiveUser
-  name: ArchiveUser
-  nameWithType: ConfigFile.Documents.ArchiveUser
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveUser
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Documents.html#SuperOffice_Configuration_ConfigFile_Documents_ArchivePassword
-  name: ArchivePassword
-  nameWithType: ConfigFile.Documents.ArchivePassword
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchivePassword
-- uid: SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Documents.html#SuperOffice_Configuration_ConfigFile_Documents_ArchiveDomain
-  name: ArchiveDomain
-  nameWithType: ConfigFile.Documents.ArchiveDomain
-  fullName: SuperOffice.Configuration.ConfigFile.Documents.ArchiveDomain
 - uid: SuperOffice.Configuration.ConfigFile.Documents.BufferSize*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Documents.BufferSize
   isExternal: true
@@ -1058,3 +915,14 @@ references:
   name: CanCreateDocumentTemplates
   nameWithType: ConfigFile.Documents.CanCreateDocumentTemplates
   fullName: SuperOffice.Configuration.ConfigFile.Documents.CanCreateDocumentTemplates
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

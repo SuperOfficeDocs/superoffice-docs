@@ -94,6 +94,7 @@ as well as before any ORDER BY, are applied.
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |daysInStage|int|Days in stage: Total number of days in this stage| x |
+|saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |visibleFor|listAny|Visible for|  |
 |sale/textId|int|Text ID| x |
 |sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -133,11 +134,11 @@ as well as before any ORDER BY, are applied.
 |person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
@@ -237,11 +238,11 @@ as well as before any ORDER BY, are applied.
 |person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
-|person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
 |person/personExtra/y\_rental/x\_start|date|Rental - Start rental: Start rental| x |
 |person/personExtra/y\_rental/x\_end|date|Rental - End: End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
@@ -327,7 +328,7 @@ as well as before any ORDER BY, are applied.
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -341,11 +342,11 @@ as well as before any ORDER BY, are applied.
 |contact/code|string|Code| x |
 |contact/orgnr|string|VAT No.| x |
 |contact/stop|bool|Stop| x |
-|contact/contactNoMail|bool|No mailings (company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactNoMail|bool|No mailings (company| x |
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
 |contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -445,11 +446,11 @@ as well as before any ORDER BY, are applied.
 |contact/contactAssociate/locationAddress|string|Location: Location| x |
 |contact/contactAssociate/isLocation|bool|Is a location: Is a location| x |
 |contact/contactInterestIds|listInterest|Company Interest: This criterion corresponds to the Interests tab on the Company card.|  |
-|contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |contact/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |contact/contactUdef/SuperOffice:3|int|companynumber| x |
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
@@ -549,11 +550,11 @@ as well as before any ORDER BY, are applied.
 |saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
-|saleUdef/SuperOffice:8|decimal|saledecimal| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
 |project/projectId|int|DB ID: Displays the database ID for a project row| x |
 |project/name|stringorPK|Project name: Displays the Project's name| x |
@@ -653,11 +654,11 @@ as well as before any ORDER BY, are applied.
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
 |project/saintTicketStatus|listAny|Status|  |
-|project/saintTicketCategory|listAny|Category|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/saintTicketCategory|listAny|Category|  |
 |project/project/textId|int|Text ID| x |
 |project/project/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |saleStakeholder/saleStakeholderId|int|Stakeholder - Stakeholder ID: Database ID of the stakeholder row| x |
@@ -757,11 +758,11 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/personAddress/formattedAddress| *None* |Stakeholder - Contact address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/personAddress/formattedMultiLineAddress| *None* |Stakeholder - Contact address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/person/restrictionAddress/addressId|int|Stakeholder - Search address - Address ID: Database ID for the address record| x |
-|saleStakeholder/person/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/restrictionAddress/line1|string|Stakeholder - Search address - Address 1: First line of the address| x |
 |saleStakeholder/person/restrictionAddress/line2|string|Stakeholder - Search address - Address 2: Second line of the address| x |
 |saleStakeholder/person/restrictionAddress/line3|string|Stakeholder - Search address - Address 3: Third line of the address| x |
 |saleStakeholder/person/restrictionAddress/county|string|Stakeholder - Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -861,11 +862,11 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/correspondingAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
 |saleStakeholder/person/correspondingAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/person/correspondingAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
-|saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/correspondingAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |saleStakeholder/person/correspondingAssociate/ejDisplayName|string|Stakeholder - Nickname: User's nickname in Service| x |
 |saleStakeholder/person/correspondingAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/person/correspondingAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
@@ -891,7 +892,7 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/contact/name|stringorPK|Stakeholder - Company name| x |
 |saleStakeholder/contact/department|string|Stakeholder - Department| x |
-|saleStakeholder/contact/nameDepartment| *None* |Stakeholder - Company: Displays the company an activity is linked to| x |
+|saleStakeholder/contact/nameDepartment|string|Stakeholder - Company: Displays the company an activity is linked to| x |
 |saleStakeholder/contact/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
@@ -965,11 +966,11 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/restrictionAddress/city|string|Stakeholder - Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |saleStakeholder/contact/restrictionAddress/zip|string|Stakeholder - Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |saleStakeholder/contact/restrictionAddress/state|string|Stakeholder - Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|saleStakeholder/contact/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/restrictionAddress/wgs84latitude|decimal|Stakeholder - Search address - Latitude: Latitude| x |
 |saleStakeholder/contact/restrictionAddress/wgs84longitude|decimal|Stakeholder - Search address - Longitude: Longitude| x |
 |saleStakeholder/contact/restrictionAddress/formattedAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
 |saleStakeholder/contact/restrictionAddress/formattedMultiLineAddress| *None* |Stakeholder - Search address - {formattedAddress}: {formattedAddress}|  |
@@ -1069,11 +1070,11 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/saintIntention|listAny|Stakeholder - Intention|  |
 |saleStakeholder/contact/saintTicketStatus|listAny|Stakeholder - Status|  |
 |saleStakeholder/contact/saintTicketCategory|listAny|Stakeholder - Category|  |
-|quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/quoteId|int|Quote ID: SuperOffice database ID of quote record| x |
 |quote/poNumber|string|P.O. Number: Customer's purchase order number| x |
 |quote/orderComment|string|Comment: Customer's comment| x |
 |quote/connectionId|int|DB-ID: Database ID| x |
@@ -1170,7 +1171,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=person/personAddress/formattedAddress,person/personAssociate/personId,project/projectAssociate/personId,project/projectUdef/SuperOffice:10,project/NumberOfNotCompletedActivitiesInPeriod
+GET /api/v1/archive/FreetextSale?$select=person/personExtra/x_person_time,person/personExtra/y_rental/x_start,contact/contactAssociate/usergroupId,contact/contactUdef/SuperOffice:1,saleUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

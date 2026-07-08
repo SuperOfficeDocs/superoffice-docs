@@ -204,7 +204,7 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The mail template to use when automatically sending emails to new persons created with this consent source.
+  summary: The document template to be used for sending 'You have been added to our system, is this ok' emails when a new person is registered using this source
   example: []
   syntax:
     content: public virtual int MailTemplateId { get; set; }

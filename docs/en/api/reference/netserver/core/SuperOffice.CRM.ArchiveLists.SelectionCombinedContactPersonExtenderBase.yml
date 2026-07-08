@@ -51,6 +51,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.CombinedContactExtenderBase._colWho
   - SuperOffice.CRM.ArchiveLists.CombinedContactExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.CombinedContactExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._wantNavigationLinks
+  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._mainPersonHelper
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.ColContactId
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.ColCategory
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colContactId
@@ -84,7 +86,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colDeletedDate
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colMainContact
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colForceCompany
-  - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ContactExtenderBase.GetNameAndDepartment(SuperOffice.Data.SoDataReader)
@@ -695,6 +696,22 @@ references:
     name: ArchiveRow
     isExternal: true
   - name: )
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._wantNavigationLinks
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._wantNavigationLinks
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase__wantNavigationLinks
+  name: _wantNavigationLinks
+  nameWithType: ContactExtenderBase._wantNavigationLinks
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._wantNavigationLinks
+- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._mainPersonHelper
+  commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase._mainPersonHelper
+  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase__mainPersonHelper
+  name: _mainPersonHelper
+  nameWithType: ContactExtenderBase._mainPersonHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._mainPersonHelper
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.ColContactId
   commentId: F:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.ColContactId
   parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
@@ -959,28 +976,6 @@ references:
   name: _colForceCompany
   nameWithType: ContactExtenderBase._colForceCompany
   fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase._colForceCompany
-- uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
-  commentId: M:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
-  parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase_StandardNameDept
-  name: StandardNameDept()
-  nameWithType: ContactExtenderBase.StandardNameDept()
-  fullName: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
-    name: StandardNameDept
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase_StandardNameDept
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.StandardNameDept
-    name: StandardNameDept
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.html#SuperOffice_CRM_ArchiveLists_ContactExtenderBase_StandardNameDept
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.ContactExtenderBase.Features,System.String)
   parent: SuperOffice.CRM.ArchiveLists.ContactExtenderBase

@@ -36,6 +36,7 @@ items:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
   inheritedMembers:
+  - SuperOffice.Data.Cache.CacheBaseV2._logger
   - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.InstanceDispose
   - SuperOffice.Data.Cache.CacheBaseV2.OnDispose
@@ -281,6 +282,14 @@ references:
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
+- uid: SuperOffice.Data.Cache.CacheBaseV2._logger
+  commentId: F:SuperOffice.Data.Cache.CacheBaseV2._logger
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2__logger
+  name: _logger
+  nameWithType: CacheBaseV2._logger
+  fullName: SuperOffice.Data.Cache.CacheBaseV2._logger
 - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidatedAsync(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave,System.Threading.CancellationToken)
   parent: SuperOffice.Data.Cache.CacheBaseV2

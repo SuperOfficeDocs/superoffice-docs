@@ -97,7 +97,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPerson.ConsentPurposeId: Legal base'
+  summary: 'ConsentPerson.ConsentPurposeId: Consent purpose'
   example: []
   syntax:
     content: public const string ConsentPurposeId = "consentPurpose_id"

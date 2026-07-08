@@ -33,7 +33,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
 |categoryId|int|Category ID: ID of request category in database| x |
-|ticketTypeName| *None* |Request type: Request type| x |
+|ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -381,7 +381,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -635,16 +635,17 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
@@ -744,11 +745,11 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName|string|Nickname: User's nickname in Service| x |
-|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
@@ -797,7 +798,7 @@ Ticket shadow selection archive with OR-able selection groups. Each group is rep
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=createdBy/associateDbId,person/personUdef/SuperOffice:2,person/correspondingAssociate/locationAddress,contact/contactUdef/SuperOffice:4,project/projectAssociate/otherGroups
+GET /api/v1/archive/TicketShadowDynamicSelectionV2?$select=person/personAssociateId,sale/earning,sale/daysInStage,sale/associate/credentialDisplayValue,sale/saleUdef/SuperOffice:7
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

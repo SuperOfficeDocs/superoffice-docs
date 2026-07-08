@@ -12,7 +12,7 @@ items:
   - SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object})
   - SuperOffice.CRM.Webhooks.IWebhookManager.NotifyWebhooksAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook},SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.IWebhookManager.RecordResult(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookResponse,System.Threading.CancellationToken)
-  - SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  - SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
   - SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   - SuperOffice.CRM.Webhooks.IWebhookManager.TestWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.IWebhookManager.WaitForWebhooksToCompleteAsync(System.Threading.CancellationToken)
@@ -207,16 +207,16 @@ items:
   nameWithType.vb: IWebhookManager.Notify(ChangeType, Integer, String, IDictionary(Of String, Object), Integer, IDictionary(Of String, Object))
   fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.Notify(SuperOffice.CRM.Webhooks.ChangeType, Integer, String, System.Collections.Generic.IDictionary(Of String, Object), Integer, System.Collections.Generic.IDictionary(Of String, Object))
   name.vb: Notify(ChangeType, Integer, String, IDictionary(Of String, Object), Integer, IDictionary(Of String, Object))
-- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
-  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
-  id: SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+- uid: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
+  commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
+  id: SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook,System.Boolean)
   parent: SuperOffice.CRM.Webhooks.IWebhookManager
   langs:
   - csharp
   - vb
-  name: SaveWebhookAsync(Webhook)
-  nameWithType: IWebhookManager.SaveWebhookAsync(Webhook)
-  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook)
+  name: SaveWebhookAsync(Webhook, bool)
+  nameWithType: IWebhookManager.SaveWebhookAsync(Webhook, bool)
+  fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, bool)
   type: Method
   assemblies:
   - SoDataBase
@@ -224,16 +224,21 @@ items:
   summary: Store/Create a webhook.
   example: []
   syntax:
-    content: Task<Webhook> SaveWebhookAsync(Webhook webhook)
+    content: Task<Webhook> SaveWebhookAsync(Webhook webhook, bool restart = false)
     parameters:
     - id: webhook
       type: SuperOffice.CRM.Webhooks.Webhook
       description: webhook to store. Create new hook if id=0
+    - id: restart
+      type: System.Boolean
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Webhooks.Webhook}
       description: Updated webhook, with primary key set.
-    content.vb: Function SaveWebhookAsync(webhook As Webhook) As Task(Of Webhook)
+    content.vb: Function SaveWebhookAsync(webhook As Webhook, restart As Boolean = False) As Task(Of Webhook)
   overload: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync*
+  nameWithType.vb: IWebhookManager.SaveWebhookAsync(Webhook, Boolean)
+  fullName.vb: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync(SuperOffice.CRM.Webhooks.Webhook, Boolean)
+  name.vb: SaveWebhookAsync(Webhook, Boolean)
 - uid: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   commentId: M:SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
   id: SignalEvent(System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Int32)
@@ -1147,7 +1152,7 @@ references:
 - uid: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.IWebhookManager.html#SuperOffice_CRM_Webhooks_IWebhookManager_SaveWebhookAsync_SuperOffice_CRM_Webhooks_Webhook_
+  href: SuperOffice.CRM.Webhooks.IWebhookManager.html#SuperOffice_CRM_Webhooks_IWebhookManager_SaveWebhookAsync_SuperOffice_CRM_Webhooks_Webhook_System_Boolean_
   name: SaveWebhookAsync
   nameWithType: IWebhookManager.SaveWebhookAsync
   fullName: SuperOffice.CRM.Webhooks.IWebhookManager.SaveWebhookAsync
@@ -1159,6 +1164,17 @@ references:
   name: Webhook
   nameWithType: Webhook
   fullName: SuperOffice.CRM.Webhooks.Webhook
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent*
   commentId: Overload:SuperOffice.CRM.Webhooks.IWebhookManager.SignalEvent
   isExternal: true

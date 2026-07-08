@@ -5,7 +5,7 @@ items:
   id: DatabaseStepAttribute
   parent: SuperOffice.Data
   children:
-  - SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+  - SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
   - SuperOffice.Data.DatabaseStepAttribute.StepInfo
   - SuperOffice.Data.DatabaseStepAttribute.TypeId
   langs:
@@ -92,34 +92,32 @@ items:
     - name: AllowMultiple
       type: System.Boolean
       value: true
-- uid: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-  commentId: M:SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-  id: '#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)'
+- uid: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
   parent: SuperOffice.Data.DatabaseStepAttribute
   langs:
   - csharp
   - vb
-  name: DatabaseStepAttribute(string, int, ReleaseState)
-  nameWithType: DatabaseStepAttribute.DatabaseStepAttribute(string, int, ReleaseState)
-  fullName: SuperOffice.Data.DatabaseStepAttribute.DatabaseStepAttribute(string, int, SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
+  name: DatabaseStepAttribute(string, int)
+  nameWithType: DatabaseStepAttribute.DatabaseStepAttribute(string, int)
+  fullName: SuperOffice.Data.DatabaseStepAttribute.DatabaseStepAttribute(string, int)
   type: Constructor
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public DatabaseStepAttribute(string stepName, int stepNumber, ReleaseState stepState)
+    content: public DatabaseStepAttribute(string stepName, int stepNumber)
     parameters:
     - id: stepName
       type: System.String
     - id: stepNumber
       type: System.Int32
-    - id: stepState
-      type: SuperOffice.CD.DSL.V1.StepModel.ReleaseState
-    content.vb: Public Sub New(stepName As String, stepNumber As Integer, stepState As ReleaseState)
+    content.vb: Public Sub New(stepName As String, stepNumber As Integer)
   overload: SuperOffice.Data.DatabaseStepAttribute.#ctor*
-  nameWithType.vb: DatabaseStepAttribute.New(String, Integer, ReleaseState)
-  fullName.vb: SuperOffice.Data.DatabaseStepAttribute.New(String, Integer, SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-  name.vb: New(String, Integer, ReleaseState)
+  nameWithType.vb: DatabaseStepAttribute.New(String, Integer)
+  fullName.vb: SuperOffice.Data.DatabaseStepAttribute.New(String, Integer)
+  name.vb: New(String, Integer)
 - uid: SuperOffice.Data.DatabaseStepAttribute.StepInfo
   commentId: P:SuperOffice.Data.DatabaseStepAttribute.StepInfo
   id: StepInfo
@@ -2264,7 +2262,7 @@ references:
 - uid: SuperOffice.Data.DatabaseStepAttribute.#ctor*
   commentId: Overload:SuperOffice.Data.DatabaseStepAttribute.#ctor
   isExternal: true
-  href: SuperOffice.Data.DatabaseStepAttribute.html#SuperOffice_Data_DatabaseStepAttribute__ctor_System_String_System_Int32_SuperOffice_CD_DSL_V1_StepModel_ReleaseState_
+  href: SuperOffice.Data.DatabaseStepAttribute.html#SuperOffice_Data_DatabaseStepAttribute__ctor_System_String_System_Int32_
   name: DatabaseStepAttribute
   nameWithType: DatabaseStepAttribute.DatabaseStepAttribute
   fullName: SuperOffice.Data.DatabaseStepAttribute.DatabaseStepAttribute
@@ -2293,12 +2291,6 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: SuperOffice.CD.DSL.V1.StepModel.ReleaseState
-  commentId: '!:SuperOffice.CD.DSL.V1.StepModel.ReleaseState'
-  isExternal: true
-  name: ReleaseState
-  nameWithType: ReleaseState
-  fullName: SuperOffice.CD.DSL.V1.StepModel.ReleaseState
 - uid: SuperOffice.Data.DatabaseStepAttribute.StepInfo*
   commentId: Overload:SuperOffice.Data.DatabaseStepAttribute.StepInfo
   isExternal: true

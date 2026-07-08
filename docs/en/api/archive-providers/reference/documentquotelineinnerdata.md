@@ -175,6 +175,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/amountInBaseCurrency| *None* |Sale - Amount (BaseCurrency: The gross sales total| x |
 |alternative/version/quote/sale/amountWeightedInBaseCurrency| *None* |Sale - Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |alternative/version/quote/sale/daysInStage|int|Sale - Days in stage: Total number of days in this stage| x |
+|alternative/version/quote/sale/saleCycle|int|Sale - Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |alternative/version/quote/sale/visibleFor|listAny|Sale - Visible for|  |
 |alternative/version/quote/sale/sale/textId|int|Sale - Text ID| x |
 |alternative/version/quote/sale/sale/description|positiveString|Sale - Text: Displays the text entered in the description field| x |
@@ -222,11 +223,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/quoteConnectionId|int|ERP connection - DB-ID: Database ID| x |
 |alternative/version/quote/connection/deleted|bool|ERP connection - Deleted: Column showing if the ERP connection has been marked as deleted| x |
 |alternative/version/quote/connection/allAccess|bool|ERP connection - Unrestricted: There are no access restrictions on this ERP connection| x |
-|alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/erpName|int|ERP connection - ERP name: Name of ERP system| x |
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 |alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
@@ -258,7 +259,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/activeErpLinks,alternative/version/quote/sale/associate/contactCategory,alternative/version/status
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=totalPriceWithAlternativeDiscount,alternative/version/quote/sale/daysInStage,alternative/version/quote/sale/associate/contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

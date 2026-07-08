@@ -41,7 +41,7 @@ as well as before any ORDER BY, are applied.
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -380,7 +380,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=contactId,contactSupportPerson/personRegisteredDate,saintTicketStatus
+GET /api/v1/archive/FreetextContact?$select=contactSupportAssociate/fullName,contactSupportPerson/personBusiness,contactAssociate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

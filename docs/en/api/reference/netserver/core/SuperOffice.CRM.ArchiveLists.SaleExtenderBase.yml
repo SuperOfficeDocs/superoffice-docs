@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colOriginalStage
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colProbPercent
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colReopenDate
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleType
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeCategory
@@ -89,6 +90,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.Joiners.TicketSaleExtender
   - SuperOffice.CRM.ArchiveLists.LinksSaleBySourceLeftExtender
   - SuperOffice.CRM.ArchiveLists.LinksSaleBySourceRightExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemSaleExtender
   - SuperOffice.CRM.ArchiveLists.PersonSaleExtender
   - SuperOffice.CRM.ArchiveLists.ProjectSaleExtender
   - SuperOffice.CRM.ArchiveLists.QuoteSaleExtender
@@ -953,6 +955,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colDaysInStage As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
+  id: _colSaleCycle
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colSaleCycle
+  nameWithType: SaleExtenderBase._colSaleCycle
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colSaleCycle
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colSaleCycle As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.#ctor
   id: '#ctor'

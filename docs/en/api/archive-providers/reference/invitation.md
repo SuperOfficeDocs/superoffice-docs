@@ -88,7 +88,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -667,6 +667,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -748,17 +749,18 @@ because someone may explicitly request an instance an a recurring booking, so th
 |associate/personEmail|string|E-mail| x |
 |associate/locationAddress|string|Location: Location| x |
 |associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
 |appointment/titleHtml| *None* |!!Title Html| x |
 |appointment/agenda|positiveString|Agenda| x |
 |appointment/agendaHtml| *None* |!!Agenda Html| x |
-|appointment/isConverted| *None* |!!Is Converted|  |
-|appointment/textId|int|Text ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/isConverted| *None* |!!Is Converted|  |
+|appointment/textId|int|Text ID| x |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |invitationRestrictionIds|int|Invitation ID: ID of follow-ups to be shown as invitations, regardless of actual status|  |
@@ -766,7 +768,7 @@ because someone may explicitly request an instance an a recurring booking, so th
 ## Sample
 
 ```http!
-GET /api/v1/archive/Invitation?$select=contact/restrictionAddress/wgs84latitude,contact/contactAssociate/contactCategory,person/personAddress/city,person/personAssociate/portraitThumbnail,sale/salePublish/publishedBy
+GET /api/v1/archive/Invitation?$select=contact/contactAssociate/mrMrs,person/middleName,person/hasStoreConsent,project/projectAssociate/middleName,sale/text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

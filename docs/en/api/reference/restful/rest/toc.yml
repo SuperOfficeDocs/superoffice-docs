@@ -351,6 +351,22 @@ items:
     href: CRMScript/v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId.md
   - name: PUT CRMScript/{id}
     href: CRMScript/v1CRMScriptEntity_PutCRMScriptEntity.md
+- name: CustomObject
+  href: CustomObject/index.md
+  items:
+  - name: DEL CustomObject/{definitionName}/{id}
+    href: CustomObject/v1CustomObject_DeleteCustomObject.md
+  - name: GET CustomObject/{definitionName}/{id}
+    href: CustomObject/v1CustomObject_GetCustomObject.md
+  - name: PUT CustomObject/{definitionName}
+    href: CustomObject/v1CustomObject_SaveCustomObject.md
+- name: CustomObjectDefinition
+  href: CustomObjectDefinition/index.md
+  items:
+  - name: GET CustomObjectDefinition/{definitionName}
+    href: CustomObjectDefinition/v1CustomObjectDefinition_GetCustomObjectDefinition.md
+  - name: GET CustomObjectDefinition/{definitionName}/Screen
+    href: CustomObjectDefinition/v1CustomObjectDefinition_HasScreenChooser.md
 - name: Dash
   href: Dash/index.md
   items:
@@ -2178,6 +2194,23 @@ items:
     href: List_WebPanel/v1WebPanelEntityList_PutWebPanelEntityHeadings.md
   - name: PUT List/WebPanel/Items/{id}
     href: List_WebPanel/v1WebPanelEntityList_PutWebPanelEntity.md
+- name: NewsFeedItem
+  href: NewsFeedItem/index.md
+  items:
+  - name: DEL NewsFeed/{id}
+    href: NewsFeedItem/v1NewsFeedItem_DeleteNewsFeedItem.md
+  - name: GET NewsFeed
+    href: NewsFeedItem/v1NewsFeedItem_GetAll.md
+  - name: GET NewsFeed/{id}
+    href: NewsFeedItem/v1NewsFeedItem_GetNewsFeedItem.md
+  - name: POST NewsFeed
+    href: NewsFeedItem/v1NewsFeedItem_PostNewsFeedItem.md
+  - name: POST NewsFeed/{id}/Handled
+    href: NewsFeedItem/v1NewsFeedItem_MarkAsHandled.md
+  - name: POST NewsFeed/{id}/Handling
+    href: NewsFeedItem/v1NewsFeedItem_StartHandling.md
+  - name: POST NewsFeed/{id}/Read
+    href: NewsFeedItem/v1NewsFeedItem_MarkAsRead.md
 - name: Person
   href: Person/index.md
   items:

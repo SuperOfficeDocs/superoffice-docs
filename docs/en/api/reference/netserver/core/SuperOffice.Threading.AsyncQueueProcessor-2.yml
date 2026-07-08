@@ -49,6 +49,7 @@ items:
   - System.Object
   - Microsoft.Extensions.Hosting.BackgroundService
   derivedClasses:
+  - SuperOffice.CRM.Notification.AppointmentPushNotificationDispatcher
   - SuperOffice.CRM.Webhooks.WebhookDispatcher
   - SuperOffice.CRM.Webhooks.WebhookSlowDispatcher
   - SuperOffice.Util.TrackEventSender

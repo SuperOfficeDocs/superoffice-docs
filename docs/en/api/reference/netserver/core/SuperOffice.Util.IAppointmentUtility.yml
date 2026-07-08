@@ -313,10 +313,10 @@ items:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder)> GetConnectionInfoAsync()
+    content: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder, bool useGraphApi)> GetConnectionInfoAsync()
     return:
-      type: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}}
-    content.vb: Function GetConnectionInfoAsync() As Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String))
+      type: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}}
+    content.vb: Function GetConnectionInfoAsync() As Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String, useGraphApi As Boolean))
   overload: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync*
 - uid: SuperOffice.Util.IAppointmentUtility.GetDescription(System.String,System.String)
   commentId: M:SuperOffice.Util.IAppointmentUtility.GetDescription(System.String,System.String)
@@ -1930,17 +1930,17 @@ references:
   name: GetConnectionInfoAsync
   nameWithType: IAppointmentUtility.GetConnectionInfoAsync
   fullName: SuperOffice.Util.IAppointmentUtility.GetConnectionInfoAsync
-- uid: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}}
-  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}}
+- uid: System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder)>
-  nameWithType: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder)>
-  fullName: System.Threading.Tasks.Task<(SuperOffice.CRM.Rows.ServiceAuthRecordData imap, SuperOffice.CRM.Rows.ServiceAuthRecordData smtp, string sentFolder)>
-  nameWithType.vb: Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String))
-  fullName.vb: System.Threading.Tasks.Task(Of (imap As SuperOffice.CRM.Rows.ServiceAuthRecordData, smtp As SuperOffice.CRM.Rows.ServiceAuthRecordData, sentFolder As String))
-  name.vb: Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String))
+  name: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder, bool useGraphApi)>
+  nameWithType: Task<(ServiceAuthRecordData imap, ServiceAuthRecordData smtp, string sentFolder, bool useGraphApi)>
+  fullName: System.Threading.Tasks.Task<(SuperOffice.CRM.Rows.ServiceAuthRecordData imap, SuperOffice.CRM.Rows.ServiceAuthRecordData smtp, string sentFolder, bool useGraphApi)>
+  nameWithType.vb: Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String, useGraphApi As Boolean))
+  fullName.vb: System.Threading.Tasks.Task(Of (imap As SuperOffice.CRM.Rows.ServiceAuthRecordData, smtp As SuperOffice.CRM.Rows.ServiceAuthRecordData, sentFolder As String, useGraphApi As Boolean))
+  name.vb: Task(Of (imap As ServiceAuthRecordData, smtp As ServiceAuthRecordData, sentFolder As String, useGraphApi As Boolean))
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
@@ -1953,10 +1953,10 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
   - name: " "
-  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.imap
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.imap
     name: imap
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.imap
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.imap
   - name: ','
   - name: " "
   - uid: SuperOffice.CRM.Rows.ServiceAuthRecordData
@@ -1964,10 +1964,10 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
   - name: " "
-  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.smtp
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.smtp
     name: smtp
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.smtp
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.smtp
   - name: ','
   - name: " "
   - uid: System.String
@@ -1975,10 +1975,21 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
   - name: " "
-  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.sentFolder
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.sentFolder
     name: sentFolder
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.sentfolder
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.sentfolder
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.useGraphApi
+    name: useGraphApi
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.usegraphapi
   - name: )
   - name: '>'
   spec.vb:
@@ -1990,10 +2001,10 @@ references:
   - name: Of
   - name: " "
   - name: (
-  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.imap
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.imap
     name: imap
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.imap
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.imap
   - name: " "
   - name: As
   - name: " "
@@ -2003,10 +2014,10 @@ references:
     href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
   - name: ','
   - name: " "
-  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.smtp
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.smtp
     name: smtp
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.smtp
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.smtp
   - name: " "
   - name: As
   - name: " "
@@ -2016,10 +2027,10 @@ references:
     href: SuperOffice.CRM.Rows.ServiceAuthRecordData.html
   - name: ','
   - name: " "
-  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String}.sentFolder
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.sentFolder
     name: sentFolder
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string-.sentfolder
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.sentfolder
   - name: " "
   - name: As
   - name: " "
@@ -2027,6 +2038,19 @@ references:
     name: String
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{SuperOffice.CRM.Rows.ServiceAuthRecordData,SuperOffice.CRM.Rows.ServiceAuthRecordData,System.String,System.Boolean}.useGraphApi
+    name: useGraphApi
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-superoffice.crm.rows.serviceauthrecorddata,superoffice.crm.rows.serviceauthrecorddata,system.string,system.boolean-.usegraphapi
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
   - name: )
 - uid: SuperOffice.Util.IAppointmentUtility.GetDescription*

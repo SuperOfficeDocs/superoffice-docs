@@ -76,7 +76,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'LegalBase.Name: The list item'
+  summary: 'LegalBase.Name: Name of legal base'
   example: []
   syntax:
     content: public const string Name = "name"
@@ -97,7 +97,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'LegalBase.Rank: Rank order'
+  summary: 'LegalBase.Rank: Rank of this legal base'
   example: []
   syntax:
     content: public const string Rank = "rank"
@@ -118,7 +118,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'LegalBase.Tooltip: The tooltip for the list item'
+  summary: 'LegalBase.Tooltip: Tooltip for this legal base'
   example: []
   syntax:
     content: public const string Tooltip = "tooltip"
@@ -160,7 +160,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'LegalBase.Key: The list item key, to be recognized by application logic'
+  summary: 'LegalBase.Key: The key used to uniquely identify this legal base'
   example: []
   syntax:
     content: public const string Key = "key"

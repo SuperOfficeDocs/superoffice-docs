@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ConsentSource Table (471)
+# ConsentSource Table (470)
 
 Consent source for GDPR
 
@@ -17,11 +17,11 @@ Consent source for GDPR
 | Name | Description | Type | Null |
 |------|-------------|------|:----:|
 |consentsource\_id|Primary key|PK| |
-|name|The list item|String(4000)| |
-|rank|Rank order|UShort|&#x25CF;|
-|tooltip|The tooltip for the list item|String(4000)|&#x25CF;|
+|name|Name of consent source|String(4000)| |
+|rank|Rank of this consent source|UShort|&#x25CF;|
+|tooltip|Tooltip for this consent source|String(4000)|&#x25CF;|
 |deleted|0 -&gt; record is active 1 -&gt; record is &apos;deleted&apos; and should not be shown in lists|UShort|&#x25CF;|
-|key|The list item key, to be recognized by application logic|String(255)|&#x25CF;|
+|key|The key used to uniquely identify this consent source|String(255)|&#x25CF;|
 |mailTemplate\_id|The document template to be used for sending &apos;You have been added to our system, is this ok&apos; emails when a new person is registered using this source|FK [DocTmpl](doctmpl.md)|&#x25CF;|
 |registered|Registered when|UtcDateTime| |
 |registered\_associate\_id|Registered by whom|FK [associate](associate.md)| |

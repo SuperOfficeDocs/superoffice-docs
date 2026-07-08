@@ -29,7 +29,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -340,6 +340,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
 |sale/daysInStage| *None* |Days in stage: Total number of days in this stage|  |
+|sale/saleCycle| *None* |Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)|  |
 |sale/visibleFor| *None* |Visible for|  |
 |sale/sale/textId| *None* |Text ID|  |
 |sale/sale/description| *None* |Text: Displays the text entered in the description field|  |
@@ -431,11 +432,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting|  |
 |appointment/duration| *None* |Duration: The duration of the chat session|  |
 |appointment/createdByWorkflow| *None* |Created by flow: Created by flow|  |
-|appointment/visibleFor| *None* |Visible for|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/visibleFor| *None* |Visible for|  |
 |appointment/appointmentPublish/isPublished| *None* |Published: Displays an icon indicating if the project or sale has been published|  |
 |appointment/appointmentPublish/publishedFrom| *None* |From date: Start date for publishing. The record will not be visible prior to this date|  |
 |appointment/appointmentPublish/publishedTo| *None* |To date: End date for publishing. The record will not be visible after this date|  |
@@ -481,6 +482,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/personEmail| *None* |E-mail|  |
 |appointment/associate/locationAddress| *None* |Location: Location|  |
 |appointment/associate/isLocation| *None* |Is a location: Is a location|  |
+|appointment/appointment/text| *None* |Text: Displays a descriptive text for the item|  |
 |appointment/appointment/description| *None* |Text: Displays the text entered in the description field|  |
 |appointment/appointment/title| *None* |Title|  |
 |appointment/appointment/titleHtml| *None* |!!Title Html|  |
@@ -534,12 +536,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |document/associate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |document/associate/personId| *None* |Contact ID: Database ID of the contact row|  |
-|document/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|document/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
+|document/associate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |document/associate/associateDbId| *None* |ID|  |
 |document/associate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |document/associate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
@@ -638,12 +640,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |personUdef/SuperOffice:9|string|page1saleonly| x |
 |personUdef/SuperOffice:10|string|page1marketingonly| x |
-|personUdef/SuperOffice:11|string|page1adminonly| x |
-|personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personUdef/SuperOffice:11|string|page1adminonly| x |
+|personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
@@ -742,12 +744,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personSourceRelation/personUpdatedByFullName| *None* |Source - Updated by - Full name: The user who last updated the data|  |
 |personSourceRelation/personUpdatedDate| *None* |Source - Updated: The date/time the data was last updated in UTC.|  |
 |personSourceRelation/personRegisteredBy| *None* |Source - Registered by: The user who registered the data|  |
-|personSourceRelation/personRegisteredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
-|personSourceRelation/personRegisteredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personSourceRelation/personRegisteredByFullName| *None* |Source - Registered by - Full name: The user who registered the data|  |
+|personSourceRelation/personRegisteredDate| *None* |Source - Registered date: The date/time the data was registered in UTC.|  |
 |personSourceRelation/portraitThumbnail| *None* |Source - Person image: Person image|  |
 |personSourceRelation/personActiveErpLinks| *None* |Source - ERP connected: Is there an active ERP Sync?|  |
 |personSourceRelation/ticketPriority| *None* |Source - Service priority: Default service priority for this contact|  |
@@ -846,12 +848,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |personAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |personAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
-|personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
-|personAssociate/contactCategory| *None* |Category: Category|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
+|personAssociate/contactCategory| *None* |Category: Category|  |
 |personAssociate/role| *None* |Role : Role|  |
 |personAssociate/assocName| *None* |User ID : User ID|  |
 |personAssociate/assocTooltip| *None* |Description : Description|  |
@@ -950,12 +952,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |request/tags| *None* |Tags: Tags connected to a request|  |
 |request/createdBy| *None* |Created by: Created by|  |
-|request/content| *None* |Content: Search for content in messages related to requests|  |
-|request/messageLanguage| *None* |Language: Recognized language in messages|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/content| *None* |Content: Search for content in messages related to requests|  |
+|request/messageLanguage| *None* |Language: Recognized language in messages|  |
 |request/sentimentScore| *None* |Sentiment: Sentiment score, -100 to +100|  |
 |request/sentimentConfidence| *None* |Sentiment confidence: Sentiment confidence|  |
 |request/suggestedCategory| *None* |Suggested category: Suggested service category|  |
@@ -1054,12 +1056,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/number| *None* |Number: Displays the project's number|  |
 |projectMembers/type| *None* |Project type: Displays the project's type|  |
 |projectMembers/status| *None* |Status: Displays the project's status|  |
-|projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
-|projectMembers/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/statusRank| *None* |Status rank: Rank of the project status in the status list|  |
+|projectMembers/associateId| *None* |ID: Displays login ID of the associate who owns the project|  |
 |projectMembers/hasInfoText| *None* |Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.|  |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type|  |
 |projectMembers/text| *None* |Text: Displays a descriptive text for the item|  |
@@ -1158,12 +1160,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/project/infoText| *None* |Information: Displays the text entered in the description field|  |
 |personAppointment/completed| *None* |Completed: Displays a checkbox showing if an appointment is completed|  |
 |personAppointment/icon| *None* |Category: Displays the icon for an activity type|  |
-|personAppointment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
-|personAppointment/time| *None* |Time: Time|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/date| *None* |Date: Displays start date of a follow-up / sale date of a sale|  |
+|personAppointment/time| *None* |Time: Time|  |
 |personAppointment/type| *None* |Type: Displays the type of an activity|  |
 |personAppointment/recordType| *None* |Record type : Shows the record type|  |
 |personAppointment/text| *None* |Text: Displays a descriptive text for the item|  |
@@ -1249,6 +1251,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/associate/personEmail| *None* |E-mail|  |
 |personAppointment/associate/locationAddress| *None* |Location: Location|  |
 |personAppointment/associate/isLocation| *None* |Is a location: Is a location|  |
+|personAppointment/appointment/text| *None* |Text: Displays a descriptive text for the item|  |
 |personAppointment/appointment/description| *None* |Text: Displays the text entered in the description field|  |
 |personAppointment/appointment/title| *None* |Title|  |
 |personAppointment/appointment/titleHtml| *None* |!!Title Html|  |
@@ -1262,7 +1265,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=searchPhone/formattedNumber,postAddress/formattedMultiLineAddress,contactAssociate/usergroup,contactExtra/x_contact_short_dropdown,LastCompletedSale
+GET /api/v1/archive/ContactStaticSelection?$select=NumberOfNotCompletedActivitiesInPeriod,NumberOfNotCompletedTicketsInPeriod,sourceRelation/registeredByFullName,personSourceRelation/lastName,personSourceRelation/personAssociateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

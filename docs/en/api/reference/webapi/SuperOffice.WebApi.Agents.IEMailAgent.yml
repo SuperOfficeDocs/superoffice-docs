@@ -45,6 +45,7 @@ items:
   - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAccountAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAccountFromEMailAddressAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAddressesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.Int32,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.WebApi.Data.EMailConnectionInfo,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -2668,6 +2669,50 @@ items:
   nameWithType.vb: IEMailAgent.RelayMessageAsync(EMailConnectionInfoExtended, String, String, String(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.RelayMessageAsync(SuperOffice.WebApi.Data.EMailConnectionInfoExtended, String, String, String(), SuperOffice.WebApi.RequestOptions)
   name.vb: RelayMessageAsync(EMailConnectionInfoExtended, String, String, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAsEmlStreamAsync(int, bool, string, RequestOptions)
+  nameWithType: IEMailAgent.GetEMailAsEmlStreamAsync(int, bool, string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync(int, bool, string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Get an inbox e-mail (by its EmailItemId) serialized as an Outlook-openable RFC822 (.eml) stream. Works for both IMAP and Graph/Exchange-Online mailboxes because it serializes the loaded entity instead of re-fetching the raw message by server id.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: Task<byte[]> GetEMailAsEmlStreamAsync(int emailItemId, bool includeAttachments, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: emailItemId
+      type: System.Int32
+      description: The EmailItemId of the e-mail to retrieve as stream
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should attachments be included in the stream
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default "application/octet-stream". Could also be "application/pdf", "text/plain", "text/html", or "multipart/related"
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: Get an inbox e-mail (by its EmailItemId) serialized as an Outlook-openable RFC822 (.eml) stream
+    content.vb: Function GetEMailAsEmlStreamAsync(emailItemId As Integer, includeAttachments As Boolean, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync*
+  nameWithType.vb: IEMailAgent.GetEMailAsEmlStreamAsync(Integer, Boolean, String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync(Integer, Boolean, String, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetEMailAsEmlStreamAsync(Integer, Boolean, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetEMailAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -6030,6 +6075,13 @@ references:
   name: RelayMessageAsync
   nameWithType: IEMailAgent.RelayMessageAsync
   fullName: SuperOffice.WebApi.Agents.IEMailAgent.RelayMessageAsync
+- uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IEMailAgent.html#SuperOffice_WebApi_Agents_IEMailAgent_GetEMailAsEmlStreamAsync_System_Int32_System_Boolean_System_String_SuperOffice_WebApi_RequestOptions_
+  name: GetEMailAsEmlStreamAsync
+  nameWithType: IEMailAgent.GetEMailAsEmlStreamAsync
+  fullName: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsEmlStreamAsync
 - uid: SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IEMailAgent.GetEMailAsync
   isExternal: true

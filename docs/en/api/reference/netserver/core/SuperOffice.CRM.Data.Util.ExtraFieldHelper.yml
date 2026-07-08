@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Data.Util
   children:
   - SuperOffice.CRM.Data.Util.ExtraFieldHelper.#ctor
-  - SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
+  - SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean,System.Int32)
   - SuperOffice.CRM.Data.Util.ExtraFieldHelper.GetInitializedExtraFields``1(``0)
   langs:
   - csharp
@@ -36,16 +36,16 @@ items:
   - SuperOffice.CRM.Data.Util.ExtraFieldHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Data.Util.ExtraFieldHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.ExtraFieldHelper)
   - SuperOffice.CRM.Data.Util.ExtraFieldHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-- uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
-  commentId: M:SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
-  id: ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
+- uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean,System.Int32)
+  commentId: M:SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean,System.Int32)
+  id: ConvertDbExtraFieldToString(System.Object,SuperOffice.Data.SQL.FieldInfo,System.Boolean,System.Int32)
   parent: SuperOffice.CRM.Data.Util.ExtraFieldHelper
   langs:
   - csharp
   - vb
-  name: ConvertDbExtraFieldToString(object, FieldInfo, bool)
-  nameWithType: ExtraFieldHelper.ConvertDbExtraFieldToString(object, FieldInfo, bool)
-  fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(object, SuperOffice.Data.SQL.FieldInfo, bool)
+  name: ConvertDbExtraFieldToString(object, FieldInfo, bool, int)
+  nameWithType: ExtraFieldHelper.ConvertDbExtraFieldToString(object, FieldInfo, bool, int)
+  fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(object, SuperOffice.Data.SQL.FieldInfo, bool, int)
   type: Method
   assemblies:
   - SoDataBase
@@ -56,7 +56,7 @@ items:
     to apply the correct type information on the form [I:5]
   example: []
   syntax:
-    content: public static string ConvertDbExtraFieldToString(object value, FieldInfo fi, bool isNull)
+    content: public static string ConvertDbExtraFieldToString(object value, FieldInfo fi, bool isNull, int rowId = 0)
     parameters:
     - id: value
       type: System.Object
@@ -66,14 +66,23 @@ items:
       description: The field metadata used in convertion
     - id: isNull
       type: System.Boolean
+      description: Whether the stored value is null.
+    - id: rowId
+      type: System.Int32
+      description: >-
+        The record id, for existing rows. A Dynamic Link field's value is a CS
+                    redirect URL COMPUTED from the field definition + record id (the same URL produced by
+                    <xref href="SuperOffice.CRM.Rows.ExtraFieldsHelper.FixValue(System.Object%2cSuperOffice.Data.Dictionary.SoField%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref>); it does NOT depend on the stored value (often
+                    null/0), so it is generated whenever rowId &gt; 0. Defaults to 0 for new/unsaved records
+                    (and all non-read callers), which skip the link.
     return:
       type: System.String
       description: ''
-    content.vb: Public Shared Function ConvertDbExtraFieldToString(value As Object, fi As FieldInfo, isNull As Boolean) As String
+    content.vb: Public Shared Function ConvertDbExtraFieldToString(value As Object, fi As FieldInfo, isNull As Boolean, rowId As Integer = 0) As String
   overload: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString*
-  nameWithType.vb: ExtraFieldHelper.ConvertDbExtraFieldToString(Object, FieldInfo, Boolean)
-  fullName.vb: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(Object, SuperOffice.Data.SQL.FieldInfo, Boolean)
-  name.vb: ConvertDbExtraFieldToString(Object, FieldInfo, Boolean)
+  nameWithType.vb: ExtraFieldHelper.ConvertDbExtraFieldToString(Object, FieldInfo, Boolean, Integer)
+  fullName.vb: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString(Object, SuperOffice.Data.SQL.FieldInfo, Boolean, Integer)
+  name.vb: ConvertDbExtraFieldToString(Object, FieldInfo, Boolean, Integer)
 - uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper.GetInitializedExtraFields``1(``0)
   commentId: M:SuperOffice.CRM.Data.Util.ExtraFieldHelper.GetInitializedExtraFields``1(``0)
   id: GetInitializedExtraFields``1(``0)
@@ -865,10 +874,13 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: SuperOffice.CRM.Rows.ExtraFieldsHelper.FixValue(System.Object,SuperOffice.Data.Dictionary.SoField,System.Int32)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsHelper.FixValue(System.Object,SuperOffice.Data.Dictionary.SoField,System.Int32)
+  isExternal: true
 - uid: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString*
   commentId: Overload:SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.ExtraFieldHelper.html#SuperOffice_CRM_Data_Util_ExtraFieldHelper_ConvertDbExtraFieldToString_System_Object_SuperOffice_Data_SQL_FieldInfo_System_Boolean_
+  href: SuperOffice.CRM.Data.Util.ExtraFieldHelper.html#SuperOffice_CRM_Data_Util_ExtraFieldHelper_ConvertDbExtraFieldToString_System_Object_SuperOffice_Data_SQL_FieldInfo_System_Boolean_System_Int32_
   name: ConvertDbExtraFieldToString
   nameWithType: ExtraFieldHelper.ConvertDbExtraFieldToString
   fullName: SuperOffice.CRM.Data.Util.ExtraFieldHelper.ConvertDbExtraFieldToString
@@ -891,6 +903,17 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System

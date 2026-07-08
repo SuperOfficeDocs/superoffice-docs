@@ -88,6 +88,7 @@ Archive provider for the list of favourites
 |amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total|  |
 |amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.|  |
 |daysInStage| *None* |Days in stage: Total number of days in this stage|  |
+|saleCycle| *None* |Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)|  |
 |entityIcon| *None* |Row specific icon: Row specific icon| x |
 |favouriteAssociateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |visibleFor| *None* |Visible for|  |
@@ -128,11 +129,11 @@ Archive provider for the list of favourites
 |associate/otherGroups| *None* |Other groups: Other groups|  |
 |associate/userName| *None* |User name: User name|  |
 |associate/personEmail| *None* |E-mail|  |
-|associate/locationAddress| *None* |Location: Location|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|associate/locationAddress| *None* |Location: Location|  |
 |associate/isLocation| *None* |Is a location: Is a location|  |
 |saleUdef/SuperOffice:1| *None* |saleshorttext|  |
 |saleUdef/SuperOffice:2| *None* |salelongtext|  |
@@ -232,11 +233,11 @@ Archive provider for the list of favourites
 |contactAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
 |contactAssociate/contactCategory| *None* |Category: Category|  |
 |contactAssociate/role| *None* |Role : Role|  |
-|contactAssociate/assocName| *None* |User ID : User ID|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contactAssociate/assocName| *None* |User ID : User ID|  |
 |contactAssociate/assocTooltip| *None* |Description : Description|  |
 |contactAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
 |contactAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
@@ -336,11 +337,11 @@ Archive provider for the list of favourites
 |birthYear| *None* |Birth year: Displays contact's birth year|  |
 |birthMonth| *None* |Birth month: Displays contact's birth month|  |
 |birthDay| *None* |Birth day: Displays contact's birth day (day of month)|  |
-|kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|kanaFirstName| *None* |First name, kana: Contact's first name, in kana alphabet|  |
 |kanaLastName| *None* |Last name, kana: Contact's last name, in kana alphabet|  |
 |personUpdatedBy| *None* |Updated by: The user who last updated the data|  |
 |personUpdatedByFullName| *None* |Updated by - Full name: The user who last updated the data|  |
@@ -440,11 +441,11 @@ Archive provider for the list of favourites
 |personAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |personAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |personAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
-|personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |personAssociate/associateDbId| *None* |ID|  |
 |personAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
 |personAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
@@ -544,11 +545,11 @@ Archive provider for the list of favourites
 |selectionAssociate/title| *None* |Title: Displays whether the contact is addressed as Mr or Ms|  |
 |selectionAssociate/associateDbId| *None* |ID|  |
 |selectionAssociate/contactName| *None* |Owning company: Name of the company the user belongs to|  |
-|selectionAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|selectionAssociate/contactDepartment| *None* |Owning department: Name of the department at the company the user belongs to|  |
 |selectionAssociate/usergroup| *None* |Primary group: The user's primary user group|  |
 |selectionAssociate/usergroupId| *None* |Group ID: The user's primary user group|  |
 |selectionAssociate/contactFullName| *None* |Owner: Name and department of the company the user belongs to|  |
@@ -572,12 +573,15 @@ Archive provider for the list of favourites
 |selectionAssociate/locationAddress| *None* |Location: Location|  |
 |selectionAssociate/isLocation| *None* |Is a location: Is a location|  |
 |mailingId| *None* |ID: Displays the ID of the mailing|  |
+|mailingFolderId| *None* |Hierarchy ID: Foreign key to hierarchy table|  |
 |mailingSelectionId| *None* |Selection ID: The database ID of the selection|  |
 |mailingDescription| *None* |Name: Displays the name of the mailing|  |
 |mailingSent| *None* |Sent: Displays the sent status of the mailing|  |
 |mailingSimpleStatus| *None* |Status: Status|  |
 |mailingEndDate| *None* |Date sent: Displays the date when the mailing was sent (completed)|  |
 |mailingType| *None* |Type: Display the type of the mailing|  |
+|mailingTypeId| *None* |Type: Display the type of the mailing|  |
+|mailingStatusId| *None* |Status: Status|  |
 |mailingSubscriptionType| *None* |Subscription type: The subscription type for a mailing|  |
 |mailingSentTo| *None* |Sent to: Displays to whom the mailing was sent|  |
 |mailingOwner| *None* |Owner: Displays the owner of the mailing|  |
@@ -589,6 +593,7 @@ Archive provider for the list of favourites
 |mailingBounceRate| *None* |Bounce rate: Mailing bounce rate|  |
 |mailingDeleted| *None* |Deleted: Deleted|  |
 |recipientStatus| *None* |Recipient status: Status of mailing recipient|  |
+|thumbnail| *None* |Thumbnail|  |
 |recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
 |project/completed| *None* |Completed: Displays a check mark indicating if the project has been completed.|  |
 |project/projectId| *None* |DB ID: Displays the database ID for a project row|  |
@@ -644,15 +649,15 @@ Archive provider for the list of favourites
 |project/projectAssociate/assocName| *None* |User ID : User ID|  |
 |project/projectAssociate/assocTooltip| *None* |Description : Description|  |
 |project/projectAssociate/assocType| *None* |Type: Type of user: associate, external user, system user, anonymous account|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/projectAssociate/ejUserId| *None* |Service user ID: The database ID of a Service user|  |
 |project/projectAssociate/simultaneousEjUser| *None* |Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName| *None* |Nickname: User's nickname in Service|  |
 |project/projectAssociate/ejStatus| *None* |Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in|  |
 |project/projectAssociate/isActive| *None* |Active: Is this user active, and should be able to log in?|  |
 |project/projectAssociate/isActiveText| *None* |Active status: Is this user active, and should be able to log in?|  |
@@ -696,6 +701,7 @@ Archive provider for the list of favourites
 |project/saintTicketCategory| *None* |Category|  |
 |project/project/textId| *None* |Text ID|  |
 |project/project/infoText| *None* |Information: Displays the text entered in the description field|  |
+|historyRank| *None* |Rank: Rank of list item, if available|  |
 |documentId| *None* |Document ID: Database ID of document record|  |
 |keywords| *None* |Keywords |  |
 |ourref| *None* |Our ref.|  |
@@ -747,16 +753,17 @@ Archive provider for the list of favourites
 |appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointmentUdef/SuperOffice:1| *None* |followupshorttext|  |
 |appointmentUdef/SuperOffice:2| *None* |followuplongtext|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |appointmentUdef/SuperOffice:3| *None* |followupnumber|  |
 |appointmentUdef/SuperOffice:4| *None* |followupdate|  |
 |appointmentUdef/SuperOffice:5| *None* |followupunlimiteddate|  |
 |appointmentUdef/SuperOffice:6| *None* |followupcheckbox|  |
 |appointmentUdef/SuperOffice:7| *None* |followupdropdownlistbox|  |
 |appointmentUdef/SuperOffice:8| *None* |followupdecimal|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
+|appointment/text| *None* |Text: Displays a descriptive text for the item|  |
 |appointment/description| *None* |Text: Displays the text entered in the description field|  |
 |appointment/title| *None* |Title|  |
 |appointment/titleHtml| *None* |!!Title Html|  |
@@ -850,6 +857,10 @@ Archive provider for the list of favourites
 |ownedBy/middleName| *None* |Owner - Middle Name: Displays the contact's middle name.|  |
 |ownedBy/fullName| *None* |Owner - Full name: Displays full name of user (first, middle, last - according to settings)|  |
 |ownedBy/contactId| *None* |Owner - Company ID: Database ID of the company the user belongs to|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ownedBy/personId| *None* |Owner - Contact ID: Database ID of the contact row|  |
 |ownedBy/mrMrs| *None* |Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
 |ownedBy/title| *None* |Owner - Title: Displays whether the contact is addressed as Mr or Ms|  |
@@ -857,10 +868,6 @@ Archive provider for the list of favourites
 |ownedBy/contactName| *None* |Owner - Owning company: Name of the company the user belongs to|  |
 |ownedBy/contactDepartment| *None* |Owner - Owning department: Name of the department at the company the user belongs to|  |
 |ownedBy/usergroup| *None* |Owner - Primary group: The user's primary user group|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ownedBy/usergroupId| *None* |Owner - Group ID: The user's primary user group|  |
 |ownedBy/contactFullName| *None* |Owner - Owner: Name and department of the company the user belongs to|  |
 |ownedBy/contactCategory| *None* |Owner - Category: Category|  |
@@ -908,7 +915,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=streetAddress/wgs84longitude,personPager/description,personUdef/SuperOffice:7,selectionAssociate/otherGroups,project/eventId
+GET /api/v1/archive/Favourites?$select=NumberOfNotCompletedSalesInPeriod,LastTicket,personAssociate/assocTooltip,personAssociate/simultaneousEjUser,personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

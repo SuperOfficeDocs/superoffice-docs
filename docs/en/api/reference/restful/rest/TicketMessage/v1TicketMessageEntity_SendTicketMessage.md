@@ -35,12 +35,12 @@ Send a message to recipients by email
 | gdprSource | string |  Obsolete |
 
 ```http
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=eum,molestias
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=neque,rerum
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=at,rerum
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=libero
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=781
-POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=qui
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?to=qui,sit
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?cc=dolorum,ullam
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?bcc=odit,omnis
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?subject=voluptatem
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?replyTemplateId=849
+POST /api/v1/TicketMessage/{ticketMessageEntityId}/Send?gdprSource=ut
 ```
 
 

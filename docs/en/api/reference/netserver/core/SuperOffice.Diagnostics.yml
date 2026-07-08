@@ -6,10 +6,6 @@ items:
   children:
   - SuperOffice.Diagnostics.AggregatedServiceCall
   - SuperOffice.Diagnostics.DeferredToString
-  - SuperOffice.Diagnostics.DiagnoseException
-  - SuperOffice.Diagnostics.DiagnoseMethod
-  - SuperOffice.Diagnostics.DiagnoseMethodAsync
-  - SuperOffice.Diagnostics.Diagnostic
   - SuperOffice.Diagnostics.ExceptionLoggingContextExtensions
   - SuperOffice.Diagnostics.ExecutionStopwatch
   - SuperOffice.Diagnostics.ExecutionStopwatchNoop
@@ -180,37 +176,6 @@ references:
   name: ResourceUsageBucket
   nameWithType: ResourceUsageBucket
   fullName: SuperOffice.Diagnostics.ResourceUsageBucket
-- uid: SuperOffice.Diagnostics.DiagnoseMethod
-  commentId: T:SuperOffice.Diagnostics.DiagnoseMethod
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.Diagnostics.DiagnoseMethod.html
-  name: DiagnoseMethod
-  nameWithType: DiagnoseMethod
-  fullName: SuperOffice.Diagnostics.DiagnoseMethod
-- uid: SuperOffice.Diagnostics.DiagnoseMethodAsync
-  commentId: T:SuperOffice.Diagnostics.DiagnoseMethodAsync
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.Diagnostics.DiagnoseMethodAsync.html
-  name: DiagnoseMethodAsync
-  nameWithType: DiagnoseMethodAsync
-  fullName: SuperOffice.Diagnostics.DiagnoseMethodAsync
-- uid: SuperOffice.Diagnostics.Diagnostic
-  commentId: T:SuperOffice.Diagnostics.Diagnostic
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.Diagnostics.Diagnostic.html
-  name: Diagnostic
-  nameWithType: Diagnostic
-  fullName: SuperOffice.Diagnostics.Diagnostic
-- uid: SuperOffice.Diagnostics.DiagnoseException
-  commentId: T:SuperOffice.Diagnostics.DiagnoseException
-  isExternal: true
-  href: SuperOffice.Diagnostics.DiagnoseException.html
-  name: DiagnoseException
-  nameWithType: DiagnoseException
-  fullName: SuperOffice.Diagnostics.DiagnoseException
 - uid: SuperOffice.Diagnostics.ISelfTest
   commentId: T:SuperOffice.Diagnostics.ISelfTest
   parent: SuperOffice.Diagnostics

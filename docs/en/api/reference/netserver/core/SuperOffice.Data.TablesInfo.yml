@@ -247,6 +247,10 @@ items:
   - SuperOffice.Data.TablesInfo.GetMsFilterTableInfo
   - SuperOffice.Data.TablesInfo.GetMsSubstituteTableInfo
   - SuperOffice.Data.TablesInfo.GetMsTrashbinTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  - SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
   - SuperOffice.Data.TablesInfo.GetNoticeFrameTableInfo
   - SuperOffice.Data.TablesInfo.GetNotifyTableInfo
   - SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
@@ -557,135 +561,139 @@ items:
   example: []
   syntax:
     content: >-
-      [DatabaseStep]
+      [DatabaseStep("ai", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("chat", 22)]
 
-      [DatabaseStep]
+      [DatabaseStep("CollaborationMeeting", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("configurablescreens", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("Copilot", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("CRMScript", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("dashboard", 24)]
 
-      [DatabaseStep]
+      [DatabaseStep("ExternalOwner", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("forms", 11)]
 
-      [DatabaseStep]
+      [DatabaseStep("inbox", 13)]
 
-      [DatabaseStep]
+      [DatabaseStep("invitation", 6)]
 
-      [DatabaseStep]
+      [DatabaseStep("LandingPage", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Mailings", 16)]
 
-      [DatabaseStep]
+      [DatabaseStep("Metering", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewFollowupDialog", 4)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewSelection", 12)]
 
-      [DatabaseStep]
+      [DatabaseStep("NewsFeed", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Notifications", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("Online", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("Optimization", 2)]
 
-      [DatabaseStep]
+      [DatabaseStep("Pocket", 6)]
 
-      [DatabaseStep]
+      [DatabaseStep("R_Service", 3)]
 
-      [DatabaseStep]
+      [DatabaseStep("SubscriptionMgmt", 7)]
 
-      [DatabaseStep]
+      [DatabaseStep("SuperId", 3)]
 
-      [DatabaseStep]
+      [DatabaseStep("targets", 8)]
 
-      [DatabaseStep]
+      [DatabaseStep("TechnicalDebt", 1)]
 
-      [DatabaseStep]
+      [DatabaseStep("UserPreference", 4)]
 
-      [DatabaseStep]
+      [DatabaseStep("Webhooks", 5)]
 
-      [DatabaseStep]
+      [DatabaseStep("Workflows", 22)]
 
-      [DatabaseStep]
+      [DatabaseStep("SuperOffice", 151)]
 
-      [DatabaseStep]
+      [DatabaseStep("ConsentManagement", 24)]
 
-      [DatabaseStep]
+      [DatabaseStep("CS", 72)]
+
+      [DatabaseStep("customerCenter", 28)]
 
       public static class TablesInfo
     content.vb: >-
-      <DatabaseStep>
+      <DatabaseStep("ai", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("chat", 22)>
 
-      <DatabaseStep>
+      <DatabaseStep("CollaborationMeeting", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("configurablescreens", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("Copilot", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("CRMScript", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("dashboard", 24)>
 
-      <DatabaseStep>
+      <DatabaseStep("ExternalOwner", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("forms", 11)>
 
-      <DatabaseStep>
+      <DatabaseStep("inbox", 13)>
 
-      <DatabaseStep>
+      <DatabaseStep("invitation", 6)>
 
-      <DatabaseStep>
+      <DatabaseStep("LandingPage", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Mailings", 16)>
 
-      <DatabaseStep>
+      <DatabaseStep("Metering", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewFollowupDialog", 4)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewSelection", 12)>
 
-      <DatabaseStep>
+      <DatabaseStep("NewsFeed", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Notifications", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("Online", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("Optimization", 2)>
 
-      <DatabaseStep>
+      <DatabaseStep("Pocket", 6)>
 
-      <DatabaseStep>
+      <DatabaseStep("R_Service", 3)>
 
-      <DatabaseStep>
+      <DatabaseStep("SubscriptionMgmt", 7)>
 
-      <DatabaseStep>
+      <DatabaseStep("SuperId", 3)>
 
-      <DatabaseStep>
+      <DatabaseStep("targets", 8)>
 
-      <DatabaseStep>
+      <DatabaseStep("TechnicalDebt", 1)>
 
-      <DatabaseStep>
+      <DatabaseStep("UserPreference", 4)>
 
-      <DatabaseStep>
+      <DatabaseStep("Webhooks", 5)>
 
-      <DatabaseStep>
+      <DatabaseStep("Workflows", 22)>
 
-      <DatabaseStep>
+      <DatabaseStep("SuperOffice", 151)>
 
-      <DatabaseStep>
+      <DatabaseStep("ConsentManagement", 24)>
 
-      <DatabaseStep>
+      <DatabaseStep("CS", 72)>
+
+      <DatabaseStep("customerCenter", 28)>
 
       Public Module TablesInfo
   inheritance:
@@ -700,101 +708,236 @@ items:
   - System.Object.MemberwiseClone
   attributes:
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ai
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: chat
+    - type: System.Int32
+      value: 22
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CollaborationMeeting
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: configurablescreens
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Copilot
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CRMScript
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: dashboard
+    - type: System.Int32
+      value: 24
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ExternalOwner
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: forms
+    - type: System.Int32
+      value: 11
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: inbox
+    - type: System.Int32
+      value: 13
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: invitation
+    - type: System.Int32
+      value: 6
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: LandingPage
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Mailings
+    - type: System.Int32
+      value: 16
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Metering
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewFollowupDialog
+    - type: System.Int32
+      value: 4
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewSelection
+    - type: System.Int32
+      value: 12
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: NewsFeed
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Notifications
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Online
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Optimization
+    - type: System.Int32
+      value: 2
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Pocket
+    - type: System.Int32
+      value: 6
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: R_Service
+    - type: System.Int32
+      value: 3
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SubscriptionMgmt
+    - type: System.Int32
+      value: 7
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SuperId
+    - type: System.Int32
+      value: 3
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: targets
+    - type: System.Int32
+      value: 8
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: TechnicalDebt
+    - type: System.Int32
+      value: 1
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: UserPreference
+    - type: System.Int32
+      value: 4
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Webhooks
+    - type: System.Int32
+      value: 5
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: Workflows
+    - type: System.Int32
+      value: 22
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: SuperOffice
+    - type: System.Int32
+      value: 151
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: ConsentManagement
+    - type: System.Int32
+      value: 24
   - type: SuperOffice.Data.DatabaseStepAttribute
-    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32,SuperOffice.CD.DSL.V1.StepModel.ReleaseState)
-    arguments: []
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: CS
+    - type: System.Int32
+      value: 72
+  - type: SuperOffice.Data.DatabaseStepAttribute
+    ctor: SuperOffice.Data.DatabaseStepAttribute.#ctor(System.String,System.Int32)
+    arguments:
+    - type: System.String
+      value: customerCenter
+    - type: System.Int32
+      value: 28
 - uid: SuperOffice.Data.TablesInfo.GetSequenceTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetSequenceTableInfo
   id: GetSequenceTableInfo
@@ -12920,6 +13063,106 @@ items:
       type: SuperOffice.CRM.Data.TimeKeepingTableInfo
     content.vb: Public Shared Function GetTimeKeepingTableInfo() As TimeKeepingTableInfo
   overload: SuperOffice.Data.TablesInfo.GetTimeKeepingTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+  id: GetNewsFeedItemTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemTableInfo:
+
+    Contains news feed items - published to one or more users, with one or more language descriptions
+  example: []
+  syntax:
+    content: public static NewsFeedItemTableInfo GetNewsFeedItemTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemTableInfo() As NewsFeedItemTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  id: GetNewsFeedItemHtmlTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemHtmlTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemHtmlTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemHtmlTableInfo:
+
+    Detailed description of the news item, in a specific language.
+  example: []
+  syntax:
+    content: public static NewsFeedItemHtmlTableInfo GetNewsFeedItemHtmlTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemHtmlTableInfo() As NewsFeedItemHtmlTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  id: GetNewsFeedItemCtaTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemCtaTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemCtaTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemCtaTableInfo:
+
+    List of Calls-to-Action buttons to attach to a given news item. One item may have multiple CTAs (e.g. Approve + Reject).
+  example: []
+  syntax:
+    content: public static NewsFeedItemCtaTableInfo GetNewsFeedItemCtaTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemCtaTableInfo() As NewsFeedItemCtaTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  id: GetNewsFeedItemRecipientTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemRecipientTableInfo()
+  nameWithType: TablesInfo.GetNewsFeedItemRecipientTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of NewsFeedItemRecipientTableInfo:
+
+    Recipients of the news feed item. One news feed item may be sent to multiple recipients (users).
+  example: []
+  syntax:
+    content: public static NewsFeedItemRecipientTableInfo GetNewsFeedItemRecipientTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+    content.vb: Public Shared Function GetNewsFeedItemRecipientTableInfo() As NewsFeedItemRecipientTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   id: GetOnlineAppTableInfo
@@ -21840,6 +22083,66 @@ references:
   name: TimeKeepingTableInfo
   nameWithType: TimeKeepingTableInfo
   fullName: SuperOffice.CRM.Data.TimeKeepingTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemTableInfo
+  name: GetNewsFeedItemTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  name: NewsFeedItemTableInfo
+  nameWithType: NewsFeedItemTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemHtmlTableInfo
+  name: GetNewsFeedItemHtmlTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemHtmlTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemHtmlTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html
+  name: NewsFeedItemHtmlTableInfo
+  nameWithType: NewsFeedItemHtmlTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemCtaTableInfo
+  name: GetNewsFeedItemCtaTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemCtaTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemCtaTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html
+  name: NewsFeedItemCtaTableInfo
+  nameWithType: NewsFeedItemCtaTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetNewsFeedItemRecipientTableInfo
+  name: GetNewsFeedItemRecipientTableInfo
+  nameWithType: TablesInfo.GetNewsFeedItemRecipientTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetNewsFeedItemRecipientTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  name: NewsFeedItemRecipientTableInfo
+  nameWithType: NewsFeedItemRecipientTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   isExternal: true

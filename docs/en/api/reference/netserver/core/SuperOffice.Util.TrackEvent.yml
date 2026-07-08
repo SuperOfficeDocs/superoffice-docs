@@ -11,6 +11,7 @@ items:
   - SuperOffice.Util.TrackEvent.EventName
   - SuperOffice.Util.TrackEvent.EventProperties
   - SuperOffice.Util.TrackEvent.IdentifyEventName
+  - SuperOffice.Util.TrackEvent.ToString
   - SuperOffice.Util.TrackEvent.UserId
   langs:
   - csharp
@@ -30,7 +31,6 @@ items:
   inheritance:
   - System.Object
   inheritedMembers:
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
@@ -109,6 +109,28 @@ items:
   nameWithType.vb: TrackEvent.New(String, (argName As String, argVal As Object)())
   fullName.vb: SuperOffice.Util.TrackEvent.New(String, (argName As String, argVal As Object)())
   name.vb: New(String, (argName As String, argVal As Object)())
+- uid: SuperOffice.Util.TrackEvent.ToString
+  commentId: M:SuperOffice.Util.TrackEvent.ToString
+  id: ToString
+  parent: SuperOffice.Util.TrackEvent
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TrackEvent.ToString()
+  fullName: SuperOffice.Util.TrackEvent.ToString()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Util.TrackEvent.ToString*
 - uid: SuperOffice.Util.TrackEvent.ContextIdentifier
   commentId: P:SuperOffice.Util.TrackEvent.ContextIdentifier
   id: ContextIdentifier
@@ -238,30 +260,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -786,6 +784,37 @@ references:
   - name: )
   - name: (
   - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.TrackEvent.ToString*
+  commentId: Overload:SuperOffice.Util.TrackEvent.ToString
+  isExternal: true
+  href: SuperOffice.Util.TrackEvent.html#SuperOffice_Util_TrackEvent_ToString
+  name: ToString
+  nameWithType: TrackEvent.ToString
+  fullName: SuperOffice.Util.TrackEvent.ToString
 - uid: SuperOffice.Util.TrackEvent.ContextIdentifier*
   commentId: Overload:SuperOffice.Util.TrackEvent.ContextIdentifier
   isExternal: true

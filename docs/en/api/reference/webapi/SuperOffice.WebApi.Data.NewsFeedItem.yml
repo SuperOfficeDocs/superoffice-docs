@@ -1,0 +1,1397 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.NewsFeedItem
+  commentId: T:SuperOffice.WebApi.Data.NewsFeedItem
+  id: NewsFeedItem
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.NewsFeedItem.#ctor
+  - SuperOffice.WebApi.Data.NewsFeedItem.Actions
+  - SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId
+  - SuperOffice.WebApi.Data.NewsFeedItem.Contact
+  - SuperOffice.WebApi.Data.NewsFeedItem.Description
+  - SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt
+  - SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName
+  - SuperOffice.WebApi.Data.NewsFeedItem.FromName
+  - SuperOffice.WebApi.Data.NewsFeedItem.ImageLink
+  - SuperOffice.WebApi.Data.NewsFeedItem.IsRead
+  - SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId
+  - SuperOffice.WebApi.Data.NewsFeedItem.Person
+  - SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint
+  - SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  - SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  - SuperOffice.WebApi.Data.NewsFeedItem.Project
+  - SuperOffice.WebApi.Data.NewsFeedItem.ReadAt
+  - SuperOffice.WebApi.Data.NewsFeedItem.Registered
+  - SuperOffice.WebApi.Data.NewsFeedItem.Sale
+  - SuperOffice.WebApi.Data.NewsFeedItem.SourceLink
+  - SuperOffice.WebApi.Data.NewsFeedItem.Status
+  - SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  - SuperOffice.WebApi.Data.NewsFeedItem.Summary
+  - SuperOffice.WebApi.Data.NewsFeedItem.Title
+  - SuperOffice.WebApi.Data.NewsFeedItem.Updated
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for NewsFeedItem.
+
+    News feed items are created by agents or other services for display on the start page and other relevant places in the UI.
+  remarks: >-
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
+                All NewsFeedItem: <pre><code class="lang-csharp">"NewsFeedItem"</code></pre>
+  example:
+  - >-
+    Get NewsFeedItem 123 using the WebApi client:
+
+    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
+
+    var agent = new NewsFeedAgent(configuration);
+
+    var newsFeedItem = agent.GetNewsFeedItem( 123 );</code></pre>
+  syntax:
+    content: public class NewsFeedItem
+    content.vb: Public Class NewsFeedItem
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.NewsFeedAgent
+    commentId: T:SuperOffice.WebApi.Agents.NewsFeedAgent
+  - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
+    commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  - linkId: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+    commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.#ctor
+  commentId: M:SuperOffice.WebApi.Data.NewsFeedItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItem()
+  nameWithType: NewsFeedItem.NewsFeedItem()
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItem()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public NewsFeedItem()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.#ctor*
+  nameWithType.vb: NewsFeedItem.New()
+  fullName.vb: SuperOffice.WebApi.Data.NewsFeedItem.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId
+  id: NewsFeedItemId
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedItemId
+  nameWithType: NewsFeedItem.NewsFeedItemId
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Primary key
+  example: []
+  syntax:
+    content: public virtual int NewsFeedItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NewsFeedItemId As Integer
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Title
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: NewsFeedItem.Title
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Title
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "Short, descriptive headline. Plain text title. Multi-language string supported: 'US:\"english\";NO:\"norsk\"'."
+  example: []
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Title*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Summary
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Summary
+  id: Summary
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Summary
+  nameWithType: NewsFeedItem.Summary
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Summary
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "Short, descriptive summary. Plain text summary. Multi-language string supported: 'US:\"english\";NO:\"norsk\"'."
+  example: []
+  syntax:
+    content: public virtual string Summary { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Summary As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Summary*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Description
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: NewsFeedItem.Description
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Description
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Multi-language descriptions for the news feed item, where the key is an ISO 2 letter language code (e.g. 'en', 'no', 'de') and the value is the description in that language. Styling via pre-defined CSS classes. No SCRIPT or STYLE tags allowed. The 'current' value is set based on the Accept-Language/SO-Language header.
+  example: []
+  syntax:
+    content: public virtual StringDictionary Description { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property Description As StringDictionary
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Description*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Actions
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Actions
+  id: Actions
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Actions
+  nameWithType: NewsFeedItem.Actions
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Actions
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Call to action items for the news feed item. Each item contains a title, an identifier, a type and flavor.
+  example: []
+  syntax:
+    content: public virtual NewsFeedCTA[] Actions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.NewsFeedCTA[]
+    content.vb: Public Overridable Property Actions As NewsFeedCTA()
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Actions*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ImageLink
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.ImageLink
+  id: ImageLink
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ImageLink
+  nameWithType: NewsFeedItem.ImageLink
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ImageLink
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: URL Link to an image associated with the news item.
+  example: []
+  syntax:
+    content: public virtual string ImageLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ImageLink As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.ImageLink*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.SourceLink
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.SourceLink
+  id: SourceLink
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: SourceLink
+  nameWithType: NewsFeedItem.SourceLink
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.SourceLink
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: URL Link to the source of the news item, or an SOProtocol link to a SuperOffice item
+  example: []
+  syntax:
+    content: public virtual string SourceLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SourceLink As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.SourceLink*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint
+  id: PreviewHint
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: PreviewHint
+  nameWithType: NewsFeedItem.PreviewHint
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Preview hint for the news item. e.g. `{contact_id=123}`
+  example: []
+  syntax:
+    content: public virtual string PreviewHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PreviewHint As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.FromName
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.FromName
+  id: FromName
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: FromName
+  nameWithType: NewsFeedItem.FromName
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.FromName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Name of the instance that published this item. e.g. `Pete the prospector`
+  example: []
+  syntax:
+    content: public virtual string FromName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromName As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.FromName*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName
+  id: FromCategoryName
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: FromCategoryName
+  nameWithType: NewsFeedItem.FromCategoryName
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Type of the instance that published this item. e.g. `Prospector Agent`
+  example: []
+  syntax:
+    content: public virtual string FromCategoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FromCategoryName As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  id: Priority_String
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Priority_String
+  nameWithType: NewsFeedItem.Priority_String
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Importance of the news item. Low to High. Higher priority items may be shown more prominently in the feed.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("Priority")]
+
+      public string Priority_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("Priority")>
+
+      Public Property Priority_String As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.NewsFeedItem.Priority
+    commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Priority
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  id: Priority
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: NewsFeedItem.Priority
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Importance of the news item. Low to High. Higher priority items may be shown more prominently in the feed.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public EMailPriority? Priority { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EMailPriority}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Priority As EMailPriority?
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Priority*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+    commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Registered
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: NewsFeedItem.Registered
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Registered
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Registered when
+  example: []
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As Date
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Registered*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Updated
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: NewsFeedItem.Updated
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Updated
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Last updated when
+  example: []
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Updated*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt
+  id: ExpiresAt
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ExpiresAt
+  nameWithType: NewsFeedItem.ExpiresAt
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: When the news item expires and should no longer be shown in feeds (UTC)
+  example: []
+  syntax:
+    content: public virtual DateTime ExpiresAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ExpiresAt As Date
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: NewsFeedItem.Status_String
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Indicates if the item is being handled by a CTA. (normal, processing, processed)
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("Status")]
+
+      public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("Status")>
+
+      Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.NewsFeedItem.Status
+    commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Status
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Status
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Status
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: NewsFeedItem.Status
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Status
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Indicates if the item is being handled by a CTA. (normal, processing, processed)
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public NewsFeedItemStatus? Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.NewsFeedItemStatus}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property Status As NewsFeedItemStatus?
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+    commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.IsRead
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.IsRead
+  id: IsRead
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: IsRead
+  nameWithType: NewsFeedItem.IsRead
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.IsRead
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Set to true when the recipient user has read the news feed item.
+  example: []
+  syntax:
+    content: public virtual bool IsRead { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsRead As Boolean
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.IsRead*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ReadAt
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.ReadAt
+  id: ReadAt
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ReadAt
+  nameWithType: NewsFeedItem.ReadAt
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ReadAt
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: When the recipient user read the news feed item (UTC)
+  example: []
+  syntax:
+    content: public virtual DateTime ReadAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ReadAt As Date
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.ReadAt*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Contact
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: NewsFeedItem.Contact
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Contact
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Company that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Contact*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Person
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: NewsFeedItem.Person
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Person
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Person that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: public virtual Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Person
+    content.vb: Public Overridable Property Person As Person
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Person*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Project
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: NewsFeedItem.Project
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Project
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Project that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: public virtual Project Project { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Project
+    content.vb: Public Overridable Property Project As Project
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Project*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Sale
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: NewsFeedItem.Sale
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Sale
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Sale that is mentioned in the news feed item - null if not applicable
+  example: []
+  syntax:
+    content: public virtual Sale Sale { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Sale
+    content.vb: Public Overridable Property Sale As Sale
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.Sale*
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId
+  id: ApplicationId
+  parent: SuperOffice.WebApi.Data.NewsFeedItem
+  langs:
+  - csharp
+  - vb
+  name: ApplicationId
+  nameWithType: NewsFeedItem.ApplicationId
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The id of the application that registered this news item. Used to resolve where any CTA should be posted when clicked.
+  example: []
+  syntax:
+    content: public virtual string ApplicationId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ApplicationId As String
+  overload: SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId*
+references:
+- uid: SuperOffice.WebApi.Agents.NewsFeedAgent
+  commentId: T:SuperOffice.WebApi.Agents.NewsFeedAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.NewsFeedAgent.html
+  name: NewsFeedAgent
+  nameWithType: NewsFeedAgent
+  fullName: SuperOffice.WebApi.Agents.NewsFeedAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  isExternal: true
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem__ctor
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem.NewsFeedItem
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItem
+  nameWithType.vb: NewsFeedItem.New
+  fullName.vb: SuperOffice.WebApi.Data.NewsFeedItem.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_NewsFeedItemId
+  name: NewsFeedItemId
+  nameWithType: NewsFeedItem.NewsFeedItemId
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.NewsFeedItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Title
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Title
+  name: Title
+  nameWithType: NewsFeedItem.Title
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Summary*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Summary
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Summary
+  name: Summary
+  nameWithType: NewsFeedItem.Summary
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Summary
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Description
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Description
+  name: Description
+  nameWithType: NewsFeedItem.Description
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Description
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.StringDictionary.html
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Actions*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Actions
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Actions
+  name: Actions
+  nameWithType: NewsFeedItem.Actions
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Actions
+- uid: SuperOffice.WebApi.Data.NewsFeedCTA[]
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedCTA.html
+  name: NewsFeedCTA[]
+  nameWithType: NewsFeedCTA[]
+  fullName: SuperOffice.WebApi.Data.NewsFeedCTA[]
+  nameWithType.vb: NewsFeedCTA()
+  fullName.vb: SuperOffice.WebApi.Data.NewsFeedCTA()
+  name.vb: NewsFeedCTA()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.NewsFeedCTA
+    name: NewsFeedCTA
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedCTA.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.NewsFeedCTA
+    name: NewsFeedCTA
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedCTA.html
+  - name: (
+  - name: )
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ImageLink*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.ImageLink
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_ImageLink
+  name: ImageLink
+  nameWithType: NewsFeedItem.ImageLink
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ImageLink
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.SourceLink*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.SourceLink
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_SourceLink
+  name: SourceLink
+  nameWithType: NewsFeedItem.SourceLink
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.SourceLink
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_PreviewHint
+  name: PreviewHint
+  nameWithType: NewsFeedItem.PreviewHint
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.PreviewHint
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.FromName*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.FromName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_FromName
+  name: FromName
+  nameWithType: NewsFeedItem.FromName
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.FromName
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_FromCategoryName
+  name: FromCategoryName
+  nameWithType: NewsFeedItem.FromCategoryName
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.FromCategoryName
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Priority
+  name: Priority
+  nameWithType: NewsFeedItem.Priority
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Priority
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Priority_String
+  name: Priority_String
+  nameWithType: NewsFeedItem.Priority_String
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Priority_String
+  name: Priority_String
+  nameWithType: NewsFeedItem.Priority_String
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Priority_String
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Priority*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Priority
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Priority
+  name: Priority
+  nameWithType: NewsFeedItem.Priority
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Priority
+- uid: System.Nullable{SuperOffice.WebApi.Data.EMailPriority}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.EMailPriority}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.EMailPriority.html
+  name: EMailPriority?
+  nameWithType: EMailPriority?
+  fullName: SuperOffice.WebApi.Data.EMailPriority?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EMailPriority
+    name: EMailPriority
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailPriority.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EMailPriority
+    name: EMailPriority
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EMailPriority.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Registered
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Registered
+  name: Registered
+  nameWithType: NewsFeedItem.Registered
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Updated
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Updated
+  name: Updated
+  nameWithType: NewsFeedItem.Updated
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Updated
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_ExpiresAt
+  name: ExpiresAt
+  nameWithType: NewsFeedItem.ExpiresAt
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ExpiresAt
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Status
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Status
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Status
+  name: Status
+  nameWithType: NewsFeedItem.Status
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Status
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Status_String
+  name: Status_String
+  nameWithType: NewsFeedItem.Status_String
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  commentId: P:SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Status_String
+  name: Status_String
+  nameWithType: NewsFeedItem.Status_String
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Status_String
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Status
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Status
+  name: Status
+  nameWithType: NewsFeedItem.Status
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Status
+- uid: System.Nullable{SuperOffice.WebApi.Data.NewsFeedItemStatus}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.NewsFeedItemStatus}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.NewsFeedItemStatus.html
+  name: NewsFeedItemStatus?
+  nameWithType: NewsFeedItemStatus?
+  fullName: SuperOffice.WebApi.Data.NewsFeedItemStatus?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.NewsFeedItemStatus
+    name: NewsFeedItemStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedItemStatus.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.NewsFeedItemStatus
+    name: NewsFeedItemStatus
+    isExternal: true
+    href: SuperOffice.WebApi.Data.NewsFeedItemStatus.html
+  - name: '?'
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.IsRead*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.IsRead
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_IsRead
+  name: IsRead
+  nameWithType: NewsFeedItem.IsRead
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.IsRead
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ReadAt*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.ReadAt
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_ReadAt
+  name: ReadAt
+  nameWithType: NewsFeedItem.ReadAt
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ReadAt
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Contact*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Contact
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Contact
+  name: Contact
+  nameWithType: NewsFeedItem.Contact
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Contact
+- uid: SuperOffice.WebApi.Data.Contact
+  commentId: T:SuperOffice.WebApi.Data.Contact
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Contact.html
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.WebApi.Data.Contact
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Person*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Person
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Person
+  name: Person
+  nameWithType: NewsFeedItem.Person
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Person
+- uid: SuperOffice.WebApi.Data.Person
+  commentId: T:SuperOffice.WebApi.Data.Person
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Person.html
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.WebApi.Data.Person
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Project*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Project
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Project
+  name: Project
+  nameWithType: NewsFeedItem.Project
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Project
+- uid: SuperOffice.WebApi.Data.Project
+  commentId: T:SuperOffice.WebApi.Data.Project
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Project.html
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.WebApi.Data.Project
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.Sale*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.Sale
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_Sale
+  name: Sale
+  nameWithType: NewsFeedItem.Sale
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.Sale
+- uid: SuperOffice.WebApi.Data.Sale
+  commentId: T:SuperOffice.WebApi.Data.Sale
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Sale.html
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.WebApi.Data.Sale
+- uid: SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId*
+  commentId: Overload:SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.NewsFeedItem.html#SuperOffice_WebApi_Data_NewsFeedItem_ApplicationId
+  name: ApplicationId
+  nameWithType: NewsFeedItem.ApplicationId
+  fullName: SuperOffice.WebApi.Data.NewsFeedItem.ApplicationId

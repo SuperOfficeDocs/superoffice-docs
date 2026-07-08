@@ -327,6 +327,10 @@ items:
   - SuperOffice.CRM.Rows.MsFilterRow
   - SuperOffice.CRM.Rows.MsSubstituteRow
   - SuperOffice.CRM.Rows.MsTrashbinRow
+  - SuperOffice.CRM.Rows.NewsFeedItemCtaRow
+  - SuperOffice.CRM.Rows.NewsFeedItemHtmlRow
+  - SuperOffice.CRM.Rows.NewsFeedItemRecipientRow
+  - SuperOffice.CRM.Rows.NewsFeedItemRow
   - SuperOffice.CRM.Rows.NoticeFrameRow
   - SuperOffice.CRM.Rows.NotifyRow
   - SuperOffice.CRM.Rows.OnlineAppRow

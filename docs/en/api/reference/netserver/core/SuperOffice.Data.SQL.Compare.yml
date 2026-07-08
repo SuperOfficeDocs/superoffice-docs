@@ -86,7 +86,7 @@ items:
 
     To handle that, we look at the FieldInfo, and transfer its type onto the argument; possibly with some 
 
-    last-minute patching to handle Oracle CLOB storage of what are normal VARCHAR's on all the other databases.
+    last-minute patching to handle CLOB storage of what are normal VARCHAR's on most databases.
   example: []
   syntax:
     content: protected Compare(Argument left, Argument right)

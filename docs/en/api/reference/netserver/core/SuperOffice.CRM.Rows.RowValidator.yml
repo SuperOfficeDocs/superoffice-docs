@@ -52,6 +52,8 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CredentialControlType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CredentialUsage@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CrmActorType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaFlavor@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CustomFieldType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileCurrencyMode@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.DashTileEntityType@,SuperOffice.Data.SQL.FieldInfo)
@@ -131,6 +133,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ModifiedAppointmentFields@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.Navigation@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NewsFeedItemStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationMessageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationPlatform@,SuperOffice.Data.SQL.FieldInfo)
@@ -6625,6 +6628,90 @@ items:
   nameWithType.vb: RowValidator.ValidateField(MeteringStatus, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.MeteringStatus, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(MeteringStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NewsFeedItemStatus@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NewsFeedItemStatus@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.NewsFeedItemStatus@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref NewsFeedItemStatus, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref NewsFeedItemStatus, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.NewsFeedItemStatus, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref NewsFeedItemStatus field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.NewsFeedItemStatus
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As NewsFeedItemStatus, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(NewsFeedItemStatus, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NewsFeedItemStatus, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(NewsFeedItemStatus, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.CtaType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref CtaType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref CtaType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.CtaType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref CtaType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.CtaType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As CtaType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(CtaType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(CtaType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaFlavor@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaFlavor@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.CtaFlavor@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref CtaFlavor, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref CtaFlavor, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.CtaFlavor, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref CtaFlavor field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.CtaFlavor
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As CtaFlavor, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(CtaFlavor, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CtaFlavor, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(CtaFlavor, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -11155,6 +11242,30 @@ references:
   name: MeteringStatus
   nameWithType: MeteringStatus
   fullName: SuperOffice.Data.MeteringStatus
+- uid: SuperOffice.Data.NewsFeedItemStatus
+  commentId: T:SuperOffice.Data.NewsFeedItemStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.NewsFeedItemStatus.html
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.Data.NewsFeedItemStatus
+- uid: SuperOffice.Data.CtaType
+  commentId: T:SuperOffice.Data.CtaType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CtaType.html
+  name: CtaType
+  nameWithType: CtaType
+  fullName: SuperOffice.Data.CtaType
+- uid: SuperOffice.Data.CtaFlavor
+  commentId: T:SuperOffice.Data.CtaFlavor
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CtaFlavor.html
+  name: CtaFlavor
+  nameWithType: CtaFlavor
+  fullName: SuperOffice.Data.CtaFlavor
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data

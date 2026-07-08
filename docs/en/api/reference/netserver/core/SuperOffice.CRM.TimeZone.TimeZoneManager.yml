@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.TimeZone.TimeZoneManager.GetBaseTimeZoneId
   - SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.TimeZone.TimeZoneManager.InitializeTimeZoneData
   - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.TimeZone.TimeZoneManager.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,System.Threading.CancellationToken)
@@ -225,6 +226,50 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
     content.vb: Public Shared Function GetDefaultTimeZonePreferenceAsync(cancellationToken As CancellationToken) As Task(Of Integer)
   overload: SuperOffice.CRM.TimeZone.TimeZoneManager.GetDefaultTimeZonePreferenceAsync*
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync(System.Threading.CancellationToken)
+  id: GetEffectiveDefaultTimeZoneAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.TimeZone.TimeZoneManager
+  langs:
+  - csharp
+  - vb
+  name: GetEffectiveDefaultTimeZoneAsync(CancellationToken)
+  nameWithType: TimeZoneManager.GetEffectiveDefaultTimeZoneAsync(CancellationToken)
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.TimeZone
+  summary: >-
+    Resolve the effective default time zone for the current user, walking the preference levels
+
+    from Individual down to HardDefault and returning the first row with a non-empty value.
+
+    Rows with NULL/empty values are skipped: clearing the personal time zone in user preferences
+
+    leaves an empty individual-level row behind, and that row must not shadow a time zone set at
+
+    a higher level (e.g. system-wide).
+
+    When no level has a value, falls back to the base time zone code with UserPreferenceId 0.
+
+    Resolves for the current principal (<xref href="SuperOffice.SoContext.CurrentPrincipal" data-throw-if-not-resolved="false"></xref>), not an arbitrary user.
+
+    Callers must guard the returned code against null/empty before passing it to
+
+    <xref href="SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(System.String)" data-throw-if-not-resolved="false"></xref> — the fallback code is null when time zones
+
+    are not initialized.
+  example: []
+  syntax:
+    content: public static Task<(string TzCode, int UserPreferenceId)> GetEffectiveDefaultTimeZoneAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32}}
+    content.vb: Public Shared Function GetEffectiveDefaultTimeZoneAsync(cancellationToken As CancellationToken = Nothing) As Task(Of (TzCode As String, UserPreferenceId As Integer))
+  overload: SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync*
 - uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   id: DeleteTimeZonesAsync(System.Threading.CancellationToken)
@@ -1365,6 +1410,101 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.SoContext.CurrentPrincipal
+  commentId: P:SuperOffice.SoContext.CurrentPrincipal
+  isExternal: true
+  href: SuperOffice.SoContext.html#SuperOffice_SoContext_CurrentPrincipal
+  name: CurrentPrincipal
+  nameWithType: SoContext.CurrentPrincipal
+  fullName: SuperOffice.SoContext.CurrentPrincipal
+- uid: SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(System.String)
+  commentId: M:SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(System.String)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetTimeZoneDataByCode(string)
+  nameWithType: TimeConverter.GetTimeZoneDataByCode(string)
+  fullName: SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(string)
+  nameWithType.vb: TimeConverter.GetTimeZoneDataByCode(String)
+  fullName.vb: SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(String)
+  name.vb: GetTimeZoneDataByCode(String)
+  spec.csharp:
+  - uid: SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(System.String)
+    name: GetTimeZoneDataByCode
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.TimeConverter.GetTimeZoneDataByCode(System.String)
+    name: GetTimeZoneDataByCode
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync*
+  commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync
+  isExternal: true
+  href: SuperOffice.CRM.TimeZone.TimeZoneManager.html#SuperOffice_CRM_TimeZone_TimeZoneManager_GetEffectiveDefaultTimeZoneAsync_System_Threading_CancellationToken_
+  name: GetEffectiveDefaultTimeZoneAsync
+  nameWithType: TimeZoneManager.GetEffectiveDefaultTimeZoneAsync
+  fullName: SuperOffice.CRM.TimeZone.TimeZoneManager.GetEffectiveDefaultTimeZoneAsync
+- uid: System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32}}
+  commentId: T:System.Threading.Tasks.Task{System.ValueTuple{System.String,System.Int32}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<(string, int)>
+  nameWithType: Task<(string, int)>
+  fullName: System.Threading.Tasks.Task<(string, int)>
+  nameWithType.vb: Task(Of (String, Integer))
+  fullName.vb: System.Threading.Tasks.Task(Of (String, Integer))
+  name.vb: Task(Of (String, Integer))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
   - name: )
 - uid: SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync*
   commentId: Overload:SuperOffice.CRM.TimeZone.TimeZoneManager.DeleteTimeZonesAsync

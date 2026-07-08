@@ -25,7 +25,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -206,7 +206,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |sourceRelation/name|stringorPK|Source - Company name| x |
 |sourceRelation/department|string|Source - Department| x |
-|sourceRelation/nameDepartment| *None* |Source - Company: Displays the company an activity is linked to| x |
+|sourceRelation/nameDepartment|string|Source - Company: Displays the company an activity is linked to| x |
 |sourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |sourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |sourceRelation/associateId|associate|Source - Our contact: Displays our contact| x |
@@ -243,7 +243,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |targetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |targetRelation/name|stringorPK|Target - Company name| x |
 |targetRelation/department|string|Target - Department| x |
-|targetRelation/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
+|targetRelation/nameDepartment|string|Target - Company: Displays the company an activity is linked to| x |
 |targetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |targetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |targetRelation/associateId|associate|Target - Our contact: Displays our contact| x |
@@ -335,6 +335,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -430,11 +431,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
 |appointment/appointmentUdef/SuperOffice:2|string|followuplongtext| x |
 |appointment/appointmentUdef/SuperOffice:3|int|followupnumber| x |
@@ -476,6 +477,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -533,12 +535,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/associateDbId|associate|ID| x |
 |document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
+|document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
 |document/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |document/associate/contactCategory|listAny|Category: Category| x |
@@ -574,7 +576,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=registeredDate,contactAssociate/contactCategory,contactUdef/SuperOffice:11,sale/contactId,appointment/cautionWarning
+GET /api/v1/archive/DummySelectionContact?$select=updatedBy,url/URLAddress,contactAssociate/mrMrs,contactUdef/SuperOffice:9,targetRelation/activeErpLinks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

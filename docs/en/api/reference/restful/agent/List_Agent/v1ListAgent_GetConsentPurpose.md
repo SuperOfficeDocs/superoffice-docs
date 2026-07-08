@@ -29,7 +29,7 @@ NsApiSlow threshold: 5000 ms.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=376
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=754
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 | UpdatedDate | date-time | The date the consent purpose was last updated  in UTC. |
 | UpdatedBy | Associate | The associate that last updated the consent purpose |
 | Deleted | bool | true if the ConsentPurpose is deleted |
-| Rank | int32 | Rank of this consent source |
+| Rank | int32 | Rank order |
 | PrivacyStatementDesc | string | Name or description for the privacy statement |
 | PrivacyStatementUrl | string | Url referencing the actual privacy statement |
 | TableRight | TableRight | The carrier's table right |

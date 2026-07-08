@@ -94,7 +94,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The list item
+  summary: Name of legal base
   example: []
   syntax:
     content: public string Name
@@ -115,7 +115,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Rank order
+  summary: Rank of this legal base
   example: []
   syntax:
     content: public short Rank
@@ -136,7 +136,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The tooltip for the list item
+  summary: Tooltip for this legal base
   example: []
   syntax:
     content: public string Tooltip
@@ -178,7 +178,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The list item key, to be recognized by application logic
+  summary: The key used to uniquely identify this legal base
   example: []
   syntax:
     content: public string Key

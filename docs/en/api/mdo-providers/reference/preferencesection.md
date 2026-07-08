@@ -45,27 +45,27 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
+|1000540|AI||AI|
 |1000010|Customer Centre password policy||ccAuthentication|
 |1000007|Client||Client|
-|1000549|SuperOffice Copilot||Copilot|
+|1000545|SuperOffice Copilot||Copilot|
 |1000020|Statistics||DataCollection|
 |1000032|Default values||Defaults|
 |1000067|Diary||DiaryView|
-|1000325|Notifications for e-mail||emailNotification|
+|1000316|Notifications for e-mail||emailNotification|
 |1000094|Filter Dialog||FilterDialog|
 |1000096|Freetext search||Freetext|
-|1000104|Functions||Functions|
-|1000544|In-app communication||InApp|
-|1000159|E-mail||Mail|
-|1000222|Marketing||Mailing|
-|1000230|Grouped lists||MDOList|
-|1000541|Data mirroring||Mirroring|
-|1000301|Web Services||NetServices|
-|1000331|Notifications via popup||notification|
-|1000339|Notifications via e-mail||notificationEmail|
-|1000347|Notifications via SMS||notificationSms|
-|1000363|Contact||Person|
-|1000382|Mobile CRM||PocketTasks|
+|1000100|Functions||Functions|
+|1000535|In-app communication||InApp|
+|1000155|E-mail||Mail|
+|1000213|Marketing||Mailing|
+|1000221|Grouped lists||MDOList|
+|1000532|Data mirroring||Mirroring|
+|1000292|Web Services||NetServices|
+|1000322|Notifications via popup||notification|
+|1000330|Notifications via e-mail||notificationEmail|
+|1000338|Notifications via SMS||notificationSms|
+|1000354|Contact||Person|
 
 
 ## Related MDO Lists

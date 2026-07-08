@@ -45,6 +45,7 @@ items:
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailAccountFromEMailAddressAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailAddressesAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailAsStreamFromServerIdentifierAsync(SuperOffice.CRM.Services.EMailConnectionInfo,System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IEMailAgent.GetEMailAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
@@ -2549,6 +2550,46 @@ items:
   nameWithType.vb: IEMailAgent.RelayMessageAsync(EMailConnectionInfoExtended, String, String, String(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IEMailAgent.RelayMessageAsync(SuperOffice.CRM.Services.EMailConnectionInfoExtended, String, String, String(), System.Threading.CancellationToken)
   name.vb: RelayMessageAsync(EMailConnectionInfoExtended, String, String, String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: GetEMailAsEmlStreamAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IEMailAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAsEmlStreamAsync(int, bool, CancellationToken)
+  nameWithType: IEMailAgent.GetEMailAsEmlStreamAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync(int, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Get an inbox e-mail (by its EmailItemId) serialized as an Outlook-openable RFC822 (.eml) stream. Works for both IMAP and Graph/Exchange-Online mailboxes because it serializes the loaded entity instead of re-fetching the raw message by server id.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
+  example: []
+  syntax:
+    content: Task<Stream> GetEMailAsEmlStreamAsync(int emailItemId, bool includeAttachments, CancellationToken cancellationToken = default)
+    parameters:
+    - id: emailItemId
+      type: System.Int32
+      description: The EmailItemId of the e-mail to retrieve as stream
+    - id: includeAttachments
+      type: System.Boolean
+      description: Should attachments be included in the stream
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: Get an inbox e-mail (by its EmailItemId) serialized as an Outlook-openable RFC822 (.eml) stream
+    content.vb: Function GetEMailAsEmlStreamAsync(emailItemId As Integer, includeAttachments As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
+  overload: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync*
+  nameWithType.vb: IEMailAgent.GetEMailAsEmlStreamAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: GetEMailAsEmlStreamAsync(Integer, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IEMailAgent.GetEMailAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   id: GetEMailAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
@@ -5696,6 +5737,13 @@ references:
   name: RelayMessageAsync
   nameWithType: IEMailAgent.RelayMessageAsync
   fullName: SuperOffice.CRM.Services.IEMailAgent.RelayMessageAsync
+- uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IEMailAgent.html#SuperOffice_CRM_Services_IEMailAgent_GetEMailAsEmlStreamAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: GetEMailAsEmlStreamAsync
+  nameWithType: IEMailAgent.GetEMailAsEmlStreamAsync
+  fullName: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsEmlStreamAsync
 - uid: SuperOffice.CRM.Services.IEMailAgent.GetEMailAsync*
   commentId: Overload:SuperOffice.CRM.Services.IEMailAgent.GetEMailAsync
   isExternal: true

@@ -12,9 +12,6 @@ items:
   - SuperOffice.IO.Files.DiskFileAccess.DirectoryExists(System.String)
   - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFileInfosAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken)
-  - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
-  - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  - SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
   - SuperOffice.IO.Files.DiskFileAccess.FileDeleteAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.IO.Files.DiskFileAccess.GetDirectoryName(System.String)
@@ -58,93 +55,6 @@ items:
   - SuperOffice.IO.Files.DiskFileAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.IO.Files.DiskFileAccess.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.IO.Files.DiskFileAccess)
   - SuperOffice.IO.Files.DiskFileAccess.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
-  id: EnsureAccess(System.Action)
-  parent: SuperOffice.IO.Files.DiskFileAccess
-  langs:
-  - csharp
-  - vb
-  name: EnsureAccess(Action)
-  nameWithType: DiskFileAccess.EnsureAccess(Action)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Action)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO.Files
-  summary: Impersonation for Windows Disk File Access. For Azure File Access this is a noop.
-  example: []
-  syntax:
-    content: public void EnsureAccess(Action action)
-    parameters:
-    - id: action
-      type: System.Action
-    content.vb: Public Sub EnsureAccess(action As Action)
-  overload: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
-  implements:
-  - SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
-- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  id: EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  parent: SuperOffice.IO.Files.DiskFileAccess
-  langs:
-  - csharp
-  - vb
-  name: EnsureAccess(Func<Task>)
-  nameWithType: DiskFileAccess.EnsureAccess(Func<Task>)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func<System.Threading.Tasks.Task>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO.Files
-  summary: Impersonation for Windows Disk File Access. For Azure File Access this is a noop.
-  example: []
-  syntax:
-    content: public Task EnsureAccess(Func<Task> action)
-    parameters:
-    - id: action
-      type: System.Func{System.Threading.Tasks.Task}
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function EnsureAccess(action As Func(Of Task)) As Task
-  overload: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
-  implements:
-  - SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  nameWithType.vb: DiskFileAccess.EnsureAccess(Func(Of Task))
-  fullName.vb: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(System.Func(Of System.Threading.Tasks.Task))
-  name.vb: EnsureAccess(Func(Of Task))
-- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
-  commentId: M:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess``1(System.Func{``0})
-  id: EnsureAccess``1(System.Func{``0})
-  parent: SuperOffice.IO.Files.DiskFileAccess
-  langs:
-  - csharp
-  - vb
-  name: EnsureAccess<T>(Func<T>)
-  nameWithType: DiskFileAccess.EnsureAccess<T>(Func<T>)
-  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess<T>(System.Func<T>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.IO.Files
-  summary: Impersonation for Windows Disk File Access. For Azure File Access this is a noop.
-  example: []
-  syntax:
-    content: public T EnsureAccess<T>(Func<T> func)
-    parameters:
-    - id: func
-      type: System.Func{{T}}
-    typeParameters:
-    - id: T
-    return:
-      type: '{T}'
-    content.vb: Public Function EnsureAccess(Of T)(func As Func(Of T)) As T
-  overload: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
-  implements:
-  - SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{{T}})
-  nameWithType.vb: DiskFileAccess.EnsureAccess(Of T)(Func(Of T))
-  fullName.vb: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess(Of T)(System.Func(Of T))
-  name.vb: EnsureAccess(Of T)(Func(Of T))
 - uid: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync(System.String,System.Threading.CancellationToken)
   id: FileExistsAsync(System.String,System.Threading.CancellationToken)
@@ -1458,342 +1368,6 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
-- uid: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess*
-  commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.EnsureAccess
-  isExternal: true
-  href: SuperOffice.IO.Files.DiskFileAccess.html#SuperOffice_IO_Files_DiskFileAccess_EnsureAccess_System_Action_
-  name: EnsureAccess
-  nameWithType: DiskFileAccess.EnsureAccess
-  fullName: SuperOffice.IO.Files.DiskFileAccess.EnsureAccess
-- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
-  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
-  parent: SuperOffice.IO.Files.IFileAccess
-  isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Action_
-  name: EnsureAccess(Action)
-  nameWithType: IFileAccess.EnsureAccess(Action)
-  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
-  spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Action_
-  - name: (
-  - uid: System.Action
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Action_
-  - name: (
-  - uid: System.Action
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action
-  - name: )
-- uid: System.Action
-  commentId: T:System.Action
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action
-  name: Action
-  nameWithType: Action
-  fullName: System.Action
-- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-  parent: SuperOffice.IO.Files.IFileAccess
-  isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Func_System_Threading_Tasks_Task__
-  name: EnsureAccess(Func<Task>)
-  nameWithType: IFileAccess.EnsureAccess(Func<Task>)
-  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func<System.Threading.Tasks.Task>)
-  nameWithType.vb: IFileAccess.EnsureAccess(Func(Of Task))
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func(Of System.Threading.Tasks.Task))
-  name.vb: EnsureAccess(Func(Of Task))
-  spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Func_System_Threading_Tasks_Task__
-  - name: (
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - uid: System.Threading.Tasks.Task
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Func{System.Threading.Tasks.Task})
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Func_System_Threading_Tasks_Task__
-  - name: (
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Threading.Tasks.Task
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  - name: )
-  - name: )
-- uid: System.Func{System.Threading.Tasks.Task}
-  commentId: T:System.Func{System.Threading.Tasks.Task}
-  parent: System
-  definition: System.Func`1
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<Task>
-  nameWithType: Func<Task>
-  fullName: System.Func<System.Threading.Tasks.Task>
-  nameWithType.vb: Func(Of Task)
-  fullName.vb: System.Func(Of System.Threading.Tasks.Task)
-  name.vb: Func(Of Task)
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - uid: System.Threading.Tasks.Task
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  - name: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Threading.Tasks.Task
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  - name: )
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Func`1
-  commentId: T:System.Func`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<TResult>
-  nameWithType: Func<TResult>
-  fullName: System.Func<TResult>
-  nameWithType.vb: Func(Of TResult)
-  fullName.vb: System.Func(Of TResult)
-  name.vb: Func(Of TResult)
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
-  - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{{T}})
-  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-  parent: SuperOffice.IO.Files.IFileAccess
-  definition: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess__1_System_Func___0__
-  name: EnsureAccess<T>(Func<T>)
-  nameWithType: IFileAccess.EnsureAccess<T>(Func<T>)
-  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>(System.Func<T>)
-  nameWithType.vb: IFileAccess.EnsureAccess(Of T)(Func(Of T))
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.EnsureAccess(Of T)(System.Func(Of T))
-  name.vb: EnsureAccess(Of T)(Func(Of T))
-  spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess__1_System_Func___0__
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - name: T
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess__1_System_Func___0__
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: )
-- uid: System.Func{{T}}
-  commentId: T:System.Func{`0}
-  parent: System
-  definition: System.Func`1
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<T>
-  nameWithType: Func<T>
-  fullName: System.Func<T>
-  nameWithType.vb: Func(Of T)
-  fullName.vb: System.Func(Of T)
-  name.vb: Func(Of T)
-  spec.csharp:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: '{T}'
-  commentId: '!:T'
-  definition: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-  commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-  isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess__1_System_Func___0__
-  name: EnsureAccess<T>(Func<T>)
-  nameWithType: IFileAccess.EnsureAccess<T>(Func<T>)
-  fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>(System.Func<T>)
-  nameWithType.vb: IFileAccess.EnsureAccess(Of T)(Func(Of T))
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.EnsureAccess(Of T)(System.Func(Of T))
-  name.vb: EnsureAccess(Of T)(Func(Of T))
-  spec.csharp:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess__1_System_Func___0__
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: <
-  - name: T
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess``1(System.Func{``0})
-    name: EnsureAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess__1_System_Func___0__
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: System.Func`1
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: )
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync*
   commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.FileExistsAsync
   isExternal: true
@@ -1955,6 +1529,43 @@ references:
   - name: " "
   - name: TResult
   - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync*
   commentId: Overload:SuperOffice.IO.Files.DiskFileAccess.DirectoryGetFilesAsync
   isExternal: true
@@ -2741,6 +2352,14 @@ references:
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System.IO
   commentId: N:System.IO
   isExternal: true

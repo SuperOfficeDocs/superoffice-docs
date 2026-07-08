@@ -112,6 +112,12 @@ items:
   - SuperOffice.CRM.Services.Currency
   - SuperOffice.CRM.Services.CurrencyEntity
   - SuperOffice.CRM.Services.CustomCommand
+  - SuperOffice.CRM.Services.CustomObject
+  - SuperOffice.CRM.Services.CustomObjectAgent
+  - SuperOffice.CRM.Services.CustomObjectDefinition
+  - SuperOffice.CRM.Services.CustomObjectField
+  - SuperOffice.CRM.Services.CustomObjectMetadata
+  - SuperOffice.CRM.Services.CustomObjectRelation
   - SuperOffice.CRM.Services.CustomerCenterConfig
   - SuperOffice.CRM.Services.CustomerLanguage
   - SuperOffice.CRM.Services.CustomerServiceAgent
@@ -246,6 +252,7 @@ items:
   - SuperOffice.CRM.Services.IChatAgent
   - SuperOffice.CRM.Services.IContactAgent
   - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  - SuperOffice.CRM.Services.ICustomObjectAgent
   - SuperOffice.CRM.Services.ICustomerServiceAgent
   - SuperOffice.CRM.Services.IDashAgent
   - SuperOffice.CRM.Services.IDatabaseAgent
@@ -268,6 +275,7 @@ items:
   - SuperOffice.CRM.Services.IMDOAgent
   - SuperOffice.CRM.Services.IMarketingAgent
   - SuperOffice.CRM.Services.IMessagingAgent
+  - SuperOffice.CRM.Services.INewsFeedAgent
   - SuperOffice.CRM.Services.INumberAllocationAgent
   - SuperOffice.CRM.Services.IPersonAgent
   - SuperOffice.CRM.Services.IPhoneListAgent
@@ -334,6 +342,9 @@ items:
   - SuperOffice.CRM.Services.MrMrs
   - SuperOffice.CRM.Services.MultiAlarmData
   - SuperOffice.CRM.Services.NaturalLanguageSearch
+  - SuperOffice.CRM.Services.NewsFeedAgent
+  - SuperOffice.CRM.Services.NewsFeedCTA
+  - SuperOffice.CRM.Services.NewsFeedItem
   - SuperOffice.CRM.Services.NextAvailableTime
   - SuperOffice.CRM.Services.NotificationEvent
   - SuperOffice.CRM.Services.NumberAllocationAgent
@@ -710,6 +721,14 @@ references:
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
+- uid: SuperOffice.CRM.Services.ICustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.ICustomObjectAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomObjectAgent.html
+  name: ICustomObjectAgent
+  nameWithType: ICustomObjectAgent
+  fullName: SuperOffice.CRM.Services.ICustomObjectAgent
 - uid: SuperOffice.CRM.Services.IDashAgent
   commentId: T:SuperOffice.CRM.Services.IDashAgent
   parent: SuperOffice.CRM.Services
@@ -854,6 +873,14 @@ references:
   name: IMessagingAgent
   nameWithType: IMessagingAgent
   fullName: SuperOffice.CRM.Services.IMessagingAgent
+- uid: SuperOffice.CRM.Services.INewsFeedAgent
+  commentId: T:SuperOffice.CRM.Services.INewsFeedAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.INewsFeedAgent.html
+  name: INewsFeedAgent
+  nameWithType: INewsFeedAgent
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent
 - uid: SuperOffice.CRM.Services.INumberAllocationAgent
   commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
   parent: SuperOffice.CRM.Services
@@ -1850,6 +1877,42 @@ references:
   name: CustomerServiceStartup
   nameWithType: CustomerServiceStartup
   fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+- uid: SuperOffice.CRM.Services.CustomObject
+  commentId: T:SuperOffice.CRM.Services.CustomObject
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObject.html
+  name: CustomObject
+  nameWithType: CustomObject
+  fullName: SuperOffice.CRM.Services.CustomObject
+- uid: SuperOffice.CRM.Services.CustomObjectDefinition
+  commentId: T:SuperOffice.CRM.Services.CustomObjectDefinition
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectDefinition.html
+  name: CustomObjectDefinition
+  nameWithType: CustomObjectDefinition
+  fullName: SuperOffice.CRM.Services.CustomObjectDefinition
+- uid: SuperOffice.CRM.Services.CustomObjectField
+  commentId: T:SuperOffice.CRM.Services.CustomObjectField
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectField.html
+  name: CustomObjectField
+  nameWithType: CustomObjectField
+  fullName: SuperOffice.CRM.Services.CustomObjectField
+- uid: SuperOffice.CRM.Services.CustomObjectMetadata
+  commentId: T:SuperOffice.CRM.Services.CustomObjectMetadata
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectMetadata.html
+  name: CustomObjectMetadata
+  nameWithType: CustomObjectMetadata
+  fullName: SuperOffice.CRM.Services.CustomObjectMetadata
+- uid: SuperOffice.CRM.Services.CustomObjectRelation
+  commentId: T:SuperOffice.CRM.Services.CustomObjectRelation
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectRelation.html
+  name: CustomObjectRelation
+  nameWithType: CustomObjectRelation
+  fullName: SuperOffice.CRM.Services.CustomObjectRelation
 - uid: SuperOffice.CRM.Services.Dash
   commentId: T:SuperOffice.CRM.Services.Dash
   parent: SuperOffice.CRM.Services
@@ -2889,6 +2952,21 @@ references:
   name: NaturalLanguageSearch
   nameWithType: NaturalLanguageSearch
   fullName: SuperOffice.CRM.Services.NaturalLanguageSearch
+- uid: SuperOffice.CRM.Services.NewsFeedCTA
+  commentId: T:SuperOffice.CRM.Services.NewsFeedCTA
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedCTA.html
+  name: NewsFeedCTA
+  nameWithType: NewsFeedCTA
+  fullName: SuperOffice.CRM.Services.NewsFeedCTA
+- uid: SuperOffice.CRM.Services.NewsFeedItem
+  commentId: T:SuperOffice.CRM.Services.NewsFeedItem
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem
+  fullName: SuperOffice.CRM.Services.NewsFeedItem
 - uid: SuperOffice.CRM.Services.NextAvailableTime
   commentId: T:SuperOffice.CRM.Services.NextAvailableTime
   isExternal: true
@@ -4783,6 +4861,13 @@ references:
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
+- uid: SuperOffice.CRM.Services.CustomObjectAgent
+  commentId: T:SuperOffice.CRM.Services.CustomObjectAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomObjectAgent.html
+  name: CustomObjectAgent
+  nameWithType: CustomObjectAgent
+  fullName: SuperOffice.CRM.Services.CustomObjectAgent
 - uid: SuperOffice.CRM.Services.DashAgent
   commentId: T:SuperOffice.CRM.Services.DashAgent
   isExternal: true
@@ -4909,6 +4994,13 @@ references:
   name: MessagingAgent
   nameWithType: MessagingAgent
   fullName: SuperOffice.CRM.Services.MessagingAgent
+- uid: SuperOffice.CRM.Services.NewsFeedAgent
+  commentId: T:SuperOffice.CRM.Services.NewsFeedAgent
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html
+  name: NewsFeedAgent
+  nameWithType: NewsFeedAgent
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent
 - uid: SuperOffice.CRM.Services.NumberAllocationAgent
   commentId: T:SuperOffice.CRM.Services.NumberAllocationAgent
   isExternal: true

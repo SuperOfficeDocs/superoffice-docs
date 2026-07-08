@@ -47,6 +47,8 @@ items:
   - SuperOffice.WebApi.Agents.IUserAgent.GetCredentialTypesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IUserAgent.GetCredentialTypesForUserTypeAsync(SuperOffice.WebApi.Data.UserType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IUserAgent.GetCredentialUsersInGroupAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IUserAgent.GetDataRightAsync(System.Int32,System.String,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IUserAgent.GetDataRightsAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IUserAgent.GetDefaultAssociateUserNameAsync(SuperOffice.WebApi.Data.User,SuperOffice.WebApi.RequestOptions)
@@ -3916,6 +3918,52 @@ items:
   nameWithType.vb: IUserAgent.GetUserInfoListAsync(Integer(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IUserAgent.GetUserInfoListAsync(Integer(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetUserInfoListAsync(Integer(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  id: GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentPrincipal(RequestOptions)
+  nameWithType: IUserAgent.GetCurrentPrincipal(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: Task<SoPrincipalCarrier> GetCurrentPrincipal(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoPrincipalCarrier}
+    content.vb: Function GetCurrentPrincipal(requestOptions As RequestOptions = Nothing) As Task(Of SoPrincipalCarrier)
+  overload: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal*
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  id: GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentToken(RequestOptions)
+  nameWithType: IUserAgent.GetCurrentToken(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: Task<string> GetCurrentToken(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Function GetCurrentToken(requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken*
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -6154,3 +6202,52 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal*
+  commentId: Overload:SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentPrincipal_SuperOffice_WebApi_RequestOptions_
+  name: GetCurrentPrincipal
+  nameWithType: IUserAgent.GetCurrentPrincipal
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoPrincipalCarrier}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoPrincipalCarrier}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SoPrincipalCarrier>
+  nameWithType: Task<SoPrincipalCarrier>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SoPrincipalCarrier>
+  nameWithType.vb: Task(Of SoPrincipalCarrier)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.SoPrincipalCarrier)
+  name.vb: Task(Of SoPrincipalCarrier)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.SoPrincipalCarrier
+    name: SoPrincipalCarrier
+    isExternal: true
+    href: SuperOffice.WebApi.Data.SoPrincipalCarrier.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.SoPrincipalCarrier
+    name: SoPrincipalCarrier
+    isExternal: true
+    href: SuperOffice.WebApi.Data.SoPrincipalCarrier.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken*
+  commentId: Overload:SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentToken_SuperOffice_WebApi_RequestOptions_
+  name: GetCurrentToken
+  nameWithType: IUserAgent.GetCurrentToken
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken

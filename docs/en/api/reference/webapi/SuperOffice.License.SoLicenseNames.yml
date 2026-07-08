@@ -8,7 +8,6 @@ items:
   - SuperOffice.License.SoLicenseNames.AI
   - SuperOffice.License.SoLicenseNames.ActivityBoard
   - SuperOffice.License.SoLicenseNames.ActivityFolders
-  - SuperOffice.License.SoLicenseNames.AdAuth
   - SuperOffice.License.SoLicenseNames.AdminAnonymousUser
   - SuperOffice.License.SoLicenseNames.AdminExternUser
   - SuperOffice.License.SoLicenseNames.AdminRole
@@ -48,6 +47,7 @@ items:
   - SuperOffice.License.SoLicenseNames.DataBridge
   - SuperOffice.License.SoLicenseNames.DatabridgePro
   - SuperOffice.License.SoLicenseNames.DbMirror
+  - SuperOffice.License.SoLicenseNames.Demo
   - SuperOffice.License.SoLicenseNames.Devnet
   - SuperOffice.License.SoLicenseNames.Document
   - SuperOffice.License.SoLicenseNames.EJournalAdmin
@@ -549,30 +549,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const Import As String = "superoffice.import"
-- uid: SuperOffice.License.SoLicenseNames.AdAuth
-  commentId: F:SuperOffice.License.SoLicenseNames.AdAuth
-  id: AdAuth
-  parent: SuperOffice.License.SoLicenseNames
-  langs:
-  - csharp
-  - vb
-  name: AdAuth
-  nameWithType: SoLicenseNames.AdAuth
-  fullName: SuperOffice.License.SoLicenseNames.AdAuth
-  type: Field
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.License
-  summary: >-
-    superoffice.ad-auth: Active Directory Authentication integration
-
-    System License: Hidden
-  example: []
-  syntax:
-    content: public const string AdAuth = "superoffice.ad-auth"
-    return:
-      type: System.String
-    content.vb: Public Const AdAuth As String = "superoffice.ad-auth"
 - uid: SuperOffice.License.SoLicenseNames.Federation
   commentId: F:SuperOffice.License.SoLicenseNames.Federation
   id: Federation
@@ -3882,6 +3858,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const TestDrive As String = "superoffice.testdrive"
+- uid: SuperOffice.License.SoLicenseNames.Demo
+  commentId: F:SuperOffice.License.SoLicenseNames.Demo
+  id: Demo
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: Demo
+  nameWithType: SoLicenseNames.Demo
+  fullName: SuperOffice.License.SoLicenseNames.Demo
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.demo: Demo installation marker. Applies to Online installations.
+
+    System license. Hidden.
+  example: []
+  syntax:
+    content: public const string Demo = "superoffice.demo"
+    return:
+      type: System.String
+    content.vb: Public Const Demo As String = "superoffice.demo"
 - uid: SuperOffice.License.SoLicenseNames.Chat
   commentId: F:SuperOffice.License.SoLicenseNames.Chat
   id: Chat

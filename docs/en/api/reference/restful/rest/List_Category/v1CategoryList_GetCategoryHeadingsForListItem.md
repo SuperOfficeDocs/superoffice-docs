@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 

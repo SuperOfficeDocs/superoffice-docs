@@ -29,7 +29,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ticketStatusId|int|Status ID: Status| x |
 |priorityId|int|Priority ID: ID of priority in database| x |
 |categoryId|int|Category ID: ID of request category in database| x |
-|ticketTypeName| *None* |Request type: Request type| x |
+|ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
@@ -175,7 +175,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ticketfavourites?$select=createdBy,createdBy/contactCategory,content
+GET /api/v1/archive/ticketfavourites?$select=content,createdBy/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

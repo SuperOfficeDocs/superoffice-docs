@@ -28,7 +28,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |contactId|int|Company ID: Database ID of company| x |
 |name|stringorPK|Company name| x |
 |department|string|Department| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |associateId|associate|Our contact: Displays our contact| x |
@@ -210,7 +210,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sourceRelation/contactId|int|Source - Company ID: Database ID of company| x |
 |sourceRelation/name|stringorPK|Source - Company name| x |
 |sourceRelation/department|string|Source - Department| x |
-|sourceRelation/nameDepartment| *None* |Source - Company: Displays the company an activity is linked to| x |
+|sourceRelation/nameDepartment|string|Source - Company: Displays the company an activity is linked to| x |
 |sourceRelation/hasInfoText|bool|Source - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |sourceRelation/hasInterests|bool|Source - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |sourceRelation/associateId|associate|Source - Our contact: Displays our contact| x |
@@ -247,7 +247,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |targetRelation/contactId|int|Target - Company ID: Database ID of company| x |
 |targetRelation/name|stringorPK|Target - Company name| x |
 |targetRelation/department|string|Target - Department| x |
-|targetRelation/nameDepartment| *None* |Target - Company: Displays the company an activity is linked to| x |
+|targetRelation/nameDepartment|string|Target - Company: Displays the company an activity is linked to| x |
 |targetRelation/hasInfoText|bool|Target - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |targetRelation/hasInterests|bool|Target - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |targetRelation/associateId|associate|Target - Our contact: Displays our contact| x |
@@ -339,6 +339,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |sale/visibleFor|listAny|Visible for|  |
 |sale/sale/textId|int|Text ID| x |
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -432,11 +433,11 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |appointment/visibleFor|listAny|Visible for|  |
 |appointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |appointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |appointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |appointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
@@ -480,6 +481,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |appointment/associate/personEmail|string|E-mail| x |
 |appointment/associate/locationAddress|string|Location: Location| x |
 |appointment/associate/isLocation|bool|Is a location: Is a location| x |
+|appointment/appointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |appointment/appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/appointment/title|positiveString|Title| x |
 |appointment/appointment/titleHtml| *None* |!!Title Html| x |
@@ -535,12 +537,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |document/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |document/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |document/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|document/associate/associateDbId|associate|ID| x |
-|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/associateDbId|associate|ID| x |
+|document/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |document/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |document/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |document/associate/usergroupId|int|Group ID: The user's primary user group| x |
@@ -639,12 +641,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |personInfo/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |personEmail/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |personEmail/emailAddress|string|E-mail| x |
-|personEmail/emailDescription|string|Description| x |
-|personEmail/emailId|int|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personEmail/emailDescription|string|Description| x |
+|personEmail/emailId|int|ID| x |
 |personEmail/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |personEmail/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |personEmail/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
@@ -743,12 +745,12 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 |correspondingAssociate/associateDbId|associate|ID| x |
 |correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
-|correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
-|correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
+|correspondingAssociate/usergroupId|int|Group ID: The user's primary user group| x |
 |correspondingAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |correspondingAssociate/role|listAny|Role : Role| x |
@@ -783,7 +785,7 @@ Archive provider for Contact Saint Status - same as Find Contact, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintContact?$select=contactAssociate/assocType,contactUdef/SuperOffice:7,contactUdef/SuperOffice:8,targetRelation/csRelation,sale/associate/firstName
+GET /api/v1/archive/SaintContact?$select=restrictionAddress/line1,sourceRelation/updatedByFullName,targetRelation/nameDepartment,sale/saleUdef/SuperOffice:4,appointment/location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

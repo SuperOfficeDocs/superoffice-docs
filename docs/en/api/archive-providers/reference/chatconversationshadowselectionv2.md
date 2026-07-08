@@ -308,7 +308,7 @@ Shadow contact provider for the ChatConversation provider.
 |contact/contactId|int|Company ID: Database ID of company| x |
 |contact/name|stringorPK|Company name| x |
 |contact/department|string|Department| x |
-|contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |contact/associateId|associate|Our contact: Displays our contact| x |
@@ -499,7 +499,7 @@ Shadow contact provider for the ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=person/personSource,person/personDirectPhone/formattedNumber,person/personExtra/x_person_timespan,person/personExtra/y_rental/x_end,person/correspondingAssociate/role
+GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=associate/credentialType,person/personUdef/SuperOffice:4,person/personUdef/SuperOffice:9,person/correspondingAssociate/ejStatus,person/hasStoreConsent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

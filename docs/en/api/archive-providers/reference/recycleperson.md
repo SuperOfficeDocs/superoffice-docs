@@ -91,7 +91,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personContact/contactId|int|Company ID: Database ID of company| x |
 |personContact/name|stringorPK|Company name| x |
 |personContact/department|string|Department| x |
-|personContact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|personContact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |personContact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |personContact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |personContact/associateId|associate|Our contact: Displays our contact| x |
@@ -134,7 +134,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/RecyclePerson?$select=rank,retired,kanaLastName
+GET /api/v1/archive/RecyclePerson?$select=personRegisteredDate,isProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

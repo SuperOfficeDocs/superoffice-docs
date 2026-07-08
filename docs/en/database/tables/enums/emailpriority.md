@@ -10,7 +10,7 @@ envir: onsite, online
 
 # EMailPriority Enum
 
-Email priority
+Importance of the news item. Low to High. Higher priority items may be shown more prominently in the feed.
 
 | Name | Value | Description |
 |------|-------|-------------|
@@ -24,3 +24,4 @@ Email priority
 ## Usage
 
 * [email_item](../email-item.md).priority - Email data
+* [NewsFeedItem](../newsfeeditem.md).Priority - Contains news feed items - published to one or more users, with one or more language descriptions

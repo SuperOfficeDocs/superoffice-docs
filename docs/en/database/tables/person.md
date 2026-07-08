@@ -134,6 +134,7 @@ Persons
 |[leadstatus](leadstatus.md)  |List items of lead status that is selectable for contacts and persons that have specific category |
 |[login\_customer](login-customer.md)  |This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins |
 |[message\_customers](message-customers.md)  |This table contains all cutomers who are involved in a message |
+|[NewsFeedItem](newsfeeditem.md)  |Contains news feed items - published to one or more users, with one or more language descriptions |
 |[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[personinterest](personinterest.md)  |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest. |
 |[PersPos](perspos.md)  |PersPos list table. Contact person position list |

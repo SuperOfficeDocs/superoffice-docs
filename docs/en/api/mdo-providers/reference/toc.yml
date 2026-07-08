@@ -205,6 +205,8 @@ items:
   href: emailfromtype.md
 - name: Emailphone
   href: emailphone.md
+- name: Emailpriorityprovider
+  href: emailpriorityprovider.md
 - name: Emailreplytotype
   href: emailreplytotype.md
 - name: Enrichcontact
@@ -387,6 +389,8 @@ items:
   href: mrmrs.md
 - name: MrMrs
   href: MrMrs.md
+- name: Newsfeeditemstatusprovider
+  href: newsfeeditemstatusprovider.md
 - name: Ofmonth
   href: ofmonth.md
 - name: Onlinefontlibrary

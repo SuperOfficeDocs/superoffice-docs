@@ -4245,6 +4245,8 @@ items:
       description: ''
     content.vb: Public Function GetCurrentPrincipal(requestOptions As RequestOptions = Nothing) As Task(Of SoPrincipalCarrier)
   overload: SuperOffice.WebApi.Agents.UserAgent.GetCurrentPrincipal*
+  implements:
+  - SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
 - uid: SuperOffice.WebApi.Agents.UserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
   id: GetCurrentToken(SuperOffice.WebApi.RequestOptions)
@@ -4272,6 +4274,8 @@ items:
       description: ''
     content.vb: Public Function GetCurrentToken(requestOptions As RequestOptions = Nothing) As Task(Of String)
   overload: SuperOffice.WebApi.Agents.UserAgent.GetCurrentToken*
+  implements:
+  - SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -12649,6 +12653,36 @@ references:
   name: GetCurrentPrincipal
   nameWithType: UserAgent.GetCurrentPrincipal
   fullName: SuperOffice.WebApi.Agents.UserAgent.GetCurrentPrincipal
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IUserAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentPrincipal_SuperOffice_WebApi_RequestOptions_
+  name: GetCurrentPrincipal(RequestOptions)
+  nameWithType: IUserAgent.GetCurrentPrincipal(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+    name: GetCurrentPrincipal
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentPrincipal_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentPrincipal(SuperOffice.WebApi.RequestOptions)
+    name: GetCurrentPrincipal
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentPrincipal_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoPrincipalCarrier}
   commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SoPrincipalCarrier}
   parent: System.Threading.Tasks
@@ -12691,3 +12725,33 @@ references:
   name: GetCurrentToken
   nameWithType: UserAgent.GetCurrentToken
   fullName: SuperOffice.WebApi.Agents.UserAgent.GetCurrentToken
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IUserAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentToken_SuperOffice_WebApi_RequestOptions_
+  name: GetCurrentToken(RequestOptions)
+  nameWithType: IUserAgent.GetCurrentToken(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+    name: GetCurrentToken
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentToken_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IUserAgent.GetCurrentToken(SuperOffice.WebApi.RequestOptions)
+    name: GetCurrentToken
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetCurrentToken_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )

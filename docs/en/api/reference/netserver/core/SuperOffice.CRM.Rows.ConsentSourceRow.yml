@@ -1570,7 +1570,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. The list item'
+  summary: '.NET type: string. Name of consent source'
   remarks: >-
     Original type in dictionary:  String[4001].
 
@@ -1601,7 +1601,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: short. Rank order'
+  summary: '.NET type: short. Rank of this consent source'
   remarks: >-
     Original type in dictionary:  UShort.
 
@@ -1632,7 +1632,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. The tooltip for the list item'
+  summary: '.NET type: string. Tooltip for this consent source'
   remarks: >-
     Original type in dictionary:  String[4001].
 
@@ -1694,7 +1694,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: '.NET type: string. The list item key, to be recognized by application logic'
+  summary: '.NET type: string. The key used to uniquely identify this consent source'
   remarks: >-
     Original type in dictionary:  String[256].
 

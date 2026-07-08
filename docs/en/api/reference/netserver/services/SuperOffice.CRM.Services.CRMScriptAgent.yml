@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
   - SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
@@ -102,22 +102,22 @@ items:
   nameWithType.vb: CRMScriptAgent.New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
   parent: SuperOffice.CRM.Services.CRMScriptAgent
   langs:
   - csharp
   - vb
-  name: CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
-  nameWithType: CRMScriptAgent.CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CRMScriptAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name: CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: CRMScriptAgent.CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CRMScriptAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public CRMScriptAgent(IScriptImplementation scriptImplementation, ICRMScriptEntityImplementation cRMScriptEntityImplementation, ITriggerScriptEntityImplementation triggerScriptEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
+    content: public CRMScriptAgent(IScriptImplementation scriptImplementation, ICRMScriptEntityImplementation cRMScriptEntityImplementation, ITriggerScriptEntityImplementation triggerScriptEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
     parameters:
     - id: scriptImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation
@@ -131,15 +131,11 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    - id: scriptingConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    - id: onlineConfiguration
-      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-    content.vb: Public Sub New(scriptImplementation As IScriptImplementation, cRMScriptEntityImplementation As ICRMScriptEntityImplementation, triggerScriptEntityImplementation As ITriggerScriptEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
+    content.vb: Public Sub New(scriptImplementation As IScriptImplementation, cRMScriptEntityImplementation As ICRMScriptEntityImplementation, triggerScriptEntityImplementation As ITriggerScriptEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
   overload: SuperOffice.CRM.Services.CRMScriptAgent.#ctor*
-  nameWithType.vb: CRMScriptAgent.New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
-  name.vb: New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType.vb: CRMScriptAgent.New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   id: GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
@@ -1536,16 +1532,6 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  isExternal: true
-  name: IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
-  isExternal: true
-  name: IOnlineConfiguration
-  nameWithType: ConfigFile.IOnlineConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
   isExternal: true

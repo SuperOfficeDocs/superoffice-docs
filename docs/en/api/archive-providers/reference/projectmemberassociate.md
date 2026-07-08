@@ -26,7 +26,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |conflictStatus| *None* |Status: Shows any conflicts with other follow-ups|  |
 |function|listAny|Function: Displays the project member's function in the project| x |
 |fullName|string|Contact: Displays the contact to which an item is linked| x |
-|nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |projectId|int|Project ID: Project ID| x |
 
 ## Sample

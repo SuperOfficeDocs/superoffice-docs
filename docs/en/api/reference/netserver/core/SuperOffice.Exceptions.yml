@@ -33,6 +33,7 @@ items:
   - SuperOffice.Exceptions.SoServerException
   - SuperOffice.Exceptions.SoSessionException
   - SuperOffice.Exceptions.SoValidationException
+  - SuperOffice.Exceptions.XsrfValidationException
   langs:
   - csharp
   - vb
@@ -243,6 +244,13 @@ references:
   name: SoValidationException
   nameWithType: SoValidationException
   fullName: SuperOffice.Exceptions.SoValidationException
+- uid: SuperOffice.Exceptions.XsrfValidationException
+  commentId: T:SuperOffice.Exceptions.XsrfValidationException
+  isExternal: true
+  href: SuperOffice.Exceptions.XsrfValidationException.html
+  name: XsrfValidationException
+  nameWithType: XsrfValidationException
+  fullName: SuperOffice.Exceptions.XsrfValidationException
 - uid: SuperOffice.Exceptions.SoFileNotFoundException
   commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
   isExternal: true

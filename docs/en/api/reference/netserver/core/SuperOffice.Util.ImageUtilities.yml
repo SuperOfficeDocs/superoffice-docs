@@ -16,9 +16,6 @@ items:
   - SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
   - SuperOffice.Util.ImageUtilities.GetTextImage(System.Drawing.Size,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Boolean)
   - SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
-  - SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
-  - SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  - SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
   - SuperOffice.Util.ImageUtilities.Max(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.ProductImageSize
@@ -135,37 +132,6 @@ items:
   nameWithType.vb: ImageUtilities.FitTo(Image, Integer, Integer)
   fullName.vb: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, Integer, Integer)
   name.vb: FitTo(Image, Integer, Integer)
-- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  id: GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  isExtensionMethod: true
-  parent: SuperOffice.Util.ImageUtilities
-  langs:
-  - csharp
-  - vb
-  name: GetThumbnailImage(Stream, int, int)
-  nameWithType: ImageUtilities.GetThumbnailImage(Stream, int, int)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, int, int)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  syntax:
-    content: public static Image GetThumbnailImage(this Stream input, int width = 150, int height = 150)
-    parameters:
-    - id: input
-      type: System.IO.Stream
-    - id: width
-      type: System.Int32
-    - id: height
-      type: System.Int32
-    return:
-      type: System.Drawing.Image
-    content.vb: Public Shared Function GetThumbnailImage(input As Stream, width As Integer = 150, height As Integer = 150) As Image
-  overload: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
-  nameWithType.vb: ImageUtilities.GetThumbnailImage(Stream, Integer, Integer)
-  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, Integer, Integer)
-  name.vb: GetThumbnailImage(Stream, Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   commentId: M:SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   id: GetBytes(System.Drawing.Image)
@@ -230,84 +196,6 @@ items:
   nameWithType.vb: ImageUtilities.GetThumbnail(Image, Integer, Integer)
   fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, Integer, Integer)
   name.vb: GetThumbnail(Image, Integer, Integer)
-- uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
-  id: GetThumbnail(System.String,System.Int32,System.Int32)
-  parent: SuperOffice.Util.ImageUtilities
-  langs:
-  - csharp
-  - vb
-  name: GetThumbnail(string, int, int)
-  nameWithType: ImageUtilities.GetThumbnail(string, int, int)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(string, int, int)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  summary: >-
-    Get a thumbnail from a string-encoded image; output size is not guaranteed as short input strings
-
-    will cause an immediate return in the interest of performance (a string of less than 1500 can't be a big image!)
-  example: []
-  syntax:
-    content: public static string GetThumbnail(string input, int width = 150, int height = 150)
-    parameters:
-    - id: input
-      type: System.String
-      description: Source image as base-64 encoded string
-    - id: width
-      type: System.Int32
-      description: Maximum width, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
-    - id: height
-      type: System.Int32
-      description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
-    return:
-      type: System.String
-      description: ''
-    content.vb: Public Shared Function GetThumbnail(input As String, width As Integer = 150, height As Integer = 150) As String
-  overload: SuperOffice.Util.ImageUtilities.GetThumbnail*
-  nameWithType.vb: ImageUtilities.GetThumbnail(String, Integer, Integer)
-  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnail(String, Integer, Integer)
-  name.vb: GetThumbnail(String, Integer, Integer)
-- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
-  id: GetThumbnailImage(System.String,System.Int32,System.Int32)
-  parent: SuperOffice.Util.ImageUtilities
-  langs:
-  - csharp
-  - vb
-  name: GetThumbnailImage(string, int, int)
-  nameWithType: ImageUtilities.GetThumbnailImage(string, int, int)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(string, int, int)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Util
-  summary: >-
-    Get a thumbnail from a string-encoded image; output size is not guaranteed as short input strings
-
-    will cause an immediate return in the interest of performance (a string of less than 1500 can't be a big image!)
-  example: []
-  syntax:
-    content: public static Image GetThumbnailImage(string input, int width = 150, int height = 150)
-    parameters:
-    - id: input
-      type: System.String
-      description: Source image as base-64 encoded string
-    - id: width
-      type: System.Int32
-      description: Maximum width, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
-    - id: height
-      type: System.Int32
-      description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
-    return:
-      type: System.Drawing.Image
-      description: ''
-    content.vb: Public Shared Function GetThumbnailImage(input As String, width As Integer = 150, height As Integer = 150) As Image
-  overload: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
-  nameWithType.vb: ImageUtilities.GetThumbnailImage(String, Integer, Integer)
-  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnailImage(String, Integer, Integer)
-  name.vb: GetThumbnailImage(String, Integer, Integer)
 - uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
   id: ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
@@ -397,21 +285,22 @@ items:
   - SoCore
   namespace: SuperOffice.Util
   summary: >-
-    Determine image type from the first few bytes of the image data.
+    Determine image type from the first few bytes of a base64-encoded image.
 
-    Note: not the media-type, but the image file extension (gif, png, jpeg, tiff).
+    Note: not the media-type, but the image file extension (e.g. gif, png, jpeg, tiff, bmp, webp).
   example: []
   syntax:
     content: public static string GetImageTypeFromBase64String(string base64String, string defaultType)
     parameters:
     - id: base64String
       type: System.String
+      description: Base64-encoded image data
     - id: defaultType
       type: System.String
-      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
+      description: Type to return when the content is not a recognized image (e.g. "png", "jpeg").
     return:
       type: System.String
-      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
+      description: Image file extension token, or <code class="paramref">defaultType</code> when not a recognized image.
     content.vb: Public Shared Function GetImageTypeFromBase64String(base64String As String, defaultType As String) As String
   overload: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
   nameWithType.vb: ImageUtilities.GetImageTypeFromBase64String(String, String)
@@ -434,7 +323,7 @@ items:
   summary: >-
     Determine image type from the first few bytes of the image data.
 
-    Note: not the media-type, but the image file extension (gif, png, jpeg, tiff).
+    Note: not the media-type, but the image file extension (e.g. gif, png, jpeg, tiff, bmp, webp).
   example: []
   syntax:
     content: public static string GetImageTypeFromBytes(byte[] bytes, string defaultType)
@@ -444,10 +333,10 @@ items:
       description: Image data
     - id: defaultType
       type: System.String
-      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
+      description: Type to return when the content is not a recognized image (e.g. "png", "jpeg").
     return:
       type: System.String
-      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
+      description: Image file extension token, or <code class="paramref">defaultType</code> when not a recognized image.
     content.vb: Public Shared Function GetImageTypeFromBytes(bytes As Byte(), defaultType As String) As String
   overload: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes*
   nameWithType.vb: ImageUtilities.GetImageTypeFromBytes(Byte(), String)
@@ -1223,48 +1112,6 @@ references:
     name: Drawing
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing
-- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
-  commentId: Overload:SuperOffice.Util.ImageUtilities.GetThumbnailImage
-  isExternal: true
-  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  name: GetThumbnailImage
-  nameWithType: ImageUtilities.GetThumbnailImage
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
-- uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.Util.ImageUtilities.GetBytes*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetBytes
   isExternal: true
@@ -1365,6 +1212,13 @@ references:
   name: GetThumbnail
   nameWithType: ImageUtilities.GetThumbnail
   fullName: SuperOffice.Util.ImageUtilities.GetThumbnail
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
+  isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ResolveUrlOrBase64ImageAsync_System_String_System_Int32_System_Threading_CancellationToken_
+  name: ResolveUrlOrBase64ImageAsync
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageAsync
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1376,13 +1230,6 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync*
-  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
-  isExternal: true
-  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ResolveUrlOrBase64ImageAsync_System_String_System_Int32_System_Threading_CancellationToken_
-  name: ResolveUrlOrBase64ImageAsync
-  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageAsync
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading

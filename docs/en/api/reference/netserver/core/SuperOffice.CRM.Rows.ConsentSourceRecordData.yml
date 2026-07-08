@@ -95,7 +95,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The list item
+  summary: Name of consent source
   example: []
   syntax:
     content: public string Name
@@ -116,7 +116,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Rank order
+  summary: Rank of this consent source
   example: []
   syntax:
     content: public short Rank
@@ -137,7 +137,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The tooltip for the list item
+  summary: Tooltip for this consent source
   example: []
   syntax:
     content: public string Tooltip
@@ -179,7 +179,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The list item key, to be recognized by application logic
+  summary: The key used to uniquely identify this consent source
   example: []
   syntax:
     content: public string Key

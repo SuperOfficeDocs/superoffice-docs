@@ -12,7 +12,6 @@ items:
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseFileAccess``1
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseHttpContextItemsAccessor``1
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
-  - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
   - Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseRequestItemsAccessor``1
   langs:
   - csharp
@@ -115,26 +114,6 @@ items:
   nameWithType.vb: NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier(Of TTokenSuplier)()
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.AddImplicitIdentitySupplier(Of TTokenSuplier)()
   name.vb: AddImplicitIdentitySupplier(Of TTokenSuplier)()
-- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
-  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
-  id: UseOnPremAD
-  parent: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
-  langs:
-  - csharp
-  - vb
-  name: UseOnPremAD()
-  nameWithType: NetServerCoreOptionsBuilder.UseOnPremAD()
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD()
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: Microsoft.Extensions.DependencyInjection
-  syntax:
-    content: public NetServerCoreOptionsBuilder UseOnPremAD()
-    return:
-      type: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
-    content.vb: Public Function UseOnPremAD() As NetServerCoreOptionsBuilder
-  overload: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD*
 - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels(System.Boolean)
   id: UseNetServerLogLevels(System.Boolean)
@@ -815,13 +794,6 @@ references:
   name: NetServerCoreOptionsBuilder
   nameWithType: NetServerCoreOptionsBuilder
   fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
-- uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD*
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
-  isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerCoreOptionsBuilder_UseOnPremAD
-  name: UseOnPremAD
-  nameWithType: NetServerCoreOptionsBuilder.UseOnPremAD
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseOnPremAD
 - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.UseNetServerLogLevels
   isExternal: true

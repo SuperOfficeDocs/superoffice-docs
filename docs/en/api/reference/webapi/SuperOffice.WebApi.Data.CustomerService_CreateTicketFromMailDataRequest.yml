@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.#ctor
   - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data
   - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.MailboxId
+  - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId
   langs:
   - csharp
   - vb
@@ -97,6 +98,28 @@ items:
       type: System.String
     content.vb: Public Property Data As String
   overload: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.Data*
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  example: []
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId*
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -418,3 +441,10 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.html#SuperOffice_WebApi_Data_CustomerService_CreateTicketFromMailDataRequest_PersonId
+  name: PersonId
+  nameWithType: CustomerService_CreateTicketFromMailDataRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest.PersonId

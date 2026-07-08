@@ -20,6 +20,12 @@ the actual functionality of the provider.
 | ---- | ----- |
 |"all"|All|
 |"superoffice_system-user-cal"|System user|
+|"superoffice_visible-for"|Confidential activities|
+|"superoffice_superlicense-no-selection"|(No Selection)|
+|"superoffice_ten-sales"|Sales Premium|
+|"superoffice_ten-service"|Service Premium|
+|"superoffice_ten-marketing"|Marketing Premium|
+|"superoffice_ten-salesservicemarketing"|SalesPremiumServicePremiumMarketingPremium|
 |"expired"|Expired|
 
 ## Supported Columns
@@ -30,6 +36,12 @@ the actual functionality of the provider.
 |userplan| *None* |User plan: User plan (licence)|  |
 |canLogin|bool|Can log in: Can log in|  |
 |superoffice\_system-user-cal| *None* |System user: Allows log in to NetServer|  |
+|superoffice\_visible-for| *None* |Confidential activities: Enables the visible-for dropdown in the CRM client|  |
+|superoffice\_superlicense-no-selection| *None* |No Selection: User Plan: License Not in Use.|  |
+|superoffice\_ten-sales| *None* |Sales Premium: User Plan: Can edit Companies, Diary, Sales, Selections, Reports|  |
+|superoffice\_ten-service| *None* |Service Premium: User Plan: Can edit Requests|  |
+|superoffice\_ten-marketing| *None* |Marketing Premium: User Plan: Can send Mailings, Combined Selections|  |
+|superoffice\_ten-salesservicemarketing| *None* |SalesPremiumServicePremiumMarketingPremium: User Plan: Can edit sales, requests, mailings.|  |
 |associateDbId|associate|ID| x |
 |usergroupId|int|Group ID: The user's primary user group| x |
 |role|listAny|Role : Role| x |
@@ -50,7 +62,7 @@ the actual functionality of the provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/OtherUsers?$select=role,assocType
+GET /api/v1/archive/OtherUsers?$select=superoffice_ten-marketing,role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

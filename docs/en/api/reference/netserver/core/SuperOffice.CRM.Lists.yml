@@ -67,6 +67,7 @@ items:
   - SuperOffice.CRM.Lists.DocumentMailingTemplateProvider
   - SuperOffice.CRM.Lists.DocumentTypesListProvider
   - SuperOffice.CRM.Lists.DynamicMDOProviderPluginAttribute
+  - SuperOffice.CRM.Lists.EMailPriorityProvider
   - SuperOffice.CRM.Lists.EjCategoryProvider
   - SuperOffice.CRM.Lists.EjUserProvider
   - SuperOffice.CRM.Lists.EmailAddressProvider
@@ -173,6 +174,7 @@ items:
   - SuperOffice.CRM.Lists.MergeDocumentListProvider
   - SuperOffice.CRM.Lists.MergeTagsProvider
   - SuperOffice.CRM.Lists.MonthProvider
+  - SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
   - SuperOffice.CRM.Lists.OfMonthProvider
   - SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   - SuperOffice.CRM.Lists.OwnerContactProvider
@@ -917,6 +919,13 @@ references:
   name: EmailPhoneProvider
   nameWithType: EmailPhoneProvider
   fullName: SuperOffice.CRM.Lists.EmailPhoneProvider
+- uid: SuperOffice.CRM.Lists.EMailPriorityProvider
+  commentId: T:SuperOffice.CRM.Lists.EMailPriorityProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.EMailPriorityProvider.html
+  name: EMailPriorityProvider
+  nameWithType: EMailPriorityProvider
+  fullName: SuperOffice.CRM.Lists.EMailPriorityProvider
 - uid: SuperOffice.CRM.Lists.EmailReplyToTypeProvider
   commentId: T:SuperOffice.CRM.Lists.EmailReplyToTypeProvider
   isExternal: true
@@ -1466,6 +1475,13 @@ references:
   name: MergeTagsProvider
   nameWithType: MergeTagsProvider
   fullName: SuperOffice.CRM.Lists.MergeTagsProvider
+- uid: SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
+  commentId: T:SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.NewsFeedItemStatusProvider.html
+  name: NewsFeedItemStatusProvider
+  nameWithType: NewsFeedItemStatusProvider
+  fullName: SuperOffice.CRM.Lists.NewsFeedItemStatusProvider
 - uid: SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   commentId: T:SuperOffice.CRM.Lists.OnlineFontLibraryProvider
   isExternal: true

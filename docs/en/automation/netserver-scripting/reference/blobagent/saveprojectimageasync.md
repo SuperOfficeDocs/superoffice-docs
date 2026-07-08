@@ -15,7 +15,7 @@ Scripting events called on the <see cref='M:IBLOBAgent.SaveProjectImageAsync'>Sa
 ```cs
     static void BeforeSaveProjectImageAsync(
        String  description,
-       Image  image,
+       Stream  image,
        CancellationToken  cancellationToken,
        ref object  eventState
       );
@@ -28,7 +28,7 @@ Event state is not preserved between different service calls. It is set to null 
 ```cs
     static void AfterSaveProjectImageAsync(
        String  description,
-       Image  image,
+       Stream  image,
        CancellationToken  cancellationToken,
        ref Task  returnValue,
        ref object  eventState
@@ -41,7 +41,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
 ```cs
     static void AfterSaveProjectImageAsyncAsync(
        String  description,
-       Image  image,
+       Stream  image,
        CancellationToken  cancellationToken,
        ref Task  returnValue,
        ref object  eventState

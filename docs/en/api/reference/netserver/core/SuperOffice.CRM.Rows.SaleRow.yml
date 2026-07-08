@@ -68,6 +68,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow.OnRegisteredAssociateIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnRegisteredChange
   - SuperOffice.CRM.Rows.SaleRow.OnReopenDateChange
+  - SuperOffice.CRM.Rows.SaleRow.OnSaleCycleChange
   - SuperOffice.CRM.Rows.SaleRow.OnSaleTypeCatIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnSaleTypeIdChange
   - SuperOffice.CRM.Rows.SaleRow.OnSaledateChange
@@ -96,6 +97,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.SaleRow.ReopenDate
   - SuperOffice.CRM.Rows.SaleRow.Reset
+  - SuperOffice.CRM.Rows.SaleRow.SaleCycle
   - SuperOffice.CRM.Rows.SaleRow.SaleId
   - SuperOffice.CRM.Rows.SaleRow.SaleTableInfo
   - SuperOffice.CRM.Rows.SaleRow.SaleTypeCatId
@@ -148,6 +150,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._currentRegistered
   - SuperOffice.CRM.Rows.SaleRow._currentRegisteredAssociateId
   - SuperOffice.CRM.Rows.SaleRow._currentReopenDate
+  - SuperOffice.CRM.Rows.SaleRow._currentSaleCycle
   - SuperOffice.CRM.Rows.SaleRow._currentSaleId
   - SuperOffice.CRM.Rows.SaleRow._currentSaleTypeCatId
   - SuperOffice.CRM.Rows.SaleRow._currentSaleTypeId
@@ -192,6 +195,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._onRegisteredAssociateIdChange
   - SuperOffice.CRM.Rows.SaleRow._onRegisteredChange
   - SuperOffice.CRM.Rows.SaleRow._onReopenDateChange
+  - SuperOffice.CRM.Rows.SaleRow._onSaleCycleChange
   - SuperOffice.CRM.Rows.SaleRow._onSaleTypeCatIdChange
   - SuperOffice.CRM.Rows.SaleRow._onSaleTypeIdChange
   - SuperOffice.CRM.Rows.SaleRow._onSaledateChange
@@ -235,6 +239,7 @@ items:
   - SuperOffice.CRM.Rows.SaleRow._persistedRegistered
   - SuperOffice.CRM.Rows.SaleRow._persistedRegisteredAssociateId
   - SuperOffice.CRM.Rows.SaleRow._persistedReopenDate
+  - SuperOffice.CRM.Rows.SaleRow._persistedSaleCycle
   - SuperOffice.CRM.Rows.SaleRow._persistedSaleId
   - SuperOffice.CRM.Rows.SaleRow._persistedSaleTypeCatId
   - SuperOffice.CRM.Rows.SaleRow._persistedSaleTypeId
@@ -1326,6 +1331,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedStageWhenClosedId As Integer
+- uid: SuperOffice.CRM.Rows.SaleRow._persistedSaleCycle
+  commentId: F:SuperOffice.CRM.Rows.SaleRow._persistedSaleCycle
+  id: _persistedSaleCycle
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedSaleCycle
+  nameWithType: SaleRow._persistedSaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleRow._persistedSaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.SaleRow.SaleCycle" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedSaleCycle
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedSaleCycle As Integer
 - uid: SuperOffice.CRM.Rows.SaleRow._currentSaleId
   commentId: F:SuperOffice.CRM.Rows.SaleRow._currentSaleId
   id: _currentSaleId
@@ -2250,6 +2276,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentStageWhenClosedId As Integer
+- uid: SuperOffice.CRM.Rows.SaleRow._currentSaleCycle
+  commentId: F:SuperOffice.CRM.Rows.SaleRow._currentSaleCycle
+  id: _currentSaleCycle
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _currentSaleCycle
+  nameWithType: SaleRow._currentSaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleRow._currentSaleCycle
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.SaleRow.SaleCycle" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentSaleCycle
+    return:
+      type: System.Int32
+    content.vb: Protected _currentSaleCycle As Integer
 - uid: SuperOffice.CRM.Rows.SaleRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.SaleRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -4559,6 +4606,37 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property StageWhenClosedId As Integer
   overload: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId*
+- uid: SuperOffice.CRM.Rows.SaleRow.SaleCycle
+  commentId: P:SuperOffice.CRM.Rows.SaleRow.SaleCycle
+  id: SaleCycle
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: SaleCycle
+  nameWithType: SaleRow.SaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleRow.SaleCycle
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Number of days from sale registered until the sale entered its current closed (Sold or Lost) state. 0/empty while the sale is open.'
+  remarks: >-
+    Original type in dictionary:  Int.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int SaleCycle { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleCycle As Integer
+  overload: SuperOffice.CRM.Rows.SaleRow.SaleCycle*
 - uid: SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.SaleRow._onAssociateIdChange
   id: _onAssociateIdChange
@@ -5462,6 +5540,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Protected Event _onStageWhenClosedIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.SaleRow._onSaleCycleChange
+  commentId: E:SuperOffice.CRM.Rows.SaleRow._onSaleCycleChange
+  id: _onSaleCycleChange
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: _onSaleCycleChange
+  nameWithType: SaleRow._onSaleCycleChange
+  fullName: SuperOffice.CRM.Rows.SaleRow._onSaleCycleChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.SaleRow.SaleCycle" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onSaleCycleChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onSaleCycleChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   commentId: E:SuperOffice.CRM.Rows.SaleRow.OnAssociateIdChange
   id: OnAssociateIdChange
@@ -6365,6 +6464,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnStageWhenClosedIdChange As OnFieldChange(Of Integer)
+- uid: SuperOffice.CRM.Rows.SaleRow.OnSaleCycleChange
+  commentId: E:SuperOffice.CRM.Rows.SaleRow.OnSaleCycleChange
+  id: OnSaleCycleChange
+  parent: SuperOffice.CRM.Rows.SaleRow
+  langs:
+  - csharp
+  - vb
+  name: OnSaleCycleChange
+  nameWithType: SaleRow.OnSaleCycleChange
+  fullName: SuperOffice.CRM.Rows.SaleRow.OnSaleCycleChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when SaleCycle is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnSaleCycleChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnSaleCycleChange As OnFieldChange(Of Integer)
 references:
 - uid: SuperOffice.CRM.Rows.SaleRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.SaleRow.CreateNew
@@ -9945,6 +10065,13 @@ references:
   name: StageWhenClosedId
   nameWithType: SaleRow.StageWhenClosedId
   fullName: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+- uid: SuperOffice.CRM.Rows.SaleRow.SaleCycle
+  commentId: P:SuperOffice.CRM.Rows.SaleRow.SaleCycle
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html#SuperOffice_CRM_Rows_SaleRow_SaleCycle
+  name: SaleCycle
+  nameWithType: SaleRow.SaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleRow.SaleCycle
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -11176,6 +11303,13 @@ references:
   name: StageWhenClosedId
   nameWithType: SaleRow.StageWhenClosedId
   fullName: SuperOffice.CRM.Rows.SaleRow.StageWhenClosedId
+- uid: SuperOffice.CRM.Rows.SaleRow.SaleCycle*
+  commentId: Overload:SuperOffice.CRM.Rows.SaleRow.SaleCycle
+  isExternal: true
+  href: SuperOffice.CRM.Rows.SaleRow.html#SuperOffice_CRM_Rows_SaleRow_SaleCycle
+  name: SaleCycle
+  nameWithType: SaleRow.SaleCycle
+  fullName: SuperOffice.CRM.Rows.SaleRow.SaleCycle
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

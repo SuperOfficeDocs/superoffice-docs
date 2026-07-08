@@ -54,6 +54,8 @@ items:
   - SuperOffice.Data.CsLoginAuthType
   - SuperOffice.Data.CsLoginOrigin
   - SuperOffice.Data.CsLoginStatus
+  - SuperOffice.Data.CtaFlavor
+  - SuperOffice.Data.CtaType
   - SuperOffice.Data.CustomFieldType
   - SuperOffice.Data.DashTileCurrencyMode
   - SuperOffice.Data.DashTileEntityType
@@ -167,6 +169,7 @@ items:
   - SuperOffice.Data.NestedPersist
   - SuperOffice.Data.NestedPersistFacade
   - SuperOffice.Data.NetServerBuildType
+  - SuperOffice.Data.NewsFeedItemStatus
   - SuperOffice.Data.NotificationEventType
   - SuperOffice.Data.NotificationMessageType
   - SuperOffice.Data.NotificationPlatform
@@ -1990,6 +1993,30 @@ references:
   name: MeteringStatus
   nameWithType: MeteringStatus
   fullName: SuperOffice.Data.MeteringStatus
+- uid: SuperOffice.Data.NewsFeedItemStatus
+  commentId: T:SuperOffice.Data.NewsFeedItemStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.NewsFeedItemStatus.html
+  name: NewsFeedItemStatus
+  nameWithType: NewsFeedItemStatus
+  fullName: SuperOffice.Data.NewsFeedItemStatus
+- uid: SuperOffice.Data.CtaType
+  commentId: T:SuperOffice.Data.CtaType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CtaType.html
+  name: CtaType
+  nameWithType: CtaType
+  fullName: SuperOffice.Data.CtaType
+- uid: SuperOffice.Data.CtaFlavor
+  commentId: T:SuperOffice.Data.CtaFlavor
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CtaFlavor.html
+  name: CtaFlavor
+  nameWithType: CtaFlavor
+  fullName: SuperOffice.Data.CtaFlavor
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data

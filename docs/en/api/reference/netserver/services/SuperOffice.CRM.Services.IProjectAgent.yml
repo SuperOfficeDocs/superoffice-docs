@@ -56,7 +56,7 @@ items:
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.CRM.Services.DuplicateRule[],System.Threading.CancellationToken)
-  - SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMembersAsync(System.Int32,SuperOffice.CRM.Services.ProjectMember[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.CRM.Services.ProjectEntity,System.Threading.CancellationToken)
@@ -344,7 +344,7 @@ items:
   summary: Returns the project image that is displayed in the CRM application.
   example: []
   syntax:
-    content: Task<Image> GetProjectImageAsync(int projectId, CancellationToken cancellationToken = default)
+    content: Task<Stream> GetProjectImageAsync(int projectId, CancellationToken cancellationToken = default)
     parameters:
     - id: projectId
       type: System.Int32
@@ -352,23 +352,23 @@ items:
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
-      type: System.Threading.Tasks.Task{System.Drawing.Image}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
-    content.vb: Function GetProjectImageAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Image)
+      type: System.Threading.Tasks.Task{System.IO.Stream}
+      description: The project image.
+    content.vb: Function GetProjectImageAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Stream)
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectImageAsync*
   nameWithType.vb: IProjectAgent.GetProjectImageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectImageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetProjectImageAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
-  id: SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
+  id: SetProjectImageAsync(System.Int32,System.IO.Stream,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IProjectAgent
   langs:
   - csharp
   - vb
-  name: SetProjectImageAsync(int, Image, CancellationToken)
-  nameWithType: IProjectAgent.SetProjectImageAsync(int, Image, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(int, System.Drawing.Image, System.Threading.CancellationToken)
+  name: SetProjectImageAsync(int, Stream, CancellationToken)
+  nameWithType: IProjectAgent.SetProjectImageAsync(int, Stream, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(int, System.IO.Stream, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SuperOffice.Services
@@ -376,24 +376,24 @@ items:
   summary: Stores the project image that is displayed in the CRM application.
   example: []
   syntax:
-    content: Task SetProjectImageAsync(int projectId, Image image, CancellationToken cancellationToken = default)
+    content: Task SetProjectImageAsync(int projectId, Stream image, CancellationToken cancellationToken = default)
     parameters:
     - id: projectId
       type: System.Int32
       description: The project id of the project the image belongs to.
     - id: image
-      type: System.Drawing.Image
-      description: The image that is stored on the project (System.Drawing.Image)
+      type: System.IO.Stream
+      description: The project image.
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
       description: ''
-    content.vb: Function SetProjectImageAsync(projectId As Integer, image As Image, cancellationToken As CancellationToken = Nothing) As Task
+    content.vb: Function SetProjectImageAsync(projectId As Integer, image As Stream, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync*
-  nameWithType.vb: IProjectAgent.SetProjectImageAsync(Integer, Image, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(Integer, System.Drawing.Image, System.Threading.CancellationToken)
-  name.vb: SetProjectImageAsync(Integer, Image, CancellationToken)
+  nameWithType.vb: IProjectAgent.SetProjectImageAsync(Integer, Stream, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(Integer, System.IO.Stream, System.Threading.CancellationToken)
+  name.vb: SetProjectImageAsync(Integer, Stream, CancellationToken)
 - uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIdsAsync(System.Int32[],System.Threading.CancellationToken)
   id: DeleteProjectMemberByIdsAsync(System.Int32[],System.Threading.CancellationToken)
@@ -2174,27 +2174,27 @@ references:
   name: GetProjectImageAsync
   nameWithType: IProjectAgent.GetProjectImageAsync
   fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectImageAsync
-- uid: System.Threading.Tasks.Task{System.Drawing.Image}
-  commentId: T:System.Threading.Tasks.Task{System.Drawing.Image}
+- uid: System.Threading.Tasks.Task{System.IO.Stream}
+  commentId: T:System.Threading.Tasks.Task{System.IO.Stream}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Image>
-  nameWithType: Task<Image>
-  fullName: System.Threading.Tasks.Task<System.Drawing.Image>
-  nameWithType.vb: Task(Of Image)
-  fullName.vb: System.Threading.Tasks.Task(Of System.Drawing.Image)
-  name.vb: Task(Of Image)
+  name: Task<Stream>
+  nameWithType: Task<Stream>
+  fullName: System.Threading.Tasks.Task<System.IO.Stream>
+  nameWithType.vb: Task(Of Stream)
+  fullName.vb: System.Threading.Tasks.Task(Of System.IO.Stream)
+  name.vb: Task(Of Stream)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: System.Drawing.Image
-    name: Image
+  - uid: System.IO.Stream
+    name: Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -2204,53 +2204,53 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: System.Drawing.Image
-    name: Image
+  - uid: System.IO.Stream
+    name: Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
 - uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SetProjectImageAsync_System_Int32_System_Drawing_Image_System_Threading_CancellationToken_
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SetProjectImageAsync_System_Int32_System_IO_Stream_System_Threading_CancellationToken_
   name: SetProjectImageAsync
   nameWithType: IProjectAgent.SetProjectImageAsync
   fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync
-- uid: System.Drawing.Image
-  commentId: T:System.Drawing.Image
-  parent: System.Drawing
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
-  name: Image
-  nameWithType: Image
-  fullName: System.Drawing.Image
-- uid: System.Drawing
-  commentId: N:System.Drawing
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
   spec.csharp:
   - uid: System
     name: System
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system
   - name: .
-  - uid: System.Drawing
-    name: Drawing
+  - uid: System.IO
+    name: IO
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
+    href: https://learn.microsoft.com/dotnet/api/system.io
   spec.vb:
   - uid: System
     name: System
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system
   - name: .
-  - uid: System.Drawing
-    name: Drawing
+  - uid: System.IO
+    name: IO
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
+    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIdsAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIdsAsync
   isExternal: true

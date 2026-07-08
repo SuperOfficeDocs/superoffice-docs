@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# Webhook\_notify Table (521)
+# Webhook\_notify Table (524)
 
 Notification recipients for webhook failure events. Each row defines one recipient (associate or ad-hoc email) that should be notified when a webhook fails.
 

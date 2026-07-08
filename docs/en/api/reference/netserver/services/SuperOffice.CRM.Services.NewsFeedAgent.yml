@@ -1,0 +1,1638 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NewsFeedAgent
+  commentId: T:SuperOffice.CRM.Services.NewsFeedAgent
+  id: NewsFeedAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NewsFeedAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.NewsFeedAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedAgent
+  nameWithType: NewsFeedAgent
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent
+  type: Class
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Proxy class for the NewsFeed Agent
+
+    Used when communicating remote using WebServices.
+
+    Avoid using directly. Use the AgentFactory to create the proxy instead.
+  example: []
+  syntax:
+    content: 'public class NewsFeedAgent : INewsFeedAgent, IAgent'
+    content.vb: Public Class NewsFeedAgent Implements INewsFeedAgent, IAgent
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedAgent(INewsFeedItemImplementation, ISoRequestItemsAccessor)
+  nameWithType: NewsFeedAgent.NewsFeedAgent(INewsFeedItemImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.NewsFeedAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public NewsFeedAgent(INewsFeedItemImplementation newsFeedItemImplementation, ISoRequestItemsAccessor accessor)
+    parameters:
+    - id: newsFeedItemImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    content.vb: Public Sub New(newsFeedItemImplementation As INewsFeedItemImplementation, accessor As ISoRequestItemsAccessor)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.#ctor*
+  nameWithType.vb: NewsFeedAgent.New(INewsFeedItemImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(INewsFeedItemImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: NewsFeedAgent(INewsFeedItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType: NewsFeedAgent.NewsFeedAgent(INewsFeedItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.NewsFeedAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public NewsFeedAgent(INewsFeedItemImplementation newsFeedItemImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    parameters:
+    - id: newsFeedItemImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation
+    - id: accessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: debugUser
+      type: SuperOffice.Data.IDebugUser
+    - id: serviceCallsRepository
+      type: SuperOffice.Diagnostics.IServiceCallsRepository
+    content.vb: Public Sub New(newsFeedItemImplementation As INewsFeedItemImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.#ctor*
+  nameWithType.vb: NewsFeedAgent.New(INewsFeedItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name.vb: New(INewsFeedItemImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  id: CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultNewsFeedItemAsync(CancellationToken)
+  nameWithType: NewsFeedAgent.CreateDefaultNewsFeedItemAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new NewsFeedItem.
+  example: []
+  syntax:
+    content: public Task<NewsFeedItem> CreateDefaultNewsFeedItemAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem}
+      description: New NewsFeedItem with default values
+    content.vb: Public Function CreateDefaultNewsFeedItemAsync(cancellationToken As CancellationToken = Nothing) As Task(Of NewsFeedItem)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteNewsFeedItemAsync(int, CancellationToken)
+  nameWithType: NewsFeedAgent.DeleteNewsFeedItemAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the NewsFeedItem
+  example: []
+  syntax:
+    content: public Task DeleteNewsFeedItemAsync(int newsFeedItemId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: The identity of the NewsFeedItem
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteNewsFeedItemAsync(newsFeedItemId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.DeleteNewsFeedItemAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteNewsFeedItemAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemAsync(int, CancellationToken)
+  nameWithType: NewsFeedAgent.GetNewsFeedItemAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Gets a NewsFeedItem object.
+  example: []
+  syntax:
+    content: public Task<NewsFeedItem> GetNewsFeedItemAsync(int newsFeedItemId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: The identifier of the NewsFeedItem object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem}
+      description: A single NewsFeedItem
+    content.vb: Public Function GetNewsFeedItemAsync(newsFeedItemId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NewsFeedItem)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.GetNewsFeedItemAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNewsFeedItemAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  id: PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: PostNewsFeedItemAsync(NewsFeedItem, int[], int[], bool, CancellationToken)
+  nameWithType: NewsFeedAgent.PostNewsFeedItemAsync(NewsFeedItem, int[], int[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem, int[], int[], bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Saves a new item to the newsfeed, publishing it to the specified users.
+  example: []
+  syntax:
+    content: public Task<NewsFeedItem> PostNewsFeedItemAsync(NewsFeedItem newsFeedItem, int[] toAssociateIds, int[] toGroupIds, bool toAll, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItem
+      type: SuperOffice.CRM.Services.NewsFeedItem
+      description: The news feed item to post. NewsFeedItemId is ignored, as a new id will be generated when posting to the newsfeed.
+    - id: toAssociateIds
+      type: System.Int32[]
+      description: List of associate ids that this news feed item is sent to.
+    - id: toGroupIds
+      type: System.Int32[]
+      description: List of group ids that this news feed item is sent to. This gets resolved to associate ids when posted.
+    - id: toAll
+      type: System.Boolean
+      description: Indicates if this news feed item is sent to all users. Gets resolved into all users when posted.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem}
+      description: The news feed item that was posted, including its new id.
+    content.vb: Public Function PostNewsFeedItemAsync(newsFeedItem As NewsFeedItem, toAssociateIds As Integer(), toGroupIds As Integer(), toAll As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of NewsFeedItem)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.PostNewsFeedItemAsync(NewsFeedItem, Integer(), Integer(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem, Integer(), Integer(), Boolean, System.Threading.CancellationToken)
+  name.vb: PostNewsFeedItemAsync(NewsFeedItem, Integer(), Integer(), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  id: GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewsFeedItemsByIdAsync(int[], CancellationToken)
+  nameWithType: NewsFeedAgent.GetNewsFeedItemsByIdAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync(int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get an array of items from the newsfeed by id. If the current user cannot access a particular item, it will be excluded from the results.
+  example: []
+  syntax:
+    content: public Task<NewsFeedItem[]> GetNewsFeedItemsByIdAsync(int[] newsFeedItemIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItemIds
+      type: System.Int32[]
+      description: Ids of the news feed items to mark as seen for this user.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem[]}
+      description: The news feed items that was posted, or null if not found/not accessible by the user.
+    content.vb: Public Function GetNewsFeedItemsByIdAsync(newsFeedItemIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of NewsFeedItem())
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.GetNewsFeedItemsByIdAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetNewsFeedItemsByIdAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNewsItemsForUserAsync(int, DateTime, DateTime, int, int, CancellationToken)
+  nameWithType: NewsFeedAgent.GetNewsItemsForUserAsync(int, DateTime, DateTime, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync(int, System.DateTime, System.DateTime, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get a list of newsfeed items for a particular user between two dates. If the current user cannot access a particular item, it will be excluded from the results.
+  example: []
+  syntax:
+    content: public Task<NewsFeedItem[]> GetNewsItemsForUserAsync(int associateId, DateTime fromDate, DateTime toDate, int top, int skip, CancellationToken cancellationToken = default)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Id of the associate to fetch news feed items for. 0 = current user
+    - id: fromDate
+      type: System.DateTime
+      description: Start date for fetching news feed items.
+    - id: toDate
+      type: System.DateTime
+      description: End date for fetching news feed items.
+    - id: top
+      type: System.Int32
+      description: Maximum number of news feed items to return.
+    - id: skip
+      type: System.Int32
+      description: Number of news feed items to skip for paging.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem[]}
+      description: The news feed items that was posted, or null if not found/not accessible by the user.
+    content.vb: Public Function GetNewsItemsForUserAsync(associateId As Integer, fromDate As Date, toDate As Date, top As Integer, skip As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NewsFeedItem())
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  id: MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: MarkAsReadAsync(int, CancellationToken)
+  nameWithType: NewsFeedAgent.MarkAsReadAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Marks the news feed item as read, so it can be un-bolded in the current user's feed.
+  example: []
+  syntax:
+    content: public Task MarkAsReadAsync(int newsFeedItemId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: Id of the news feed item to mark as seen for this user.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function MarkAsReadAsync(newsFeedItemId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.MarkAsReadAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync(Integer, System.Threading.CancellationToken)
+  name.vb: MarkAsReadAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  id: StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: StartHandlingAsync(int, CancellationToken)
+  nameWithType: NewsFeedAgent.StartHandlingAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Marks the news feed item as being handled, that CTA processing has started. i.e. other users should not start handling it also.
+  example: []
+  syntax:
+    content: public Task<bool> StartHandlingAsync(int newsFeedItemId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: Id of the news feed item to mark as handled for all users.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Indicates if the news feed item was successfully marked as being handled. False if it was already being handled or was handled.
+    content.vb: Public Function StartHandlingAsync(newsFeedItemId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.StartHandlingAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync(Integer, System.Threading.CancellationToken)
+  name.vb: StartHandlingAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  id: MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.NewsFeedAgent
+  langs:
+  - csharp
+  - vb
+  name: MarkAsHandledAsync(int, CancellationToken)
+  nameWithType: NewsFeedAgent.MarkAsHandledAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Marks the news feed item as handled, so it can be removed from the feed.
+  example: []
+  syntax:
+    content: public Task<bool> MarkAsHandledAsync(int newsFeedItemId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: newsFeedItemId
+      type: System.Int32
+      description: Id of the news feed item to mark as handled for all users.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Indicates if the news feed item was successfully marked as handled. False if it was already handled.
+    content.vb: Public Function MarkAsHandledAsync(newsFeedItemId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync*
+  implements:
+  - SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: NewsFeedAgent.MarkAsHandledAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync(Integer, System.Threading.CancellationToken)
+  name.vb: MarkAsHandledAsync(Integer, CancellationToken)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.CRM.Services.INewsFeedAgent
+  commentId: T:SuperOffice.CRM.Services.INewsFeedAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.INewsFeedAgent.html
+  name: INewsFeedAgent
+  nameWithType: INewsFeedAgent
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAgent.html
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_INewsFeedItemImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  name: NewsFeedAgent
+  nameWithType: NewsFeedAgent.NewsFeedAgent
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.NewsFeedAgent
+  nameWithType.vb: NewsFeedAgent.New
+  fullName.vb: SuperOffice.CRM.Services.NewsFeedAgent.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation.html
+  name: INewsFeedItemImplementation
+  nameWithType: INewsFeedItemImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.INewsFeedItemImplementation
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  isExternal: true
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  commentId: N:SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  nameWithType: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation
+    name: Implementation
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL
+    name: BL
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.html
+  - name: .
+  - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts
+    name: Contracts
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.BL.Contracts.html
+- uid: SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+- uid: SuperOffice.Diagnostics.IServiceCallsRepository
+  isExternal: true
+  name: IServiceCallsRepository
+  nameWithType: IServiceCallsRepository
+  fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_CreateDefaultNewsFeedItemAsync_System_Threading_CancellationToken_
+  name: CreateDefaultNewsFeedItemAsync
+  nameWithType: NewsFeedAgent.CreateDefaultNewsFeedItemAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.CreateDefaultNewsFeedItemAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultNewsFeedItemAsync(CancellationToken)
+  nameWithType: INewsFeedAgent.CreateDefaultNewsFeedItemAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+    name: CreateDefaultNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.CreateDefaultNewsFeedItemAsync(System.Threading.CancellationToken)
+    name: CreateDefaultNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NewsFeedItem>
+  nameWithType: Task<NewsFeedItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.NewsFeedItem>
+  nameWithType.vb: Task(Of NewsFeedItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.NewsFeedItem)
+  name.vb: Task(Of NewsFeedItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.NewsFeedItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.NewsFeedItem.html
+  - name: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_DeleteNewsFeedItemAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteNewsFeedItemAsync
+  nameWithType: NewsFeedAgent.DeleteNewsFeedItemAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.DeleteNewsFeedItemAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteNewsFeedItemAsync(int, CancellationToken)
+  nameWithType: INewsFeedAgent.DeleteNewsFeedItemAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.DeleteNewsFeedItemAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteNewsFeedItemAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.DeleteNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_GetNewsFeedItemAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetNewsFeedItemAsync
+  nameWithType: NewsFeedAgent.GetNewsFeedItemAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetNewsFeedItemAsync(int, CancellationToken)
+  nameWithType: INewsFeedAgent.GetNewsFeedItemAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.GetNewsFeedItemAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetNewsFeedItemAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_PostNewsFeedItemAsync_SuperOffice_CRM_Services_NewsFeedItem_System_Int32___System_Int32___System_Boolean_System_Threading_CancellationToken_
+  name: PostNewsFeedItemAsync
+  nameWithType: NewsFeedAgent.PostNewsFeedItemAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.PostNewsFeedItemAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: PostNewsFeedItemAsync(NewsFeedItem, int[], int[], bool, CancellationToken)
+  nameWithType: INewsFeedAgent.PostNewsFeedItemAsync(NewsFeedItem, int[], int[], bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem, int[], int[], bool, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.PostNewsFeedItemAsync(NewsFeedItem, Integer(), Integer(), Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem, Integer(), Integer(), Boolean, System.Threading.CancellationToken)
+  name.vb: PostNewsFeedItemAsync(NewsFeedItem, Integer(), Integer(), Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+    name: PostNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.PostNewsFeedItemAsync(SuperOffice.CRM.Services.NewsFeedItem,System.Int32[],System.Int32[],System.Boolean,System.Threading.CancellationToken)
+    name: PostNewsFeedItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedItem
+  commentId: T:SuperOffice.CRM.Services.NewsFeedItem
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedItem.html
+  name: NewsFeedItem
+  nameWithType: NewsFeedItem
+  fullName: SuperOffice.CRM.Services.NewsFeedItem
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_GetNewsFeedItemsByIdAsync_System_Int32___System_Threading_CancellationToken_
+  name: GetNewsFeedItemsByIdAsync
+  nameWithType: NewsFeedAgent.GetNewsFeedItemsByIdAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsFeedItemsByIdAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetNewsFeedItemsByIdAsync(int[], CancellationToken)
+  nameWithType: INewsFeedAgent.GetNewsFeedItemsByIdAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(int[], System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.GetNewsFeedItemsByIdAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: GetNewsFeedItemsByIdAsync(Integer(), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetNewsFeedItemsByIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsFeedItemsByIdAsync(System.Int32[],System.Threading.CancellationToken)
+    name: GetNewsFeedItemsByIdAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.NewsFeedItem[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<NewsFeedItem[]>
+  nameWithType: Task<NewsFeedItem[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.NewsFeedItem[]>
+  nameWithType.vb: Task(Of NewsFeedItem())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.NewsFeedItem())
+  name.vb: Task(Of NewsFeedItem())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.NewsFeedItem.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.NewsFeedItem
+    name: NewsFeedItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.NewsFeedItem.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_GetNewsItemsForUserAsync_System_Int32_System_DateTime_System_DateTime_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: GetNewsItemsForUserAsync
+  nameWithType: NewsFeedAgent.GetNewsItemsForUserAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.GetNewsItemsForUserAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetNewsItemsForUserAsync(int, DateTime, DateTime, int, int, CancellationToken)
+  nameWithType: INewsFeedAgent.GetNewsItemsForUserAsync(int, DateTime, DateTime, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(int, System.DateTime, System.DateTime, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: GetNewsItemsForUserAsync(Integer, Date, Date, Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: GetNewsItemsForUserAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.GetNewsItemsForUserAsync(System.Int32,System.DateTime,System.DateTime,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: GetNewsItemsForUserAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_MarkAsReadAsync_System_Int32_System_Threading_CancellationToken_
+  name: MarkAsReadAsync
+  nameWithType: NewsFeedAgent.MarkAsReadAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsReadAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MarkAsReadAsync(int, CancellationToken)
+  nameWithType: INewsFeedAgent.MarkAsReadAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.MarkAsReadAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(Integer, System.Threading.CancellationToken)
+  name.vb: MarkAsReadAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+    name: MarkAsReadAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsReadAsync(System.Int32,System.Threading.CancellationToken)
+    name: MarkAsReadAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_StartHandlingAsync_System_Int32_System_Threading_CancellationToken_
+  name: StartHandlingAsync
+  nameWithType: NewsFeedAgent.StartHandlingAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.StartHandlingAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: StartHandlingAsync(int, CancellationToken)
+  nameWithType: INewsFeedAgent.StartHandlingAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.StartHandlingAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(Integer, System.Threading.CancellationToken)
+  name.vb: StartHandlingAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+    name: StartHandlingAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.StartHandlingAsync(System.Int32,System.Threading.CancellationToken)
+    name: StartHandlingAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<bool>
+  nameWithType: Task<bool>
+  fullName: System.Threading.Tasks.Task<bool>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync*
+  commentId: Overload:SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.NewsFeedAgent.html#SuperOffice_CRM_Services_NewsFeedAgent_MarkAsHandledAsync_System_Int32_System_Threading_CancellationToken_
+  name: MarkAsHandledAsync
+  nameWithType: NewsFeedAgent.MarkAsHandledAsync
+  fullName: SuperOffice.CRM.Services.NewsFeedAgent.MarkAsHandledAsync
+- uid: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.INewsFeedAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MarkAsHandledAsync(int, CancellationToken)
+  nameWithType: INewsFeedAgent.MarkAsHandledAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: INewsFeedAgent.MarkAsHandledAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(Integer, System.Threading.CancellationToken)
+  name.vb: MarkAsHandledAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+    name: MarkAsHandledAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INewsFeedAgent.MarkAsHandledAsync(System.Int32,System.Threading.CancellationToken)
+    name: MarkAsHandledAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )

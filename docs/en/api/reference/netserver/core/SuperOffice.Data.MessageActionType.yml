@@ -24,11 +24,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")]
 
       public enum MessageActionType
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.0.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/12.2.0.0")>
 
       Public Enum MessageActionType
   extensionMethods:
@@ -37,6 +37,7 @@ items:
   - SuperOffice.Data.MessageActionType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.MessageActionType)
   - SuperOffice.Data.MessageActionType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   - System.Enum.EnumUtil.GetDescription
+  - System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
   attributes:
   - type: System.Runtime.Serialization.DataContractAttribute
     ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
@@ -44,7 +45,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/12.0.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/12.2.0.0
 - uid: SuperOffice.Data.MessageActionType.None
   commentId: F:SuperOffice.Data.MessageActionType.None
   id: None
@@ -470,6 +471,36 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.enum
   - name: )
+- uid: System.Enum.ExtensionMethods.ResourceManagerExt.ToResourceString
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  parent: ExtensionMethods.ResourceManagerExt
+  definition: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
@@ -676,6 +707,43 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.enum
   - name: )
+- uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  commentId: M:ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  name: ToResourceString(Enum)
+  nameWithType: ResourceManagerExt.ToResourceString(Enum)
+  fullName: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+  spec.csharp:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: ExtensionMethods.ResourceManagerExt.ToResourceString(System.Enum)
+    name: ToResourceString
+    isExternal: true
+    href: ExtensionMethods.ResourceManagerExt.html#ExtensionMethods_ResourceManagerExt_ToResourceString_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: ExtensionMethods.ResourceManagerExt
+  commentId: T:ExtensionMethods.ResourceManagerExt
+  parent: ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html
+  name: ResourceManagerExt
+  nameWithType: ResourceManagerExt
+  fullName: ExtensionMethods.ResourceManagerExt
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -740,6 +808,13 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: ExtensionMethods
+  commentId: N:ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: ExtensionMethods
 - uid: SuperOffice.Data.MessageActionType
   commentId: T:SuperOffice.Data.MessageActionType
   parent: SuperOffice.Data

@@ -120,6 +120,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionPersonExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
   - SuperOffice.CRM.ArchiveLists.MailingAddrPersonExtender
+  - SuperOffice.CRM.ArchiveLists.NewsFeedItemPersonExtender
   - SuperOffice.CRM.ArchiveLists.PersonLinkExtender
   - SuperOffice.CRM.ArchiveLists.PersonPersonExtender
   - SuperOffice.CRM.ArchiveLists.ProjectMemberPersonExtender

@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.#ctor
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.#ctor(SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.Features)
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingDescription
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -22,6 +23,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingClickRate
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingDescription
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingEndDate
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFrom
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingOpenRate
@@ -32,8 +34,10 @@ items:
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSentCount
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSentTo
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSimpleStatus
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSubscriptionType
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingType
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colPersonId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colProjectId
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colRecipientStatus
@@ -41,6 +45,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colRegisteredBy
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colRegisteredDate
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colText
+  - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colType
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colUpdatedBy
   - SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colUpdatedDate
@@ -243,6 +248,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const ColMailingDescription As String = "mailingDescription"
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
+  id: ColMailingFolderId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ColMailingFolderId
+  nameWithType: MailingsExtenderBase.ColMailingFolderId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase.ColMailingFolderId
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColMailingFolderId = "mailingFolderId"
+    return:
+      type: System.String
+    content.vb: Public Const ColMailingFolderId As String = "mailingFolderId"
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingId
   id: _colMailingId
@@ -262,6 +286,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colMailingId As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
+  id: _colMailingFolderId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colMailingFolderId
+  nameWithType: MailingsExtenderBase._colMailingFolderId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingFolderId
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colMailingFolderId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colMailingFolderId As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSelectionId
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSelectionId
   id: _colMailingSelectionId
@@ -376,6 +419,44 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colMailingType As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+  id: _colMailingTypeId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colMailingTypeId
+  nameWithType: MailingsExtenderBase._colMailingTypeId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingTypeId
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colMailingTypeId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colMailingTypeId As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
+  id: _colMailingStatusId
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colMailingStatusId
+  nameWithType: MailingsExtenderBase._colMailingStatusId
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingStatusId
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colMailingStatusId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colMailingStatusId As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSubscriptionType
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colMailingSubscriptionType
   id: _colMailingSubscriptionType
@@ -585,6 +666,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colRecipientStatus As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
+  commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
+  id: _colThumbnail
+  parent: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colThumbnail
+  nameWithType: MailingsExtenderBase._colThumbnail
+  fullName: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colThumbnail
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colThumbnail
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colThumbnail As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colIcon
   commentId: F:SuperOffice.CRM.ArchiveLists.MailingsExtenderBase._colIcon
   id: _colIcon

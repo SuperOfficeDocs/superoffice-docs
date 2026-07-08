@@ -5,6 +5,7 @@ items:
   id: SuperOffice.IO.Files
   children:
   - SuperOffice.IO.Files.DiskFileAccess
+  - SuperOffice.IO.Files.FileLookup
   - SuperOffice.IO.Files.IFileAccess
   - SuperOffice.IO.Files.SoFileInfo
   langs:
@@ -24,6 +25,13 @@ references:
   name: DiskFileAccess
   nameWithType: DiskFileAccess
   fullName: SuperOffice.IO.Files.DiskFileAccess
+- uid: SuperOffice.IO.Files.FileLookup
+  commentId: T:SuperOffice.IO.Files.FileLookup
+  isExternal: true
+  href: SuperOffice.IO.Files.FileLookup.html
+  name: FileLookup
+  nameWithType: FileLookup
+  fullName: SuperOffice.IO.Files.FileLookup
 - uid: SuperOffice.IO.Files.IFileAccess
   commentId: T:SuperOffice.IO.Files.IFileAccess
   parent: SuperOffice.IO.Files

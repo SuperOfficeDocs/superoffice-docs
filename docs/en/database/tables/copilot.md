@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# copilot Table (474)
+# copilot Table (473)
 
 Contains all available copilots
 

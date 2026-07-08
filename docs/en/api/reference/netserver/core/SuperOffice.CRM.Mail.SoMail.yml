@@ -13,6 +13,7 @@ items:
   - SuperOffice.CRM.Mail.SoMail.BeginReadAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String)
   - SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean,System.Boolean)
   - SuperOffice.CRM.Mail.SoMail.BeginSendAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Mail.SoMail.CanRead
   - SuperOffice.CRM.Mail.SoMail.CanSend
@@ -674,10 +675,42 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static OutgoingMailSession BeginSend(string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+    - id: userName
+      type: System.String
+    - id: password
+      type: System.String
+    - id: useSSL
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Mail.OutgoingMailSession
+    content.vb: Public Shared Function BeginSend(server As String, userName As String, password As String, useSSL As Boolean) As OutgoingMailSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginSend*
+  nameWithType.vb: SoMail.BeginSend(String, String, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.BeginSend(String, String, String, Boolean)
+  name.vb: BeginSend(String, String, String, Boolean)
+- uid: SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  id: BeginSend(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginSend(string, string, string, bool, bool)
+  nameWithType: SoMail.BeginSend(string, string, string, bool, bool)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginSend(string, string, string, bool, bool)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Mail
   summary: Obtain reference to session for outgoing (i.e. SMTP) mail server.
   example: []
   syntax:
-    content: public static OutgoingMailSession BeginSend(string server, string userName, string password, bool useSSL)
+    content: public static OutgoingMailSession BeginSend(string server, string userName, string password, bool useSSL, bool useGraphApi)
     parameters:
     - id: server
       type: System.String
@@ -691,14 +724,17 @@ items:
     - id: useSSL
       type: System.Boolean
       description: Should we use a secure connection
+    - id: useGraphApi
+      type: System.Boolean
+      description: Should we use Graph Api
     return:
       type: SuperOffice.CRM.Mail.OutgoingMailSession
       description: Disposable object holding session to outgoing (i.e. SMTP) mail server.
-    content.vb: Public Shared Function BeginSend(server As String, userName As String, password As String, useSSL As Boolean) As OutgoingMailSession
+    content.vb: Public Shared Function BeginSend(server As String, userName As String, password As String, useSSL As Boolean, useGraphApi As Boolean) As OutgoingMailSession
   overload: SuperOffice.CRM.Mail.SoMail.BeginSend*
-  nameWithType.vb: SoMail.BeginSend(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.SoMail.BeginSend(String, String, String, Boolean)
-  name.vb: BeginSend(String, String, String, Boolean)
+  nameWithType.vb: SoMail.BeginSend(String, String, String, Boolean, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.SoMail.BeginSend(String, String, String, Boolean, Boolean)
+  name.vb: BeginSend(String, String, String, Boolean, Boolean)
 - uid: SuperOffice.CRM.Mail.SoMail.GetFolderNameAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Mail.SoMail.GetFolderNameAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)
   id: GetFolderNameAsync(SuperOffice.CRM.Mail.SoMailFolder,System.Threading.CancellationToken)

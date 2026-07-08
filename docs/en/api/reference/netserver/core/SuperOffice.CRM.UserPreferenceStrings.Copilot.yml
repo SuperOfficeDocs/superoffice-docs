@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.AllowWebAccess
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.AutoGenerateReply
+  - SuperOffice.CRM.UserPreferenceStrings.Copilot.CompanyPurpose
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.Section
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceProcedure
   - SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
@@ -120,6 +121,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const AutoGenerateReply As String = "autoGenerateReply"
+- uid: SuperOffice.CRM.UserPreferenceStrings.Copilot.CompanyPurpose
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Copilot.CompanyPurpose
+  id: CompanyPurpose
+  parent: SuperOffice.CRM.UserPreferenceStrings.Copilot
+  langs:
+  - csharp
+  - vb
+  name: CompanyPurpose
+  nameWithType: UserPreferenceStrings.Copilot.CompanyPurpose
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Copilot.CompanyPurpose
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: Company Purpose - describes what the company does, used for AI suggestions and prompts.
+  example: []
+  syntax:
+    content: public const string CompanyPurpose = "companyPurpose"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyPurpose As String = "companyPurpose"
 - uid: SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Copilot.ServiceSystemPrompt
   id: ServiceSystemPrompt

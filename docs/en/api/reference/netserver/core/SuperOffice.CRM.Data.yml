@@ -327,6 +327,10 @@ items:
   - SuperOffice.CRM.Data.DBC.MsFilterMailFields
   - SuperOffice.CRM.Data.DBC.MsSubstituteFields
   - SuperOffice.CRM.Data.DBC.MsTrashbinFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  - SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
   - SuperOffice.CRM.Data.DBC.NoticeFrameFields
   - SuperOffice.CRM.Data.DBC.NotifyFields
   - SuperOffice.CRM.Data.DBC.OnlineAppFields
@@ -781,6 +785,10 @@ items:
   - SuperOffice.CRM.Data.MsFilterTableInfo
   - SuperOffice.CRM.Data.MsSubstituteTableInfo
   - SuperOffice.CRM.Data.MsTrashbinTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  - SuperOffice.CRM.Data.NewsFeedItemTableInfo
   - SuperOffice.CRM.Data.NoticeFrameTableInfo
   - SuperOffice.CRM.Data.NotifyTableInfo
   - SuperOffice.CRM.Data.OnlineAppTableInfo
@@ -14904,6 +14912,114 @@ references:
     name: TimeKeepingFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.TimeKeepingFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemFields
+  nameWithType: DBC.NewsFeedItemFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+    name: NewsFeedItemFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemFields
+    name: NewsFeedItemFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemHtmlFields
+  nameWithType: DBC.NewsFeedItemHtmlFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+    name: NewsFeedItemHtmlFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields
+    name: NewsFeedItemHtmlFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemHtmlFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemCtaFields
+  nameWithType: DBC.NewsFeedItemCtaFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+    name: NewsFeedItemCtaFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields
+    name: NewsFeedItemCtaFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemCtaFields.html
+- uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+  commentId: T:SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.NewsFeedItemRecipientFields
+  nameWithType: DBC.NewsFeedItemRecipientFields
+  fullName: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+    name: NewsFeedItemRecipientFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields
+    name: NewsFeedItemRecipientFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.NewsFeedItemRecipientFields.html
 - uid: SuperOffice.CRM.Data.DBC.OnlineAppFields
   commentId: T:SuperOffice.CRM.Data.DBC.OnlineAppFields
   isExternal: true
@@ -17423,6 +17539,38 @@ references:
   name: MsTrashbinTableInfo
   nameWithType: MsTrashbinTableInfo
   fullName: SuperOffice.CRM.Data.MsTrashbinTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemTableInfo.html
+  name: NewsFeedItemTableInfo
+  nameWithType: NewsFeedItemTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo.html
+  name: NewsFeedItemCtaTableInfo
+  nameWithType: NewsFeedItemCtaTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemCtaTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo.html
+  name: NewsFeedItemHtmlTableInfo
+  nameWithType: NewsFeedItemHtmlTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemHtmlTableInfo
+- uid: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  commentId: T:SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo.html
+  name: NewsFeedItemRecipientTableInfo
+  nameWithType: NewsFeedItemRecipientTableInfo
+  fullName: SuperOffice.CRM.Data.NewsFeedItemRecipientTableInfo
 - uid: SuperOffice.CRM.Data.NoticeFrameTableInfo
   commentId: T:SuperOffice.CRM.Data.NoticeFrameTableInfo
   parent: SuperOffice.CRM.Data

@@ -16,6 +16,7 @@ items:
   - SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   - SuperOffice.Data.Cache.CacheBaseV2.OnLoadAsync(System.Threading.CancellationToken)
   - SuperOffice.Data.Cache.CacheBaseV2.TableNames
+  - SuperOffice.Data.Cache.CacheBaseV2._logger
   langs:
   - csharp
   - vb
@@ -95,6 +96,25 @@ items:
   extensionMethods:
   - SuperOffice.Data.Cache.CacheBaseV2.EnumUtil.MapEnums``2
   - SuperOffice.Data.Cache.CacheBaseV2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Data.Cache.CacheBaseV2._logger
+  commentId: F:SuperOffice.Data.Cache.CacheBaseV2._logger
+  id: _logger
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  langs:
+  - csharp
+  - vb
+  name: _logger
+  nameWithType: CacheBaseV2._logger
+  fullName: SuperOffice.Data.Cache.CacheBaseV2._logger
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Cache
+  syntax:
+    content: protected ILogger _logger
+    return:
+      type: Microsoft.Extensions.Logging.ILogger
+    content.vb: Protected _logger As ILogger
 - uid: SuperOffice.Data.Cache.CacheBaseV2.#ctor
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.#ctor
   id: '#ctor'
@@ -916,6 +936,51 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: Microsoft.Extensions.Logging.ILogger
+  commentId: T:Microsoft.Extensions.Logging.ILogger
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: System.Security.SecurityException
   commentId: T:System.Security.SecurityException
   isExternal: true

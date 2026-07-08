@@ -12,6 +12,8 @@ content_type: reference
 
 
 
+* [POST Agents/EMail/GetEMailAsEmlStream](v1EMailAgent_GetEMailAsEmlStream.md)
+
 * [POST Agents/EMail/GetEMail](v1EMailAgent_GetEMail.md)
 
 * [POST Agents/EMail/GetUnsanitizedEMail](v1EMailAgent_GetUnsanitizedEMail.md)

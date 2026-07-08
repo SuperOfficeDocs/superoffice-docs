@@ -5,7 +5,7 @@ items:
   id: EmailConnectivityPostLoginPlugin
   parent: SuperOffice.Security.Login
   children:
-  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
+  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin})
   - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.GetEndpointUri(System.String,System.String)
   - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.Name
@@ -51,8 +51,6 @@ items:
   extensionMethods:
   - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EnumUtil.MapEnums``2
   - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-  - SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   attributes:
   - type: SuperOffice.Security.Principal.PostLoginPluginAttribute
     ctor: SuperOffice.Security.Principal.PostLoginPluginAttribute.#ctor(System.String)
@@ -78,6 +76,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const Name As String = "EmailConnectivity"
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin})
+  commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin})'
+  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+  langs:
+  - csharp
+  - vb
+  name: EmailConnectivityPostLoginPlugin(ILogger<EmailConnectivityPostLoginPlugin>)
+  nameWithType: EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin(ILogger<EmailConnectivityPostLoginPlugin>)
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin(Microsoft.Extensions.Logging.ILogger<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin>)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Security.Login
+  syntax:
+    content: public EmailConnectivityPostLoginPlugin(ILogger<EmailConnectivityPostLoginPlugin> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin}
+    content.vb: Public Sub New(logger As ILogger(Of EmailConnectivityPostLoginPlugin))
+  overload: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor*
+  nameWithType.vb: EmailConnectivityPostLoginPlugin.New(ILogger(Of EmailConnectivityPostLoginPlugin))
+  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin))
+  name.vb: New(ILogger(Of EmailConnectivityPostLoginPlugin))
 - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync(System.Threading.CancellationToken)
   id: IsRequiredAsync(System.Threading.CancellationToken)
@@ -174,27 +196,6 @@ items:
   nameWithType.vb: EmailConnectivityPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
   fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.ProcessCallback(String, System.Collections.Generic.Dictionary(Of String, String))
   name.vb: ProcessCallback(String, Dictionary(Of String, String))
-- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
-  commentId: M:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
-  id: '#ctor'
-  parent: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-  langs:
-  - csharp
-  - vb
-  name: EmailConnectivityPostLoginPlugin()
-  nameWithType: EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin()
-  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin()
-  type: Constructor
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Security.Login
-  syntax:
-    content: public EmailConnectivityPostLoginPlugin()
-    content.vb: Public Sub New()
-  overload: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor*
-  nameWithType.vb: EmailConnectivityPostLoginPlugin.New()
-  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.Security.Login
   commentId: N:SuperOffice.Security.Login
@@ -577,112 +578,6 @@ references:
     isExternal: true
     href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
   - name: )
-- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin>(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin, SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-  name.vb: AssignByReflection(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin, EmailConnectivityPostLoginPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin,SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin,SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: )
-- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin)
-  nameWithType: ObjectExtensions.GraphCopy<EmailConnectivityPostLoginPlugin>(EmailConnectivityPostLoginPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin>(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-  name.vb: GraphCopy(Of EmailConnectivityPostLoginPlugin)(EmailConnectivityPostLoginPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
-    name: EmailConnectivityPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -822,88 +717,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -941,33 +754,6 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -979,6 +765,116 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor*
+  commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
+  isExternal: true
+  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html#SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin__
+  name: EmailConnectivityPostLoginPlugin
+  nameWithType: EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin
+  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin
+  nameWithType.vb: EmailConnectivityPostLoginPlugin.New
+  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<EmailConnectivityPostLoginPlugin>
+  nameWithType: ILogger<EmailConnectivityPostLoginPlugin>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin>
+  nameWithType.vb: ILogger(Of EmailConnectivityPostLoginPlugin)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin)
+  name.vb: ILogger(Of EmailConnectivityPostLoginPlugin)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin
+    name: EmailConnectivityPostLoginPlugin
+    isExternal: true
+    href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync*
   commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.IsRequiredAsync
   isExternal: true
@@ -1393,13 +1289,3 @@ references:
     name: Generic
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor*
-  commentId: Overload:SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.#ctor
-  isExternal: true
-  href: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.html#SuperOffice_Security_Login_EmailConnectivityPostLoginPlugin__ctor
-  name: EmailConnectivityPostLoginPlugin
-  nameWithType: EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin
-  fullName: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.EmailConnectivityPostLoginPlugin
-  nameWithType.vb: EmailConnectivityPostLoginPlugin.New
-  fullName.vb: SuperOffice.Security.Login.EmailConnectivityPostLoginPlugin.New
-  name.vb: New

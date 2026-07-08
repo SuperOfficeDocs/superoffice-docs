@@ -75,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
      <License:IconHint xsi:type="xsd:string"></License:IconHint>
      <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-     <License:LastChanged xsi:type="xsd:dateTime">2026-05-27T01:24:28Z</License:LastChanged>
+     <License:LastChanged xsi:type="xsd:dateTime">2026-07-02T01:23:08Z</License:LastChanged>
      <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
       <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
        <License:Id xsi:type="xsd:int">0</License:Id>
@@ -87,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
        <License:IconHint xsi:type="xsd:string"></License:IconHint>
        <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-       <License:LastChanged xsi:type="xsd:dateTime">2026-05-27T01:24:28Z</License:LastChanged>
+       <License:LastChanged xsi:type="xsd:dateTime">2026-07-02T01:23:08Z</License:LastChanged>
        <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
         <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
          <License:Id xsi:type="xsd:int">0</License:Id>
@@ -99,7 +99,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
          <License:IconHint xsi:type="xsd:string"></License:IconHint>
          <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-         <License:LastChanged xsi:type="xsd:dateTime">2026-05-27T01:24:28Z</License:LastChanged>
+         <License:LastChanged xsi:type="xsd:dateTime">2026-07-02T01:23:08Z</License:LastChanged>
          <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
           <License:SelectableMDOListItem xsi:nil="true"></License:SelectableMDOListItem>
          </License:ChildItems>

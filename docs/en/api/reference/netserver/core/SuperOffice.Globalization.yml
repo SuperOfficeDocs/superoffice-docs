@@ -4,6 +4,7 @@ items:
   commentId: N:SuperOffice.Globalization
   id: SuperOffice.Globalization
   children:
+  - SuperOffice.Globalization.ClientFilterFormat
   - SuperOffice.Globalization.CultureSettingHelper
   - SuperOffice.Globalization.IResourceManager
   - SuperOffice.Globalization.IResourceProvider
@@ -12,7 +13,11 @@ items:
   - SuperOffice.Globalization.IUnfilteredResourceProvider
   - SuperOffice.Globalization.RC
   - SuperOffice.Globalization.ResourceDllProviderBase
+  - SuperOffice.Globalization.ResourceManager
+  - SuperOffice.Globalization.ResourceManager.ProviderInfo
   - SuperOffice.Globalization.ResourceProviderAttribute
+  - SuperOffice.Globalization.ResourceStringFormat
+  - SuperOffice.Globalization.RmDiWrapper
   langs:
   - csharp
   - vb
@@ -32,6 +37,7 @@ references:
   fullName: SuperOffice.Globalization.CultureSettingHelper
 - uid: SuperOffice.Globalization.IResourceManager
   commentId: T:SuperOffice.Globalization.IResourceManager
+  parent: SuperOffice.Globalization
   isExternal: true
   href: SuperOffice.Globalization.IResourceManager.html
   name: IResourceManager
@@ -44,6 +50,63 @@ references:
   name: RC
   nameWithType: RC
   fullName: SuperOffice.Globalization.RC
+- uid: SuperOffice.Globalization.ResourceManager
+  commentId: T:SuperOffice.Globalization.ResourceManager
+  isExternal: true
+  href: SuperOffice.Globalization.ResourceManager.html
+  name: ResourceManager
+  nameWithType: ResourceManager
+  fullName: SuperOffice.Globalization.ResourceManager
+- uid: SuperOffice.Globalization.ResourceManager.ProviderInfo
+  commentId: T:SuperOffice.Globalization.ResourceManager.ProviderInfo
+  isExternal: true
+  href: SuperOffice.Globalization.ResourceManager.html
+  name: ResourceManager.ProviderInfo
+  nameWithType: ResourceManager.ProviderInfo
+  fullName: SuperOffice.Globalization.ResourceManager.ProviderInfo
+  spec.csharp:
+  - uid: SuperOffice.Globalization.ResourceManager
+    name: ResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceManager.html
+  - name: .
+  - uid: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    name: ProviderInfo
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceManager.ProviderInfo.html
+  spec.vb:
+  - uid: SuperOffice.Globalization.ResourceManager
+    name: ResourceManager
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceManager.html
+  - name: .
+  - uid: SuperOffice.Globalization.ResourceManager.ProviderInfo
+    name: ProviderInfo
+    isExternal: true
+    href: SuperOffice.Globalization.ResourceManager.ProviderInfo.html
+- uid: SuperOffice.Globalization.RmDiWrapper
+  commentId: T:SuperOffice.Globalization.RmDiWrapper
+  isExternal: true
+  href: SuperOffice.Globalization.RmDiWrapper.html
+  name: RmDiWrapper
+  nameWithType: RmDiWrapper
+  fullName: SuperOffice.Globalization.RmDiWrapper
+- uid: SuperOffice.Globalization.ResourceStringFormat
+  commentId: T:SuperOffice.Globalization.ResourceStringFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  href: SuperOffice.Globalization.ResourceStringFormat.html
+  name: ResourceStringFormat
+  nameWithType: ResourceStringFormat
+  fullName: SuperOffice.Globalization.ResourceStringFormat
+- uid: SuperOffice.Globalization.ClientFilterFormat
+  commentId: T:SuperOffice.Globalization.ClientFilterFormat
+  parent: SuperOffice.Globalization
+  isExternal: true
+  href: SuperOffice.Globalization.ClientFilterFormat.html
+  name: ClientFilterFormat
+  nameWithType: ClientFilterFormat
+  fullName: SuperOffice.Globalization.ClientFilterFormat
 - uid: SuperOffice.Globalization.IResourceProvider
   commentId: T:SuperOffice.Globalization.IResourceProvider
   parent: SuperOffice.Globalization

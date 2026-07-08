@@ -16,6 +16,7 @@ Scripting events called on the <see cref='M:ICustomerServiceAgent.CreateTicketFr
     static void BeforeCreateTicketFromMailDataAsync(
        Int32  mailboxId,
        String  data,
+       Int32  personId,
        CancellationToken  cancellationToken,
        ref object  eventState
       );
@@ -29,6 +30,7 @@ Event state is not preserved between different service calls. It is set to null 
     static void AfterCreateTicketFromMailDataAsync(
        Int32  mailboxId,
        String  data,
+       Int32  personId,
        CancellationToken  cancellationToken,
        ref Task`1  returnValue,
        ref object  eventState
@@ -42,6 +44,7 @@ Any state you set in the **Before** method is passed in through the *eventState*
     static void AfterCreateTicketFromMailDataAsyncAsync(
        Int32  mailboxId,
        String  data,
+       Int32  personId,
        CancellationToken  cancellationToken,
        ref Task`1  returnValue,
        ref object  eventState

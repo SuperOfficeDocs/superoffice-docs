@@ -10,17 +10,14 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client
   - SuperOffice.Configuration.ConfigFile.ClientConfigurationProvider
   - SuperOffice.Configuration.ConfigFile.Cloud
-  - SuperOffice.Configuration.ConfigFile.CssSprite
   - SuperOffice.Configuration.ConfigFile.CustomProxy
   - SuperOffice.Configuration.ConfigFile.CustomerService
   - SuperOffice.Configuration.ConfigFile.Data
   - SuperOffice.Configuration.ConfigFile.Data.Database
   - SuperOffice.Configuration.ConfigFile.Data.Explicit
-  - SuperOffice.Configuration.ConfigFile.Data.Session
   - SuperOffice.Configuration.ConfigFile.Diagnostics
   - SuperOffice.Configuration.ConfigFile.Documents
   - SuperOffice.Configuration.ConfigFile.Downloads
-  - SuperOffice.Configuration.ConfigFile.Factory
   - SuperOffice.Configuration.ConfigFile.FeatureToggles
   - SuperOffice.Configuration.ConfigFile.Globalization
   - SuperOffice.Configuration.ConfigFile.GoogleRecaptcha
@@ -29,30 +26,22 @@ items:
   - SuperOffice.Configuration.ConfigFile.IClientConfiguration
   - SuperOffice.Configuration.ConfigFile.IClientConfigurationProviderConfiguration
   - SuperOffice.Configuration.ConfigFile.ICloudConfiguration
-  - SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
   - SuperOffice.Configuration.ConfigFile.ICustomProxyConfiguration
   - SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
   - SuperOffice.Configuration.ConfigFile.IDataDatabaseConfiguration
   - SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
-  - SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
   - SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
   - SuperOffice.Configuration.ConfigFile.IDocumentsConfiguration
   - SuperOffice.Configuration.ConfigFile.IDownloadsConfiguration
-  - SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
   - SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
   - SuperOffice.Configuration.ConfigFile.IGlobalizationConfiguration
   - SuperOffice.Configuration.ConfigFile.IGoogleRecaptchaConfiguration
-  - SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
-  - SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
   - SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
   - SuperOffice.Configuration.ConfigFile.IMessagingConfiguration
   - SuperOffice.Configuration.ConfigFile.IOidcLoginConfiguration
   - SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
   - SuperOffice.Configuration.ConfigFile.IPocketConfiguration
-  - SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  - SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
   - SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
-  - SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
   - SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
   - SuperOffice.Configuration.ConfigFile.IServicesConfiguration
   - SuperOffice.Configuration.ConfigFile.ISmtpConfiguration
@@ -61,15 +50,11 @@ items:
   - SuperOffice.Configuration.ConfigFile.ISubClientsConfiguration
   - SuperOffice.Configuration.ConfigFile.ISuperIdConfiguration
   - SuperOffice.Configuration.ConfigFile.ISuspendedSiteConfiguration
-  - SuperOffice.Configuration.ConfigFile.ISyncConfiguration
   - SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
-  - SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
   - SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
   - SuperOffice.Configuration.ConfigFile.IWebApiConfiguration
   - SuperOffice.Configuration.ConfigFile.IWebServicesConfiguration
   - SuperOffice.Configuration.ConfigFile.IWebhooksConfiguration
-  - SuperOffice.Configuration.ConfigFile.Infrastructure
-  - SuperOffice.Configuration.ConfigFile.IntellisyncConnector
   - SuperOffice.Configuration.ConfigFile.Mail
   - SuperOffice.Configuration.ConfigFile.Mail.Component
   - SuperOffice.Configuration.ConfigFile.Messaging
@@ -78,11 +63,8 @@ items:
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration
   - SuperOffice.Configuration.ConfigFile.OnlineEnvironment
   - SuperOffice.Configuration.ConfigFile.Pocket
-  - SuperOffice.Configuration.ConfigFile.Scripting
   - SuperOffice.Configuration.ConfigFile.Security
-  - SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
   - SuperOffice.Configuration.ConfigFile.Security.Cryptography
-  - SuperOffice.Configuration.ConfigFile.Security.Sentry
   - SuperOffice.Configuration.ConfigFile.Security.SoPasswordCredentialPlugin
   - SuperOffice.Configuration.ConfigFile.Services
   - SuperOffice.Configuration.ConfigFile.Smtp
@@ -91,10 +73,8 @@ items:
   - SuperOffice.Configuration.ConfigFile.SubClients
   - SuperOffice.Configuration.ConfigFile.SuperId
   - SuperOffice.Configuration.ConfigFile.SuspendedSite
-  - SuperOffice.Configuration.ConfigFile.Sync
   - SuperOffice.Configuration.ConfigFile.TelemetryRoleName
   - SuperOffice.Configuration.ConfigFile.TestEnvironment
-  - SuperOffice.Configuration.ConfigFile.Threading
   - SuperOffice.Configuration.ConfigFile.TimeZone
   - SuperOffice.Configuration.ConfigFile.WebApi
   - SuperOffice.Configuration.ConfigFile.WebServices
@@ -388,60 +368,6 @@ references:
     name: Cloud
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Cloud.html
-- uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.ICssSpriteConfiguration
-  nameWithType: ConfigFile.ICssSpriteConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
-    name: ICssSpriteConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration
-    name: ICssSpriteConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ICssSpriteConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.CssSprite
-  commentId: T:SuperOffice.Configuration.ConfigFile.CssSprite
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.CssSprite
-  nameWithType: ConfigFile.CssSprite
-  fullName: SuperOffice.Configuration.ConfigFile.CssSprite
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.CssSprite
-    name: CssSprite
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.CssSprite.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.CssSprite
-    name: CssSprite
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.CssSprite.html
 - uid: SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.ICustomerServiceConfiguration
   isExternal: true
@@ -679,43 +605,6 @@ references:
     name: Explicit
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Data.Explicit.html
-- uid: SuperOffice.Configuration.ConfigFile.Data.Session
-  commentId: T:SuperOffice.Configuration.ConfigFile.Data.Session
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Data.Session
-  nameWithType: ConfigFile.Data.Session
-  fullName: SuperOffice.Configuration.ConfigFile.Data.Session
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Data.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Data.Session
-    name: Session
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Data.Session.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Data.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Data.Session
-    name: Session
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Data.Session.html
 - uid: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration
   isExternal: true
@@ -743,33 +632,6 @@ references:
     name: IDataExplicitConfiguration
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.IDataExplicitConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IDataSessionConfiguration
-  nameWithType: ConfigFile.IDataSessionConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
-    name: IDataSessionConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration
-    name: IDataSessionConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IDataSessionConfiguration.html
 - uid: SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.IDiagnosticsConfiguration
   isExternal: true
@@ -932,60 +794,6 @@ references:
     name: Downloads
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Downloads.html
-- uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IFactoryConfiguration
-  nameWithType: ConfigFile.IFactoryConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
-    name: IFactoryConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration
-    name: IFactoryConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IFactoryConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.Factory
-  commentId: T:SuperOffice.Configuration.ConfigFile.Factory
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Factory
-  nameWithType: ConfigFile.Factory
-  fullName: SuperOffice.Configuration.ConfigFile.Factory
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Factory
-    name: Factory
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Factory.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Factory
-    name: Factory
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Factory.html
 - uid: SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.IFeatureTogglesConfiguration
   isExternal: true
@@ -1148,114 +956,6 @@ references:
     name: GoogleRecaptcha
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.GoogleRecaptcha.html
-- uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IInfrastructureConfiguration
-  nameWithType: ConfigFile.IInfrastructureConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
-    name: IInfrastructureConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration
-    name: IInfrastructureConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IInfrastructureConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.Infrastructure
-  commentId: T:SuperOffice.Configuration.ConfigFile.Infrastructure
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Infrastructure
-  nameWithType: ConfigFile.Infrastructure
-  fullName: SuperOffice.Configuration.ConfigFile.Infrastructure
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Infrastructure
-    name: Infrastructure
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Infrastructure.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Infrastructure
-    name: Infrastructure
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Infrastructure.html
-- uid: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IIntellisyncConnectorConfiguration
-  nameWithType: ConfigFile.IIntellisyncConnectorConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
-    name: IIntellisyncConnectorConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration
-    name: IIntellisyncConnectorConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IIntellisyncConnectorConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
-  commentId: T:SuperOffice.Configuration.ConfigFile.IntellisyncConnector
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IntellisyncConnector
-  nameWithType: ConfigFile.IntellisyncConnector
-  fullName: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
-    name: IntellisyncConnector
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IntellisyncConnector
-    name: IntellisyncConnector
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IntellisyncConnector.html
 - uid: SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.IMailComponentConfiguration
   isExternal: true
@@ -1590,87 +1290,33 @@ references:
     name: Pocket
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Pocket.html
-- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+  commentId: T:SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
   isExternal: true
   href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IScriptingConfiguration
-  nameWithType: ConfigFile.IScriptingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  name: ConfigFile.ISecurityCryptographyConfiguration
+  nameWithType: ConfigFile.ISecurityCryptographyConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
   spec.csharp:
   - uid: SuperOffice.Configuration.ConfigFile
     name: ConfigFile
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.html
   - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    name: IScriptingConfiguration
+  - uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+    name: ISecurityCryptographyConfiguration
     isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration.html
+    href: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration.html
   spec.vb:
   - uid: SuperOffice.Configuration.ConfigFile
     name: ConfigFile
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.html
   - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
-    name: IScriptingConfiguration
+  - uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
+    name: ISecurityCryptographyConfiguration
     isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.Scripting
-  commentId: T:SuperOffice.Configuration.ConfigFile.Scripting
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Scripting
-  nameWithType: ConfigFile.Scripting
-  fullName: SuperOffice.Configuration.ConfigFile.Scripting
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Scripting
-    name: Scripting
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Scripting.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Scripting
-    name: Scripting
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Scripting.html
-- uid: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-  nameWithType: ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-    name: ISecurityActiveDirectoryCredentialPluginConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration
-    name: ISecurityActiveDirectoryCredentialPluginConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISecurityActiveDirectoryCredentialPluginConfiguration.html
+    href: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration.html
 - uid: SuperOffice.Configuration.ConfigFile.Security
   commentId: T:SuperOffice.Configuration.ConfigFile.Security
   isExternal: true
@@ -1698,43 +1344,6 @@ references:
     name: Security
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Security.html
-- uid: SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
-  commentId: T:SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Security.ActiveDirectoryCredentialPlugin
-  nameWithType: ConfigFile.Security.ActiveDirectoryCredentialPlugin
-  fullName: SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
-    name: ActiveDirectoryCredentialPlugin
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin
-    name: ActiveDirectoryCredentialPlugin
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.ActiveDirectoryCredentialPlugin.html
 - uid: SuperOffice.Configuration.ConfigFile.Security.Cryptography
   commentId: T:SuperOffice.Configuration.ConfigFile.Security.Cryptography
   isExternal: true
@@ -1772,43 +1381,6 @@ references:
     name: Cryptography
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Security.Cryptography.html
-- uid: SuperOffice.Configuration.ConfigFile.Security.Sentry
-  commentId: T:SuperOffice.Configuration.ConfigFile.Security.Sentry
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Security.Sentry
-  nameWithType: ConfigFile.Security.Sentry
-  fullName: SuperOffice.Configuration.ConfigFile.Security.Sentry
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security.Sentry
-    name: Sentry
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.Sentry.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Security.Sentry
-    name: Sentry
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Security.Sentry.html
 - uid: SuperOffice.Configuration.ConfigFile.Security.SoPasswordCredentialPlugin
   commentId: T:SuperOffice.Configuration.ConfigFile.Security.SoPasswordCredentialPlugin
   isExternal: true
@@ -1846,60 +1418,6 @@ references:
     name: SoPasswordCredentialPlugin
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.Security.SoPasswordCredentialPlugin.html
-- uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.ISecurityCryptographyConfiguration
-  nameWithType: ConfigFile.ISecurityCryptographyConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
-    name: ISecurityCryptographyConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration
-    name: ISecurityCryptographyConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISecurityCryptographyConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.ISecuritySentryConfiguration
-  nameWithType: ConfigFile.ISecuritySentryConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
-    name: ISecuritySentryConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration
-    name: ISecuritySentryConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISecuritySentryConfiguration.html
 - uid: SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.ISecuritySoPasswordCredentialPluginConfiguration
   isExternal: true
@@ -2305,60 +1823,6 @@ references:
     name: SuspendedSite
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.SuspendedSite.html
-- uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.ISyncConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.ISyncConfiguration
-  nameWithType: ConfigFile.ISyncConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
-    name: ISyncConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.ISyncConfiguration
-    name: ISyncConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.ISyncConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.Sync
-  commentId: T:SuperOffice.Configuration.ConfigFile.Sync
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Sync
-  nameWithType: ConfigFile.Sync
-  fullName: SuperOffice.Configuration.ConfigFile.Sync
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Sync
-    name: Sync
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Sync.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Sync
-    name: Sync
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Sync.html
 - uid: SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.ITestEnvironmentConfiguration
   isExternal: true
@@ -2413,60 +1877,6 @@ references:
     name: TestEnvironment
     isExternal: true
     href: SuperOffice.Configuration.ConfigFile.TestEnvironment.html
-- uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
-  commentId: T:SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.IThreadingConfiguration
-  nameWithType: ConfigFile.IThreadingConfiguration
-  fullName: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
-    name: IThreadingConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration
-    name: IThreadingConfiguration
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.IThreadingConfiguration.html
-- uid: SuperOffice.Configuration.ConfigFile.Threading
-  commentId: T:SuperOffice.Configuration.ConfigFile.Threading
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.html
-  name: ConfigFile.Threading
-  nameWithType: ConfigFile.Threading
-  fullName: SuperOffice.Configuration.ConfigFile.Threading
-  spec.csharp:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Threading.html
-  spec.vb:
-  - uid: SuperOffice.Configuration.ConfigFile
-    name: ConfigFile
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.html
-  - name: .
-  - uid: SuperOffice.Configuration.ConfigFile.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Configuration.ConfigFile.Threading.html
 - uid: SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
   commentId: T:SuperOffice.Configuration.ConfigFile.ITimeZoneConfiguration
   isExternal: true

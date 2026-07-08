@@ -10,7 +10,6 @@ items:
   - SuperOffice.CRM.QuoteConnection.AllAccess
   - SuperOffice.CRM.QuoteConnection.AssociateAccessIds
   - SuperOffice.CRM.QuoteConnection.CRMConnectionId
-  - SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
   - SuperOffice.CRM.QuoteConnection.Connector
   - SuperOffice.CRM.QuoteConnection.ConnectorName
   - SuperOffice.CRM.QuoteConnection.Deleted
@@ -56,29 +55,6 @@ items:
   extensionMethods:
   - SuperOffice.CRM.QuoteConnection.EnumUtil.MapEnums``2
   - SuperOffice.CRM.QuoteConnection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
-  commentId: M:SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
-  id: CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
-  parent: SuperOffice.CRM.QuoteConnection
-  langs:
-  - csharp
-  - vb
-  name: CheckLicensesFor(IQuoteConnector)
-  nameWithType: QuoteConnection.CheckLicensesFor(IQuoteConnector)
-  fullName: SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM
-  syntax:
-    content: public static IQuoteConnector CheckLicensesFor(IQuoteConnector connector)
-    parameters:
-    - id: connector
-      type: SuperOffice.CRM.IQuoteConnector
-    return:
-      type: SuperOffice.CRM.IQuoteConnector
-    content.vb: Public Shared Function CheckLicensesFor(connector As IQuoteConnector) As IQuoteConnector
-  overload: SuperOffice.CRM.QuoteConnection.CheckLicensesFor*
 - uid: SuperOffice.CRM.QuoteConnection.#ctor(System.String)
   commentId: M:SuperOffice.CRM.QuoteConnection.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -1060,13 +1036,6 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.QuoteConnection.CheckLicensesFor*
-  commentId: Overload:SuperOffice.CRM.QuoteConnection.CheckLicensesFor
-  isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_CheckLicensesFor_SuperOffice_CRM_IQuoteConnector_
-  name: CheckLicensesFor
-  nameWithType: QuoteConnection.CheckLicensesFor
-  fullName: SuperOffice.CRM.QuoteConnection.CheckLicensesFor
 - uid: SuperOffice.CRM.QuoteConnection.#ctor*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.#ctor
   isExternal: true

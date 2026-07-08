@@ -31,7 +31,6 @@ items:
   - SuperOffice.Threading.ParallelizedProcessor
   - SuperOffice.Threading.SafeBlockingTasks
   - SuperOffice.Threading.TaskHelper
-  - SuperOffice.Threading.ThreadwiseKeyCache`1
   langs:
   - csharp
   - vb
@@ -625,34 +624,6 @@ references:
   name: TaskHelper
   nameWithType: TaskHelper
   fullName: SuperOffice.Threading.TaskHelper
-- uid: SuperOffice.Threading.ThreadwiseKeyCache`1
-  commentId: T:SuperOffice.Threading.ThreadwiseKeyCache`1
-  isExternal: true
-  href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  name: ThreadwiseKeyCache<Item>
-  nameWithType: ThreadwiseKeyCache<Item>
-  fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>
-  nameWithType.vb: ThreadwiseKeyCache(Of Item)
-  fullName.vb: SuperOffice.Threading.ThreadwiseKeyCache(Of Item)
-  name.vb: ThreadwiseKeyCache(Of Item)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
-    name: ThreadwiseKeyCache
-    isExternal: true
-    href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  - name: <
-  - name: Item
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
-    name: ThreadwiseKeyCache
-    isExternal: true
-    href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: Item
-  - name: )
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true

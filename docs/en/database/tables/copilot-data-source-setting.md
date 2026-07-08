@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# copilot\_data\_source\_setting Table (476)
+# copilot\_data\_source\_setting Table (475)
 
 Stores specific configuration values for each data source
 

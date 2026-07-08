@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: ExtensionMethods
+  commentId: N:ExtensionMethods
+  id: ExtensionMethods
+  children:
+  - ExtensionMethods.ResourceManagerExt
+  langs:
+  - csharp
+  - vb
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: ExtensionMethods
+  type: Namespace
+  assemblies:
+  - SoCore
+references:
+- uid: ExtensionMethods.ResourceManagerExt
+  commentId: T:ExtensionMethods.ResourceManagerExt
+  parent: ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.ResourceManagerExt.html
+  name: ResourceManagerExt
+  nameWithType: ResourceManagerExt
+  fullName: ExtensionMethods.ResourceManagerExt
+- uid: ExtensionMethods
+  commentId: N:ExtensionMethods
+  isExternal: true
+  href: ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: ExtensionMethods

@@ -477,46 +477,26 @@ items:
     href: blobagent/getblobentityonprojectasync.md
   - name: GetBlobStreamAsync
     href: blobagent/getblobstreamasync.md
-  - name: GetChatImageWithSizeAsStreamAsync
-    href: blobagent/getchatimagewithsizeasstreamasync.md
   - name: GetChatImageWithSizeAsync
     href: blobagent/getchatimagewithsizeasync.md
-  - name: GetContactImageAsStreamAsync
-    href: blobagent/getcontactimageasstreamasync.md
   - name: GetContactImageAsync
     href: blobagent/getcontactimageasync.md
-  - name: GetContactImageWithSizeAsStreamAsync
-    href: blobagent/getcontactimagewithsizeasstreamasync.md
   - name: GetContactImageWithSizeAsync
     href: blobagent/getcontactimagewithsizeasync.md
   - name: GetOutputFromBatchAsync
     href: blobagent/getoutputfrombatchasync.md
-  - name: GetPersonImageAsStreamAsync
-    href: blobagent/getpersonimageasstreamasync.md
   - name: GetPersonImageAsync
     href: blobagent/getpersonimageasync.md
-  - name: GetPersonImageWithSizeAsStreamAsync
-    href: blobagent/getpersonimagewithsizeasstreamasync.md
   - name: GetPersonImageWithSizeAsync
     href: blobagent/getpersonimagewithsizeasync.md
-  - name: GetProductImageAsStreamAsync
-    href: blobagent/getproductimageasstreamasync.md
   - name: GetProductImageAsync
     href: blobagent/getproductimageasync.md
-  - name: GetProductThumbnailAsStreamAsync
-    href: blobagent/getproductthumbnailasstreamasync.md
   - name: GetProductThumbnailAsync
     href: blobagent/getproductthumbnailasync.md
-  - name: GetProjectImageAsStreamAsync
-    href: blobagent/getprojectimageasstreamasync.md
   - name: GetProjectImageAsync
     href: blobagent/getprojectimageasync.md
-  - name: GetProjectImageWithSizeAsStreamAsync
-    href: blobagent/getprojectimagewithsizeasstreamasync.md
   - name: GetProjectImageWithSizeAsync
     href: blobagent/getprojectimagewithsizeasync.md
-  - name: GetQuoteLineImageAsStreamAsync
-    href: blobagent/getquotelineimageasstreamasync.md
   - name: GetQuoteLineImageAsync
     href: blobagent/getquotelineimageasync.md
   - name: GetRawPersonImageAsync
@@ -525,34 +505,20 @@ items:
     href: blobagent/saveblobentityasync.md
   - name: SaveImageStreamAsync
     href: blobagent/saveimagestreamasync.md
-  - name: SaveImageStreamFromStreamAsync
-    href: blobagent/saveimagestreamfromstreamasync.md
   - name: SaveProjectImageAsync
     href: blobagent/saveprojectimageasync.md
-  - name: SaveProjectImageFromStreamAsync
-    href: blobagent/saveprojectimagefromstreamasync.md
   - name: SetBlobStreamAsync
     href: blobagent/setblobstreamasync.md
   - name: SetContactImageAsync
     href: blobagent/setcontactimageasync.md
-  - name: SetContactImageFromStreamAsync
-    href: blobagent/setcontactimagefromstreamasync.md
   - name: SetPersonImageAsync
     href: blobagent/setpersonimageasync.md
-  - name: SetPersonImageFromStreamAsync
-    href: blobagent/setpersonimagefromstreamasync.md
   - name: SetProductImageAsync
     href: blobagent/setproductimageasync.md
-  - name: SetProductImageFromStreamAsync
-    href: blobagent/setproductimagefromstreamasync.md
   - name: SetProductThumbnailAsync
     href: blobagent/setproductthumbnailasync.md
-  - name: SetProductThumbnailFromStreamAsync
-    href: blobagent/setproductthumbnailfromstreamasync.md
   - name: SetProjectImageAsync
     href: blobagent/setprojectimageasync.md
-  - name: SetProjectImageFromStreamAsync
-    href: blobagent/setprojectimagefromstreamasync.md
 - name: BulkUpdateAgent
   href: bulkupdateagent/index.md
   items:
@@ -856,6 +822,27 @@ items:
     href: customerserviceagent/testsmtpserverasync.md
   - name: UpdateFeatureTogglesAsync
     href: customerserviceagent/updatefeaturetogglesasync.md
+- name: CustomObjectAgent
+  href: customobjectagent/index.md
+  items:
+  - name: CreateDefaultCustomObjectAsync
+    href: customobjectagent/createdefaultcustomobjectasync.md
+  - name: CreateDefaultCustomObjectDefinitionAsync
+    href: customobjectagent/createdefaultcustomobjectdefinitionasync.md
+  - name: DeleteCustomObjectAsync
+    href: customobjectagent/deletecustomobjectasync.md
+  - name: GetCustomObjectAsync
+    href: customobjectagent/getcustomobjectasync.md
+  - name: GetCustomObjectDefinitionAsync
+    href: customobjectagent/getcustomobjectdefinitionasync.md
+  - name: GetCustomObjectsIconsAsync
+    href: customobjectagent/getcustomobjectsiconsasync.md
+  - name: GetCustomObjectsMetadataAsync
+    href: customobjectagent/getcustomobjectsmetadataasync.md
+  - name: HasScreenChooserAsync
+    href: customobjectagent/hasscreenchooserasync.md
+  - name: SaveCustomObjectAsync
+    href: customobjectagent/savecustomobjectasync.md
 - name: DashAgent
   href: dashagent/index.md
   items:
@@ -1315,6 +1302,8 @@ items:
     href: emailagent/getemailappointmentasync.md
   - name: GetEmailAppointmentRecurrenceAsync
     href: emailagent/getemailappointmentrecurrenceasync.md
+  - name: GetEMailAsEmlStreamAsync
+    href: emailagent/getemailasemlstreamasync.md
   - name: GetEMailAsStreamAsync
     href: emailagent/getemailasstreamasync.md
   - name: GetEMailAsStreamFromServerIdentifierAsync
@@ -1929,6 +1918,8 @@ items:
     href: listagent/getalltasksasync.md
   - name: GetAllTicketPrioritiesAsync
     href: listagent/getallticketprioritiesasync.md
+  - name: GetAllTicketRelationDefinitionEntitiesAsync
+    href: listagent/getallticketrelationdefinitionentitiesasync.md
   - name: GetAmountClassEntityAsync
     href: listagent/getamountclassentityasync.md
   - name: GetAppTaskMenusAsync
@@ -2520,6 +2511,27 @@ items:
     href: messagingagent/sendmessageswithconfigasync.md
   - name: SetDeliveryStatusAsync
     href: messagingagent/setdeliverystatusasync.md
+- name: NewsFeedAgent
+  href: newsfeedagent/index.md
+  items:
+  - name: CreateDefaultNewsFeedItemAsync
+    href: newsfeedagent/createdefaultnewsfeeditemasync.md
+  - name: DeleteNewsFeedItemAsync
+    href: newsfeedagent/deletenewsfeeditemasync.md
+  - name: GetNewsFeedItemAsync
+    href: newsfeedagent/getnewsfeeditemasync.md
+  - name: GetNewsFeedItemsByIdAsync
+    href: newsfeedagent/getnewsfeeditemsbyidasync.md
+  - name: GetNewsItemsForUserAsync
+    href: newsfeedagent/getnewsitemsforuserasync.md
+  - name: MarkAsHandledAsync
+    href: newsfeedagent/markashandledasync.md
+  - name: MarkAsReadAsync
+    href: newsfeedagent/markasreadasync.md
+  - name: PostNewsFeedItemAsync
+    href: newsfeedagent/postnewsfeeditemasync.md
+  - name: StartHandlingAsync
+    href: newsfeedagent/starthandlingasync.md
 - name: NumberAllocationAgent
   href: numberallocationagent/index.md
   items:
@@ -2606,8 +2618,6 @@ items:
     href: personagent/getpersonasync.md
   - name: GetPersonEntityAsync
     href: personagent/getpersonentityasync.md
-  - name: GetPersonImageAsStreamAsync
-    href: personagent/getpersonimageasstreamasync.md
   - name: GetPersonImageAsync
     href: personagent/getpersonimageasync.md
   - name: GetPersonImagesAsync
@@ -2658,8 +2668,6 @@ items:
     href: personagent/setconsentasync.md
   - name: SetPersonImageAsync
     href: personagent/setpersonimageasync.md
-  - name: SetPersonImageFromStreamAsync
-    href: personagent/setpersonimagefromstreamasync.md
   - name: SetPersonRankAsync
     href: personagent/setpersonrankasync.md
   - name: SetUtmCreatedPersonContactForFormSubmissionAsync

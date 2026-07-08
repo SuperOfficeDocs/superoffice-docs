@@ -307,7 +307,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/contact/contactId|int|Company ID: Database ID of company| x |
 |documentInstance/contact/name|stringorPK|Company name| x |
 |documentInstance/contact/department|string|Department| x |
-|documentInstance/contact/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
+|documentInstance/contact/nameDepartment|string|Company: Displays the company an activity is linked to| x |
 |documentInstance/contact/hasInfoText|bool|Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |documentInstance/contact/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |documentInstance/contact/associateId|associate|Our contact: Displays our contact| x |
@@ -696,6 +696,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/amountInBaseCurrency| *None* |Amount (BaseCurrency: The gross sales total| x |
 |documentInstance/sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency: Virtual field calculated from amount * probability percent.| x |
 |documentInstance/sale/daysInStage|int|Days in stage: Total number of days in this stage| x |
+|documentInstance/sale/saleCycle|int|Sale cycle: Number of days from a sale was registered until it was closed (sold or lost)| x |
 |documentInstance/sale/visibleFor|listAny|Visible for|  |
 |documentInstance/sale/sale/textId|int|Text ID| x |
 |documentInstance/sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
@@ -750,7 +751,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/time,documentInstance/person/personAssociate/locationAddress,documentInstance/contact/streetAddress/wgs84latitude,documentInstance/contact/SaintStatus2,documentInstance/project/projectPublish/publishedBy
+GET /api/v1/archive/SaleGuideDocument?$select=documentInstance/person/personUpdatedDate,documentInstance/person/personAddress/formattedMultiLineAddress,documentInstance/person/personAssociate/fullName,documentInstance/person/personAssociate/personEmail,documentInstance/person/consentSourceEmarketing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv
