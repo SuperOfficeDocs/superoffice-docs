@@ -29,4 +29,4 @@ Summaries use neutral, professional business language and are returned as a sing
 > If **Generate Summary** is unavailable, AI Labs is not activated for your SuperOffice tenant. Contact your SuperOffice administrator.
 
 <!-- Referenced links -->
-[1]: ../../docs/en/en/ai/learn/index.md
+[1]: ../../docs/en/ai/learn/index.md
