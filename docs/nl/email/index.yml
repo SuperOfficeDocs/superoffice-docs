@@ -67,7 +67,7 @@ landingContent:
           - text: Centraal uitrollen
             url: ../../../integrations/superoffice-for-outlook/deploy.md
           - text: Opslaan in SuperOffice
-            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+            url: ../../../integrations/superoffice-for-outlook/archive-email.md
           - text: Contactpersoon toevoegen aan SuperOffice
             url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
           - text: Vervolgactiviteit aanmaken

@@ -67,7 +67,7 @@ landingContent:
           - text: Distribuera centralt
             url: ../../../integrations/superoffice-for-outlook/deploy.md
           - text: Spara till SuperOffice
-            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+            url: ../../../integrations/superoffice-for-outlook/archive-email.md
           - text: Lägg till kontakt i SuperOffice
             url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
           - text: Skapa uppföljning
