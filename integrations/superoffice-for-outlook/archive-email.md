@@ -34,7 +34,7 @@ To archive information from an email in Outlook and save it to SuperOffice:
 ![SuperOffice for Outlook, archive email -screenshot][img1]
 
 > [!NOTE]
-> The **Visible for** drop-down is only available to users whose administrator has enabled the required license.  
+> The **Visible for** drop-down is only available to users whose administrator has enabled the required license.
 > For more details, see [**Admin - User Management - Visibility**][2].
 
 ## Related content
