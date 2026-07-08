@@ -1,5 +1,5 @@
 ﻿---
-uid: version_11.12.675.0_changes
+uid: version_11.12.675.0_changes_webapi
 date: 08.04.2026
 ---
 

@@ -368,7 +368,6 @@ The following represent changes to assemblies SoCore, SoDatabase, SoLicense and 
   * Field `SentimentAnalyzed`
   * Field `TextTranslated`
 
-
 ### Assembly: SoDatabase.BusinessLogic
 
 ### New Types
