@@ -3,9 +3,9 @@ uid: sofo
 title: SuperOffice for Outlook
 description: The SuperOffice for Outlook add-in lets you work effortlessly between your Microsoft 365 and SuperOffice CRM solution, by letting you access key information and features from SuperOffice directly in your email.
 keywords: email, SuperOffice for Outlook, Outlook, SOFO
-author: Andrea Schilde
-date: 05.05.2026
-version_sofo: 6.3.0
+author: Bergfrid Dias, Andrea Schilde
+date: 06.16.2026
+version_sofo: 2026.6.3
 content_type: concept
 category: integration
 topic: SuperOffice for Outlook
@@ -21,6 +21,12 @@ redirect_from:
   - /nl/email/superoffice-for-outlook/learn/index
   - /no/email/superoffice-for-outlook/learn/index
   - /sv/email/superoffice-for-outlook/learn/index
+  - /en/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /da/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /de/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /nl/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /no/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /sv/email/superoffice-for-outlook/learn/save-to-superoffice
 ---
 
 # SuperOffice for Outlook (SOFO)
@@ -36,6 +42,9 @@ With the add-in, you can quickly:
 * Save new contacts, emails, sales, activities, or requests from Outlook.
 * Access contact, sale, and request details for anyone in the email thread.
 * Get instant context on who you are interacting with through the add-in panel.
+* Pin the add-in while reading or composing emails, so it stays available while you work.
+* [Work from shared mailboxes][21] and use the same SuperOffice actions, such as archiving emails, saving attachments, and creating requests.
+* Get reminded before sending emails or appointments that are not set to be [archived][14] in SuperOffice.
 
 You will have key information at your fingertips, right when you need it. Plus, it is fully cloud-based, so no installation is required – simply enable it from your browser, and you are ready to go.
 
@@ -46,15 +55,17 @@ You will have key information at your fingertips, right when you need it. Plus, 
 The SuperOffice for Outlook add-in lets you:
 
 * [Save contacts and companies][7]
+* [View contact details and related CRM information][20]
 * [Archive emails][3]
-* [Save attachments][3]
+* [Send and archive new emails][13]
+* [Save attachments][4]
 * [Create appointments][8]
 * [Create tasks][8]
-* [Create sales][9]
 * [Create requests][5]
 * [Add messages to request​][5]
-* [Add CRM data to calendar events][6] (Requires [Synchronizer for SuperOffice][12])
-* Work with emails from shared mailboxes, including archiving emails, saving attachments, removing archived emails from the inbox, and composing new emails from a shared mailbox
+* [Create sales][9]
+* [Add CRM data to Outlook calendar events][6] (Requires [Synchronizer for SuperOffice][12])
+* [Work with shared mailboxes][21]
 
 Everything you need is integrated into your inbox, making your workflow smoother and more efficient.
 
@@ -91,7 +102,8 @@ Because the add-in is cloud-based, it is always up to date without any action on
 <!-- Referenced links -->
 [1]: requirements.md
 [2]: get.md
-[3]: save-to-superoffice.md
+[3]: archive-email.md
+[4]: save-attachments.md
 [5]: create-request.md
 [6]: add-crm-data-to-event.md
 [7]: add-contact-to-superoffice.md
@@ -99,9 +111,13 @@ Because the add-in is cloud-based, it is always up to date without any action on
 [9]: create-sale.md
 [11]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [12]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
+[13]: send-and-archive.md
+[14]: archive-reminder.md
 [17]: deploy.md
 [18]: ../../docs/en/email/inbox/learn/index.md
 [19]: ../../docs/en/document/library/learn/index.md
+[20]: view-contact-details.md
+[21]: shared-mailboxes.md
 
 <!-- Referenced images -->
 [img1]: media/user-superoffice-outlook-sidepanel.png

@@ -4,8 +4,8 @@ title: Get the add-in
 description: How to install SuperOffice for Outlook for your account (1 user).
 keywords: SuperOffice for Outlook, Outlook, email, get add-in, SOFO
 author: Frode B, Martin Pavlas, Bergfrid Dias, Erik Lebiko, Andrea Schilde
-date: 05.05.2026
-version_sofo: 6.3.0
+date: 06.16.2026
+version_sofo: 2026.6.3
 content_type: howto
 category: integration
 topic: SuperOffice for Outlook
@@ -87,15 +87,18 @@ The location of add-ins is different in classic Outlook for Windows and the new 
 
 ## <a id="pin"></a>Pin or unpin SuperOffice for Outlook
 
-After installing the add-in, you can pin it for quick access. We recommend pinning it for easier use.
+After installing the add-in, you can pin it for quick access while reading or writing emails. We recommend pinning it for easier use.
 
 ### Pin SuperOffice for Outlook while reading an email
 
 * When the SuperOffice sidebar is displayed, select the **Pin** symbol to pin the sidebar to the page.
 
-    The sidebar will now be available when reading emails.
+    The sidebar will now be available when reading or writing emails.
 
 * To unpin SuperOffice, select the **Pin** symbol again.
+
+> [!NOTE]
+> Selecting the **X** doesn't just close the SuperOffice panel — it also unpins it. This is Microsoft's default behavior for Outlook add-ins and cannot be changed by SuperOffice.
 
 ### Pin SuperOffice for Outlook while composing a new email
 

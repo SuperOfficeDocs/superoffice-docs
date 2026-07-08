@@ -1,10 +1,10 @@
 ---
 uid: sofo-add-crm-data-to-event
-title: Add CRM data to Outlook event
+title: Add CRM data to calendar event
 description: How to add CRM data to meetings and appointments in Outlook using SuperOffice for Outlook
 keywords: SuperOffice for Outlook, Outlook, email, event, calendar, CRM data, SOFO
-author: Erik Lebiko, Bergfrid Dias, schildea
-date: 06.05.2026
+author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
+date: 06.16.2026
 version_sofo: 2026.6.3
 content_type: howto
 category: integration
@@ -28,6 +28,8 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 
 > [!NOTE]
 > You need [Synchronizer for SuperOffice][2] for this functionality.
+>
+> Microsoft defines a meeting as a calendar item where you invite other people or reserve resources. This article uses **event** as the general term for calendar items in Outlook, matching the **New event** button.
 
 ## New event
 
@@ -47,6 +49,9 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 
 1. Press **Save** to finalize the event.
 
+> [!NOTE]
+> You must press **Save** in SuperOffice for Outlook to save the CRM data to the event. If you send the event without pressing **Save**, the CRM data is not saved to SuperOffice.
+
 ## Existing event
 
 1. Open an existing event in Outlook.
@@ -61,6 +66,9 @@ Use SuperOffice for Outlook to add CRM data to meetings and appointments in Outl
 1. If no data exists, the add-in attempts to find the organizer in SuperOffice CRM.
 
 1. Follow the same steps as for a new event to modify or save the event.
+
+> [!NOTE]
+> You must press **Save** in SuperOffice for Outlook to save the CRM data to the event. If you send the event without pressing **Save**, the CRM data is not saved to SuperOffice.
 
 ## Additional information
 
@@ -89,6 +97,9 @@ You can also work with calendar events from shared mailboxes in Outlook.
 1. [Open SuperOffice for Outlook][1].
 1. Add or update CRM data.
 1. Press **Save**.
+
+> [!NOTE]
+> You must press **Save** in SuperOffice for Outlook to save the CRM data to the event. If you send the event without pressing **Save**, the CRM data is not saved to SuperOffice.
 
 ### Type
 

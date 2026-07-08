@@ -1,7 +1,7 @@
 ---
 uid: sofo-create-follow-up
-title: Create follow-up
-description: Create follow-up
+title: Create an appointment or task
+description: Create an appointment or task in SuperOffice directly from an Outlook email.
 keywords: SuperOffice for Outlook, Outlook, email, create appointment, create task, follow-up, SOFO
 author: Erik Lebiko, Bergfrid Dias, Andrea Schilde
 date: 10.29.2024
@@ -24,7 +24,7 @@ redirect_from:
 
 # Create follow-up
 
-To create a [follow-up][1] (appointment or task) in SuperOffice directly from Outlook, follow these steps:
+To create an appointment or task in SuperOffice directly from Outlook, select **Create appointment** or **Create task** in the SuperOffice sidebar. In SuperOffice, this is known as a [follow-up][1].
 
 1. Open the email related to the activity.
 
