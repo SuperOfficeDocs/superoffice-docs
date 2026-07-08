@@ -38,6 +38,15 @@ items:
       href: api/12.2/12.2-webapi-update.md
     - name: Database changes 12.2
       href: ../database/changes-12.2.2072.md
+  - name: 12.1 update
+    href: api/12.1/12.1-update.md
+    items:
+    - name: NetServer Changes
+      href: api/12.1/12.1-netserver-update.md
+    - name: SuperOffice WebApi Changes
+      href: api/12.1/12.1-webapi-update.md
+    - name: Database changes 12.1
+      href: ../database/changes-12.1.1412.md
   - name: 12.0 update
     href: api/12.0/12.0-update.md
     items:
