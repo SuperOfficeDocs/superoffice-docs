@@ -16,7 +16,7 @@ index: true
 
 # Redigering af brugerdefinerede felt
 
-1. [!inkluder[Gå til felter og vælg fane](includes/goto-fields.md)]
+1. [!include[Gå til felter og vælg fane](includes/goto-fields.md)]
 
 1. Dobbeltklik på det nødvendige felt i listen **Felt**.
 

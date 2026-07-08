@@ -24,7 +24,7 @@ När du [lägger till nya fält][2], placeras de under varandra som standard. Va
 
 ## Var du ska börja
 
-1. [!inkludera[Gå till Fält och välj flik](includes/goto-fields.md)]
+1. [!include[Gå till Fält och välj flik](includes/goto-fields.md)]
 
 **Hur du väljer fält:**
 
