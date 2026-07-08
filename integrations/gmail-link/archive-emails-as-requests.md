@@ -23,7 +23,7 @@ index: true
 
 # Create request
 
-[!include[Requirement](../../common/includes/req-service-essentials.md)]
+[!include[Requirement](../../docs/en/includes/req-starter-transition-service.md)]
 
 You can create a request in SuperOffice Service based on an email in your Gmail inbox.
 
