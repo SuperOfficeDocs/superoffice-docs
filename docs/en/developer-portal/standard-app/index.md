@@ -25,4 +25,4 @@ All applications begin in our [sandbox environment][2]. Standard applications mu
 [1]: ../index.yml
 [2]: ../getting-started/app-envir.md
 [3]: certification/index.md
-[4]: certification/initial-security-eval
+[4]: certification/initial-security-eval.md

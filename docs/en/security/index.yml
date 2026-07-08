@@ -126,7 +126,7 @@ conceptualContent:
       - text: Telenor Cyberdefense evaluation
         itemType: explore
         typeDesc: concept
-        url: ../developer-portal/standard-app/certification/initial-security-eval
+        url: ../developer-portal/standard-app/certification/initial-security-eval.md
       - text: Obtain consent to access a customer's tenant
         itemType: list
         typeDesc: how-to-guide

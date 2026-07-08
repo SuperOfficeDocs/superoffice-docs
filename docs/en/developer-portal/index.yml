@@ -100,7 +100,7 @@ landingContent:
         - text: The SuperOffice app store
           url: standard-app/app-store/index.md
         - text: Initial Telenor Cyberdefense evaluation
-          url: standard-app/certification/initial-security-eval
+          url: standard-app/certification/initial-security-eval.md
       - itemType: list
         typeDesc: how-to-guide
         links:
