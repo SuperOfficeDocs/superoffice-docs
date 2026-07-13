@@ -12,6 +12,8 @@ items:
       href: requirements/localization.md
     - name: Marketing
       href: requirements/marketing.md
+    - name: App Store Partner logo and brand guidelines
+      href: requirements/partner-brand-guidelines.md
     - name: Security
       href: requirements/security.md
     - name: Technical

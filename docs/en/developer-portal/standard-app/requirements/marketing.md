@@ -3,7 +3,7 @@ title: Marketing requirements
 uid: marketing_requirements
 description: Marketing requirements
 author: Margrethe Romnes
-date: 09.07.2023
+date: 07.13.2026
 keywords: certification
 content_type: reference
 deployment: online
@@ -17,13 +17,16 @@ For customers to find your application, to understand what it does and why they 
 
 ## Available downloads
 
-This download contains the SuperOffice brand guide and reusable logos.
+This download contains the SuperOffice brand guide, reusable logos, the App Store Partner logos, social media assets, and Canva templates.
 
 The contents are trademarked, they are our signature logo, and therefore must not be modified.
 
-Do not recreate different versions of our trademarked logo. Custom attempts to recreate it will not be be certifiable.
+Do not recreate different versions of our trademarked logo. Custom attempts to recreate it will not be certifiable.
 
 **[Branding guide and logos](../../../../assets/downloads/apps/superoffice-brand-guide-and-logos.zip)**
+
+> [!TIP]
+> For how to use the App Store Partner logo, brand colors, images, and tone of voice, see [App Store Partner logo and brand guidelines](partner-brand-guidelines.md).
 
 ## Requirements
 
@@ -36,8 +39,8 @@ You must provide a **unique application name** for the App Store listing.
 * Name must not contain restricted characters:
 
   * punctuation marks . : ; ?
-  * special characters \* ~ # % | =
-  * slashes \\ /
+  * special characters \* ~ # % | =
+  * slashes \\ /
   * curly and angled brackets { } <>
   * single or double quotes ‘’ "
 * Generic terms must be prefixed, for example with your own company name, or add "for SuperOffice".
@@ -124,7 +127,7 @@ Note that the images will be resized to fit, but when the viewer clicks on the i
 
 ## SuperOffice logo guidance
 
-<a href="../../../../assets/downloads/SuperOffice-logo-for-download.zip" download>Click to download the official SuperOffice logo</a>
+<a href="../../../../assets/downloads/apps/superoffice-brand-guide-and-logos.zip" download>Click to download the official SuperOffice logo</a>
 
 The SuperOffice needs to be either green or white, depending upon the background color. In very special cases, we can agree to see in black. Please confer with us before you do so.
 
@@ -147,10 +150,11 @@ Please note this logo is a **negative version**, which means the background colo
 
 ![SuperOffice green main color -screenshot][img5]
 
-The SuperOffice green color is:
+The SuperOffice brand colors are:
 
-* HEX #0A5E58
-* RGB 10, 94, 88
+* SuperOffice Green #06423e
+* Charcoal Black #1c1c1e
+* Dune White #f2efea
 
 **REMEMBER TO NEVER:**
 
