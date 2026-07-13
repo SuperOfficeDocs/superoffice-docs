@@ -127,6 +127,8 @@ Note that the images will be resized to fit, but when the viewer clicks on the i
 
 ## SuperOffice logo guidance
 
+<!-- TODO (#3019): Refresh the remaining SuperOffice product-logo screenshots below (imagezwdb.png = whitespace guidance, image6tlbw.png = white logo on green, imagezt0an.png = green color swatch) to match the current brand palette (SuperOffice Green #06423e, Charcoal Black #1c1c1e, Dune White #f2efea). Refreshed assets not yet available. -->
+
 <a href="../../../../assets/downloads/apps/superoffice-brand-guide-and-logos.zip" download>Click to download the official SuperOffice logo</a>
 
 The SuperOffice needs to be either green or white, depending upon the background color. In very special cases, we can agree to see in black. Please confer with us before you do so.
@@ -169,7 +171,7 @@ The SuperOffice brand colors are:
 [4]: mailto:appstore@superoffice.com
 
 <!-- Referenced images -->
-[img2]: media/imageyiti.png
+[img2]: media/superoffice-primary-logo.png
 [img3]: media/imagezwdb.png
 [img4]: media/image6tlbw.png
 [img5]: media/imagezt0an.png
