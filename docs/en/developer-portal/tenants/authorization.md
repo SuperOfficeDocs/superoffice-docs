@@ -4,7 +4,7 @@ title: Tenant authorization
 description: The Tenant Manager makes it easier to oversee and edit authorization records related to employees and tenants.
 keywords: tenant, authorization, authorize app
 author: Bergfrid Dias
-date: 07.10.2026
+date: 07.13.2026
 version_devportal: 2.16
 content_type: concept
 deployment: online
@@ -41,6 +41,7 @@ Each authorization on the **Tenant details** page has a **Status** that tells yo
 | Status | Meaning |
 |---|---|
 | **Active** | The authorization is in place and the app can access the tenant. |
+| **Expired** | The authorization's validity period has ended — the **To** date has passed. The app can no longer access the tenant until the authorization is renewed. |
 | **Revoked** | The authorization has been revoked. The connection between the app and the tenant's database is severed and the app can no longer access it. Data in the database is not removed. [Contact us][5] if you are unsure why the authorization was revoked. |
 
 To review authorization status for a tenant:
@@ -49,17 +50,17 @@ To review authorization status for a tenant:
 
 1. Select the **Authorizations** tab.
 
-1. Check the **Status** column. Use the **Status** filter above the column to show only **Revoked** or **Active** authorizations.
+1. Check the **Status** column. Each authorization is **Active**, **Expired**, or **Revoked**. Use the **Status** filter above the column to show only one status.
 
-![Tenant details Authorizations tab showing Revoked and Active status -screenshot][img4]
+![Tenant details Authorizations tab showing Active, Expired, and Revoked status -screenshot][img4]
 
-### Spot revoked authorizations on the Tenant listing
+### See authorization status on the Tenant listing
 
-You don't have to open each tenant to find revoked authorizations. The **Tenant listing** indicates any tenant that has one or more revoked app authorizations in its **Status** column, so you can spot affected customers across all your apps at a glance.
+You don't have to open each tenant to find revoked or expired authorizations. The **Tenant listing** has an **Authorizations** column that summarizes how many of a tenant's app authorizations are **active**, **expired**, and **revoked**, so you can spot affected customers across all your apps at a glance.
 
-Open a flagged tenant and go to the **Authorizations** tab to see which authorization is revoked.
+Open a tenant and go to the **Authorizations** tab to see the status of each individual authorization.
 
-![Tenant listing indicating tenants that have one or more revoked authorizations -screenshot][img5]
+![Tenant listing Authorizations column summarizing active, expired, and revoked authorizations -screenshot][img5]
 
 ## Request authorization
 
