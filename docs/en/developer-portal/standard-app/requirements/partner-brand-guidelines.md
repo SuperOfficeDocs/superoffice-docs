@@ -14,7 +14,7 @@ platform: web
 
 As a certified SuperOffice App Store Partner, you are authorized to use the official SuperOffice App Store Partner logo to communicate your partnership status. These guidelines help you use the logo, brand colors, images, and tone of voice consistently, so your communications stay clear, accessible, and on brand.
 
-> [!IMPORTANT]
+> [!NOTE]
 > The words **App Store Partner** must remain in English and must not be translated. All surrounding copy may be localized where relevant.
 
 ## App Store listing image guidelines
