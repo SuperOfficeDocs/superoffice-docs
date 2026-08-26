@@ -14,7 +14,9 @@ language: en
 
 # New and improved Settings and maintenance
 
+* [Multiple DKIM for Mailgun (12.3)][3]
 * [System design - Webhooks management panel (12.1)][1]
 
 <!-- Referenced links -->
 [1]: 12.1-update.md
+[3]: 12.3-update.md
